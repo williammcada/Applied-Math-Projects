@@ -1,12 +1,12 @@
 # Project Brief — Applied Mathematics Project Series
 
-**Brief version:** 0.2 — audited documentation revision  
+**Brief version:** 0.3 — source-baseline normalization  
 **Owner:** William McAda · **Credit:** A WILLIAM MCADA PRODUCT  
-**Status:** Revised record for owner review; not an application release or fresh feature approval.  
-**Repository destination:** williammcada/Applied-Math-Projects (verify existence/current branch before source edits).  
-**Current running version:** Not independently verified in this documentation task.  
-**Source/baseline:** William_McAda_Applied_Math_Projects_Dossier_v1.0.0.docx is a proposed build baseline dated 15 September 2026, not five completed apps. Individual initial targets v0.1.0.  
-**Next work:** Preserve five distinct project briefs and dossier contracts; build sequentially when separately requested.
+**Status:** Canonical source identity reconciled; release, functional and deployment verification remain separately stated.  
+**Repository:** `williammcada/Applied-Math-Projects`, branch `main`.  
+**Current running version:** Not applicable — no executable application has yet been committed for this project family.  
+**Source/baseline:** Canonical repository state: planning-only family record at checkpoint `f10b953305edaa18113016f473fffdd155fb7c60`. The five project subdirectories contain planning README records; no executable HTML application is established.  
+**Next work:** Preserve the dossier/handoff records and build each of the five applications separately only when requested; each future app must establish its own source baseline.  
 
 ## 1. Purpose, audience and detailed scope
 
@@ -23,7 +23,7 @@
 
 ## 2. This task and boundaries
 
-This revision repairs documentation only. It does not implement features, run application tests, upload source, deploy a site, or alter a repository. Retain the exact current source before implementation. Historical reported functionality is a preservation checklist to reconcile against that source, not permission to recreate the program from prose.
+This normalization establishes the exact repository source path, Git object identity and source-preservation checkpoint; creates the linked migration baseline; and retires stale pre-upload source-status wording. It does not change application behavior, approve new features, rerun product tests or convert source preservation into a release claim.
 
 ## 3. Standards and adoption
 
@@ -38,13 +38,13 @@ The detailed scope above is the feature-preservation inventory. Preserve existin
 
 ## 5. Source, release and deployment discipline
 
-William_McAda_Applied_Math_Projects_Dossier_v1.0.0.docx is a proposed build baseline dated 15 September 2026, not five completed apps. Individual initial targets v0.1.0.
+Canonical repository state: planning-only family record at checkpoint `f10b953305edaa18113016f473fffdd155fb7c60`. The five project subdirectories contain planning README records; no executable HTML application is established.
 
-Record exact selected source filename/hash and repository commit when importing it; record live URL/version only after actually opening it. Unknown commit does not mean the product is unbuilt.
+See [`MIGRATION-BASELINE.md`](MIGRATION-BASELINE.md) for the authoritative source manifest and the checks actually performed.
 
 DESIGN → CHANGE SPEC → IMPLEMENT → CHECKPOINT → VERIFY → VERIFIED CHECKPOINT → RELEASE → DEPLOY.
 
-Use “implementation checkpoint” or “release candidate” before verification. Preserve candidate bytes and logs before packaging; recover that checkpoint after a ZIP/upload failure. Do not rebuild a verified implementation to fix delivery. Repository upload and website deployment are different operations; existing automatic deployments may run when main changes.
+Use “implementation checkpoint” or “release candidate” before verification. Preserve candidate bytes and logs before packaging; recover that checkpoint after a ZIP/upload failure. Do not rebuild a verified implementation to fix delivery. Repository upload and website deployment are different operations.
 
 ## 6. Known issues, conflicts and open evidence
 
@@ -63,7 +63,7 @@ Use dossier QA-01–20: core objective coverage, numeric/geometry fixtures, vali
 
 | Evidence required | Result in this task |
 | --- | --- |
-| Exact source candidate/commit identified and preserved | Not run — documentation revision only |
+| Exact source candidate/commit identified and preserved | Passed — canonical path and source checkpoint recorded in `docs/MIGRATION-BASELINE.md`; no functional verification inferred |
 | Project-specific checks above, with inputs and expected/actual results | Not run |
 | Save/import/export and malformed-input regression | Not run |
 | Intended devices and real deployment path, where applicable | Not run |
@@ -72,6 +72,8 @@ Use dossier QA-01–20: core objective coverage, numeric/geometry fixtures, vali
 The next build report must name the candidate, environment and test results; historical reports of passing tests do not transfer to a changed candidate.
 
 ## 8. Handoff and provenance
+
+Current source identity is recorded in [`MIGRATION-BASELINE.md`](MIGRATION-BASELINE.md). That manifest supersedes earlier unknown-source or pre-upload statements while preserving the original migration note as history.
 
 Required project records: William_McAda_Applied_Math_Projects_Dossier_v1.0.0.docx (read for this revision); William_McAda_Applied_Math_Projects_Handoff_v1.0.0.zip; project chapter and reference fixtures.
 
