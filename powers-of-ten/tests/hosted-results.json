@@ -1,0 +1,50 @@
+{
+  "url": "https://williammcada.github.io/Applied-Math-Projects/powers-of-ten/",
+  "checkedAt": "2026-09-30T08:24:30.040Z",
+  "environment": "Headless Chromium 153.0.8010.0; public HTTPS Pages through environment proxy; test browser ignores proxy certificate errors; fresh context with synthetic aliases",
+  "sha256": "d9a042236b8968cc172f17fb64cfeb564967b77434259a06192ffbbf4de0a7ac",
+  "passed": 10,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Hosted bytes index",
+      "passed": true
+    },
+    {
+      "name": "Hosted bytes PowersOfTen_v0.1.0.html",
+      "passed": true
+    },
+    {
+      "name": "Live identity and embedded images",
+      "passed": true
+    },
+    {
+      "name": "Hosted save and reload/resume",
+      "passed": true
+    },
+    {
+      "name": "Hosted actual export",
+      "passed": true
+    },
+    {
+      "name": "Hosted actual import as copy",
+      "passed": true
+    },
+    {
+      "name": "Hosted print preview and selected output",
+      "passed": true
+    },
+    {
+      "name": "Hosted diagnostics and no unexpected runtime requests",
+      "passed": true
+    },
+    {
+      "name": "Existing live route road-trip-planner",
+      "passed": true
+    },
+    {
+      "name": "Existing live route food-truck-business-launch",
+      "passed": true
+    }
+  ]
+}

@@ -28,7 +28,7 @@ Linux, Node, Playwright and headless Chromium 153.0.8010.0. A local HTTP server 
 | Denied storage, recovery, injection, long print, keyboard, conflict | Passed: 7; Failed: 0 | `tests/edges-results.json`, `edges.test.cjs` |
 | HTML identity | Passed | `tests/candidate-identity.json`; byte comparison with remote candidate |
 | PDF geometry/layout | Passed within digital rounding | `tests/print-results.json`; visual review described below |
-| Hosted deployment | See deployment record | `docs/DEPLOYMENT-v0.1.0.md`, `tests/hosted-results.json` |
+| Hosted deployment | Passed: 10; Failed: 0 | `docs/DEPLOYMENT-v0.1.0.md`, `tests/hosted-results.json` |
 
 The browser suite traversed Track B from a blank session through incorrect answers, all common mathematics, scale planning, build confirmation, a correctly reported physical mismatch, correction, gallery, separate transfers, pending review and synthetic accepted reviews. It also rendered a complete Track A fixture. Pure tests cover both tracks, tolerance endpoints and just-outside values, equivalent ratios, alternative common powers, stale dependencies, track restoration, outcome predicates, and first-response preservation.
 
@@ -48,7 +48,7 @@ Recovery tests exercised denied/quota-style storage failures, atomic rollback on
 | SN-Q15, emulated portion | Passed | All eight stages at 768×1024, 1024×768 and 390×844; 200% zoom reachability check; visual inspection of title, operations, plan and outcome |
 | SN-Q16, digital portion | Passed | 28 PDFs across seven modes, both tracks and A4/Letter; selectable text, source/credit, no teacher-reference leakage; long response continuation; digital dimensional checks |
 | SN-Q17–Q19 | Passed | Embedded SVG, no runtime external requests, standalone opening, no observed browser exceptions, inert imported strings, pure diagnostics, byte/version agreement |
-| SN-Q20 | See deployment record | Actual Pages subpath, served HTML hashes and hosted browser operations are recorded separately |
+| SN-Q20 | Passed | Actual Pages subpath, served HTML hashes and hosted browser operations are recorded separately |
 
 ## Print inspection
 
