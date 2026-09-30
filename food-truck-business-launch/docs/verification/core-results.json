@@ -1,0 +1,871 @@
+{
+  "scope": "Actual Food Truck core, parser, state and storage",
+  "passed": 216,
+  "failed": 0,
+  "checks": [
+    {
+      "label": "FT-9-60 s",
+      "passed": true
+    },
+    {
+      "label": "FT-9-60 revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-9-60 expense",
+      "passed": true
+    },
+    {
+      "label": "FT-9-60 profit",
+      "passed": true
+    },
+    {
+      "label": "FT-9-60 waste",
+      "passed": true
+    },
+    {
+      "label": "FT-9-60 wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-9-60 sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-9-60 limits",
+      "passed": true
+    },
+    {
+      "label": "FT-9-60 ending",
+      "passed": true
+    },
+    {
+      "label": "FT-9-60 all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "FT-9-80 s",
+      "passed": true
+    },
+    {
+      "label": "FT-9-80 revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-9-80 expense",
+      "passed": true
+    },
+    {
+      "label": "FT-9-80 profit",
+      "passed": true
+    },
+    {
+      "label": "FT-9-80 waste",
+      "passed": true
+    },
+    {
+      "label": "FT-9-80 wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-9-80 sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-9-80 limits",
+      "passed": true
+    },
+    {
+      "label": "FT-9-80 ending",
+      "passed": true
+    },
+    {
+      "label": "FT-9-80 all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "FT-9-100 s",
+      "passed": true
+    },
+    {
+      "label": "FT-9-100 revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-9-100 expense",
+      "passed": true
+    },
+    {
+      "label": "FT-9-100 profit",
+      "passed": true
+    },
+    {
+      "label": "FT-9-100 waste",
+      "passed": true
+    },
+    {
+      "label": "FT-9-100 wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-9-100 sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-9-100 limits",
+      "passed": true
+    },
+    {
+      "label": "FT-9-100 ending",
+      "passed": true
+    },
+    {
+      "label": "FT-9-100 all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "FT-9-120 s",
+      "passed": true
+    },
+    {
+      "label": "FT-9-120 revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-9-120 expense",
+      "passed": true
+    },
+    {
+      "label": "FT-9-120 profit",
+      "passed": true
+    },
+    {
+      "label": "FT-9-120 waste",
+      "passed": true
+    },
+    {
+      "label": "FT-9-120 wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-9-120 sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-9-120 limits",
+      "passed": true
+    },
+    {
+      "label": "FT-9-120 ending",
+      "passed": true
+    },
+    {
+      "label": "FT-9-120 all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "FT-12-60 s",
+      "passed": true
+    },
+    {
+      "label": "FT-12-60 revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-12-60 expense",
+      "passed": true
+    },
+    {
+      "label": "FT-12-60 profit",
+      "passed": true
+    },
+    {
+      "label": "FT-12-60 waste",
+      "passed": true
+    },
+    {
+      "label": "FT-12-60 wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-12-60 sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-12-60 limits",
+      "passed": true
+    },
+    {
+      "label": "FT-12-60 ending",
+      "passed": true
+    },
+    {
+      "label": "FT-12-60 all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "FT-LOW-WASTE s",
+      "passed": true
+    },
+    {
+      "label": "FT-LOW-WASTE revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-LOW-WASTE expense",
+      "passed": true
+    },
+    {
+      "label": "FT-LOW-WASTE profit",
+      "passed": true
+    },
+    {
+      "label": "FT-LOW-WASTE waste",
+      "passed": true
+    },
+    {
+      "label": "FT-LOW-WASTE wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-LOW-WASTE sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-LOW-WASTE limits",
+      "passed": true
+    },
+    {
+      "label": "FT-LOW-WASTE ending",
+      "passed": true
+    },
+    {
+      "label": "FT-LOW-WASTE all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "FT-BASE s",
+      "passed": true
+    },
+    {
+      "label": "FT-BASE revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-BASE expense",
+      "passed": true
+    },
+    {
+      "label": "FT-BASE profit",
+      "passed": true
+    },
+    {
+      "label": "FT-BASE waste",
+      "passed": true
+    },
+    {
+      "label": "FT-BASE wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-BASE sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-BASE limits",
+      "passed": true
+    },
+    {
+      "label": "FT-BASE ending",
+      "passed": true
+    },
+    {
+      "label": "FT-BASE all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "FT-12-120 s",
+      "passed": true
+    },
+    {
+      "label": "FT-12-120 revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-12-120 expense",
+      "passed": true
+    },
+    {
+      "label": "FT-12-120 profit",
+      "passed": true
+    },
+    {
+      "label": "FT-12-120 waste",
+      "passed": true
+    },
+    {
+      "label": "FT-12-120 wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-12-120 sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-12-120 limits",
+      "passed": true
+    },
+    {
+      "label": "FT-12-120 ending",
+      "passed": true
+    },
+    {
+      "label": "FT-12-120 all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "FT-PREMIUM s",
+      "passed": true
+    },
+    {
+      "label": "FT-PREMIUM revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-PREMIUM expense",
+      "passed": true
+    },
+    {
+      "label": "FT-PREMIUM profit",
+      "passed": true
+    },
+    {
+      "label": "FT-PREMIUM waste",
+      "passed": true
+    },
+    {
+      "label": "FT-PREMIUM wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-PREMIUM sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-PREMIUM limits",
+      "passed": true
+    },
+    {
+      "label": "FT-PREMIUM ending",
+      "passed": true
+    },
+    {
+      "label": "FT-PREMIUM all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "FT-15-80 s",
+      "passed": true
+    },
+    {
+      "label": "FT-15-80 revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-15-80 expense",
+      "passed": true
+    },
+    {
+      "label": "FT-15-80 profit",
+      "passed": true
+    },
+    {
+      "label": "FT-15-80 waste",
+      "passed": true
+    },
+    {
+      "label": "FT-15-80 wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-15-80 sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-15-80 limits",
+      "passed": true
+    },
+    {
+      "label": "FT-15-80 ending",
+      "passed": true
+    },
+    {
+      "label": "FT-15-80 all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "FT-15-100 s",
+      "passed": true
+    },
+    {
+      "label": "FT-15-100 revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-15-100 expense",
+      "passed": true
+    },
+    {
+      "label": "FT-15-100 profit",
+      "passed": true
+    },
+    {
+      "label": "FT-15-100 waste",
+      "passed": true
+    },
+    {
+      "label": "FT-15-100 wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-15-100 sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-15-100 limits",
+      "passed": true
+    },
+    {
+      "label": "FT-15-100 ending",
+      "passed": true
+    },
+    {
+      "label": "FT-15-100 all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "FT-15-120 s",
+      "passed": true
+    },
+    {
+      "label": "FT-15-120 revenue",
+      "passed": true
+    },
+    {
+      "label": "FT-15-120 expense",
+      "passed": true
+    },
+    {
+      "label": "FT-15-120 profit",
+      "passed": true
+    },
+    {
+      "label": "FT-15-120 waste",
+      "passed": true
+    },
+    {
+      "label": "FT-15-120 wastePercent",
+      "passed": true
+    },
+    {
+      "label": "FT-15-120 sellThrough",
+      "passed": true
+    },
+    {
+      "label": "FT-15-120 limits",
+      "passed": true
+    },
+    {
+      "label": "FT-15-120 ending",
+      "passed": true
+    },
+    {
+      "label": "FT-15-120 all actual evaluators",
+      "passed": true
+    },
+    {
+      "label": "crossing 9",
+      "passed": true
+    },
+    {
+      "label": "strict profit 9",
+      "passed": true
+    },
+    {
+      "label": "nonloss 9",
+      "passed": true
+    },
+    {
+      "label": "crossing 12",
+      "passed": true
+    },
+    {
+      "label": "strict profit 12",
+      "passed": true
+    },
+    {
+      "label": "nonloss 12",
+      "passed": true
+    },
+    {
+      "label": "crossing 15",
+      "passed": true
+    },
+    {
+      "label": "strict profit 15",
+      "passed": true
+    },
+    {
+      "label": "nonloss 15",
+      "passed": true
+    },
+    {
+      "label": "equivalent 12x-(450+4.5x)",
+      "passed": true
+    },
+    {
+      "label": "equivalent (15/2)x-450",
+      "passed": true
+    },
+    {
+      "label": "equivalent 7.50x−450",
+      "passed": true
+    },
+    {
+      "label": "same root wrong rule rejected",
+      "passed": true
+    },
+    {
+      "label": "bad expression x*x",
+      "passed": true
+    },
+    {
+      "label": "bad expression x/2x",
+      "passed": true
+    },
+    {
+      "label": "bad expression 1/0",
+      "passed": true
+    },
+    {
+      "label": "bad expression y+1",
+      "passed": true
+    },
+    {
+      "label": "bad expression 1e3",
+      "passed": true
+    },
+    {
+      "label": "bad expression 1,2",
+      "passed": true
+    },
+    {
+      "label": "bad expression x**2",
+      "passed": true
+    },
+    {
+      "label": "bad expression 9999999999999",
+      "passed": true
+    },
+    {
+      "label": "bad expression (((((((((((((x)))))))))))))",
+      "passed": true
+    },
+    {
+      "label": "equivalent equality 12x=450+4.5x",
+      "passed": true
+    },
+    {
+      "label": "equivalent equality 7.5x-450=0",
+      "passed": true
+    },
+    {
+      "label": "equivalent equality 0=15x-900",
+      "passed": true
+    },
+    {
+      "label": "identity not break-even",
+      "passed": true
+    },
+    {
+      "label": "rate fraction",
+      "passed": true
+    },
+    {
+      "label": "rate cannot be total",
+      "passed": true
+    },
+    {
+      "label": "total cannot be rate",
+      "passed": true
+    },
+    {
+      "label": "valid currency grouping",
+      "passed": true
+    },
+    {
+      "label": "bad thousands separator",
+      "passed": true
+    },
+    {
+      "label": "half-up percent",
+      "passed": true
+    },
+    {
+      "label": "boundary ZERO-CONTRIBUTION",
+      "passed": true
+    },
+    {
+      "label": "boundary first profit ZERO-CONTRIBUTION",
+      "passed": true
+    },
+    {
+      "label": "boundary NEGATIVE-CONTRIBUTION",
+      "passed": true
+    },
+    {
+      "label": "boundary first profit NEGATIVE-CONTRIBUTION",
+      "passed": true
+    },
+    {
+      "label": "boundary ZERO-FIXED",
+      "passed": true
+    },
+    {
+      "label": "boundary first profit ZERO-FIXED",
+      "passed": true
+    },
+    {
+      "label": "boundary OUTSIDE-DOMAIN",
+      "passed": true
+    },
+    {
+      "label": "boundary first profit OUTSIDE-DOMAIN",
+      "passed": true
+    },
+    {
+      "label": "zero stock percentage",
+      "passed": true
+    },
+    {
+      "label": "zero stock cost",
+      "passed": true
+    },
+    {
+      "label": "exact ending cutoff {\"profit\":\"150\",\"waste\":10,\"stock\":100,\"ending\":\"Festival success\"}",
+      "passed": true
+    },
+    {
+      "label": "exact ending cutoff {\"profit\":\"149.99\",\"waste\":10,\"stock\":100,\"ending\":\"Viable first launch\"}",
+      "passed": true
+    },
+    {
+      "label": "exact ending cutoff {\"profit\":\"150\",\"waste\":11,\"stock\":100,\"ending\":\"Viable first launch\"}",
+      "passed": true
+    },
+    {
+      "label": "exact ending cutoff {\"profit\":\"0\",\"waste\":0,\"stock\":60,\"ending\":\"Viable first launch\"}",
+      "passed": true
+    },
+    {
+      "label": "exact ending cutoff {\"profit\":\"-0.01\",\"waste\":0,\"stock\":60,\"ending\":\"Business rethink\"}",
+      "passed": true
+    },
+    {
+      "label": "exact ending cutoff {\"profit\":\"150\",\"waste\":101,\"stock\":1009,\"ending\":\"Viable first launch\"}",
+      "passed": true
+    },
+    {
+      "label": "complete top outcome",
+      "passed": true
+    },
+    {
+      "label": "Plan A immutable",
+      "passed": true
+    },
+    {
+      "label": "stock preserves sold-all model",
+      "passed": true
+    },
+    {
+      "label": "stock invalidates prepared expense",
+      "passed": true
+    },
+    {
+      "label": "edit creates draft",
+      "passed": true
+    },
+    {
+      "label": "price preserves expense model",
+      "passed": true
+    },
+    {
+      "label": "price invalidates revenue model",
+      "passed": true
+    },
+    {
+      "label": "frozen plan cannot change",
+      "passed": true
+    },
+    {
+      "label": "wrong comparison rejected",
+      "passed": true
+    },
+    {
+      "label": "correct sibling retained",
+      "passed": true
+    },
+    {
+      "label": "historical corrected attempts preserved",
+      "passed": true
+    },
+    {
+      "label": "paper mode alone incomplete",
+      "passed": true
+    },
+    {
+      "label": "recorded paper permits story with pending review",
+      "passed": true
+    },
+    {
+      "label": "paper review remains pending",
+      "passed": true
+    },
+    {
+      "label": "bypass is provisional",
+      "passed": true
+    },
+    {
+      "label": "real recheck retires active bypass",
+      "passed": true
+    },
+    {
+      "label": "bypass history retained",
+      "passed": true
+    },
+    {
+      "label": "carried teacher bypass survives import",
+      "passed": true
+    },
+    {
+      "label": "import revalidates complete session",
+      "passed": true
+    },
+    {
+      "label": "import marked",
+      "passed": true
+    },
+    {
+      "label": "forged verified rechecked",
+      "passed": true
+    },
+    {
+      "label": "invalid import rejected",
+      "passed": true
+    },
+    {
+      "label": "invalid import rejected",
+      "passed": true
+    },
+    {
+      "label": "invalid import rejected",
+      "passed": true
+    },
+    {
+      "label": "invalid import rejected",
+      "passed": true
+    },
+    {
+      "label": "invalid import rejected",
+      "passed": true
+    },
+    {
+      "label": "invalid import rejected",
+      "passed": true
+    },
+    {
+      "label": "invalid import rejected",
+      "passed": true
+    },
+    {
+      "label": "invalid import rejected",
+      "passed": true
+    },
+    {
+      "label": "malformed JSON",
+      "passed": true
+    },
+    {
+      "label": "oversized import",
+      "passed": true
+    },
+    {
+      "label": "duplicate bundle identities",
+      "passed": true
+    },
+    {
+      "label": "local resume",
+      "passed": true
+    },
+    {
+      "label": "local resume not imported",
+      "passed": true
+    },
+    {
+      "label": "independent duplicate",
+      "passed": true
+    },
+    {
+      "label": "atomic failure reported",
+      "passed": true
+    },
+    {
+      "label": "atomic rollback restores",
+      "passed": true
+    },
+    {
+      "label": "newer revision conflict",
+      "passed": true
+    },
+    {
+      "label": "one-session deletion",
+      "passed": true
+    },
+    {
+      "label": "clear all",
+      "passed": true
+    },
+    {
+      "label": "other project retained",
+      "passed": true
+    },
+    {
+      "label": "denied storage detected",
+      "passed": true
+    },
+    {
+      "label": "recommend original A",
+      "passed": true
+    },
+    {
+      "label": "history limit blocks without truncation",
+      "passed": true
+    },
+    {
+      "label": "history limit retains records",
+      "passed": true
+    },
+    {
+      "label": "revision limit",
+      "passed": true
+    },
+    {
+      "label": "revision limit preserves plan",
+      "passed": true
+    },
+    {
+      "label": "bundle size limit",
+      "passed": true
+    }
+  ]
+}

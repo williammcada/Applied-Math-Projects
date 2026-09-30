@@ -1,0 +1,227 @@
+{
+  "passed": 54,
+  "failed": 0,
+  "checks": [
+    {
+      "label": "stage 2 errors ",
+      "passed": true
+    },
+    {
+      "label": "stage 3 errors ",
+      "passed": true
+    },
+    {
+      "label": "wrong ingredient blocked",
+      "passed": true
+    },
+    {
+      "label": "correct cost sibling retained",
+      "passed": true
+    },
+    {
+      "label": "help different values",
+      "passed": true
+    },
+    {
+      "label": "help focus returned",
+      "passed": true
+    },
+    {
+      "label": "stage 4 errors ",
+      "passed": true
+    },
+    {
+      "label": "stage 5 errors ",
+      "passed": true
+    },
+    {
+      "label": "stage 6 errors ",
+      "passed": true
+    },
+    {
+      "label": "stage 7 errors ",
+      "passed": true
+    },
+    {
+      "label": "stage 8 errors ",
+      "passed": true
+    },
+    {
+      "label": "first launch ready for revision",
+      "passed": true
+    },
+    {
+      "label": "Plan A frozen",
+      "passed": true
+    },
+    {
+      "label": "stage 6 errors ",
+      "passed": true
+    },
+    {
+      "label": "stage 3 errors ",
+      "passed": true
+    },
+    {
+      "label": "stage 4 errors ",
+      "passed": true
+    },
+    {
+      "label": "stage 5 errors ",
+      "passed": true
+    },
+    {
+      "label": "stage 6 errors ",
+      "passed": true
+    },
+    {
+      "label": "stage 7 errors ",
+      "passed": true
+    },
+    {
+      "label": "stage 8 errors ",
+      "passed": true
+    },
+    {
+      "label": "final submission no errors",
+      "passed": true
+    },
+    {
+      "label": "full journey top ending",
+      "passed": true
+    },
+    {
+      "label": "export retains both plan identities",
+      "passed": true
+    },
+    {
+      "label": "first mistake/correction retained",
+      "passed": true
+    },
+    {
+      "label": "role swaps recorded once",
+      "passed": true
+    },
+    {
+      "label": "stage 8 errors ",
+      "passed": true
+    },
+    {
+      "label": "resume retains outcome",
+      "passed": true
+    },
+    {
+      "label": "four student sections",
+      "passed": true
+    },
+    {
+      "label": "no teacher key in student report",
+      "passed": true
+    },
+    {
+      "label": "transfer slips omit key",
+      "passed": true
+    },
+    {
+      "label": "no horizontal overflow 768",
+      "passed": true
+    },
+    {
+      "label": "no horizontal overflow 1024",
+      "passed": true
+    },
+    {
+      "label": "no horizontal overflow 390",
+      "passed": true
+    },
+    {
+      "label": "actual exported file validates",
+      "passed": true
+    },
+    {
+      "label": "imported complete copy works",
+      "passed": true
+    },
+    {
+      "label": "import copy preserves original",
+      "passed": true
+    },
+    {
+      "label": "delete cancellation",
+      "passed": true
+    },
+    {
+      "label": "bundle includes both records",
+      "passed": true
+    },
+    {
+      "label": "clear-all clears complete Food Truck sessions",
+      "passed": true
+    },
+    {
+      "label": "other project retained",
+      "passed": true
+    },
+    {
+      "label": "backup restored after deletion",
+      "passed": true
+    },
+    {
+      "label": "help sections C01",
+      "passed": true
+    },
+    {
+      "label": "help sections C02",
+      "passed": true
+    },
+    {
+      "label": "help sections C03",
+      "passed": true
+    },
+    {
+      "label": "help sections C04",
+      "passed": true
+    },
+    {
+      "label": "help sections C05",
+      "passed": true
+    },
+    {
+      "label": "help sections C06",
+      "passed": true
+    },
+    {
+      "label": "help sections C07",
+      "passed": true
+    },
+    {
+      "label": "help sections C08",
+      "passed": true
+    },
+    {
+      "label": "help sections C09",
+      "passed": true
+    },
+    {
+      "label": "help sections C10",
+      "passed": true
+    },
+    {
+      "label": "diagnostic passes",
+      "passed": true
+    },
+    {
+      "label": "zero uncaught exceptions: ",
+      "passed": true
+    },
+    {
+      "label": "zero external runtime requests",
+      "passed": true
+    }
+  ],
+  "exceptions": [],
+  "network": [],
+  "browser": "153.0.8010.0",
+  "node": "v24.19.0",
+  "environment": "Linux local file, offline Chromium"
+}

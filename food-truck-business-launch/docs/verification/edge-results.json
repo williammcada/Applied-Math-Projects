@@ -1,0 +1,111 @@
+{
+  "passed": 26,
+  "failed": 0,
+  "checks": [
+    {
+      "label": "glossary available at tablet width",
+      "passed": true
+    },
+    {
+      "label": "preserved A price disabled",
+      "passed": true
+    },
+    {
+      "label": "fresh comparison created",
+      "passed": true
+    },
+    {
+      "label": "bypass permits Next without regrading",
+      "passed": true
+    },
+    {
+      "label": "finish preserves provisional bypass",
+      "passed": true
+    },
+    {
+      "label": "paper selection alone draft",
+      "passed": true
+    },
+    {
+      "label": "recorded paper completes story",
+      "passed": true
+    },
+    {
+      "label": "rendered ending Business rethink",
+      "passed": true
+    },
+    {
+      "label": "rendered ending Viable first launch",
+      "passed": true
+    },
+    {
+      "label": "conflict disclosed",
+      "passed": true
+    },
+    {
+      "label": "conflict reload",
+      "passed": true
+    },
+    {
+      "label": "conflict copy retains both",
+      "passed": true
+    },
+    {
+      "label": "ordinary duplicate",
+      "passed": true
+    },
+    {
+      "label": "pre-delete backup contains selected session",
+      "passed": true
+    },
+    {
+      "label": "single deletion retains others",
+      "passed": true
+    },
+    {
+      "label": "diagnostic download version",
+      "passed": true
+    },
+    {
+      "label": "native print command dispatched",
+      "passed": true
+    },
+    {
+      "label": "200 percent root text no page overflow",
+      "passed": true
+    },
+    {
+      "label": "unsupported imported graph intervals bounded",
+      "passed": true
+    },
+    {
+      "label": "imported markup inert",
+      "passed": true
+    },
+    {
+      "label": "fraction coefficient expression retains grouping",
+      "passed": true
+    },
+    {
+      "label": "replacement cancel retains local work",
+      "passed": true
+    },
+    {
+      "label": "explicit imported replacement loaded",
+      "passed": true
+    },
+    {
+      "label": "storage denied visible",
+      "passed": true
+    },
+    {
+      "label": "export when storage denied",
+      "passed": true
+    },
+    {
+      "label": "no edge workflow exceptions",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
