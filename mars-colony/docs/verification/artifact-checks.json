@@ -8,7 +8,8 @@
     "Current HTML equals deterministic source substitution without rebuilding",
     "No external runtime resource tag",
     "No fetch/XMLHttpRequest/WebSocket/sendBeacon call",
-    "Below 8 MiB size target"
+    "Below 8 MiB size target",
+    "Post-checkpoint rerun retains exact application and test hashes"
   ],
   "files": {
     "index.html": "31f21085d65c306c8a256823e8dc9c84bb5ed6a1c3a351cef32590aee95a54ec",
@@ -23,5 +24,6 @@
     "tests/dom.test.cjs": "887675cc55be10dfcef4bb498b489ab448e9427b562f1a1283a7571e21264811",
     "tests/browser.test.cjs": "15d6fd22677f59b9d2a235b7282335f5d8f95e6cb41b8e056c2fcc6f4e9dd8a7",
     "tests/reference-cases-v0.1.0.json": "63e8c7a4ea922e2895f90dd3d48666161242cf6509621d6ee47e65a9fe12d129"
-  }
+  },
+  "candidateCommit": "779b0b1f551d23c54eedca6eec7d04e5218dc70d"
 }

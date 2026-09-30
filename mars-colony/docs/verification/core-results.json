@@ -81,7 +81,7 @@
     "Equivalent model",
     "numeric 19.2",
     "numeric 96/5",
-    "numeric −6",
+    "numeric \u22126",
     "numeric 3,185.2",
     "numeric 18/6",
     "Reject ",
@@ -265,5 +265,7 @@
     "Other app retained",
     "Fresh session after delete"
   ],
-  "node": "v24.19.0"
+  "node": "v24.19.0",
+  "candidateCommit": "779b0b1f551d23c54eedca6eec7d04e5218dc70d",
+  "htmlSha256": "31f21085d65c306c8a256823e8dc9c84bb5ed6a1c3a351cef32590aee95a54ec"
 }

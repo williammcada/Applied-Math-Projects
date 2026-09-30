@@ -81,5 +81,7 @@
   "limitations": [
     "No rendering, layout, real browser interaction, accessibility tree, real filesystem download, PDF or physical device validation",
     "Dialog, scroll, print, object URL and file chooser APIs shimmed; storage persisted by copying serialized values between DOM instances"
-  ]
+  ],
+  "candidateCommit": "779b0b1f551d23c54eedca6eec7d04e5218dc70d",
+  "htmlSha256": "31f21085d65c306c8a256823e8dc9c84bb5ed6a1c3a351cef32590aee95a54ec"
 }

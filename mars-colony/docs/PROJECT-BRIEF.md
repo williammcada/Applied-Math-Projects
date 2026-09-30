@@ -4,7 +4,7 @@
 **Target:** app 0.1.0, content/schema 1.0.0
 **Canonical repository:** williammcada/Applied-Math-Projects
 **Baseline:** d728dff8f8553f7db5cd26304d9bc403ad790ad9
-**Approved specification:** [revision 1](../../../docs/change-specs/MARS-COLONY-v0.1.0.md).
+**Approved specification:** [revision 1](../../docs/change-specs/MARS-COLONY-v0.1.0.md).
 **Initial source:** preserved Applied Mathematics dossier v1.0.0, sections 01–12, 28–32 and 39–41; initial Mars planning README. No earlier Mars application.
 
 ## Purpose and retained scope

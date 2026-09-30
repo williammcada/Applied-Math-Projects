@@ -9,7 +9,7 @@ App 0.1.0 · content/schema 1.0.0 · 30 September 2026.
 - Approved specification revision 1: `docs/change-specs/MARS-COLONY-v0.1.0.md`; approval commit `4b7134293e4596ff9eb9edfd7857c7cf9afd7407`.
 - Source intake: `d728dff8f8553f7db5cd26304d9bc403ad790ad9`.
 - Initial complete implementation checkpoint: `87a7f7b1097d1d1cf7b2a24877827ee1dd021d21`.
-- Corrected implementation checkpoint: **CANDIDATE_SHA**. This is not a verified checkpoint.
+- Corrected implementation checkpoint: **779b0b1f551d23c54eedca6eec7d04e5218dc70d**. This is not a verified checkpoint.
 - Concurrent main preserved through `ba66eef6840363451b4c815ac7eb20795806200c`; other applications are unchanged by the Mars work.
 - Artifact identity: [SHA-256 and structural checks](verification/artifact-checks.json).
 

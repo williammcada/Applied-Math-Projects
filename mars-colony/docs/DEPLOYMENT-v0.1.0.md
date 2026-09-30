@@ -2,7 +2,7 @@
 
 **Not deployed.** Production and the existing GitHub Pages workflow are authorized, but browser/print verification is incomplete. No verified checkpoint, release tag or main-branch deployment was created for Mars.
 
-Production branch: `mars-colony-v0.1.0`. Corrected implementation checkpoint: **CANDIDATE_SHA**. It preserves source, identical standalone/index HTML, approved specification, teacher materials and actual core/DOM evidence. See [QA](QA-REPORT-v0.1.0.md).
+Production branch: `mars-colony-v0.1.0`. Corrected implementation checkpoint: **779b0b1f551d23c54eedca6eec7d04e5218dc70d**. It preserves source, identical standalone/index HTML, approved specification, teacher materials and actual core/DOM evidence. See [QA](QA-REPORT-v0.1.0.md).
 
 Intended entry: `https://williammcada.github.io/Applied-Math-Projects/mars-colony/`. This is a target, not a live-app claim. Existing Pages configuration and other applications are untouched.
 
