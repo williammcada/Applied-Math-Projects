@@ -42,4 +42,4 @@ An initial browser-test failure was a file-input timing race in the test, correc
 
 Physical Safari iPad/on-screen keyboard, school network, physical A4/Letter/grayscale printer and classroom pilot remain pending. Menu/slips Letter and full grayscale output have not received separate visual acceptance. Browser storage remains device/origin-specific and may be cleared by browser settings; export is the portability/backup mechanism. Teacher tools and local evidence are intentionally not secure or tamper-proof.
 
-Hosting is verified after merge using the served bytes, Pages workflow and actual live browser; see DEPLOYMENT-v0.1.0.md when recorded. Passing local checks alone is not a deployment claim.
+Hosting is verified after merge using the served bytes, Pages workflow and actual live browser; see [the deployment record](DEPLOYMENT-v0.1.0.md). Passing local checks alone is not a deployment claim.

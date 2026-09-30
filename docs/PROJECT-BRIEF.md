@@ -6,7 +6,7 @@
 **Repository:** `williammcada/Applied-Math-Projects`, branch `main`.  
 **Current running version:** [Road Trip Planner 0.1.0](https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/), content/schema 1.0.0; hosted bytes match the verified self-contained candidate.  
 **Source/baseline:** This preparation began at `ec7753842c8321f5e2a9192529cb60da1e44d1b1`. The earlier `f10b953305edaa18113016f473fffdd155fb7c60` planning checkpoint remains historical. Sources now live in `docs/sources/dossier-v1.0.0/`; Road Trip now has a complete candidate at `road-trip-planner/`.  
-**Next work:** Complete Food Truck release verification under the [approved specification](change-specs/FOOD-TRUCK-v0.1.0.md). Road Trip physical iPad/network/printer acceptance remains pending. Build each later application separately with its own specification and source checkpoint.  
+**Next work:** Food Truck is deployed with [verification evidence](../food-truck-business-launch/docs/DEPLOYMENT-v0.1.0.md). Theme Park is next for specification preparation when requested. Road Trip physical iPad/network/printer acceptance remains pending. Build each later application separately with its own specification and source checkpoint.  
 
 ## 1. Purpose, audience and detailed scope
 
