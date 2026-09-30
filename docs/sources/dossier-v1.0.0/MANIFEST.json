@@ -1,0 +1,111 @@
+{
+  "release": "1.0.0",
+  "author": "William McAda",
+  "files": [
+    {
+      "path": "ASTRA_BUILD_PROMPT.txt",
+      "bytes": 2354,
+      "sha256": "119b503c82125590b1c7901c9f78596c3c8f96c25f6501d9464b8c4b690a1cfb"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1401,
+      "sha256": "8b5d63b287176e9a9ca99d35205eb81ca47b524b33266480f21c2a736b754953"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 4261,
+      "sha256": "70d80763404cc5cb28986fa89a1c5ce0f8265fbb681c3e4b595b6206327319bb"
+    },
+    {
+      "path": "William_McAda_Applied_Math_Projects_Dossier_v1.0.0.docx",
+      "bytes": 532990,
+      "sha256": "398716c649a181d50fb201a18a6014a88b3d51b9da1fec93c3b1b52592c6bef5"
+    },
+    {
+      "path": "William_McAda_Applied_Math_Projects_Dossier_v1.0.0.md",
+      "bytes": 110864,
+      "sha256": "f3e7e0b93f7e029764c7ec252a72235b42f8778d30bf56780697cf49ad1ea3ed"
+    },
+    {
+      "path": "dossier_validation_report.json",
+      "bytes": 943,
+      "sha256": "e49506f582cd8edd3f4eac8b7abbb83eaeb044dfb2f1f903f2a50e1ce040a7ab"
+    },
+    {
+      "path": "figures/cover_band.png",
+      "bytes": 33153,
+      "sha256": "bf59cfc846fb48aa4a48f0c5f8dfd21c6d7de7f74931eaf23e1ce2bc313ba3fd"
+    },
+    {
+      "path": "figures/cover_band.svg",
+      "bytes": 2927,
+      "sha256": "34e4db9f1aab74bbbc2713caa9864ab0b8e539b783363a0b187262aebc7760bf"
+    },
+    {
+      "path": "figures/food.png",
+      "bytes": 73646,
+      "sha256": "c082b5d6de263d2a0b765e0c5c614eea997baec09bac2c60aaf6663ce3a71605"
+    },
+    {
+      "path": "figures/food.svg",
+      "bytes": 3472,
+      "sha256": "bbe758bf90cc43667e2c566dd720a6f3a41a077d81868e6fc1df37694b756b82"
+    },
+    {
+      "path": "figures/mars.png",
+      "bytes": 93875,
+      "sha256": "22e226c32b19a0a7511b1e69dc1fce4499c6c117fe54fce39006726ca635281b"
+    },
+    {
+      "path": "figures/mars.svg",
+      "bytes": 4497,
+      "sha256": "5f0f0f8364cf64e9ceabfbb718c700f8d10a5d1d3a9d2570c99318b8b9ec9089"
+    },
+    {
+      "path": "figures/park.png",
+      "bytes": 96609,
+      "sha256": "3204ed001f4d48e81bcdb02b8758715c3bdd8c3a7aecf3a4cd07a6cfdadbb8ab"
+    },
+    {
+      "path": "figures/park.svg",
+      "bytes": 9930,
+      "sha256": "93f57a1b4303fa501bdb89ae59f44ab72c3fcb9f71dcd894662a837fd2b816bd"
+    },
+    {
+      "path": "figures/road.png",
+      "bytes": 73506,
+      "sha256": "ff6a3cedf05c2c5aa3444ab06c0d177fd7ed7a4e30228831f978bba3b5c9172d"
+    },
+    {
+      "path": "figures/road.svg",
+      "bytes": 4437,
+      "sha256": "bf5b418362cb9cd8f15fb639df090c7cd7d72fae97f60f689a392ed7cdc0a709"
+    },
+    {
+      "path": "figures/scale.png",
+      "bytes": 93063,
+      "sha256": "05aaa58b382b32eb5c79afef4386ab02919bead0dde98c7b35346db1c14c4320"
+    },
+    {
+      "path": "figures/scale.svg",
+      "bytes": 3124,
+      "sha256": "0e5c0c3c2bbb17857d14d3d8d17a4f07e390f4572652f1dbcf4e656bbd103676"
+    },
+    {
+      "path": "reference_check_report.json",
+      "bytes": 10231,
+      "sha256": "3f5181cf5a4a696113be644067d38dacf0fc364230f01b59c270eed4d91fe483"
+    },
+    {
+      "path": "reference_fixtures.json",
+      "bytes": 4055,
+      "sha256": "8130bceb473bf4c7ed34a1cd263f9c7dcd684b66e208920164d24be718b52e7a"
+    },
+    {
+      "path": "verify_reference_fixtures.py",
+      "bytes": 8308,
+      "sha256": "a76a80db0a6a57a771d3cc9bbdb964e007e0facaec04f7e924a774bf6189a4b1"
+    }
+  ]
+}

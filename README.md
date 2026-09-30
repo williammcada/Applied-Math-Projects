@@ -7,7 +7,7 @@ A family of five interactive applied-mathematics projects: Road Trip Planner, Fo
 ## Canonical project record
 
 **Repository:** `williammcada/Applied-Math-Projects`  
-**Current state:** Curriculum/design family ready for systematic implementation; project-specific dossiers should be preserved beside future source.  
+**Current state:** Dossier/handoff v1.0.0 preserved; Road Trip Planner v0.1.0 implementation specification Draft 1 prepared. No executable applications or live deployment yet.  
 **Handbook:** `williammcada/mcada-project-handbook`
 
 The repository is the canonical home for the current source, permanent project brief, and approved version-specific change specifications. Chat history is working context rather than the permanent project record.
@@ -16,9 +16,15 @@ The repository is the canonical home for the current source, permanent project b
 
 - [`docs/PROJECT-BRIEF.md`](docs/PROJECT-BRIEF.md)
 - [`docs/change-specs/`](docs/change-specs/)
+- [Road Trip Planner v0.1.0 specification](docs/change-specs/ROAD-TRIP-PLANNER-v0.1.0.md)
+- [Original dossier and handoff](docs/sources/dossier-v1.0.0/START_HERE.md)
+- [Source provenance](docs/sources/PROVENANCE.md)
+- [Specification verification and remaining decision](docs/verification/ROAD-TRIP-v0.1.0-SPEC-REVIEW.md)
 - [McAda Project Handbook](https://github.com/williammcada/mcada-project-handbook)
 
 Use the project brief for permanent project-local rules and the change-spec directory for version-specific approved decisions.
+
+Build order remains Road Trip → Food Truck → Theme Park → Mars Colony → Powers of Ten. Each is a separate self-contained HTML application. Road Trip's proposed hotel-event adjustment P-01 needs a decision before its specification is frozen for implementation.
 
 ## Release workflow
 

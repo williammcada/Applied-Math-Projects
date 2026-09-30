@@ -1,0 +1,1585 @@
+{
+  "scope": "Specification arithmetic, 81 choices before/after proposed P-01, and mathematical outcome feasibility only. No app, parser, UI, save, print, device, or deployment tested.",
+  "specRevision": "0.1.0-draft.1",
+  "eventPolicy": "Proposed P-01 selected-hotel uplift, pending owner decision",
+  "passed": true,
+  "count": 259,
+  "choiceEnumeration": [
+    {
+      "eventApplied": false,
+      "combinations": 81,
+      "outcomes": {
+        "delighted": 18,
+        "approved": 35,
+        "revision": 28
+      },
+      "affordable": 62
+    },
+    {
+      "eventApplied": true,
+      "combinations": 81,
+      "outcomes": {
+        "delighted": 9,
+        "approved": 29,
+        "revision": 43
+      },
+      "affordable": 47
+    }
+  ],
+  "checks": [
+    {
+      "id": "RT-BASE.liters",
+      "passed": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "id": "RT-BASE.fuelCost",
+      "passed": true,
+      "actual": "120",
+      "expected": "120"
+    },
+    {
+      "id": "RT-BASE.m",
+      "passed": true,
+      "actual": "220",
+      "expected": "220"
+    },
+    {
+      "id": "RT-BASE.b",
+      "passed": true,
+      "actual": "230",
+      "expected": "230"
+    },
+    {
+      "id": "RT-BASE.table",
+      "passed": true,
+      "actual": "[Fraction(450, 1), Fraction(890, 1), Fraction(1330, 1), Fraction(1770, 1)]",
+      "expected": "[Fraction(450, 1), Fraction(890, 1), Fraction(1330, 1), Fraction(1770, 1)]"
+    },
+    {
+      "id": "RT-BASE.total",
+      "passed": true,
+      "actual": "1770",
+      "expected": "1770"
+    },
+    {
+      "id": "RT-BASE.reserve",
+      "passed": true,
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "id": "RT-BASE.percentSpent",
+      "passed": true,
+      "actual": "9833/100",
+      "expected": "9833/100"
+    },
+    {
+      "id": "RT-BASE.continuousBound",
+      "passed": true,
+      "actual": "157/22",
+      "expected": "157/22"
+    },
+    {
+      "id": "RT-BASE.maxDays",
+      "passed": true,
+      "actual": "7",
+      "expected": "7"
+    },
+    {
+      "id": "RT-BASE.fit",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "RT-BASE.outcome",
+      "passed": true,
+      "actual": "delighted",
+      "expected": "delighted"
+    },
+    {
+      "id": "RT-BASE.reserveStatementRequired",
+      "passed": true,
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "id": "RT-BASE.model_matches_itemized_all_days",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-HOTEL.liters",
+      "passed": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "id": "RT-HOTEL.fuelCost",
+      "passed": true,
+      "actual": "120",
+      "expected": "120"
+    },
+    {
+      "id": "RT-HOTEL.m",
+      "passed": true,
+      "actual": "240",
+      "expected": "240"
+    },
+    {
+      "id": "RT-HOTEL.b",
+      "passed": true,
+      "actual": "210",
+      "expected": "210"
+    },
+    {
+      "id": "RT-HOTEL.table",
+      "passed": true,
+      "actual": "[Fraction(450, 1), Fraction(930, 1), Fraction(1410, 1), Fraction(1890, 1)]",
+      "expected": "[Fraction(450, 1), Fraction(930, 1), Fraction(1410, 1), Fraction(1890, 1)]"
+    },
+    {
+      "id": "RT-HOTEL.total",
+      "passed": true,
+      "actual": "1890",
+      "expected": "1890"
+    },
+    {
+      "id": "RT-HOTEL.reserve",
+      "passed": true,
+      "actual": "-90",
+      "expected": "-90"
+    },
+    {
+      "id": "RT-HOTEL.percentSpent",
+      "passed": true,
+      "actual": "105",
+      "expected": "105"
+    },
+    {
+      "id": "RT-HOTEL.continuousBound",
+      "passed": true,
+      "actual": "53/8",
+      "expected": "53/8"
+    },
+    {
+      "id": "RT-HOTEL.maxDays",
+      "passed": true,
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "id": "RT-HOTEL.fit",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "RT-HOTEL.outcome",
+      "passed": true,
+      "actual": "revision",
+      "expected": "revision"
+    },
+    {
+      "id": "RT-HOTEL.reserveStatementRequired",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-HOTEL.model_matches_itemized_all_days",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-REVISION.liters",
+      "passed": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "id": "RT-REVISION.fuelCost",
+      "passed": true,
+      "actual": "120",
+      "expected": "120"
+    },
+    {
+      "id": "RT-REVISION.m",
+      "passed": true,
+      "actual": "225",
+      "expected": "225"
+    },
+    {
+      "id": "RT-REVISION.b",
+      "passed": true,
+      "actual": "210",
+      "expected": "210"
+    },
+    {
+      "id": "RT-REVISION.table",
+      "passed": true,
+      "actual": "[Fraction(435, 1), Fraction(885, 1), Fraction(1335, 1), Fraction(1785, 1)]",
+      "expected": "[Fraction(435, 1), Fraction(885, 1), Fraction(1335, 1), Fraction(1785, 1)]"
+    },
+    {
+      "id": "RT-REVISION.total",
+      "passed": true,
+      "actual": "1785",
+      "expected": "1785"
+    },
+    {
+      "id": "RT-REVISION.reserve",
+      "passed": true,
+      "actual": "15",
+      "expected": "15"
+    },
+    {
+      "id": "RT-REVISION.percentSpent",
+      "passed": true,
+      "actual": "9917/100",
+      "expected": "9917/100"
+    },
+    {
+      "id": "RT-REVISION.continuousBound",
+      "passed": true,
+      "actual": "106/15",
+      "expected": "106/15"
+    },
+    {
+      "id": "RT-REVISION.maxDays",
+      "passed": true,
+      "actual": "7",
+      "expected": "7"
+    },
+    {
+      "id": "RT-REVISION.fit",
+      "passed": true,
+      "actual": "95",
+      "expected": "95"
+    },
+    {
+      "id": "RT-REVISION.outcome",
+      "passed": true,
+      "actual": "delighted",
+      "expected": "delighted"
+    },
+    {
+      "id": "RT-REVISION.reserveStatementRequired",
+      "passed": true,
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "id": "RT-REVISION.model_matches_itemized_all_days",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-APPROVED.m",
+      "passed": true,
+      "actual": "195",
+      "expected": "195"
+    },
+    {
+      "id": "RT-APPROVED.b",
+      "passed": true,
+      "actual": "210",
+      "expected": "210"
+    },
+    {
+      "id": "RT-APPROVED.total",
+      "passed": true,
+      "actual": "1575",
+      "expected": "1575"
+    },
+    {
+      "id": "RT-APPROVED.reserve",
+      "passed": true,
+      "actual": "225",
+      "expected": "225"
+    },
+    {
+      "id": "RT-APPROVED.fit",
+      "passed": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "id": "RT-APPROVED.outcome",
+      "passed": true,
+      "actual": "approved",
+      "expected": "approved"
+    },
+    {
+      "id": "RT-APPROVED.reserveStatementRequired",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-APPROVED.model_matches_itemized_all_days",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-HIGH-RESERVE.m",
+      "passed": true,
+      "actual": "205",
+      "expected": "205"
+    },
+    {
+      "id": "RT-HIGH-RESERVE.b",
+      "passed": true,
+      "actual": "210",
+      "expected": "210"
+    },
+    {
+      "id": "RT-HIGH-RESERVE.total",
+      "passed": true,
+      "actual": "1645",
+      "expected": "1645"
+    },
+    {
+      "id": "RT-HIGH-RESERVE.reserve",
+      "passed": true,
+      "actual": "155",
+      "expected": "155"
+    },
+    {
+      "id": "RT-HIGH-RESERVE.fit",
+      "passed": true,
+      "actual": "85",
+      "expected": "85"
+    },
+    {
+      "id": "RT-HIGH-RESERVE.outcome",
+      "passed": true,
+      "actual": "delighted",
+      "expected": "delighted"
+    },
+    {
+      "id": "RT-HIGH-RESERVE.reserveStatementRequired",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-HIGH-RESERVE.model_matches_itemized_all_days",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-LOW-FIT.m",
+      "passed": true,
+      "actual": "150",
+      "expected": "150"
+    },
+    {
+      "id": "RT-LOW-FIT.b",
+      "passed": true,
+      "actual": "240",
+      "expected": "240"
+    },
+    {
+      "id": "RT-LOW-FIT.total",
+      "passed": true,
+      "actual": "1290",
+      "expected": "1290"
+    },
+    {
+      "id": "RT-LOW-FIT.reserve",
+      "passed": true,
+      "actual": "510",
+      "expected": "510"
+    },
+    {
+      "id": "RT-LOW-FIT.fit",
+      "passed": true,
+      "actual": "50",
+      "expected": "50"
+    },
+    {
+      "id": "RT-LOW-FIT.outcome",
+      "passed": true,
+      "actual": "revision",
+      "expected": "revision"
+    },
+    {
+      "id": "RT-LOW-FIT.reserveStatementRequired",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-LOW-FIT.model_matches_itemized_all_days",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-FIT-65.m",
+      "passed": true,
+      "actual": "180",
+      "expected": "180"
+    },
+    {
+      "id": "RT-FIT-65.b",
+      "passed": true,
+      "actual": "210",
+      "expected": "210"
+    },
+    {
+      "id": "RT-FIT-65.total",
+      "passed": true,
+      "actual": "1470",
+      "expected": "1470"
+    },
+    {
+      "id": "RT-FIT-65.reserve",
+      "passed": true,
+      "actual": "330",
+      "expected": "330"
+    },
+    {
+      "id": "RT-FIT-65.fit",
+      "passed": true,
+      "actual": "65",
+      "expected": "65"
+    },
+    {
+      "id": "RT-FIT-65.outcome",
+      "passed": true,
+      "actual": "approved",
+      "expected": "approved"
+    },
+    {
+      "id": "RT-FIT-65.reserveStatementRequired",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-FIT-65.model_matches_itemized_all_days",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "choice_count",
+      "passed": true,
+      "actual": "81",
+      "expected": "81"
+    },
+    {
+      "id": "event_False.all_outcomes_reachable",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.at_least_three_affordable_plans",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-basic-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-basic-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-basic-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-basic-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-basic-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-basic-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-basic-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-basic-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-basic-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-standard-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-standard-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-standard-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-standard-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-standard-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-standard-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-standard-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-standard-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-standard-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-premium-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-premium-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-premium-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-premium-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-premium-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-premium-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-premium-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-premium-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.basic-premium-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-basic-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-basic-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-basic-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-basic-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-basic-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-basic-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-basic-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-basic-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-basic-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-standard-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-standard-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-standard-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-standard-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-standard-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-standard-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-standard-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-standard-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-standard-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-premium-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-premium-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-premium-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-premium-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-premium-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-premium-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-premium-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-premium-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.standard-premium-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-basic-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-basic-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-basic-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-basic-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-basic-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-basic-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-basic-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-basic-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-basic-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-standard-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-standard-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-standard-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-standard-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-standard-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-standard-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-standard-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-standard-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-standard-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-premium-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-premium-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-premium-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-premium-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-premium-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-premium-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-premium-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-premium-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_False.touring-premium-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.all_outcomes_reachable",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.at_least_three_affordable_plans",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-basic-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-basic-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-basic-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-basic-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-basic-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-basic-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-basic-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-basic-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-basic-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-standard-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-standard-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-standard-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-standard-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-standard-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-standard-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-standard-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-standard-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-standard-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-premium-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-premium-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-premium-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-premium-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-premium-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-premium-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-premium-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-premium-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.basic-premium-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-basic-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-basic-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-basic-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-basic-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-basic-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-basic-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-basic-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-basic-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-basic-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-standard-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-standard-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-standard-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-standard-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-standard-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-standard-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-standard-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-standard-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-standard-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-premium-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-premium-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-premium-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-premium-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-premium-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-premium-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-premium-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-premium-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.standard-premium-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-basic-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-basic-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-basic-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-basic-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-basic-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-basic-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-basic-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-basic-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-basic-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-standard-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-standard-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-standard-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-standard-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-standard-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-standard-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-standard-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-standard-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-standard-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-premium-simple-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-premium-simple-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-premium-simple-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-premium-balanced-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-premium-balanced-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-premium-balanced-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-premium-full-light.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-premium-full-varied.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "event_True.touring-premium-full-full.model",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "every_choice.event_delta",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "affordability.exact",
+      "passed": true,
+      "actual": "7",
+      "expected": "7"
+    },
+    {
+      "id": "affordability.below_exact",
+      "passed": true,
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "id": "affordability.none",
+      "passed": true,
+      "actual": "None",
+      "expected": "None"
+    },
+    {
+      "id": "affordability.one",
+      "passed": true,
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "id": "affordability.domain_cap",
+      "passed": true,
+      "actual": "14",
+      "expected": "14"
+    },
+    {
+      "id": "affordability.negative_constant",
+      "passed": true,
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "id": "reserve_boundary.0",
+      "passed": true,
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "id": "reserve_boundary.1",
+      "passed": true,
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "id": "reserve_boundary.2",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "reserve_boundary.3",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT-T01",
+      "passed": true,
+      "actual": "880",
+      "expected": "880"
+    },
+    {
+      "id": "RT-T02",
+      "passed": true,
+      "actual": "1180",
+      "expected": "1180"
+    },
+    {
+      "id": "wrong_model.same_seven_day_total",
+      "passed": true,
+      "actual": "1770",
+      "expected": "1770"
+    },
+    {
+      "id": "wrong_model.different_slope",
+      "passed": true,
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "id": "rounding.fuel_subtotal_100km",
+      "passed": true,
+      "actual": "1333/100",
+      "expected": "1333/100"
+    },
+    {
+      "id": "rounding.positive_half_cent",
+      "passed": true,
+      "actual": "101/100",
+      "expected": "101/100"
+    },
+    {
+      "id": "rounding.negative_half_cent",
+      "passed": true,
+      "actual": "-101/100",
+      "expected": "-101/100"
+    }
+  ]
+}

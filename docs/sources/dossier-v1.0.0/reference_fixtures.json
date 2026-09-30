@@ -1,0 +1,269 @@
+{
+  "specVersion": "1.0.0",
+  "author": "William McAda",
+  "status": "Dossier reference data; not a browser test suite",
+  "road_trip": {
+    "party": 3,
+    "distance_km": "900",
+    "km_per_liter": "12",
+    "fuel_price": "1.60",
+    "rental_per_day": "40",
+    "activity_per_group_day": "30",
+    "one_off": "200",
+    "days": 7,
+    "budget": "1800"
+  },
+  "food_truck": {
+    "batch_portions": 20,
+    "fixed_cost": "450",
+    "service_rate": 32,
+    "hours": 3,
+    "demand": {
+      "9": 120,
+      "12": 90,
+      "15": 60
+    },
+    "ingredients": [
+      {
+        "name": "Grain",
+        "quantity": "2",
+        "unit_price": "5"
+      },
+      {
+        "name": "Vegetables",
+        "quantity": "3",
+        "unit_price": "6"
+      },
+      {
+        "name": "Protein",
+        "quantity": "2",
+        "unit_price": "20"
+      },
+      {
+        "name": "Sauce",
+        "quantity": ".5",
+        "unit_price": "20"
+      },
+      {
+        "name": "Packaging",
+        "quantity": "20",
+        "unit_price": ".60"
+      }
+    ]
+  },
+  "theme_park": {
+    "grid_m": 2,
+    "site_m": [
+      60,
+      40
+    ],
+    "facilities": [
+      {
+        "id": "coaster",
+        "rect": [
+          2,
+          4,
+          20,
+          12
+        ],
+        "cost": 24000,
+        "door": [
+          12,
+          16
+        ]
+      },
+      {
+        "id": "carousel",
+        "rect": [
+          42,
+          4,
+          12,
+          12
+        ],
+        "cost": 12000,
+        "door": [
+          48,
+          16
+        ]
+      },
+      {
+        "id": "theater",
+        "rect": [
+          2,
+          26,
+          16,
+          10
+        ],
+        "cost": 10000,
+        "door": [
+          10,
+          26
+        ]
+      },
+      {
+        "id": "food",
+        "rect": [
+          42,
+          26,
+          10,
+          8
+        ],
+        "cost": 8000,
+        "door": [
+          48,
+          26
+        ]
+      },
+      {
+        "id": "services",
+        "rect": [
+          22,
+          8,
+          6,
+          8
+        ],
+        "cost": 4000,
+        "door": [
+          28,
+          12
+        ]
+      },
+      {
+        "id": "entrance",
+        "rect": [
+          24,
+          0,
+          4,
+          8
+        ],
+        "cost": 2000,
+        "door": [
+          28,
+          4
+        ]
+      }
+    ],
+    "paths": [
+      [
+        0,
+        18,
+        60,
+        4
+      ],
+      [
+        28,
+        0,
+        4,
+        40
+      ],
+      [
+        10,
+        16,
+        4,
+        2
+      ],
+      [
+        46,
+        16,
+        4,
+        2
+      ],
+      [
+        8,
+        22,
+        4,
+        4
+      ],
+      [
+        46,
+        22,
+        4,
+        4
+      ]
+    ],
+    "green": [
+      [
+        0,
+        0,
+        24,
+        4
+      ],
+      [
+        32,
+        0,
+        28,
+        4
+      ],
+      [
+        0,
+        36,
+        28,
+        4
+      ],
+      [
+        32,
+        36,
+        28,
+        4
+      ],
+      [
+        20,
+        26,
+        6,
+        8
+      ]
+    ],
+    "expansion_rect": [
+      32,
+      4,
+      10,
+      14
+    ]
+  },
+  "mars_colony": {
+    "population": 24,
+    "horizon_earth_days": 10,
+    "budget": 26000,
+    "cargo_cap_kg": "3400",
+    "baseline_counts": {
+      "oxygen": 3,
+      "water": 3,
+      "habitat": 3,
+      "solar": 4,
+      "battery": 1
+    },
+    "standard_food_kg": "172.8",
+    "lean_food_kg": "158.4",
+    "storm_days": [
+      4,
+      5,
+      6
+    ],
+    "storm_reduction": "0.25"
+  },
+  "powers_of_ten": {
+    "operation_answers": [
+      "2e-4",
+      "3.84e8",
+      "8",
+      "5e2",
+      "3.15e-5",
+      "4.44e8",
+      "6e-6",
+      "1.3872e9"
+    ],
+    "cell_actual_m": "8e-6",
+    "cell_model_m": ".16",
+    "earth_actual_m": "1.28e7",
+    "earth_model_m": ".02",
+    "moon_actual_m": "3.5e6",
+    "moon_distance_m": "3.84e8"
+  },
+  "core_objective_counts": {
+    "road_trip": 9,
+    "food_truck": 10,
+    "theme_park": 9,
+    "mars_colony": 10,
+    "powers_of_ten": 12
+  }
+}

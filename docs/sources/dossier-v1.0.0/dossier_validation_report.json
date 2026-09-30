@@ -1,0 +1,25 @@
+{
+  "dossierVersion": "1.0.0",
+  "documentPages": 44,
+  "coreObjectiveCounts": {
+    "road-trip": 9,
+    "food-truck": 10,
+    "theme-park": 9,
+    "mars-colony": 10,
+    "powers-of-ten": 12
+  },
+  "totalCoreObjectives": 50,
+  "visualReview": "All 44 rendered pages inspected. After final corrections, unchanged page images matched prior reviewed images; changed pages 35 and 43 were re-inspected.",
+  "tableStructure": "All Markdown table rows passed exact column-count checks during DOCX generation.",
+  "referenceTests": {
+    "passed": 77,
+    "total": 77,
+    "scope": "Reference arithmetic and geometry only."
+  },
+  "applicationRuntimeTested": false,
+  "physicalIPadTested": false,
+  "schoolNetworkTested": false,
+  "classroomTimingTested": false,
+  "finalArtworkLibraryComplete": false,
+  "deliveredScope": "Dossier, reference diagrams, numerical fixtures, independent checking script, and handoff prompt; no playable HTML projects."
+}
