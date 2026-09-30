@@ -1,11 +1,11 @@
 # Road Trip Planner project brief
 
-**Brief version:** 0.3, 30 September 2026  
+**Brief version:** 0.4, 30 September 2026  
 **Owner:** William McAda  
 **Product credit:** A WILLIAM MCADA PRODUCT  
 **Repository:** williammcada/Applied-Math-Projects  
 **Application directory:** road-trip-planner  
-**Current implementation:** Complete v0.1.0 development candidate; local verification recorded below. Physical iPad/network acceptance and deployment pending.  
+**Current implementation:** Complete v0.1.0 development candidate, locally verified and deployed to GitHub Pages. Physical iPad/network/printer acceptance remains pending.  
 **Target release:** v0.1.0  
 **Starting repository commit:** ec7753842c8321f5e2a9192529cb60da1e44d1b1
 
@@ -34,7 +34,7 @@ Approved U-09 applies. A session includes its inputs, attempts, snapshots, revie
 
 ## Delivery and verification
 
-Target files are a versioned RoadTripPlanner_v0.1.0.html and byte-identical index.html, teacher guide/answer reference, release notes and QA report. Development files may be separate; playing requires only the HTML. Intended hosting is GitHub Pages under this repository's road-trip-planner path. GitHub Pages is currently disabled; this candidate has not been deployed. Physical iPad and school-network checks remain explicit release evidence, separate from browser emulation.
+Delivery includes a versioned RoadTripPlanner_v0.1.0.html and byte-identical index.html, teacher guide/answer reference, release notes and QA report. Development files may be separate; playing requires only the HTML. The [live application](https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/) uses GitHub Pages from `main` at the repository root. The [deployment record](DEPLOYMENT-v0.1.0.md) establishes hosted byte identity and spot-check scope. Physical iPad, school-network and printer checks remain explicit acceptance evidence, separate from browser emulation and hosted verification.
 
 Use DESIGN → CHANGE SPEC → IMPLEMENT → CHECKPOINT → VERIFY → VERIFIED CHECKPOINT → RELEASE → DEPLOY. Preserve the candidate before extended tests and package from the exact verified state. Use the twenty specification checks plus the original dossier acceptance contract. Reference arithmetic checks are not application tests.
 
@@ -48,4 +48,4 @@ P-01 is approved: apply the $20/night event to whichever hotel the pair selected
 
 ## Preparation evidence
 
-See the [preparation report](../../docs/verification/ROAD-TRIP-v0.1.0-SPEC-REVIEW.md). Original source hashes, 77 dossier reference checks, and 259 expanded Road Trip mathematical checks pass. Those were preparation-only checks. The complete application now has 666 core and 83 browser checks, plus inspected A4/Letter print output; see [QA report](QA-REPORT-v0.1.0.md). Physical device/network checks and actual deployment remain pending.
+See the [preparation report](../../docs/verification/ROAD-TRIP-v0.1.0-SPEC-REVIEW.md). Original source hashes, 77 dossier reference checks, and 259 expanded Road Trip mathematical checks pass. Those were preparation-only checks. The complete application now has 666 core and 83 browser checks, plus inspected A4/Letter print output; see [QA report](QA-REPORT-v0.1.0.md). Hosted checks are recorded separately in the [deployment record](DEPLOYMENT-v0.1.0.md). Physical device/network/printer checks remain pending.

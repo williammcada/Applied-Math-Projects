@@ -1,7 +1,7 @@
 # Road Trip Planner v0.1.0 — candidate verification
 
 **Date:** 30 September 2026  
-**Disposition:** Locally verified development candidate. Physical classroom acceptance and deployment remain pending.  
+**Disposition:** Locally verified development candidate, now deployed with hosted checks recorded in [DEPLOYMENT-v0.1.0.md](DEPLOYMENT-v0.1.0.md). Physical classroom acceptance remains pending.  
 **App / content / save schema:** 0.1.0 / 1.0.0 / 1.0.0
 
 ## Exact candidate
@@ -59,7 +59,7 @@ These are test assertions, not mastery scores or a statement that every device/b
 | RT-Q17 | Passed: full offline file journey, no external requests, imported markup inert in preview and app, no runtime assets outside HTML. |
 | RT-Q18 | Passed: original inline assets registered and home/choices/outcome layouts inspected; actual itinerary data supplies outcomes; size measured above. |
 | RT-Q19 | Passed: app/content versions agree, guide/notes/briefs updated, both HTML files identical; reproducible build retained. |
-| RT-Q20 | **Not run / delivery blocked:** repository metadata reports `has_pages: false`; the connector rejects the Pages settings endpoint and exposes no Pages configuration tool. No live URL, hosted-version match or deployed save/print check is claimed. |
+| RT-Q20 | **Hosted identity, save/export/import and proposal preview passed:** Pages deployed from `main` at repository root; both served HTML files match the verified SHA-256 and version. Save/reload/resume and actual downloaded JSON import as a new copy passed. The four-page proposal preview rendered. The print command was invoked, but native cloud-browser print output was not observable; prior local PDF evidence applies. See the deployment record for exact scope and remaining physical checks. |
 
 ## Defects found and corrected before the final pass
 
@@ -71,7 +71,7 @@ These are test assertions, not mastery scores or a statement that every device/b
 
 6. Final review found that USD totals accepted a USD/day suffix. Total-money and daily-rate suffixes now have distinct parsers; four explicit regression assertions cover rejection and valid rate forms.
 
-The corrected checkpoint was preserved, then all final suites were run again against the final candidate above. No known failing automated checks remain. The explicit not-run items above prevent a classroom-ready or deployed-release claim.
+The corrected checkpoint was preserved, then all final suites were run again against the final candidate above. No known failing automated checks remain. The explicit physical-device/network/printer items above prevent a classroom-ready claim. Deployment is now separately evidenced without changing the application.
 
 ## Preserved visual evidence
 
@@ -83,8 +83,8 @@ The corrected checkpoint was preserved, then all final suites were run again aga
 - [Individual transfer slips](verification/transfer-slips.pdf)
 - [Verification manifest](verification/verification-manifest.json)
 
-## Next delivery / acceptance steps
+## Deployment addendum and remaining acceptance
 
-Enable GitHub Pages only after inspecting the repository settings, using the intended repository root source and `/road-trip-planner/` entry path. The repository connector cannot perform that settings operation; browser fallback requires user approval. After publishing, fetch and compare the actual served HTML hash/version and spot-check save/export/import and print at the real subpath. Preserve this candidate rather than rebuilding it to solve a delivery problem.
+At the original local verification checkpoint, Pages was disabled and no hosted checks were claimed. On 30 September 2026 the owner approved browser fallback, Pages was enabled from `main` at the repository root, and the exact preserved candidate was deployed. The [deployment record](DEPLOYMENT-v0.1.0.md) contains the successful workflow, served-byte comparison and hosted UI observations. No rebuild was used to solve delivery.
 
 On a physical iPad at school, verify Safari portrait/landscape, on-screen keyboard visibility, touch graph/input/help, resume/export/import, and the printer workflow. Repeat the backup/replacement drill on that device. Record observed results separately; browser emulation does not establish those facts.
