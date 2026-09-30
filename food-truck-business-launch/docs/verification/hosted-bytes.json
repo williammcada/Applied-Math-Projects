@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-09-30T07:30:18.934373+00:00",
+  "responses": [
+    {
+      "url": "https://williammcada.github.io/Applied-Math-Projects/food-truck-business-launch/",
+      "status": 200,
+      "bytes": 101711,
+      "sha256": "93d0fde0e125fb68b96eeef14816ac51d2bc0ce2b03670bc005c767dbd26aae0"
+    },
+    {
+      "url": "https://williammcada.github.io/Applied-Math-Projects/food-truck-business-launch/FoodTruck_v0.1.0.html",
+      "status": 200,
+      "bytes": 101711,
+      "sha256": "93d0fde0e125fb68b96eeef14816ac51d2bc0ce2b03670bc005c767dbd26aae0"
+    },
+    {
+      "url": "https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/",
+      "status": 200,
+      "bytes": 120755,
+      "sha256": "19afbe79565f1bda8739b0c2d5856005e6138832f39871213eda09b2de893dc8"
+    }
+  ]
+}

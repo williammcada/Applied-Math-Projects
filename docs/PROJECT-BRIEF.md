@@ -6,7 +6,7 @@
 **Repository:** `williammcada/Applied-Math-Projects`, branch `main`.  
 **Current running version:** [Road Trip Planner 0.1.0](https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/), content/schema 1.0.0; hosted bytes match the verified self-contained candidate.  
 **Source/baseline:** This preparation began at `ec7753842c8321f5e2a9192529cb60da1e44d1b1`. The earlier `f10b953305edaa18113016f473fffdd155fb7c60` planning checkpoint remains historical. Sources now live in `docs/sources/dossier-v1.0.0/`; Road Trip now has a complete candidate at `road-trip-planner/`.  
-**Next work:** Complete Food Truck release verification under the [approved specification](change-specs/FOOD-TRUCK-v0.1.0.md). Road Trip physical iPad/network/printer acceptance remains pending. Build each later application separately with its own specification and source checkpoint.  
+**Next work:** Food Truck is deployed with [verification evidence](../food-truck-business-launch/docs/DEPLOYMENT-v0.1.0.md). Theme Park is next for specification preparation when requested. Road Trip physical iPad/network/printer acceptance remains pending. Build each later application separately with its own specification and source checkpoint.  
 
 ## 1. Purpose, audience and detailed scope
 
@@ -88,3 +88,9 @@ Before substantive implementation retrieve these records, the current source, ap
 ## 9. Ecosystem boundary
 
 Shared principles do not establish shared code, accounts or interfaces. MathQuest is engagement, TestForge assessment design, GradePal learner-level evidence, and DataDiver institutional analytics. Integration remains separately specified unless confirmed in source. Other projects remain independent unless their brief explicitly says otherwise.
+
+## 10. Mars Colony production, 30 September 2026
+
+The owner approved [Mars Colony specification revision 1](change-specs/MARS-COLONY-v0.1.0.md) with “Proceed with production.” The approval authorizes implementation and the existing GitHub Pages delivery workflow. The [Mars project brief](../mars-colony/docs/PROJECT-BRIEF.md) records the project-specific scope.
+
+Mars now has a complete implementation candidate, readable source, standalone HTML, teacher materials and core/DOM verification evidence on `mars-colony-v0.1.0`. Browser/print verification is blocked by this execution environment; there is no verified Mars release or deployment. See [Mars QA](../mars-colony/docs/QA-REPORT-v0.1.0.md) and [deployment status](../mars-colony/docs/DEPLOYMENT-v0.1.0.md). Earlier statements that Mars is planning-only are historical. Other projects and their release status are unchanged by this Mars work.

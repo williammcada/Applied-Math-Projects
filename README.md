@@ -7,7 +7,7 @@ A family of five interactive applied-mathematics projects: Road Trip Planner, Fo
 ## Canonical project record
 
 **Repository:** `williammcada/Applied-Math-Projects`  
-**Current state:** Road Trip Planner v0.1.0 development candidate implemented, locally verified and deployed to GitHub Pages; original dossier/handoff v1.0.0 preserved. Physical iPad/school-network/printer acceptance remains pending.  
+**Current state:** Road Trip Planner and Food Truck / Business Launch v0.1.0 development candidates implemented, locally verified and deployed to GitHub Pages; original dossier/handoff v1.0.0 preserved. Physical iPad/school-network/printer acceptance remains pending.  
 **Handbook:** `williammcada/mcada-project-handbook`
 
 The repository is the canonical home for the current source, permanent project brief, and approved version-specific change specifications. Chat history is working context rather than the permanent project record.
@@ -19,6 +19,10 @@ The repository is the canonical home for the current source, permanent project b
 ## Food Truck / Business Launch
 
 [Open the application](https://williammcada.github.io/Applied-Math-Projects/food-truck-business-launch/) · [Standalone HTML](food-truck-business-launch/FoodTruck_v0.1.0.html) · [Getting started](food-truck-business-launch/README.md) · [QA report](food-truck-business-launch/docs/QA-REPORT-v0.1.0.md)
+
+## Mars Colony
+
+[Mars Colony v0.1.0 candidate](mars-colony/README.md) · [Approved specification](docs/change-specs/MARS-COLONY-v0.1.0.md) · [Teacher guide](mars-colony/docs/TEACHER-GUIDE.md) · [QA report](mars-colony/docs/QA-REPORT-v0.1.0.md). Complete implementation is preserved on the production branch; browser/print verification and deployment remain pending.
 
 ## Documentation
 

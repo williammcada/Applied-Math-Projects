@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-30",
+  "status": "candidate structural checks only; browser and print verification not run",
+  "htmlBytes": 105976,
+  "sha256": "31f21085d65c306c8a256823e8dc9c84bb5ed6a1c3a351cef32590aee95a54ec",
+  "checks": [
+    "Standalone and index bytes identical",
+    "Current HTML equals deterministic source substitution without rebuilding",
+    "No external runtime resource tag",
+    "No fetch/XMLHttpRequest/WebSocket/sendBeacon call",
+    "Below 8 MiB size target"
+  ],
+  "files": {
+    "index.html": "31f21085d65c306c8a256823e8dc9c84bb5ed6a1c3a351cef32590aee95a54ec",
+    "MarsColony_v0.1.0.html": "31f21085d65c306c8a256823e8dc9c84bb5ed6a1c3a351cef32590aee95a54ec",
+    "src/core.js": "49fb36b8aaca98a6dc1ccb36058cfd3e614fb0f6758ccd606e131e5a1319465d",
+    "src/ui.js": "b8bdbff09288f8787b3dc99ac679a3abfdf30829a5d1ecc708bdf720ba8d7975",
+    "src/art.js": "853db8418084dc45ff2ef295f7935bb0c0764ff97d2963818d5fa29e6f6fc12a",
+    "src/style.css": "3a1e1c161ee8180693aa951133c53e94361fa0d6a82e7e14c2a0dc42c302f3af",
+    "src/template.html": "4e7d904fb43625af5178dcc23e03065b504b18d42ee3e0b8b76f7765f50a0fe9",
+    "build.py": "603be76bd03e322e7465bb9bd0e1cb33305a12b7f3a319a6c9e582182453d4e9",
+    "tests/core.test.cjs": "484098cccc32a3de25d9f0e9f1fa25a06504e456b69cb6a8d54ffc556ba18b8b",
+    "tests/dom.test.cjs": "887675cc55be10dfcef4bb498b489ab448e9427b562f1a1283a7571e21264811",
+    "tests/browser.test.cjs": "15d6fd22677f59b9d2a235b7282335f5d8f95e6cb41b8e056c2fcc6f4e9dd8a7",
+    "tests/reference-cases-v0.1.0.json": "63e8c7a4ea922e2895f90dd3d48666161242cf6509621d6ee47e65a9fe12d129"
+  }
+}
