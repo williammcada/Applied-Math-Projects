@@ -7,14 +7,14 @@ A family of five interactive applied-mathematics projects: Road Trip Planner, Fo
 ## Canonical project record
 
 **Repository:** `williammcada/Applied-Math-Projects`  
-**Current state:** Road Trip Planner v0.1.0 development candidate implemented and locally verified; original dossier/handoff v1.0.0 preserved. Physical iPad/school-network acceptance and GitHub Pages deployment remain pending.  
+**Current state:** Road Trip Planner v0.1.0 development candidate implemented, locally verified and deployed to GitHub Pages; original dossier/handoff v1.0.0 preserved. Physical iPad/school-network/printer acceptance remains pending.  
 **Handbook:** `williammcada/mcada-project-handbook`
 
 The repository is the canonical home for the current source, permanent project brief, and approved version-specific change specifications. Chat history is working context rather than the permanent project record.
 
 ## Road Trip Planner
 
-[Open/download the self-contained application](road-trip-planner/RoadTripPlanner_v0.1.0.html) · [Getting started](road-trip-planner/README.md) · [Teacher guide](road-trip-planner/docs/TEACHER-GUIDE.md) · [QA report](road-trip-planner/docs/QA-REPORT-v0.1.0.md)
+[Open the live application](https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/) · [Download the self-contained application](road-trip-planner/RoadTripPlanner_v0.1.0.html) · [Getting started](road-trip-planner/README.md) · [Teacher guide](road-trip-planner/docs/TEACHER-GUIDE.md) · [QA report](road-trip-planner/docs/QA-REPORT-v0.1.0.md) · [Deployment record](road-trip-planner/docs/DEPLOYMENT-v0.1.0.md)
 
 ## Documentation
 

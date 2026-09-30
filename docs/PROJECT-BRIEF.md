@@ -1,12 +1,12 @@
 # Project Brief — Applied Mathematics Project Series
 
-**Brief version:** 0.6 — Road Trip implementation candidate, 30 September 2026  
+**Brief version:** 0.7 — Road Trip deployed candidate, 30 September 2026  
 **Owner:** William McAda · **Credit:** A WILLIAM MCADA PRODUCT  
-**Status:** Original dossier/handoff preserved; Road Trip v0.1.0 implemented from approved revision 1 and locally verified. Physical iPad/network acceptance and Pages deployment remain pending.  
+**Status:** Original dossier/handoff preserved; Road Trip v0.1.0 implemented from approved revision 1, locally verified and deployed to GitHub Pages. Physical iPad/network/printer acceptance remains pending.  
 **Repository:** `williammcada/Applied-Math-Projects`, branch `main`.  
-**Current running version:** Road Trip Planner 0.1.0 self-contained development candidate; no verified live hosted version.  
+**Current running version:** [Road Trip Planner 0.1.0](https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/), content/schema 1.0.0; hosted bytes match the verified self-contained candidate.  
 **Source/baseline:** This preparation began at `ec7753842c8321f5e2a9192529cb60da1e44d1b1`. The earlier `f10b953305edaa18113016f473fffdd155fb7c60` planning checkpoint remains historical. Sources now live in `docs/sources/dossier-v1.0.0/`; Road Trip now has a complete candidate at `road-trip-planner/`.  
-**Next work:** Complete physical iPad/network acceptance and configure/verify GitHub Pages delivery for the Road Trip candidate. Build each later application separately with its own specification and source checkpoint.  
+**Next work:** Complete physical iPad/network/printer acceptance for the Road Trip candidate. Build each later application separately with its own specification and source checkpoint.  
 
 ## 1. Purpose, audience and detailed scope
 
@@ -23,7 +23,7 @@
 
 ## 2. This task and boundaries
 
-This task preserves the original dossier/handoff, specifies Road Trip v0.1.0, adds its local project brief and mathematical fixtures, and records preparation checks. The owner authorized this preparation after review of the next-step plan. William McAda explicitly approved the selected-hotel event adjustment P-01 and merging the specification into main on 30 September 2026; see the [approval record](decisions/ROAD-TRIP-v0.1.0-APPROVAL.md). The subsequent “Proceed” instruction authorized implementation. Road Trip is now implemented and checked; no handbook rule was changed.
+This task preserves the original dossier/handoff, specifies Road Trip v0.1.0, adds its local project brief and mathematical fixtures, and records preparation checks. The owner authorized this preparation after review of the next-step plan. William McAda explicitly approved the selected-hotel event adjustment P-01 and merging the specification into main on 30 September 2026; see the [approval record](decisions/ROAD-TRIP-v0.1.0-APPROVAL.md). The subsequent “Proceed” instruction authorized implementation. The owner then approved browser fallback to enable GitHub Pages because the repository connector cannot configure Pages. Road Trip is now implemented, checked and deployed; no handbook rule was changed.
 
 ## 3. Standards and adoption
 
@@ -68,12 +68,12 @@ Use dossier QA-01–20: core objective coverage, numeric/geometry fixtures, vali
 | Exact planning/source baseline identified and preserved | Passed — original handoff hashes verified; source provenance records baseline ec77538 |
 | Original dossier reference mathematics | Passed — 77/77 reference checks rerun; no application verification inferred |
 | Road Trip specification mathematics | Passed — 259/259, including 81 choices before/after approved P-01; no application verification inferred |
-| Project-specific checks above, with inputs and expected/actual results | Not run |
-| Save/import/export and malformed-input regression | Not run |
-| Intended devices and real deployment path, where applicable | Not run |
-| Version, release notes and delivered bytes agree | Not run |
+| Project-specific application checks, with inputs and expected/actual results | Passed in the recorded local environment: 666 core and 83 browser assertions; see the Road Trip QA report |
+| Save/import/export and malformed-input regression | Passed locally; hosted save/reload/resume and actual JSON export/import copy also passed |
+| Intended devices and real deployment path, where applicable | Hosted path and exact bytes verified; physical iPad/school network/printer acceptance pending |
+| Version, release notes and delivered bytes agree | Passed: app 0.1.0, content/schema 1.0.0, both hosted HTML files match the verified candidate |
 
-The next build report must name the candidate, environment and test results; historical reports of passing tests do not transfer to a changed candidate.
+The [QA report](../road-trip-planner/docs/QA-REPORT-v0.1.0.md) and [deployment record](../road-trip-planner/docs/DEPLOYMENT-v0.1.0.md) name the candidate, environment and observed results. Historical reports of passing tests do not transfer to a changed candidate.
 
 ## 8. Handoff and provenance
 
@@ -81,7 +81,7 @@ Current source identity is recorded in [source provenance](sources/PROVENANCE.md
 
 Preserved records: the full extracted William_McAda_Applied_Math_Projects_Handoff_v1.0.0 package, including Word/Markdown dossier, reference fixtures/checker, original reports and concept art. The ZIP identity and attached Word equality are recorded in provenance; the ZIP itself is not duplicated in the repository.
 
-This task directly read the dossier common/Road Trip/release material, original handoff instructions, fixture data/checker, current project records and applicable handbook. Historical external references are preserved, not represented as newly verified. No current app code exists to test.
+Preparation directly read the dossier common/Road Trip/release material, original handoff instructions, fixture data/checker, project records and applicable handbook. Historical external references are preserved, not represented as newly verified. Road Trip now has application code and verification evidence; the other four apps remain at the planning stage.
 
 Before substantive implementation retrieve these records, the current source, approved change spec and applicable handbook. If an indispensable spec is inaccessible, report the gap instead of filling it with invented details. Do not delete unique historical chats/assets until their contents are independently preserved.
 

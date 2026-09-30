@@ -26,6 +26,10 @@ First complete application from approved specification revision 1 and the preser
 - Record the first complete analyzed submission and normalized numeric/model evidence.
 - Reject daily-rate suffixes in total-money fields and total-money suffixes in daily-rate fields.
 
-### Outstanding acceptance / delivery
+### Deployment
 
-Physical Safari iPad, its on-screen keyboard, actual school network and actual printer checks remain pending. GitHub Pages is currently disabled and its settings cannot be changed through the available repository connector. No hosted byte/version check or production release is claimed.
+Deployed on 30 September 2026 from `main` at the repository root, with HTTPS enforced. Both hosted entry files match the verified candidate byte for byte. Hosted save/reload/resume, JSON export/import as a new copy, and four-page proposal preview were checked. Application code and version are unchanged. See the [deployment record](docs/DEPLOYMENT-v0.1.0.md).
+
+### Outstanding acceptance
+
+Physical Safari iPad, its on-screen keyboard, actual school network and actual printer checks remain pending. The cloud-browser print command was invoked, but its native print dialog/output was not observable; prior local Chromium PDF evidence remains the print-output verification.

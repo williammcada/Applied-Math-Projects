@@ -6,7 +6,7 @@ A self-contained applied-mathematics activity for advanced Grade 5 / Introductio
 
 ## Candidate status
 
-The complete application is implemented and verified in the environments listed in [QA-REPORT-v0.1.0.md](docs/QA-REPORT-v0.1.0.md). This is a development candidate, not a claim of physical iPad or school-network acceptance. GitHub Pages is not enabled yet.
+The complete application is implemented, verified in the environments listed in [QA-REPORT-v0.1.0.md](docs/QA-REPORT-v0.1.0.md), and deployed to GitHub Pages. Physical iPad, school-network and printer acceptance remain pending. See the [deployment record](docs/DEPLOYMENT-v0.1.0.md) for hosted byte identity and observed checks.
 
 - Application: **0.1.0**
 - Content and initial save schema: **1.0.0**
@@ -18,7 +18,7 @@ The complete application is implemented and verified in the environments listed 
 
 Download [RoadTripPlanner_v0.1.0.html](RoadTripPlanner_v0.1.0.html) and open it in a modern desktop browser. No installation, network, accounts, external fonts, or other files are needed. [index.html](index.html) is byte-identical and is the intended hosted entry point.
 
-For an iPad, use the hosted page after deployment. Physical Safari and the actual school network must still be checked. The intended Pages path is `/Applied-Math-Projects/road-trip-planner/`; it is not currently a verified live URL.
+Open the [live application](https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/) on an iPad or desktop. The hosted HTML is byte-identical to the verified candidate. Physical Safari and the actual school network must still be checked.
 
 Start with an alias, assign Planner/Checker roles, and work through the eight named stages. Use a teacher-supplied calculator on fields marked “Calculator allowed.” Help uses different-number examples. Incorrect mathematics can be revised without erasing earlier attempts; correct mathematics can describe a weak or over-budget plan.
 
