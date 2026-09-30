@@ -1,12 +1,12 @@
 # Project Brief — Applied Mathematics Project Series
 
-**Brief version:** 0.4 — Road Trip specification and source preservation, 30 September 2026  
+**Brief version:** 0.5 — Road Trip specification approval, 30 September 2026  
 **Owner:** William McAda · **Credit:** A WILLIAM MCADA PRODUCT  
-**Status:** Original dossier/handoff preserved; Road Trip v0.1.0 specification Draft 1 prepared. Application implementation, functional verification and deployment remain pending.  
+**Status:** Original dossier/handoff preserved; Road Trip v0.1.0 specification revision 1 approved. Application implementation, functional verification and deployment remain pending.  
 **Repository:** `williammcada/Applied-Math-Projects`, branch `main`.  
 **Current running version:** Not applicable — no executable application has yet been committed for this project family.  
 **Source/baseline:** This preparation began at `ec7753842c8321f5e2a9192529cb60da1e44d1b1`. The earlier `f10b953305edaa18113016f473fffdd155fb7c60` planning checkpoint remains historical. Sources now live in `docs/sources/dossier-v1.0.0/`; no executable HTML application is established.  
-**Next work:** Resolve Road Trip specification P-01, approve the exact draft, then implement Road Trip v0.1.0. Build each later application separately with its own specification and source checkpoint.  
+**Next work:** Implement Road Trip v0.1.0 against approved specification revision 1, including P-01. Build each later application separately with its own specification and source checkpoint.  
 
 ## 1. Purpose, audience and detailed scope
 
@@ -23,7 +23,7 @@
 
 ## 2. This task and boundaries
 
-This task preserves the original dossier/handoff, specifies Road Trip v0.1.0, adds its local project brief and mathematical fixtures, and records preparation checks. The owner authorized this preparation after review of the next-step plan. The proposed selected-hotel event adjustment P-01 is not silently approved. No application, website, or handbook rule is changed by this preparation.
+This task preserves the original dossier/handoff, specifies Road Trip v0.1.0, adds its local project brief and mathematical fixtures, and records preparation checks. The owner authorized this preparation after review of the next-step plan. William McAda explicitly approved the selected-hotel event adjustment P-01 and merging the specification into main on 30 September 2026; see the [approval record](decisions/ROAD-TRIP-v0.1.0-APPROVAL.md). No application, website, or handbook rule is changed by this preparation.
 
 ## 3. Standards and adoption
 
@@ -39,7 +39,7 @@ The detailed scope above is the feature-preservation inventory. Preserve existin
 
 ## 5. Source, release and deployment discipline
 
-The repository remains planning-only. Road Trip now has a complete Draft 1 implementation contract and reference-check support. The other four applications retain their dossier designs and planning READMEs; they have not been implemented.
+The repository remains planning-only. Road Trip now has an approved revision 1 implementation contract and reference-check support. The other four applications retain their dossier designs and planning READMEs; they have not been implemented.
 
 See [source provenance](sources/PROVENANCE.md) for the current source-preservation record and [MIGRATION-BASELINE.md](MIGRATION-BASELINE.md) for the historical September 18 planning baseline. See the [Road Trip specification](change-specs/ROAD-TRIP-PLANNER-v0.1.0.md) and [preparation review](verification/ROAD-TRIP-v0.1.0-SPEC-REVIEW.md) for this task's scope and evidence.
 
@@ -49,7 +49,7 @@ Use “implementation checkpoint” or “release candidate” before verificati
 
 ## 6. Known issues, conflicts and open evidence
 
-No working apps are established by the dossier. The complete dossier and fixtures have now been preserved in the repository; use those exact field/asset contracts rather than this brief's summary. The original 'slide overlap' artifact remains unverified. Road Trip P-01 resolves a genuine gap in the price event and remains proposed until decided.
+No working apps are established by the dossier. The complete dossier and fixtures have now been preserved in the repository; use those exact field/asset contracts rather than this brief's summary. The original 'slide overlap' artifact remains unverified. Approved Road Trip P-01 resolves the price-event gap by applying the increase to every selectable hotel category.
 
 | Conflict or risk | Required handling |
 | --- | --- |
@@ -57,7 +57,7 @@ No working apps are established by the dossier. The complete dossier and fixture
 | Proposed next scope versus working baseline | Use the approved version-specific specification; do not silently promote proposals. |
 | Other project rules | Do not import AAC quotas, other-game retry counts, or a shared backend without explicit scope. |
 | Handbook proposals | No additional exception or proposal is adopted by this brief. |
-| Standard-only hotel event versus required revision for every pair | Decide P-01 in the Road Trip specification before implementation; do not skip the learning checkpoint. |
+| Standard-only hotel event versus required revision for every pair | Apply approved P-01: +$20/night to the selected hotel; revised quotes also apply when switching categories. |
 
 ## 7. Verification contract
 
@@ -67,7 +67,7 @@ Use dossier QA-01–20: core objective coverage, numeric/geometry fixtures, vali
 | --- | --- |
 | Exact planning/source baseline identified and preserved | Passed — original handoff hashes verified; source provenance records baseline ec77538 |
 | Original dossier reference mathematics | Passed — 77/77 reference checks rerun; no application verification inferred |
-| Road Trip specification mathematics | Passed — 259/259, including 81 choices before/after proposed P-01; no application verification inferred |
+| Road Trip specification mathematics | Passed — 259/259, including 81 choices before/after approved P-01; no application verification inferred |
 | Project-specific checks above, with inputs and expected/actual results | Not run |
 | Save/import/export and malformed-input regression | Not run |
 | Intended devices and real deployment path, where applicable | Not run |

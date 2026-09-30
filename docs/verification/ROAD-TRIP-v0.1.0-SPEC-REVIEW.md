@@ -5,6 +5,8 @@
 **Repository starting commit:** ec7753842c8321f5e2a9192529cb60da1e44d1b1  
 **Scope:** Source preservation, specification completeness and mathematical feasibility. No application exists.
 
+**Historical report:** The results and pending-decision wording below describe Draft 1 at checkpoint 393f2e1. William McAda subsequently approved the specification and P-01 on 30 September 2026. See the [approval record](../decisions/ROAD-TRIP-v0.1.0-APPROVAL.md) and the fresh approved-revision reference report linked there. The original review findings are retained without being relabeled as application verification.
+
 ## Results
 
 | Check | Result | Evidence and limitation |

@@ -1,6 +1,6 @@
 # Road Trip Planner project brief
 
-**Brief version:** 0.1, 30 September 2026  
+**Brief version:** 0.2, 30 September 2026  
 **Owner:** William McAda  
 **Product credit:** A WILLIAM MCADA PRODUCT  
 **Repository:** williammcada/Applied-Math-Projects  
@@ -17,7 +17,7 @@ Students plan a fictional trip for three travelers, model its cost as a linear f
 
 The immutable starting content is the [dossier v1.0.0](../../docs/sources/dossier-v1.0.0/William_McAda_Applied_Math_Projects_Dossier_v1.0.0.md), common sections 01–12, Road Trip sections 13–17, and acceptance/source sections 39–42. The attached Word copy matches the archived Word copy exactly. [Provenance](../../docs/sources/PROVENANCE.md) records its identity.
 
-The current [implementation specification](../../docs/change-specs/ROAD-TRIP-PLANNER-v0.1.0.md) is Draft 1. Preparation/source preservation is authorized; proposed adjustment P-01 still needs a decision. Approval and the actual implementation checkpoint must be recorded here before claiming a build exists. App, content, and initial save-schema targets are respectively 0.1.0, 1.0.0, and 1.0.0; those numbers do not establish backward compatibility with a nonexistent prior app.
+The current [implementation specification](../../docs/change-specs/ROAD-TRIP-PLANNER-v0.1.0.md) is approved revision 1. William McAda approved P-01 and merging the specification into main on 30 September 2026; see the [approval record](../../docs/decisions/ROAD-TRIP-v0.1.0-APPROVAL.md). The actual implementation checkpoint must still be recorded before claiming a build exists. App, content, and initial save-schema targets are respectively 0.1.0, 1.0.0, and 1.0.0; those numbers do not establish backward compatibility with a nonexistent prior app.
 
 ## Must retain
 
@@ -42,9 +42,9 @@ Use DESIGN → CHANGE SPEC → IMPLEMENT → CHECKPOINT → VERIFY → VERIFIED 
 
 Consulted revision 00cbde605ab08203b6b5fd2374d225155608fc29, v0.1.1: AI-START-HERE.md, UNIVERSAL-RULES.md, CONDITIONAL-STANDARDS.md (S-02, S-04, S-05), RELEASE-CHECKLIST.md. U-09 is approved. Earlier seeded rules and selected draft modules retain their original status; this project already embodies their relevant principles. No unrelated local restrictions are imported.
 
-## Open decision
+## Approved decision
 
-P-01 proposes applying the $20/night event to whichever hotel the pair selected, including revised quotes for later switching. The dossier names only the standard hotel, leaving the mandatory revision task undefined for other initial choices. Draft 1 recommends the selected-hotel approach and preserves a standard-only comparison alternative. No user-facing policy switch or silent change is authorized.
+P-01 is approved: apply the $20/night event to whichever hotel the pair selected, including revised quotes for later switching. The resulting nightly rates are basic $80, standard $110, and premium $150. This explicitly supersedes the dossier's standard-only wording for Road Trip. There is no user-facing policy switch or separate standard-only comparison task.
 
 ## Preparation evidence
 

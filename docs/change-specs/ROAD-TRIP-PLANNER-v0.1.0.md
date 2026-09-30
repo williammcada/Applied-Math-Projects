@@ -1,9 +1,9 @@
 # Road Trip Planner v0.1.0 implementation specification
 
-**Specification revision:** Draft 1, 30 September 2026  
+**Specification revision:** Approved revision 1, 30 September 2026  
 **Owner:** William McAda  
 **Product credit:** A WILLIAM MCADA PRODUCT  
-**Status:** Specification preparation and source preservation authorized. Existing dossier requirements are carried forward. P-01 below is a proposed content adjustment awaiting a decision. This is not an implemented or verified application release.  
+**Status:** Approved by William McAda on 30 September 2026, including P-01 and merging the specification into main. Existing dossier requirements are carried forward with the selected-hotel event adjustment below. This is not an implemented or verified application release. See [approval record](../decisions/ROAD-TRIP-v0.1.0-APPROVAL.md).  
 **Canonical repository:** [williammcada/Applied-Math-Projects](https://github.com/williammcada/Applied-Math-Projects)  
 **Planning baseline:** ec7753842c8321f5e2a9192529cb60da1e44d1b1  
 **Application target:** 0.1.0. No previous executable release exists.  
@@ -35,14 +35,14 @@ The numerical defaults and client ratings below come from the dossier and remain
 
 | ID | Decision or clarification | Status |
 | --- | --- | --- |
-| P-01 | Apply the $20/night disruption to the selected hotel category. On entry to the alert stage, all three hotel quotes receive the same $20 uplift; switching hotels afterward uses the revised quote. This guarantees that every pair revises a model and prevents changing categories from undoing the event. | Proposed change to the dossier's standard-hotel-only wording. Owner decision required before implementation. |
+| P-01 | Apply the $20/night disruption to the selected hotel category. On entry to the alert stage, all three hotel quotes receive the same $20 uplift; switching hotels afterward uses the revised quote. This guarantees that every pair revises a model and prevents changing categories from undoing the event. | Approved by William McAda on 30 September 2026. This project-local adjustment supersedes the dossier's standard-hotel-only wording. |
 | I-01 | Core scenario keeps three travelers, a desired seven-day trip, and the $1,800 budget. All listed vehicle, hotel, food, and activity choices remain selectable. The stated 1–6 traveler and 1–14 day boundaries guide data validation and future teacher scenarios; no general scenario editor is added. | Concrete implementation of dossier defaults. |
 | I-02 | Offer guided term construction and an equivalent-expression entry alternative. Both require independent slope/constant responses and interpretation; the app never accepts a right total as proof of a right model. | Implementation detail preserving C04. |
 | I-03 | Digital individual transfer is the default. A teacher may record a separate paper/oral response, which stays pending review until checked. Device sharing alone is not evidence of independent work. | Implements dossier evidence and teacher-review rules. |
 | I-04 | Do not add school-year/class folders. A session is the complete saved-work group: inputs, attempts, reviews, and reports. Provide Delete session and Clear all Road Trip sessions. | U-09 applied without an unnecessary management layer. |
 | I-05 | For noncanonical research distances, keep exact rational fuel calculations, round the fuel-cost subtotal once to cents, then use that disclosed subtotal throughout the cost model. Do not round liters early. | Explicit precision policy needed for recurring decimal results; canonical figures are unchanged. |
 
-If P-01 is declined, revise this specification before coding: retain the standard-only rate change and add a required standard-hotel comparison for pairs that selected another category. Do not silently skip RT-C08 or force all initial plans to choose the standard hotel. Do not build a user-facing switch between these two designs.
+P-01 is approved: use the selected-hotel increase, including revised quotes for all hotel categories after the event. Do not skip RT-C08 or force all initial plans to choose the standard hotel. The earlier standard-only comparison alternative is not part of this release; no user-facing policy switch is required.
 
 ## 4 Scenario data and mathematical model
 
@@ -57,7 +57,7 @@ Use stable source IDs. Values shown here are in dollars; store monetary source v
 | RT-D05 | Hotel $60 / $90 / $130 per group per night | Basic / standard / premium; client ratings 15 / 30 / 30 |
 | RT-D06 | Food $10 / $15 / $20 per person per day | Client ratings 10 / 20 / 25 |
 | RT-D07 | Activities $10 / $20 / $30 per group per day | Client ratings 10 / 20 / 30 |
-| RT-D08 | Price event +$20 per night | Canonical standard rate becomes $110; extension to other categories depends on P-01 |
+| RT-D08 | Price event +$20 per night | Approved P-01 rates become basic $80, standard $110, premium $150 |
 
 Publish all client ratings before selection. Lodging and activities are the two highest-weight priorities. Expensive cars and premium hotels do not earn additional ratings. The four component ratings form U, the disclosed client-fit indicator; U is not a mathematics grade.
 
@@ -274,7 +274,7 @@ RT-Q01–20 collectively cover dossier QA-01–20 plus the Road Trip-specific ch
 
 ## 13 Build and release sequence
 
-1. DESIGN / CHANGE SPEC: resolve P-01, record the decision and approved spec revision in the project brief, and preserve this packet as the source baseline.
+1. DESIGN / CHANGE SPEC: completed for approved revision 1, including P-01. Preserve the approval record and this packet as the implementation source baseline.
 2. IMPLEMENT: write pure evaluators and targeted tests, then the full journey, fixed checkpoint content, state/dependencies, help, reporting, embedded art, and responsive interactions. Complete these as parts of one application, not separate student products.
 3. CHECKPOINT: commit the complete candidate with a meaningful message such as “Road Trip Planner v0.1.0 implementation checkpoint” before extended verification.
 4. VERIFY: run reference and actual app tests, full success/revision paths, imports/deletion, prints, layout/input checks, and inspect all assets/endings. Fix defects and create a new candidate checkpoint when bytes change.
@@ -288,4 +288,4 @@ If packaging/upload/deployment fails, recover the preserved candidate. Do not re
 
 ## 14 Completion of this preparation task
 
-This task supplies the preserved dossier/handoff, this implementation contract, a project-specific brief, reference cases and checker, and an honest preparation-verification record. It adds no executable app and does not claim app tests or deployment passed. The next concrete decision is P-01; the next development deliverable after specification approval is the complete Road Trip Planner v0.1.0 implementation candidate.
+This task supplies the preserved dossier/handoff, this implementation contract, a project-specific brief, reference cases and checker, and an honest preparation-verification record. It adds no executable app and does not claim app tests or deployment passed. P-01 and this specification were approved on 30 September 2026. The next development deliverable is the complete Road Trip Planner v0.1.0 implementation candidate.

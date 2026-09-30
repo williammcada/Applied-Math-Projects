@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Check Road Trip Draft 1 reference mathematics, not an HTML application.
+"""Check Road Trip approved revision 1 reference mathematics, not an HTML application.
 
 Uses a direct itemized-cost sum to independently check coefficient-form totals.
-The proposed selected-hotel event is labeled P-01; its tests do not approve it.
+The selected-hotel event P-01 was approved by the owner on 30 September 2026.
+These tests check its mathematics; they are not application verification.
 """
 import argparse
 import itertools
@@ -101,7 +102,7 @@ def verify(data):
     check("rounding.fuel_subtotal_100km", rounded_cents(F(100,12)*F("1.60")), F("13.33"))
     check("rounding.positive_half_cent", rounded_cents(F("1.005")), F("1.01"))
     check("rounding.negative_half_cent", rounded_cents(F("-1.005")), F("-1.01"))
-    return {"scope": "Specification arithmetic, 81 choices before/after proposed P-01, and mathematical outcome feasibility only. No app, parser, UI, save, print, device, or deployment tested.",
+    return {"scope": "Specification arithmetic, 81 choices before/after approved P-01, and mathematical outcome feasibility only. No app, parser, UI, save, print, device, or deployment tested.",
             "specRevision": data["specRevision"], "eventPolicy": data["eventPolicy"],
             "passed": all(c["passed"] for c in checks), "count": len(checks),
             "choiceEnumeration": enumeration, "checks": checks}

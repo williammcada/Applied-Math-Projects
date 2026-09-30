@@ -1,7 +1,7 @@
 {
-  "specRevision": "0.1.0-draft.1",
+  "specRevision": "0.1.0-approved.1",
   "scope": "Specification mathematics and ending feasibility; not application tests or real student saves",
-  "eventPolicy": "Proposed P-01 selected-hotel uplift, pending owner decision",
+  "eventPolicy": "Approved P-01 selected-hotel uplift, 30 September 2026",
   "base": {
     "party": 3,
     "desiredDays": 7,
