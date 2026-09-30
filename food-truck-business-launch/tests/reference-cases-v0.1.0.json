@@ -1,0 +1,61 @@
+{
+  "status": "Food Truck v0.1.0 specification Draft 1 reference mathematics; not application tests",
+  "projectId": "food-truck",
+  "specRevision": "draft-1",
+  "base": {
+    "batchPortions": 20,
+    "fixedCost": "450",
+    "serviceRate": 32,
+    "hours": 3,
+    "ingredients": [
+      {"id":"grain","quantity":"2","unitPrice":"5","expectedLineCost":"10"},
+      {"id":"vegetables","quantity":"3","unitPrice":"6","expectedLineCost":"18"},
+      {"id":"protein","quantity":"2","unitPrice":"20","expectedLineCost":"40"},
+      {"id":"sauce","quantity":"0.5","unitPrice":"20","expectedLineCost":"10"},
+      {"id":"packaging","quantity":"20","unitPrice":"0.60","expectedLineCost":"12"}
+    ]
+  },
+  "recipes": [
+    {"stock":60,"factor":3,"quantities":["6","9","6","1.5","60"],"lineCosts":["30","54","120","30","36"],"total":"270"},
+    {"stock":80,"factor":4,"quantities":["8","12","8","2","80"],"lineCosts":["40","72","160","40","48"],"total":"360"},
+    {"stock":100,"factor":5,"quantities":["10","15","10","2.5","100"],"lineCosts":["50","90","200","50","60"],"total":"450"},
+    {"stock":120,"factor":6,"quantities":["12","18","12","3","120"],"lineCosts":["60","108","240","60","72"],"total":"540"}
+  ],
+  "prices": [
+    {"price":"9","demand":120,"contribution":"4.5","markup":"100.0","crossing":"100","crossingRevenue":"900","firstNonLoss":100,"firstProfit":101,"profitBefore":"0","profitAt":"4.5","revenueTable":["0","540","900"],"profitAt30":"-315"},
+    {"price":"12","demand":90,"contribution":"7.5","markup":"166.7","crossing":"60","crossingRevenue":"720","firstNonLoss":60,"firstProfit":61,"profitBefore":"0","profitAt":"7.5","revenueTable":["0","720","1200"],"profitAt30":"-225"},
+    {"price":"15","demand":60,"contribution":"10.5","markup":"233.3","crossing":"300/7","crossingRevenue":"4500/7","firstNonLoss":43,"firstProfit":43,"profitBefore":"-9","profitAt":"1.5","revenueTable":["0","900","1500"],"profitAt30":"-135"}
+  ],
+  "launches": [
+    {"id":"FT-9-60","price":"9","stock":60,"sales":60,"revenue":"540","expense":"720","profit":"-180","waste":0,"wastePercent":"0","sellThrough":"100","limits":["stock"],"ending":"Business rethink"},
+    {"id":"FT-9-80","price":"9","stock":80,"sales":80,"revenue":"720","expense":"810","profit":"-90","waste":0,"wastePercent":"0","sellThrough":"100","limits":["stock"],"ending":"Business rethink"},
+    {"id":"FT-9-100","price":"9","stock":100,"sales":96,"revenue":"864","expense":"900","profit":"-36","waste":4,"wastePercent":"4","sellThrough":"96","limits":["capacity"],"ending":"Business rethink"},
+    {"id":"FT-9-120","price":"9","stock":120,"sales":96,"revenue":"864","expense":"990","profit":"-126","waste":24,"wastePercent":"20","sellThrough":"80","limits":["capacity"],"ending":"Business rethink"},
+    {"id":"FT-12-60","price":"12","stock":60,"sales":60,"revenue":"720","expense":"720","profit":"0","waste":0,"wastePercent":"0","sellThrough":"100","limits":["stock"],"ending":"Viable first launch"},
+    {"id":"FT-LOW-WASTE","price":"12","stock":80,"sales":80,"revenue":"960","expense":"810","profit":"150","waste":0,"wastePercent":"0","sellThrough":"100","limits":["stock"],"ending":"Festival success"},
+    {"id":"FT-BASE","price":"12","stock":100,"sales":90,"revenue":"1080","expense":"900","profit":"180","waste":10,"wastePercent":"10","sellThrough":"90","limits":["demand"],"ending":"Festival success"},
+    {"id":"FT-12-120","price":"12","stock":120,"sales":90,"revenue":"1080","expense":"990","profit":"90","waste":30,"wastePercent":"25","sellThrough":"75","limits":["demand"],"ending":"Viable first launch"},
+    {"id":"FT-PREMIUM","price":"15","stock":60,"sales":60,"revenue":"900","expense":"720","profit":"180","waste":0,"wastePercent":"0","sellThrough":"100","limits":["stock","demand"],"ending":"Festival success"},
+    {"id":"FT-15-80","price":"15","stock":80,"sales":60,"revenue":"900","expense":"810","profit":"90","waste":20,"wastePercent":"25","sellThrough":"75","limits":["demand"],"ending":"Viable first launch"},
+    {"id":"FT-15-100","price":"15","stock":100,"sales":60,"revenue":"900","expense":"900","profit":"0","waste":40,"wastePercent":"40","sellThrough":"60","limits":["demand"],"ending":"Viable first launch"},
+    {"id":"FT-15-120","price":"15","stock":120,"sales":60,"revenue":"900","expense":"990","profit":"-90","waste":60,"wastePercent":"50","sellThrough":"50","limits":["demand"],"ending":"Business rethink"}
+  ],
+  "boundaryThresholds": [
+    {"id":"ZERO-CONTRIBUTION","fixed":"450","price":"4.5","variable":"4.5","crossing":null,"firstNonLoss":null,"firstProfit":null},
+    {"id":"NEGATIVE-CONTRIBUTION","fixed":"450","price":"4","variable":"4.5","crossing":null,"firstNonLoss":null,"firstProfit":null},
+    {"id":"ZERO-FIXED","fixed":"0","price":"12","variable":"4.5","crossing":"0","firstNonLoss":0,"firstProfit":1},
+    {"id":"OUTSIDE-DOMAIN","fixed":"1000","price":"12","variable":"4.5","crossing":"400/3","firstNonLoss":134,"firstProfit":134}
+  ],
+  "endingBoundaries": [
+    {"profit":"150","waste":10,"stock":100,"ending":"Festival success"},
+    {"profit":"149.99","waste":10,"stock":100,"ending":"Viable first launch"},
+    {"profit":"150","waste":11,"stock":100,"ending":"Viable first launch"},
+    {"profit":"0","waste":0,"stock":60,"ending":"Viable first launch"},
+    {"profit":"-0.01","waste":0,"stock":60,"ending":"Business rethink"},
+    {"profit":"150","waste":101,"stock":1009,"ending":"Viable first launch"}
+  ],
+  "transfers": {
+    "A":{"fixed":"360","price":"14","variable":"5","profitSlope":"9","profitConstant":"-360","crossing":"40","firstProfit":41},
+    "B":{"fixed":"200","price":"10","variable":"4","stock":70,"sales":56,"revenue":"560","expense":"480","profit":"80","waste":14,"sellThrough":"80"}
+  }
+}

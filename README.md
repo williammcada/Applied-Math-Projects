@@ -18,6 +18,7 @@ The repository is the canonical home for the current source, permanent project b
 
 ## Documentation
 
+- [Food Truck v0.1.0 implementation specification — Draft 1](docs/change-specs/FOOD-TRUCK-v0.1.0.md): next project, prepared for review; no Food Truck application exists yet.
 - [`docs/PROJECT-BRIEF.md`](docs/PROJECT-BRIEF.md)
 - [`docs/change-specs/`](docs/change-specs/)
 - [Road Trip Planner v0.1.0 specification](docs/change-specs/ROAD-TRIP-PLANNER-v0.1.0.md)
