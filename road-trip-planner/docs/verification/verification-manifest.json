@@ -1,0 +1,66 @@
+{
+  "candidateCommit": "c73bc879faa065a4d51f91c75d68e4157abecbce",
+  "sourceTree": "b7c1265a92cf1efc7bf675acbd9252bdda82e6c1",
+  "applicationVersion": "0.1.0",
+  "contentVersion": "1.0.0",
+  "verifiedAt": "2026-09-30",
+  "environment": {
+    "node": "24.19.0",
+    "chromium": "153.0.8010.0",
+    "playwright": "1.62.1",
+    "platform": "Linux x86_64",
+    "physicalIPad": false,
+    "schoolNetwork": false
+  },
+  "artifacts": {
+    "road-trip-planner/index.html": {
+      "bytes": 120686,
+      "sha256": "fe3c5cbd3e0a5be5c67fd061e9302ef9c48c9d410e63395ef7987df2be1e9664"
+    },
+    "road-trip-planner/RoadTripPlanner_v0.1.0.html": {
+      "bytes": 120686,
+      "sha256": "fe3c5cbd3e0a5be5c67fd061e9302ef9c48c9d410e63395ef7987df2be1e9664"
+    },
+    "road-trip-planner/docs/verification/home.png": {
+      "bytes": 154975,
+      "sha256": "e7878b7b5f7b33b618dd968c0d3274545aaa0ea8157d3a1f56f914253ac11deb"
+    },
+    "road-trip-planner/docs/verification/browser-results.json": {
+      "bytes": 178,
+      "sha256": "07d9d2775327851d1161e71ccae65312124232c04fb4cf5468e21f1821d6624b"
+    },
+    "road-trip-planner/docs/verification/teacher-A4.pdf": {
+      "bytes": 46160,
+      "sha256": "165e0ad2812dac6309ea9e0d06b8bdf0b98643a184e7bb217343f2a3d7f35e12"
+    },
+    "road-trip-planner/docs/verification/transfer-slips.pdf": {
+      "bytes": 35027,
+      "sha256": "3648b74a5cefdc4f23e2d8f2a4877d52f29b034c4a6d66b9b9921e78f2fcd8f0"
+    },
+    "road-trip-planner/docs/verification/teacher-Letter.pdf": {
+      "bytes": 46148,
+      "sha256": "51ae35463d977f96fe4c1febc9957448937b7601bc21269e394582a46658284c"
+    },
+    "road-trip-planner/docs/verification/student-Letter.pdf": {
+      "bytes": 65908,
+      "sha256": "c58994d7d7f3a7342868b03ce9d1d70e4ae1e77708302928ed30c53896a0823e"
+    },
+    "road-trip-planner/docs/verification/student-A4.pdf": {
+      "bytes": 65960,
+      "sha256": "6f0cdc947d98d0220e9470961a34c4fa9c3edfa183e41eade76134db49b27495"
+    },
+    "road-trip-planner/docs/verification/core-results.json": {
+      "bytes": 93,
+      "sha256": "e33a9d30e66be516802869194708c55c9f1d147a3f2f204151376a2894b47b3d"
+    },
+    "road-trip-planner/docs/verification/edge-results.json": {
+      "bytes": 150,
+      "sha256": "21e43d6a5fc616cf945a7952a507ec875af227fea3b5b5d1dddc89e342abe1ad"
+    },
+    "road-trip-planner/docs/verification/replacement-results.json": {
+      "bytes": 108,
+      "sha256": "c31202bf61fb175d7cee07d2b5ac2519f62b5a4e0d68f2b7acb2acb4632012dc"
+    }
+  },
+  "supplementalTest": "tests/import-replacement.test.cjs, same unchanged application SHA-256"
+}
