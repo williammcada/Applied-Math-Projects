@@ -1,0 +1,767 @@
+{
+  "schema": "mcada-project-progress",
+  "schemaVersion": "1.0.0",
+  "projectId": "powers-of-ten",
+  "appVersion": "0.1.0",
+  "contentVersion": "1.0.0",
+  "sessionId": "f6a06073-c862-4385-942e-2c3626817791",
+  "scenarioId": "SN-BASE",
+  "teamAlias": "Synthetic: Pending physical review",
+  "students": [
+    "Test-1",
+    "Test-2"
+  ],
+  "currentStage": 8,
+  "track": "A",
+  "inputs": {
+    "C01a.a": "8",
+    "C01a.n": "-6",
+    "C01b.a": "1.28",
+    "C01b.n": "7",
+    "C01c.value": "0.000000002",
+    "C01d.value": "384000000",
+    "C02.first": "dna",
+    "C02.second": "depth",
+    "C02.third": "cell",
+    "C02.a": "8",
+    "C02.n": "-5",
+    "C02.decade": "one",
+    "C03a.m": "0.000008",
+    "C03a.mm": "0.008",
+    "C03a.nm": "8000",
+    "C03b.m": "12800000",
+    "C04a.c": "20",
+    "C04a.e": "-5",
+    "C04a.a": "2",
+    "C04a.n": "-4",
+    "C04a.unit": "m",
+    "C04b.c": "3.84",
+    "C04b.e": "8",
+    "C04b.a": "3.84",
+    "C04b.n": "8",
+    "C04b.unit": "m",
+    "C05a.c": "0.8",
+    "C05a.e": "1",
+    "C05a.a": "8",
+    "C05a.n": "0",
+    "C05a.unit": "widths",
+    "C05b.c": "0.5",
+    "C05b.e": "3",
+    "C05b.a": "5",
+    "C05b.n": "2",
+    "C05b.unit": "s",
+    "C06a.common": "-6",
+    "C06a.left": "24",
+    "C06a.right": "7.5",
+    "C06a.a": "3.15",
+    "C06a.n": "-5",
+    "C06a.unit": "m",
+    "C06b.common": "7",
+    "C06b.left": "38.4",
+    "C06b.right": "6",
+    "C06b.a": "4.44",
+    "C06b.n": "8",
+    "C06b.unit": "m",
+    "C07a.common": "-6",
+    "C07a.left": "8",
+    "C07a.right": "2",
+    "C07a.a": "6",
+    "C07a.n": "-6",
+    "C07a.unit": "m",
+    "C07b.common": "7",
+    "C07b.left": "140",
+    "C07b.right": "1.28",
+    "C07b.a": "1.3872",
+    "C07b.n": "9",
+    "C07b.unit": "m",
+    "C08A.model": "0.16",
+    "C08A.k": "20000",
+    "C08A.ratioM": "20000",
+    "C08A.ratioA": "1",
+    "C08A.direction": "enlarge",
+    "C08B.model": "0.02",
+    "C08B.k": "1/640000000",
+    "C08B.ratioM": "1",
+    "C08B.ratioA": "640000000",
+    "C08B.direction": "reduce",
+    "C08B.moon": "5.46875",
+    "C08B.rounded": "5.5",
+    "C08B.distance": "600",
+    "C09A.cell": "160",
+    "C09A.cellUnit": "mm",
+    "C09A.cellDeviation": "0",
+    "C09A.tool": "Synthetic ruler",
+    "C09A.resolution": "1",
+    "C09B.earth": "20",
+    "C09B.earthUnit": "mm",
+    "C09B.earthDeviation": "0",
+    "C09B.moon": "5.5",
+    "C09B.moonUnit": "mm",
+    "C09B.moonDeviation": "0",
+    "C09B.centers": "600",
+    "C09B.centersUnit": "mm",
+    "C09B.centersDeviation": "0",
+    "C09B.tool": "Synthetic ruler",
+    "C09B.resolution": "0.5",
+    "C10A.comparison": "person",
+    "C10A.size": "34000",
+    "C10A.available": "1500",
+    "C10A.actual": "1.6e12",
+    "C10A.conclusion": "impractical",
+    "C10B.comparison": "sun",
+    "C10B.size": "2.1875",
+    "C10B.available": "1500",
+    "C10B.actual": "1.6e12",
+    "C10B.conclusion": "impractical",
+    "C11A.interpretation": "At this scale a 1.7 m person is 34 km tall. The cell model preserves diameter scale, not material or function.",
+    "C11A.visitor": "The Earth-Moon example preserves size and center distance but omits surface detail.",
+    "C11A.otherDirection": "reduce",
+    "C11B.interpretation": "The Sun would be 2.1875 m wide, too large for a 0.6 m desk span. The model preserves length ratios.",
+    "C11B.visitor": "The cell model preserves diameter but not material or optional thickness.",
+    "C11B.otherDirection": "enlarge",
+    "C11match.dna": "width",
+    "C11match.cell": "diameter",
+    "C11match.earth": "diameter",
+    "C11match.moon": "diameter",
+    "C11match.distance": "distance",
+    "C11match.sun": "diameter",
+    "C11match.orbit": "distance",
+    "C11match.light": "speed",
+    "C11match.image": "diagram",
+    "C121.mode": "digital",
+    "C121.a": "3",
+    "C121.n": "-5",
+    "C121.decimal": "0.00003",
+    "C121.direction": "enlarge",
+    "C121.scale": "5000",
+    "C122.mode": "digital",
+    "C122.a": "6",
+    "C122.n": "8",
+    "C122.decimal": "600000000",
+    "C122.direction": "reduce",
+    "C122.scale": "5000",
+    "placardA.title": "Synthetic exhibit A",
+    "placardA.property": "diameter",
+    "placardA.source": "R2",
+    "placardA.scaleConfirmed": "yes",
+    "placardB.title": "Synthetic exhibit B",
+    "placardB.property": "diameter-distance",
+    "placardB.source": "R3/R4",
+    "placardB.scaleConfirmed": "yes"
+  },
+  "checkpoints": {
+    "C01a": {
+      "fingerprint": "[\"1.0.0\",{\"a\":\"8\",\"n\":\"-6\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C01b": {
+      "fingerprint": "[\"1.0.0\",{\"a\":\"1.28\",\"n\":\"7\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C01c": {
+      "fingerprint": "[\"1.0.0\",{\"value\":\"0.000000002\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C01d": {
+      "fingerprint": "[\"1.0.0\",{\"value\":\"384000000\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C02": {
+      "fingerprint": "[\"1.0.0\",{\"first\":\"dna\",\"second\":\"depth\",\"third\":\"cell\",\"a\":\"8\",\"n\":\"-5\",\"decade\":\"one\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C03a": {
+      "fingerprint": "[\"1.0.0\",{\"m\":\"0.000008\",\"mm\":\"0.008\",\"nm\":\"8000\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C03b": {
+      "fingerprint": "[\"1.0.0\",{\"m\":\"12800000\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C04a": {
+      "fingerprint": "[\"1.0.0\",{\"c\":\"20\",\"e\":\"-5\",\"a\":\"2\",\"n\":\"-4\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C04b": {
+      "fingerprint": "[\"1.0.0\",{\"c\":\"3.84\",\"e\":\"8\",\"a\":\"3.84\",\"n\":\"8\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C05a": {
+      "fingerprint": "[\"1.0.0\",{\"c\":\"0.8\",\"e\":\"1\",\"a\":\"8\",\"n\":\"0\",\"unit\":\"widths\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C05b": {
+      "fingerprint": "[\"1.0.0\",{\"c\":\"0.5\",\"e\":\"3\",\"a\":\"5\",\"n\":\"2\",\"unit\":\"s\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C06a": {
+      "fingerprint": "[\"1.0.0\",{\"common\":\"-6\",\"left\":\"24\",\"right\":\"7.5\",\"a\":\"3.15\",\"n\":\"-5\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C06b": {
+      "fingerprint": "[\"1.0.0\",{\"common\":\"7\",\"left\":\"38.4\",\"right\":\"6\",\"a\":\"4.44\",\"n\":\"8\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C07a": {
+      "fingerprint": "[\"1.0.0\",{\"common\":\"-6\",\"left\":\"8\",\"right\":\"2\",\"a\":\"6\",\"n\":\"-6\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C07b": {
+      "fingerprint": "[\"1.0.0\",{\"common\":\"7\",\"left\":\"140\",\"right\":\"1.28\",\"a\":\"1.3872\",\"n\":\"9\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C08A": {
+      "fingerprint": "[\"1.0.0\",{\"model\":\"0.16\",\"k\":\"20000\",\"ratioM\":\"20000\",\"ratioA\":\"1\",\"direction\":\"enlarge\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C09A": {
+      "fingerprint": "[\"1.0.0\",{\"cell\":\"160\",\"cellUnit\":\"mm\",\"cellDeviation\":\"0\",\"tool\":\"Synthetic ruler\",\"resolution\":\"1\"},{\"plan\":{\"model\":\"0.16\",\"k\":\"20000\",\"ratioM\":\"20000\",\"ratioA\":\"1\",\"direction\":\"enlarge\"},\"build\":0}]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C10A": {
+      "fingerprint": "[\"1.0.0\",{\"comparison\":\"person\",\"size\":\"34000\",\"available\":\"1500\",\"actual\":\"1.6e12\",\"conclusion\":\"impractical\"},{\"plan\":{\"model\":\"0.16\",\"k\":\"20000\",\"ratioM\":\"20000\",\"ratioA\":\"1\",\"direction\":\"enlarge\"},\"build\":0}]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C11A": {
+      "fingerprint": "[\"1.0.0\",{\"interpretation\":\"At this scale a 1.7 m person is 34 km tall. The cell model preserves diameter scale, not material or function.\",\"visitor\":\"The Earth-Moon example preserves size and center distance but omits surface detail.\",\"otherDirection\":\"reduce\"},{\"plan\":{\"model\":\"0.16\",\"k\":\"20000\",\"ratioM\":\"20000\",\"ratioA\":\"1\",\"direction\":\"enlarge\"},\"build\":0}]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C08B": {
+      "fingerprint": "[\"1.0.0\",{\"model\":\"0.02\",\"k\":\"1/640000000\",\"ratioM\":\"1\",\"ratioA\":\"640000000\",\"direction\":\"reduce\",\"moon\":\"5.46875\",\"rounded\":\"5.5\",\"distance\":\"600\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C09B": {
+      "fingerprint": "[\"1.0.0\",{\"earth\":\"20\",\"earthUnit\":\"mm\",\"earthDeviation\":\"0\",\"moon\":\"5.5\",\"moonUnit\":\"mm\",\"moonDeviation\":\"0\",\"centers\":\"600\",\"centersUnit\":\"mm\",\"centersDeviation\":\"0\",\"tool\":\"Synthetic ruler\",\"resolution\":\"0.5\"},{\"plan\":{\"model\":\"0.02\",\"k\":\"1/640000000\",\"ratioM\":\"1\",\"ratioA\":\"640000000\",\"direction\":\"reduce\",\"moon\":\"5.46875\",\"rounded\":\"5.5\",\"distance\":\"600\"},\"build\":0}]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C10B": {
+      "fingerprint": "[\"1.0.0\",{\"comparison\":\"sun\",\"size\":\"2.1875\",\"available\":\"1500\",\"actual\":\"1.6e12\",\"conclusion\":\"impractical\"},{\"plan\":{\"model\":\"0.02\",\"k\":\"1/640000000\",\"ratioM\":\"1\",\"ratioA\":\"640000000\",\"direction\":\"reduce\",\"moon\":\"5.46875\",\"rounded\":\"5.5\",\"distance\":\"600\"},\"build\":0}]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C11B": {
+      "fingerprint": "[\"1.0.0\",{\"interpretation\":\"The Sun would be 2.1875 m wide, too large for a 0.6 m desk span. The model preserves length ratios.\",\"visitor\":\"The cell model preserves diameter but not material or optional thickness.\",\"otherDirection\":\"enlarge\"},{\"plan\":{\"model\":\"0.02\",\"k\":\"1/640000000\",\"ratioM\":\"1\",\"ratioA\":\"640000000\",\"direction\":\"reduce\",\"moon\":\"5.46875\",\"rounded\":\"5.5\",\"distance\":\"600\"},\"build\":0}]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C11match": {
+      "fingerprint": "[\"1.0.0\",{\"dna\":\"width\",\"cell\":\"diameter\",\"earth\":\"diameter\",\"moon\":\"diameter\",\"distance\":\"distance\",\"sun\":\"diameter\",\"orbit\":\"distance\",\"light\":\"speed\",\"image\":\"diagram\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C121": {
+      "fingerprint": "[\"1.0.0\",{\"mode\":\"digital\",\"a\":\"3\",\"n\":\"-5\",\"decimal\":\"0.00003\",\"direction\":\"enlarge\",\"scale\":\"5000\",\"submission\":\"\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    },
+    "C122": {
+      "fingerprint": "[\"1.0.0\",{\"mode\":\"digital\",\"a\":\"6\",\"n\":\"8\",\"decimal\":\"600000000\",\"direction\":\"reduce\",\"scale\":\"5000\",\"submission\":\"\"},null]",
+      "passed": true,
+      "bypass": false,
+      "overrideId": null
+    }
+  },
+  "attempts": [
+    {
+      "id": "acd4d142-9927-4fdc-885e-8bf4c68a21a8",
+      "group": "C01a",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "a": "8",
+        "n": "-6"
+      },
+      "fingerprint": "[\"1.0.0\",{\"a\":\"8\",\"n\":\"-6\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.673Z"
+    },
+    {
+      "id": "ad0bf994-fc96-4599-b398-f9f080bb96bf",
+      "group": "C01b",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "a": "1.28",
+        "n": "7"
+      },
+      "fingerprint": "[\"1.0.0\",{\"a\":\"1.28\",\"n\":\"7\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.673Z"
+    },
+    {
+      "id": "98c8dfa0-0f24-4c6e-aabc-5529b049b911",
+      "group": "C01c",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "value": "0.000000002"
+      },
+      "fingerprint": "[\"1.0.0\",{\"value\":\"0.000000002\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.673Z"
+    },
+    {
+      "id": "906f2bc2-03ec-493b-9ce9-c7d425875d33",
+      "group": "C01d",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "value": "384000000"
+      },
+      "fingerprint": "[\"1.0.0\",{\"value\":\"384000000\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.673Z"
+    },
+    {
+      "id": "f00b660a-c277-4461-a9e4-c0b50a7051e8",
+      "group": "C02",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "first": "dna",
+        "second": "depth",
+        "third": "cell",
+        "a": "8",
+        "n": "-5",
+        "decade": "one"
+      },
+      "fingerprint": "[\"1.0.0\",{\"first\":\"dna\",\"second\":\"depth\",\"third\":\"cell\",\"a\":\"8\",\"n\":\"-5\",\"decade\":\"one\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.673Z"
+    },
+    {
+      "id": "7f167476-f853-4f85-9622-1088339bcb10",
+      "group": "C03a",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "m": "0.000008",
+        "mm": "0.008",
+        "nm": "8000"
+      },
+      "fingerprint": "[\"1.0.0\",{\"m\":\"0.000008\",\"mm\":\"0.008\",\"nm\":\"8000\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.673Z"
+    },
+    {
+      "id": "f978d572-c224-4e86-9f51-4c892adec6ec",
+      "group": "C03b",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "m": "12800000"
+      },
+      "fingerprint": "[\"1.0.0\",{\"m\":\"12800000\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.673Z"
+    },
+    {
+      "id": "48c0c579-c2e6-4c5c-95b1-01c1b139d78a",
+      "group": "C04a",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "c": "20",
+        "e": "-5",
+        "a": "2",
+        "n": "-4",
+        "unit": "m"
+      },
+      "fingerprint": "[\"1.0.0\",{\"c\":\"20\",\"e\":\"-5\",\"a\":\"2\",\"n\":\"-4\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.673Z"
+    },
+    {
+      "id": "873e185c-1ba0-4ec8-87e4-45ca4029a981",
+      "group": "C04b",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "c": "3.84",
+        "e": "8",
+        "a": "3.84",
+        "n": "8",
+        "unit": "m"
+      },
+      "fingerprint": "[\"1.0.0\",{\"c\":\"3.84\",\"e\":\"8\",\"a\":\"3.84\",\"n\":\"8\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.673Z"
+    },
+    {
+      "id": "9813b75f-7d16-4d82-b40f-e3a5368915fb",
+      "group": "C05a",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "c": "0.8",
+        "e": "1",
+        "a": "8",
+        "n": "0",
+        "unit": "widths"
+      },
+      "fingerprint": "[\"1.0.0\",{\"c\":\"0.8\",\"e\":\"1\",\"a\":\"8\",\"n\":\"0\",\"unit\":\"widths\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.673Z"
+    },
+    {
+      "id": "c59b0120-9d7f-4e39-aa9f-a774ef1f8d26",
+      "group": "C05b",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "c": "0.5",
+        "e": "3",
+        "a": "5",
+        "n": "2",
+        "unit": "s"
+      },
+      "fingerprint": "[\"1.0.0\",{\"c\":\"0.5\",\"e\":\"3\",\"a\":\"5\",\"n\":\"2\",\"unit\":\"s\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.674Z"
+    },
+    {
+      "id": "45305e6f-d42c-4869-8568-a108ad496756",
+      "group": "C06a",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "common": "-6",
+        "left": "24",
+        "right": "7.5",
+        "a": "3.15",
+        "n": "-5",
+        "unit": "m"
+      },
+      "fingerprint": "[\"1.0.0\",{\"common\":\"-6\",\"left\":\"24\",\"right\":\"7.5\",\"a\":\"3.15\",\"n\":\"-5\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.674Z"
+    },
+    {
+      "id": "bab56e7a-e1c5-47ce-8e1b-de6529a8f4e8",
+      "group": "C06b",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "common": "7",
+        "left": "38.4",
+        "right": "6",
+        "a": "4.44",
+        "n": "8",
+        "unit": "m"
+      },
+      "fingerprint": "[\"1.0.0\",{\"common\":\"7\",\"left\":\"38.4\",\"right\":\"6\",\"a\":\"4.44\",\"n\":\"8\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.674Z"
+    },
+    {
+      "id": "d82be7ec-1d3b-46db-8428-12638be2d8ea",
+      "group": "C07a",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "common": "-6",
+        "left": "8",
+        "right": "2",
+        "a": "6",
+        "n": "-6",
+        "unit": "m"
+      },
+      "fingerprint": "[\"1.0.0\",{\"common\":\"-6\",\"left\":\"8\",\"right\":\"2\",\"a\":\"6\",\"n\":\"-6\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.674Z"
+    },
+    {
+      "id": "7df828f0-1d45-440b-b781-cd047e93d184",
+      "group": "C07b",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "common": "7",
+        "left": "140",
+        "right": "1.28",
+        "a": "1.3872",
+        "n": "9",
+        "unit": "m"
+      },
+      "fingerprint": "[\"1.0.0\",{\"common\":\"7\",\"left\":\"140\",\"right\":\"1.28\",\"a\":\"1.3872\",\"n\":\"9\",\"unit\":\"m\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.674Z"
+    },
+    {
+      "id": "a53bf789-d962-42d2-8609-63deb51d125c",
+      "group": "C08A",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "model": "0.16",
+        "k": "20000",
+        "ratioM": "20000",
+        "ratioA": "1",
+        "direction": "enlarge"
+      },
+      "fingerprint": "[\"1.0.0\",{\"model\":\"0.16\",\"k\":\"20000\",\"ratioM\":\"20000\",\"ratioA\":\"1\",\"direction\":\"enlarge\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.674Z"
+    },
+    {
+      "id": "1c44dd06-2146-4d7d-b75e-92e01a3ced6c",
+      "group": "C09A",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "cell": "160",
+        "cellUnit": "mm",
+        "cellDeviation": "0",
+        "tool": "Synthetic ruler",
+        "resolution": "1"
+      },
+      "fingerprint": "[\"1.0.0\",{\"cell\":\"160\",\"cellUnit\":\"mm\",\"cellDeviation\":\"0\",\"tool\":\"Synthetic ruler\",\"resolution\":\"1\"},{\"plan\":{\"model\":\"0.16\",\"k\":\"20000\",\"ratioM\":\"20000\",\"ratioA\":\"1\",\"direction\":\"enlarge\"},\"build\":0}]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.674Z"
+    },
+    {
+      "id": "cade7241-1869-4978-a859-e3165846b0e4",
+      "group": "C10A",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "comparison": "person",
+        "size": "34000",
+        "available": "1500",
+        "actual": "1.6e12",
+        "conclusion": "impractical"
+      },
+      "fingerprint": "[\"1.0.0\",{\"comparison\":\"person\",\"size\":\"34000\",\"available\":\"1500\",\"actual\":\"1.6e12\",\"conclusion\":\"impractical\"},{\"plan\":{\"model\":\"0.16\",\"k\":\"20000\",\"ratioM\":\"20000\",\"ratioA\":\"1\",\"direction\":\"enlarge\"},\"build\":0}]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.674Z"
+    },
+    {
+      "id": "567c2468-bb06-43e0-aea9-354bd8fe5ca6",
+      "group": "C11A",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "interpretation": "At this scale a 1.7 m person is 34 km tall. The cell model preserves diameter scale, not material or function.",
+        "visitor": "The Earth-Moon example preserves size and center distance but omits surface detail.",
+        "otherDirection": "reduce"
+      },
+      "fingerprint": "[\"1.0.0\",{\"interpretation\":\"At this scale a 1.7 m person is 34 km tall. The cell model preserves diameter scale, not material or function.\",\"visitor\":\"The Earth-Moon example preserves size and center distance but omits surface detail.\",\"otherDirection\":\"reduce\"},{\"plan\":{\"model\":\"0.16\",\"k\":\"20000\",\"ratioM\":\"20000\",\"ratioA\":\"1\",\"direction\":\"enlarge\"},\"build\":0}]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.674Z"
+    },
+    {
+      "id": "13eb63b8-56a3-416c-bf94-f076a92350fa",
+      "group": "C08B",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "model": "0.02",
+        "k": "1/640000000",
+        "ratioM": "1",
+        "ratioA": "640000000",
+        "direction": "reduce",
+        "moon": "5.46875",
+        "rounded": "5.5",
+        "distance": "600"
+      },
+      "fingerprint": "[\"1.0.0\",{\"model\":\"0.02\",\"k\":\"1/640000000\",\"ratioM\":\"1\",\"ratioA\":\"640000000\",\"direction\":\"reduce\",\"moon\":\"5.46875\",\"rounded\":\"5.5\",\"distance\":\"600\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.674Z"
+    },
+    {
+      "id": "4dbc9bdb-a977-4930-833f-0412fde09ef6",
+      "group": "C09B",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "earth": "20",
+        "earthUnit": "mm",
+        "earthDeviation": "0",
+        "moon": "5.5",
+        "moonUnit": "mm",
+        "moonDeviation": "0",
+        "centers": "600",
+        "centersUnit": "mm",
+        "centersDeviation": "0",
+        "tool": "Synthetic ruler",
+        "resolution": "0.5"
+      },
+      "fingerprint": "[\"1.0.0\",{\"earth\":\"20\",\"earthUnit\":\"mm\",\"earthDeviation\":\"0\",\"moon\":\"5.5\",\"moonUnit\":\"mm\",\"moonDeviation\":\"0\",\"centers\":\"600\",\"centersUnit\":\"mm\",\"centersDeviation\":\"0\",\"tool\":\"Synthetic ruler\",\"resolution\":\"0.5\"},{\"plan\":{\"model\":\"0.02\",\"k\":\"1/640000000\",\"ratioM\":\"1\",\"ratioA\":\"640000000\",\"direction\":\"reduce\",\"moon\":\"5.46875\",\"rounded\":\"5.5\",\"distance\":\"600\"},\"build\":0}]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.675Z"
+    },
+    {
+      "id": "50397839-1580-433a-9c2b-435128d9a50c",
+      "group": "C10B",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "comparison": "sun",
+        "size": "2.1875",
+        "available": "1500",
+        "actual": "1.6e12",
+        "conclusion": "impractical"
+      },
+      "fingerprint": "[\"1.0.0\",{\"comparison\":\"sun\",\"size\":\"2.1875\",\"available\":\"1500\",\"actual\":\"1.6e12\",\"conclusion\":\"impractical\"},{\"plan\":{\"model\":\"0.02\",\"k\":\"1/640000000\",\"ratioM\":\"1\",\"ratioA\":\"640000000\",\"direction\":\"reduce\",\"moon\":\"5.46875\",\"rounded\":\"5.5\",\"distance\":\"600\"},\"build\":0}]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.675Z"
+    },
+    {
+      "id": "4b6d83d4-356a-40b6-8e9c-81aac899755f",
+      "group": "C11B",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "interpretation": "The Sun would be 2.1875 m wide, too large for a 0.6 m desk span. The model preserves length ratios.",
+        "visitor": "The cell model preserves diameter but not material or optional thickness.",
+        "otherDirection": "enlarge"
+      },
+      "fingerprint": "[\"1.0.0\",{\"interpretation\":\"The Sun would be 2.1875 m wide, too large for a 0.6 m desk span. The model preserves length ratios.\",\"visitor\":\"The cell model preserves diameter but not material or optional thickness.\",\"otherDirection\":\"enlarge\"},{\"plan\":{\"model\":\"0.02\",\"k\":\"1/640000000\",\"ratioM\":\"1\",\"ratioA\":\"640000000\",\"direction\":\"reduce\",\"moon\":\"5.46875\",\"rounded\":\"5.5\",\"distance\":\"600\"},\"build\":0}]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.675Z"
+    },
+    {
+      "id": "0caf891a-92dc-4110-bb6d-4b75085c4f40",
+      "group": "C11match",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "dna": "width",
+        "cell": "diameter",
+        "earth": "diameter",
+        "moon": "diameter",
+        "distance": "distance",
+        "sun": "diameter",
+        "orbit": "distance",
+        "light": "speed",
+        "image": "diagram"
+      },
+      "fingerprint": "[\"1.0.0\",{\"dna\":\"width\",\"cell\":\"diameter\",\"earth\":\"diameter\",\"moon\":\"diameter\",\"distance\":\"distance\",\"sun\":\"diameter\",\"orbit\":\"distance\",\"light\":\"speed\",\"image\":\"diagram\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.675Z"
+    },
+    {
+      "id": "228efc9d-bafd-4b1e-8edb-77b41152e391",
+      "group": "C121",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "mode": "digital",
+        "a": "3",
+        "n": "-5",
+        "decimal": "0.00003",
+        "direction": "enlarge",
+        "scale": "5000",
+        "submission": ""
+      },
+      "fingerprint": "[\"1.0.0\",{\"mode\":\"digital\",\"a\":\"3\",\"n\":\"-5\",\"decimal\":\"0.00003\",\"direction\":\"enlarge\",\"scale\":\"5000\",\"submission\":\"\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.675Z"
+    },
+    {
+      "id": "88e6cfc5-930b-4334-b756-33b7ea65cd90",
+      "group": "C122",
+      "track": "A",
+      "buildRevision": 0,
+      "response": {
+        "mode": "digital",
+        "a": "6",
+        "n": "8",
+        "decimal": "600000000",
+        "direction": "reduce",
+        "scale": "5000",
+        "submission": ""
+      },
+      "fingerprint": "[\"1.0.0\",{\"mode\":\"digital\",\"a\":\"6\",\"n\":\"8\",\"decimal\":\"600000000\",\"direction\":\"reduce\",\"scale\":\"5000\",\"submission\":\"\"},null]",
+      "passed": true,
+      "at": "2026-09-30T08:13:06.675Z"
+    }
+  ],
+  "support": [],
+  "teacherOverrides": [],
+  "reviews": [
+    {
+      "type": "interpretation",
+      "track": "A",
+      "reviewer": "Fixture",
+      "role": "teacher",
+      "status": "accepted",
+      "note": "Synthetic interpretation accepted for test only.",
+      "fingerprint": "[{\"model\":\"0.16\",\"k\":\"20000\",\"ratioM\":\"20000\",\"ratioA\":\"1\",\"direction\":\"enlarge\"},{\"comparison\":\"person\",\"size\":\"34000\",\"available\":\"1500\",\"actual\":\"1.6e12\",\"conclusion\":\"impractical\"},{\"interpretation\":\"At this scale a 1.7 m person is 34 km tall. The cell model preserves diameter scale, not material or function.\",\"visitor\":\"The Earth-Moon example preserves size and center distance but omits surface detail.\",\"otherDirection\":\"reduce\"},{\"title\":\"Synthetic exhibit A\",\"property\":\"diameter\",\"source\":\"R2\",\"scaleConfirmed\":\"yes\"}]",
+      "at": "2026-09-30T08:13:06.675Z"
+    },
+    {
+      "type": "interpretation",
+      "track": "B",
+      "reviewer": "Fixture",
+      "role": "teacher",
+      "status": "accepted",
+      "note": "Synthetic interpretation accepted for test only.",
+      "fingerprint": "[{\"model\":\"0.02\",\"k\":\"1/640000000\",\"ratioM\":\"1\",\"ratioA\":\"640000000\",\"direction\":\"reduce\",\"moon\":\"5.46875\",\"rounded\":\"5.5\",\"distance\":\"600\"},{\"comparison\":\"sun\",\"size\":\"2.1875\",\"available\":\"1500\",\"actual\":\"1.6e12\",\"conclusion\":\"impractical\"},{\"interpretation\":\"The Sun would be 2.1875 m wide, too large for a 0.6 m desk span. The model preserves length ratios.\",\"visitor\":\"The cell model preserves diameter but not material or optional thickness.\",\"otherDirection\":\"enlarge\"},{\"title\":\"Synthetic exhibit B\",\"property\":\"diameter-distance\",\"source\":\"R3/R4\",\"scaleConfirmed\":\"yes\"}]",
+      "at": "2026-09-30T08:13:06.675Z"
+    }
+  ],
+  "buildRevisions": {
+    "A": 0,
+    "B": 0
+  },
+  "built": {
+    "A": true,
+    "B": true
+  },
+  "roles": {
+    "planner": "1",
+    "builder": "1"
+  },
+  "completedAt": null,
+  "localRevision": 0,
+  "updatedAt": "2026-09-30T08:13:06.670Z",
+  "imported": false,
+  "duplicateOf": null
+}
