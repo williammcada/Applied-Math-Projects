@@ -1,12 +1,12 @@
 # Project Brief — Applied Mathematics Project Series
 
-**Brief version:** 0.9 — Food Truck implementation, 30 September 2026  
+**Brief version:** 1.0 — Theme Park implementation, 30 September 2026  
 **Owner:** William McAda · **Credit:** A WILLIAM MCADA PRODUCT  
 **Status:** Original dossier/handoff preserved; Road Trip v0.1.0 implemented from approved revision 1, locally verified and deployed to GitHub Pages. Physical iPad/network/printer acceptance remains pending.  
 **Repository:** `williammcada/Applied-Math-Projects`, branch `main`.  
 **Current running version:** [Road Trip Planner 0.1.0](https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/), content/schema 1.0.0; hosted bytes match the verified self-contained candidate.  
 **Source/baseline:** This preparation began at `ec7753842c8321f5e2a9192529cb60da1e44d1b1`. The earlier `f10b953305edaa18113016f473fffdd155fb7c60` planning checkpoint remains historical. Sources now live in `docs/sources/dossier-v1.0.0/`; Road Trip now has a complete candidate at `road-trip-planner/`.  
-**Next work:** Food Truck is deployed with [verification evidence](../food-truck-business-launch/docs/DEPLOYMENT-v0.1.0.md). Theme Park is next for specification preparation when requested. Road Trip physical iPad/network/printer acceptance remains pending. Build each later application separately with its own specification and source checkpoint.  
+**Next work:** Food Truck is deployed with [verification evidence](../food-truck-business-launch/docs/DEPLOYMENT-v0.1.0.md). Theme Park v0.1.0 is implemented and locally verified; see its [project brief](../theme-park-designer/docs/PROJECT-BRIEF.md), [QA record](../theme-park-designer/docs/QA-REPORT-v0.1.0.md), and [deployment record](../theme-park-designer/docs/DEPLOYMENT-v0.1.0.md). Mars Colony is next when requested. Road Trip physical iPad/network/printer acceptance remains pending. Build each later application separately with its own specification and source checkpoint.  
 
 ## 1. Purpose, audience and detailed scope
 
@@ -81,7 +81,7 @@ Current source identity is recorded in [source provenance](sources/PROVENANCE.md
 
 Preserved records: the full extracted William_McAda_Applied_Math_Projects_Handoff_v1.0.0 package, including Word/Markdown dossier, reference fixtures/checker, original reports and concept art. The ZIP identity and attached Word equality are recorded in provenance; the ZIP itself is not duplicated in the repository.
 
-Preparation directly read the dossier common/Road Trip/release material, original handoff instructions, fixture data/checker, project records and applicable handbook. Historical external references are preserved, not represented as newly verified. Road Trip now has application code and verification evidence; the other four apps remain at the planning stage.
+Preparation directly read the dossier common/Road Trip/release material, original handoff instructions, fixture data/checker, project records and applicable handbook. Historical external references are preserved, not represented as newly verified. Road Trip, Food Truck and Theme Park now have application code and verification evidence. Mars Colony and Powers of Ten remain at the planning stage.
 
 Before substantive implementation retrieve these records, the current source, approved change spec and applicable handbook. If an indispensable spec is inaccessible, report the gap instead of filling it with invented details. Do not delete unique historical chats/assets until their contents are independently preserved.
 
@@ -95,3 +95,7 @@ Shared principles do not establish shared code, accounts or interfaces. MathQues
 The owner authorized production of the approved [Powers of Ten v0.1.0 specification](change-specs/POWERS-OF-TEN-v0.1.0.md). Its complete standalone candidate, source, teacher guide and test fixtures are now preserved under `powers-of-ten/`. This supersedes earlier planning-only descriptions of Powers of Ten in this historical family brief. Other projects retain their own records and release histories.
 
 The [project brief](../powers-of-ten/docs/PROJECT-BRIEF.md), [QA report](../powers-of-ten/docs/QA-REPORT-v0.1.0.md) and [deployment record](../powers-of-ten/docs/DEPLOYMENT-v0.1.0.md) are the current Powers of Ten records. App 0.1.0, content/schema 1.0.0; automated checkpoint 5506401f906c11bfab6e750251c81893dec86d28 preserves 221 core, 98 browser and 7 recovery passes. Physical iPad, school-network, printer and classroom acceptance remain pending. No handbook rule or other project's application was changed.
+
+## 10. Theme Park Designer v0.1.0
+
+Production was authorized on 30 September 2026. The approved specification, project-specific brief and approval record govern its nine objectives, eight stages and exact baseline. The preserved corrected candidate is `e1c81fc17a5da727e7bf35feeb4b79770a03f394`; the verified checkpoint is `35ece958a2b309ff580758a26536c4cc40ce1247`. The final local run passed 189 assertions and A4/Letter print audits. Its [release record](../theme-park-designer/docs/DEPLOYMENT-v0.1.0.md) identifies the public deployment separately. Physical iPad/software keyboard, school-network and measured printer acceptance remain pending.

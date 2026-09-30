@@ -1,0 +1,45 @@
+{
+  "candidateCommit": "e1c81fc17a5da727e7bf35feeb4b79770a03f394",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 105803,
+      "sha256": "c3e9dbe937919751c99925a82be16fe2d45c1797d40e4b13ea8e0e03ce4ed6d9"
+    },
+    {
+      "path": "ThemeParkDesigner_v0.1.0.html",
+      "bytes": 105803,
+      "sha256": "c3e9dbe937919751c99925a82be16fe2d45c1797d40e4b13ea8e0e03ce4ed6d9"
+    },
+    {
+      "path": "src/art.js",
+      "bytes": 10885,
+      "sha256": "4f48aa1394cc7f4a398cc8ae4897df5beeaa7ff94e5fc63ce0bbd1b3a593824e"
+    },
+    {
+      "path": "src/core.js",
+      "bytes": 32812,
+      "sha256": "f5a5cbb3e3000c9890ecbb20ef76aa9f52374a8181c9636b0d0c7fa8a7288f81"
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 13235,
+      "sha256": "278b7d27ee212a9c42adb1bdf9285018b528e8dc9f21169c77ff099d8fecdc5b"
+    },
+    {
+      "path": "src/template.html",
+      "bytes": 507,
+      "sha256": "efe2012e88f5250e49502ce9528a57d06630a0ad50a45068f8ee94a6f3b03265"
+    },
+    {
+      "path": "src/ui.js",
+      "bytes": 48402,
+      "sha256": "8d146c77eca97a7cfe419613591781870b1879cde1cec984368d509fb64c805a"
+    },
+    {
+      "path": "build.py",
+      "bytes": 527,
+      "sha256": "29a187c5b3b794edacd14c8323151ecc2004d0544b873d91a0651a4228ba7a7b"
+    }
+  ]
+}

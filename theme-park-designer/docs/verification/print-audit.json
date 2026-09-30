@@ -1,0 +1,129 @@
+{
+  "candidateCommit": "e1c81fc17a5da727e7bf35feeb4b79770a03f394",
+  "htmlSha256": "c3e9dbe937919751c99925a82be16fe2d45c1797d40e4b13ea8e0e03ce4ed6d9",
+  "generatedBy": "Chromium 153.0.8010.0",
+  "pageAndCounterAudit": "passed",
+  "pdfs": [
+    {
+      "file": "brochure-A4.pdf",
+      "pages": 1,
+      "pageCounters": [
+        "1/1"
+      ],
+      "bytes": 3558891,
+      "sha256": "a38c90720bc979119d76f09757e669a8a4ba90fce54a4e8d11e99aa2ffadefc5"
+    },
+    {
+      "file": "brochure-Letter.pdf",
+      "pages": 1,
+      "pageCounters": [
+        "1/1"
+      ],
+      "bytes": 3592529,
+      "sha256": "189cacc33b31f2201a29938823120dd15d8653dca2118268e3cac845f8b7fe0b"
+    },
+    {
+      "file": "map-A4.pdf",
+      "pages": 1,
+      "pageCounters": [
+        "1/1"
+      ],
+      "bytes": 4638438,
+      "sha256": "fb504e2688b928497c67fe865fb660a50080cdcca7049cc7a9fae7e4f1af8007"
+    },
+    {
+      "file": "map-Letter.pdf",
+      "pages": 1,
+      "pageCounters": [
+        "1/1"
+      ],
+      "bytes": 4637160,
+      "sha256": "c5f23ee253e9f255c08c6a30b95e87396c852905ade3d435b7458c5bd77dac9c"
+    },
+    {
+      "file": "student-A4.pdf",
+      "pages": 9,
+      "pageCounters": [
+        "1/9",
+        "2/9",
+        "3/9",
+        "4/9",
+        "5/9",
+        "6/9",
+        "7/9",
+        "8/9",
+        "9/9"
+      ],
+      "bytes": 11740606,
+      "sha256": "22ae6f4614f971f995c65d4a7f5d9b70048e2ba7141c1cd35b05152a80f65077"
+    },
+    {
+      "file": "student-Letter.pdf",
+      "pages": 9,
+      "pageCounters": [
+        "1/9",
+        "2/9",
+        "3/9",
+        "4/9",
+        "5/9",
+        "6/9",
+        "7/9",
+        "8/9",
+        "9/9"
+      ],
+      "bytes": 11596550,
+      "sha256": "6996c757d28d1d5c5e1d785bc9733b557447758fcbffb418b4e12d908539c1f2"
+    },
+    {
+      "file": "teacher-A4.pdf",
+      "pages": 6,
+      "pageCounters": [
+        "1/6",
+        "2/6",
+        "3/6",
+        "4/6",
+        "5/6",
+        "6/6"
+      ],
+      "bytes": 4742338,
+      "sha256": "09bb88fb286a5e6e5e2f57beebeaa218f33348a5b08ca2efdbfa61c7cf816264"
+    },
+    {
+      "file": "teacher-Letter.pdf",
+      "pages": 6,
+      "pageCounters": [
+        "1/6",
+        "2/6",
+        "3/6",
+        "4/6",
+        "5/6",
+        "6/6"
+      ],
+      "bytes": 4675098,
+      "sha256": "641a2554c3e9637a24ba2155c48d58f528faabfc6186a6acffc2eb62a20415df"
+    },
+    {
+      "file": "transfer-A4.pdf",
+      "pages": 1,
+      "pageCounters": [
+        "1/1"
+      ],
+      "bytes": 31628,
+      "sha256": "62d1ead944b30bdecdecb31e1abc24b67e7012555ace169ea5e118d6472b51eb"
+    },
+    {
+      "file": "transfer-Letter.pdf",
+      "pages": 1,
+      "pageCounters": [
+        "1/1"
+      ],
+      "bytes": 31617,
+      "sha256": "54b7dcf38be771a49744c7e5c2dd55ef0d95041fd314be91b2ba2d2ef26be07d"
+    }
+  ],
+  "physicalMeasurements": "pending",
+  "measuredPdfSiteMm": [
+    149.996,
+    99.9973
+  ]
+}

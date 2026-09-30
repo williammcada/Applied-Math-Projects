@@ -6,7 +6,7 @@
 **Source baseline:** d728dff8f8553f7db5cd26304d9bc403ad790ad9  
 **Handbook baseline:** 00cbde605ab08203b6b5fd2374d225155608fc29  
 **Target:** app 0.1.0; content/schema 1.0.0  
-**State:** Approved for production. No working Theme Park release predates this task.
+**State:** v0.1.0 implemented and locally verified; exact candidate preserved. Deployment evidence is tracked separately. Physical classroom acceptance remains pending.
 
 ## Scope and authority
 
@@ -24,7 +24,7 @@ TP-I01–07 approved: required two main path spines; 4 m door-edge segments and 
 
 ## Devices and delivery
 
-iPad portrait/landscape through GitHub Pages; desktop keyboard/mouse and downloaded standalone HTML offline. Every drag operation has tap/coordinate alternatives. No iPhone or closed-tab hosted-offline guarantee. Intended hosting: https://williammcada.github.io/Applied-Math-Projects/theme-park-designer/ . This URL is a target until deployment verification.
+iPad portrait/landscape through GitHub Pages; desktop keyboard/mouse and downloaded standalone HTML offline. Every drag operation has tap/coordinate alternatives. No iPhone or closed-tab hosted-offline guarantee. Hosting path: https://williammcada.github.io/Applied-Math-Projects/theme-park-designer/ . See [deployment evidence](DEPLOYMENT-v0.1.0.md) for observed status.
 
 ## Saved work
 
@@ -33,3 +33,5 @@ Named snapshots are individually deletable; sessions delete complete related rec
 ## Release and verification
 
 DESIGN → CHANGE SPEC → IMPLEMENT → CHECKPOINT → VERIFY → VERIFIED CHECKPOINT → RELEASE → DEPLOY. Required checks are TP-Q01–25 in the spec. Preserve exact candidate hashes and source checkpoints. Physical iPad, school-network and measured printer evidence must remain pending until actually observed. Packaging/deployment failure recovers the preserved candidate, never reconstructs it.
+
+The implementation checkpoint is `39c4981394c28c89f22f7e23d6f040b932edbb61`. Corrections were preserved before the final verification run at `e1c81fc17a5da727e7bf35feeb4b79770a03f394`. The byte-identical standalone/index HTML has SHA-256 `c3e9dbe937919751c99925a82be16fe2d45c1797d40e4b13ea8e0e03ce4ed6d9`. See the [QA record](QA-REPORT-v0.1.0.md), [teacher guide](TEACHER-GUIDE.md), and [asset manifest](ASSET-MANIFEST.md).

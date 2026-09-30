@@ -5,3 +5,4 @@
 | `SERIES-FOUNDATION.md` | Accepted series design direction | Five project identities and evidence rules |
 | [`MIGRATION-BASELINE.md`](../MIGRATION-BASELINE.md) | Current source-identity record | Exact planning baseline, source status, and verification limits |
 | [ROAD-TRIP-PLANNER-v0.1.0.md](ROAD-TRIP-PLANNER-v0.1.0.md) | Approved revision 1, including P-01, 30 September 2026 | First complete Road Trip build contract, source/data preservation, saved-work controls and verification plan |
+| [THEME-PARK-DESIGNER-v0.1.0.md](THEME-PARK-DESIGNER-v0.1.0.md) | Approved for production, 30 September 2026 | Eight stages, nine objectives, exact geometry/budget model, saved work, transfer, print and verification |

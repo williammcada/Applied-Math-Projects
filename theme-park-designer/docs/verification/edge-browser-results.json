@@ -1,0 +1,84 @@
+{
+  "passed": 19,
+  "failed": 0,
+  "checks": [
+    {
+      "label": "real UI import reaches distinction",
+      "passed": true
+    },
+    {
+      "label": "visible distinction heading",
+      "passed": true
+    },
+    {
+      "label": "touch placement uses mathematical coordinates",
+      "passed": true
+    },
+    {
+      "label": "dialog keyboard focus remains inside",
+      "passed": true
+    },
+    {
+      "label": "touch repeated cell idempotent",
+      "passed": true
+    },
+    {
+      "label": "snapshot deletion clears reference only",
+      "passed": true
+    },
+    {
+      "label": "snapshot deletion persists after reload",
+      "passed": true
+    },
+    {
+      "label": "real UI import reaches approved",
+      "passed": true
+    },
+    {
+      "label": "visible approved heading",
+      "passed": true
+    },
+    {
+      "label": "real UI import reaches revision",
+      "passed": true
+    },
+    {
+      "label": "visible revision heading",
+      "passed": true
+    },
+    {
+      "label": "real UI import reaches draft",
+      "passed": true
+    },
+    {
+      "label": "visible draft heading",
+      "passed": true
+    },
+    {
+      "label": "real UI import reaches provisional",
+      "passed": true
+    },
+    {
+      "label": "visible provisional heading",
+      "passed": true
+    },
+    {
+      "label": "denied storage honest status",
+      "passed": true
+    },
+    {
+      "label": "denied storage export retains edits",
+      "passed": true
+    },
+    {
+      "label": "alias text never injected as HTML",
+      "passed": true
+    },
+    {
+      "label": "bad import leaves current work unchanged",
+      "passed": true
+    }
+  ],
+  "browser": "153.0.8010.0",
+  "scope": "Saved ending fixtures through UI, touch emulation, keyboard dialogs, deletion, storage denial, malformed input"
+}

@@ -1,0 +1,372 @@
+{
+  "passed": 91,
+  "failed": 0,
+  "environment": "Node v24.19.0",
+  "scope": "Pure application mathematics, geometry, state and storage logic",
+  "checks": [
+    {
+      "label": "dossier baseline exact",
+      "passed": true
+    },
+    {
+      "label": "baseline no structural errors",
+      "passed": true
+    },
+    {
+      "label": "108 rooted path cells",
+      "passed": true
+    },
+    {
+      "label": "six doors connected",
+      "passed": true
+    },
+    {
+      "label": "baseline distinction",
+      "passed": true
+    },
+    {
+      "label": "600 site cells",
+      "passed": true
+    },
+    {
+      "label": "main union excludes overlap",
+      "passed": true
+    },
+    {
+      "label": "reserve rounding 11.6",
+      "passed": true
+    },
+    {
+      "label": "numeric 2,400",
+      "passed": true
+    },
+    {
+      "label": "numeric 157/2",
+      "passed": true
+    },
+    {
+      "label": "numeric −100",
+      "passed": true
+    },
+    {
+      "label": "numeric  20 % ",
+      "passed": true
+    },
+    {
+      "label": "numeric 480/2400",
+      "passed": true
+    },
+    {
+      "label": "numeric 1.5 cm",
+      "passed": true
+    },
+    {
+      "label": "reject ",
+      "passed": true
+    },
+    {
+      "label": "reject 1/0",
+      "passed": true
+    },
+    {
+      "label": "reject NaN",
+      "passed": true
+    },
+    {
+      "label": "reject Infinity",
+      "passed": true
+    },
+    {
+      "label": "reject 1,5",
+      "passed": true
+    },
+    {
+      "label": "reject 2,40",
+      "passed": true
+    },
+    {
+      "label": "reject <img>",
+      "passed": true
+    },
+    {
+      "label": "reject 3+4",
+      "passed": true
+    },
+    {
+      "label": "reject 1e6",
+      "passed": true
+    },
+    {
+      "label": "reject 2/3/4",
+      "passed": true
+    },
+    {
+      "label": "wrong unit",
+      "passed": true
+    },
+    {
+      "label": "equivalent scale ratio",
+      "passed": true
+    },
+    {
+      "label": "mixed unit ratio rejected",
+      "passed": true
+    },
+    {
+      "label": "misconception areaFactor",
+      "passed": true
+    },
+    {
+      "label": "misconception radius",
+      "passed": true
+    },
+    {
+      "label": "misconception circleArea",
+      "passed": true
+    },
+    {
+      "label": "misconception triangleArea",
+      "passed": true
+    },
+    {
+      "label": "misconception shadeExtra",
+      "passed": true
+    },
+    {
+      "label": "misconception rideLedger",
+      "passed": true
+    },
+    {
+      "label": "invalid rectangle -2,0,2,2",
+      "passed": true
+    },
+    {
+      "label": "invalid rectangle 0,0,0,2",
+      "passed": true
+    },
+    {
+      "label": "invalid rectangle 1,0,2,2",
+      "passed": true
+    },
+    {
+      "label": "invalid rectangle 58,38,4,2",
+      "passed": true
+    },
+    {
+      "label": "boundary touching accepted",
+      "passed": true
+    },
+    {
+      "label": "corner-only door rejected",
+      "passed": true
+    },
+    {
+      "label": "diagonal path disconnected",
+      "passed": true
+    },
+    {
+      "label": "rotation dimensions",
+      "passed": true
+    },
+    {
+      "label": "rotated door follows tile",
+      "passed": true
+    },
+    {
+      "label": "rotated street side east",
+      "passed": true
+    },
+    {
+      "label": "facility cannot overlap required path",
+      "passed": true
+    },
+    {
+      "label": "invalid placement preserves work",
+      "passed": true
+    },
+    {
+      "label": "green cannot cover path",
+      "passed": true
+    },
+    {
+      "label": "invalid paint atomic",
+      "passed": true
+    },
+    {
+      "label": "duplicate paint no cost",
+      "passed": true
+    },
+    {
+      "label": "main paths nonerasable",
+      "passed": true
+    },
+    {
+      "label": "occupied expansion cannot qualify",
+      "passed": true
+    },
+    {
+      "label": "expansion no extra cost",
+      "passed": true
+    },
+    {
+      "label": "missing connector shown",
+      "passed": true
+    },
+    {
+      "label": "disconnected path design revision",
+      "passed": true
+    },
+    {
+      "label": "all plan checkpoints complete",
+      "passed": true
+    },
+    {
+      "label": "expansion edit retains layout math",
+      "passed": true
+    },
+    {
+      "label": "expansion edit retains budget",
+      "passed": true
+    },
+    {
+      "label": "green edit invalidates green area",
+      "passed": true
+    },
+    {
+      "label": "green edit preserves path area",
+      "passed": true
+    },
+    {
+      "label": "green edit preserves facility/rotation evidence",
+      "passed": true
+    },
+    {
+      "label": "green edit invalidates total",
+      "passed": true
+    },
+    {
+      "label": "stale answer retained",
+      "passed": true
+    },
+    {
+      "label": "low green fixture",
+      "passed": true
+    },
+    {
+      "label": "correct low-green math accepted",
+      "passed": true
+    },
+    {
+      "label": "correct cheaper weak-design costs accepted",
+      "passed": true
+    },
+    {
+      "label": "first checked evidence retained",
+      "passed": true
+    },
+    {
+      "label": "completed distinction",
+      "passed": true
+    },
+    {
+      "label": "completed ordinary approval",
+      "passed": true
+    },
+    {
+      "label": "working plan differs from selected snapshot",
+      "passed": true
+    },
+    {
+      "label": "snapshots immutable across working edits",
+      "passed": true
+    },
+    {
+      "label": "report uses exact selected snapshot",
+      "passed": true
+    },
+    {
+      "label": "completed roundtrip",
+      "passed": true
+    },
+    {
+      "label": "history roundtrip",
+      "passed": true
+    },
+    {
+      "label": "wrong project",
+      "passed": true
+    },
+    {
+      "label": "future schema",
+      "passed": true
+    },
+    {
+      "label": "bad cell in snapshot",
+      "passed": true
+    },
+    {
+      "label": "unknown field",
+      "passed": true
+    },
+    {
+      "label": "claimed correct import answer rechecked",
+      "passed": true
+    },
+    {
+      "label": "bypass labelled provisional",
+      "passed": true
+    },
+    {
+      "label": "delete selected snapshot clears reference",
+      "passed": true
+    },
+    {
+      "label": "deleted comparison redrafted",
+      "passed": true
+    },
+    {
+      "label": "unrelated snapshot preserved",
+      "passed": true
+    },
+    {
+      "label": "new session draft",
+      "passed": true
+    },
+    {
+      "label": "cross-tab stale write rejected",
+      "passed": true
+    },
+    {
+      "label": "other project retained",
+      "passed": true
+    },
+    {
+      "label": "sessions fully deleted",
+      "passed": true
+    },
+    {
+      "label": "duplicate gets independent identity",
+      "passed": true
+    },
+    {
+      "label": "backup decode",
+      "passed": true
+    },
+    {
+      "label": "malformed JSON",
+      "passed": true
+    },
+    {
+      "label": "oversized file",
+      "passed": true
+    },
+    {
+      "label": "storage denial fallback",
+      "passed": true
+    },
+    {
+      "label": "diagnostics",
+      "passed": true
+    }
+  ]
+}
