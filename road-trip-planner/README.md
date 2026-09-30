@@ -12,7 +12,7 @@ The complete application is implemented and verified in the environments listed 
 - Content and initial save schema: **1.0.0**
 - Approved specification: [revision 1](../docs/change-specs/ROAD-TRIP-PLANNER-v0.1.0.md)
 - First implementation checkpoint: `04e5c7ec88b9ccdf9abc4f0ff48191ea241b694c`
-- Verified application candidate: `c73bc879faa065a4d51f91c75d68e4157abecbce`
+- Verified application candidate: `7927f457c1d977c8c3bcb2a435fc38f641aea7de`
 
 ## Open the application
 

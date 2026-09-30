@@ -1,6 +1,6 @@
 {
-  "candidateCommit": "c73bc879faa065a4d51f91c75d68e4157abecbce",
-  "sourceTree": "b7c1265a92cf1efc7bf675acbd9252bdda82e6c1",
+  "candidateCommit": "7927f457c1d977c8c3bcb2a435fc38f641aea7de",
+  "sourceTree": "dde145118a34cb5bc547a5adedfffca820d83e05",
   "applicationVersion": "0.1.0",
   "contentVersion": "1.0.0",
   "verifiedAt": "2026-09-30",
@@ -14,12 +14,12 @@
   },
   "artifacts": {
     "road-trip-planner/index.html": {
-      "bytes": 120686,
-      "sha256": "fe3c5cbd3e0a5be5c67fd061e9302ef9c48c9d410e63395ef7987df2be1e9664"
+      "bytes": 120755,
+      "sha256": "19afbe79565f1bda8739b0c2d5856005e6138832f39871213eda09b2de893dc8"
     },
     "road-trip-planner/RoadTripPlanner_v0.1.0.html": {
-      "bytes": 120686,
-      "sha256": "fe3c5cbd3e0a5be5c67fd061e9302ef9c48c9d410e63395ef7987df2be1e9664"
+      "bytes": 120755,
+      "sha256": "19afbe79565f1bda8739b0c2d5856005e6138832f39871213eda09b2de893dc8"
     },
     "road-trip-planner/docs/verification/home.png": {
       "bytes": 154975,
@@ -31,27 +31,27 @@
     },
     "road-trip-planner/docs/verification/teacher-A4.pdf": {
       "bytes": 46160,
-      "sha256": "165e0ad2812dac6309ea9e0d06b8bdf0b98643a184e7bb217343f2a3d7f35e12"
+      "sha256": "193fa2e08cbd12e0ae457c58316c275d27852c144129d92c6778c6da5999754e"
     },
     "road-trip-planner/docs/verification/transfer-slips.pdf": {
       "bytes": 35027,
-      "sha256": "3648b74a5cefdc4f23e2d8f2a4877d52f29b034c4a6d66b9b9921e78f2fcd8f0"
+      "sha256": "3f5c071e08d513138c9166732c6bf78d9cf214162a3ad29a1bdf25fa9b7cb628"
     },
     "road-trip-planner/docs/verification/teacher-Letter.pdf": {
       "bytes": 46148,
-      "sha256": "51ae35463d977f96fe4c1febc9957448937b7601bc21269e394582a46658284c"
+      "sha256": "3e307442a4693ae39fa94206b3a09534b2ecda0bc75d81205d1da4683c5f83b5"
     },
     "road-trip-planner/docs/verification/student-Letter.pdf": {
-      "bytes": 65908,
-      "sha256": "c58994d7d7f3a7342868b03ce9d1d70e4ae1e77708302928ed30c53896a0823e"
+      "bytes": 65905,
+      "sha256": "135a879a7913518c0c219af8fb108e716eada577b45c6fcaf8071d7e4025715a"
     },
     "road-trip-planner/docs/verification/student-A4.pdf": {
-      "bytes": 65960,
-      "sha256": "6f0cdc947d98d0220e9470961a34c4fa9c3edfa183e41eade76134db49b27495"
+      "bytes": 65957,
+      "sha256": "750b5b94177aafdfcf6dc621a6c900199c96816fdc2a56c1c32d1cccd785ba14"
     },
     "road-trip-planner/docs/verification/core-results.json": {
       "bytes": 93,
-      "sha256": "e33a9d30e66be516802869194708c55c9f1d147a3f2f204151376a2894b47b3d"
+      "sha256": "8c3c8325a61fec9e1aa83943e478483d9d7beb7661eee42710e3ce85ca332c0f"
     },
     "road-trip-planner/docs/verification/edge-results.json": {
       "bytes": 150,

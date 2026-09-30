@@ -11,10 +11,10 @@
 | Approved specification baseline | `c13f297e38552a241f9d9643cbeb0918003975ba` |
 | Handbook consulted | `00cbde605ab08203b6b5fd2374d225155608fc29`, v0.1.1 |
 | First implementation checkpoint, before extended tests | `04e5c7ec88b9ccdf9abc4f0ff48191ea241b694c` |
-| Corrected application candidate, preserved before final verification | `c73bc879faa065a4d51f91c75d68e4157abecbce` |
-| Candidate source tree | `b7c1265a92cf1efc7bf675acbd9252bdda82e6c1` |
-| HTML SHA-256, both entry files | `fe3c5cbd3e0a5be5c67fd061e9302ef9c48c9d410e63395ef7987df2be1e9664` |
-| HTML size, each | 120,686 bytes (about 118 KiB; below the 8 MiB target) |
+| Corrected application candidate, preserved before final verification | `7927f457c1d977c8c3bcb2a435fc38f641aea7de` |
+| Candidate source tree | `dde145118a34cb5bc547a5adedfffca820d83e05` |
+| HTML SHA-256, both entry files | `19afbe79565f1bda8739b0c2d5856005e6138832f39871213eda09b2de893dc8` |
+| HTML size, each | 120,755 bytes (about 118 KiB; below the 8 MiB target) |
 
 Packaging adds documentation, a supplemental verification script, and preserved evidence only. It does not change the verified HTML or application source. The manifest records artifact hashes. The immutable specification/preparation reports remain historical rather than being overwritten with application-test claims.
 
@@ -24,7 +24,7 @@ Linux x86_64; Node 24.19.0; Playwright 1.62.1; Chromium 153.0.8010.0. The applic
 
 | Suite | Result | Evidence |
 | --- | --- | --- |
-| Pure application engine, parser, state and storage | **662/662 passed** | [core results](verification/core-results.json), `tests/core.test.cjs` |
+| Pure application engine, parser, state and storage | **666/666 passed** | [core results](verification/core-results.json), `tests/core.test.cjs` |
 | Eight-stage browser journey, revision, transfer, saves, imports, deletion, conflicts and print | **55/55 passed** | [browser results](verification/browser-results.json), `tests/browser.test.cjs` |
 | Teacher review/bypass, paper transfer, guided rule, weak endings, touch and storage failure | **16/16 passed** | [edge results](verification/edge-results.json), `tests/edge-browser.test.cjs` |
 | Explicit replacement/cancel/backup, research conversion, fresh-session recovery and remaining controls | **12/12 passed** | [replacement results](verification/replacement-results.json), `tests/import-replacement.test.cjs`; unchanged application hash |
@@ -69,7 +69,9 @@ These are test assertions, not mastery scores or a statement that every device/b
 4. Paper/oral mode alone could appear complete. An actual reviewer submission record is now required.
 5. Local resume previously set the imported marker. Only an actual import adds that marker.
 
-The corrected checkpoint was preserved, then the final suites were run. No known failing automated checks remain. The explicit not-run items above prevent a classroom-ready or deployed-release claim.
+6. Final review found that USD totals accepted a USD/day suffix. Total-money and daily-rate suffixes now have distinct parsers; four explicit regression assertions cover rejection and valid rate forms.
+
+The corrected checkpoint was preserved, then all final suites were run again against the final candidate above. No known failing automated checks remain. The explicit not-run items above prevent a classroom-ready or deployed-release claim.
 
 ## Preserved visual evidence
 

@@ -24,6 +24,7 @@ First complete application from approved specification revision 1 and the preser
 - Remove an unintended filled SVG axis path, isolate print graph clipping, and use a white print background.
 - Bound graph grid rendering for unusually large reviewed research distances.
 - Record the first complete analyzed submission and normalized numeric/model evidence.
+- Reject daily-rate suffixes in total-money fields and total-money suffixes in daily-rate fields.
 
 ### Outstanding acceptance / delivery
 
