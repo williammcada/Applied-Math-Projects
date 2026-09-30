@@ -88,3 +88,10 @@ Before substantive implementation retrieve these records, the current source, ap
 ## 9. Ecosystem boundary
 
 Shared principles do not establish shared code, accounts or interfaces. MathQuest is engagement, TestForge assessment design, GradePal learner-level evidence, and DataDiver institutional analytics. Integration remains separately specified unless confirmed in source. Other projects remain independent unless their brief explicitly says otherwise.
+
+
+## 10. Powers of Ten production update — 30 September 2026
+
+The owner authorized production of the approved [Powers of Ten v0.1.0 specification](change-specs/POWERS-OF-TEN-v0.1.0.md). Its complete standalone candidate, source, teacher guide and test fixtures are now preserved under `powers-of-ten/`. This supersedes earlier planning-only descriptions of Powers of Ten in this historical family brief. Other projects retain their own records and release histories.
+
+The [project brief](../powers-of-ten/docs/PROJECT-BRIEF.md), [QA report](../powers-of-ten/docs/QA-REPORT-v0.1.0.md) and [deployment record](../powers-of-ten/docs/DEPLOYMENT-v0.1.0.md) are the current Powers of Ten records. App 0.1.0, content/schema 1.0.0; automated checkpoint 5506401f906c11bfab6e750251c81893dec86d28 preserves 221 core, 98 browser and 7 recovery passes. Physical iPad, school-network, printer and classroom acceptance remain pending. No handbook rule or other project's application was changed.

@@ -1,0 +1,891 @@
+{
+  "scope": "Pure implementation evaluators, evidence, import and storage using synthetic data",
+  "passed": 221,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Complete A",
+      "passed": true
+    },
+    {
+      "name": "Complete B",
+      "passed": true
+    },
+    {
+      "name": "Correct C01a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C01a.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C01a.n",
+      "passed": true
+    },
+    {
+      "name": "Correct C01b",
+      "passed": true
+    },
+    {
+      "name": "Wrong C01b.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C01b.n",
+      "passed": true
+    },
+    {
+      "name": "Correct C01c",
+      "passed": true
+    },
+    {
+      "name": "Wrong C01c.value",
+      "passed": true
+    },
+    {
+      "name": "Correct C01d",
+      "passed": true
+    },
+    {
+      "name": "Wrong C01d.value",
+      "passed": true
+    },
+    {
+      "name": "Correct C02",
+      "passed": true
+    },
+    {
+      "name": "Wrong C02.first",
+      "passed": true
+    },
+    {
+      "name": "Wrong C02.second",
+      "passed": true
+    },
+    {
+      "name": "Wrong C02.third",
+      "passed": true
+    },
+    {
+      "name": "Wrong C02.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C02.n",
+      "passed": true
+    },
+    {
+      "name": "Wrong C02.decade",
+      "passed": true
+    },
+    {
+      "name": "Correct C03a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C03a.m",
+      "passed": true
+    },
+    {
+      "name": "Wrong C03a.mm",
+      "passed": true
+    },
+    {
+      "name": "Wrong C03a.nm",
+      "passed": true
+    },
+    {
+      "name": "Correct C03b",
+      "passed": true
+    },
+    {
+      "name": "Wrong C03b.m",
+      "passed": true
+    },
+    {
+      "name": "Correct C04a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C04a.c",
+      "passed": true
+    },
+    {
+      "name": "Wrong C04a.e",
+      "passed": true
+    },
+    {
+      "name": "Wrong C04a.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C04a.n",
+      "passed": true
+    },
+    {
+      "name": "Wrong C04a.unit",
+      "passed": true
+    },
+    {
+      "name": "Correct C04b",
+      "passed": true
+    },
+    {
+      "name": "Wrong C04b.c",
+      "passed": true
+    },
+    {
+      "name": "Wrong C04b.e",
+      "passed": true
+    },
+    {
+      "name": "Wrong C04b.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C04b.n",
+      "passed": true
+    },
+    {
+      "name": "Wrong C04b.unit",
+      "passed": true
+    },
+    {
+      "name": "Correct C05a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C05a.c",
+      "passed": true
+    },
+    {
+      "name": "Wrong C05a.e",
+      "passed": true
+    },
+    {
+      "name": "Wrong C05a.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C05a.n",
+      "passed": true
+    },
+    {
+      "name": "Wrong C05a.unit",
+      "passed": true
+    },
+    {
+      "name": "Correct C05b",
+      "passed": true
+    },
+    {
+      "name": "Wrong C05b.c",
+      "passed": true
+    },
+    {
+      "name": "Wrong C05b.e",
+      "passed": true
+    },
+    {
+      "name": "Wrong C05b.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C05b.n",
+      "passed": true
+    },
+    {
+      "name": "Wrong C05b.unit",
+      "passed": true
+    },
+    {
+      "name": "Correct C06a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06a.common",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06a.left",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06a.right",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06a.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06a.n",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06a.unit",
+      "passed": true
+    },
+    {
+      "name": "Correct C06b",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06b.common",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06b.left",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06b.right",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06b.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06b.n",
+      "passed": true
+    },
+    {
+      "name": "Wrong C06b.unit",
+      "passed": true
+    },
+    {
+      "name": "Correct C07a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07a.common",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07a.left",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07a.right",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07a.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07a.n",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07a.unit",
+      "passed": true
+    },
+    {
+      "name": "Correct C07b",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07b.common",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07b.left",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07b.right",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07b.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07b.n",
+      "passed": true
+    },
+    {
+      "name": "Wrong C07b.unit",
+      "passed": true
+    },
+    {
+      "name": "Correct C08A",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08A.model",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08A.k",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08A.ratioM",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08A.ratioA",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08A.direction",
+      "passed": true
+    },
+    {
+      "name": "Correct C08B",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08B.model",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08B.k",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08B.ratioM",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08B.ratioA",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08B.direction",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08B.moon",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08B.rounded",
+      "passed": true
+    },
+    {
+      "name": "Wrong C08B.distance",
+      "passed": true
+    },
+    {
+      "name": "Correct C09A",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09A.cell",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09A.cellUnit",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09A.cellDeviation",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09A.resolution",
+      "passed": true
+    },
+    {
+      "name": "Correct C09B",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09B.earth",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09B.earthUnit",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09B.earthDeviation",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09B.moon",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09B.moonUnit",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09B.moonDeviation",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09B.centers",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09B.centersUnit",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09B.centersDeviation",
+      "passed": true
+    },
+    {
+      "name": "Wrong C09B.resolution",
+      "passed": true
+    },
+    {
+      "name": "Correct C10A",
+      "passed": true
+    },
+    {
+      "name": "Wrong C10A.comparison",
+      "passed": true
+    },
+    {
+      "name": "Wrong C10A.size",
+      "passed": true
+    },
+    {
+      "name": "Wrong C10A.available",
+      "passed": true
+    },
+    {
+      "name": "Wrong C10A.actual",
+      "passed": true
+    },
+    {
+      "name": "Wrong C10A.conclusion",
+      "passed": true
+    },
+    {
+      "name": "Correct C10B",
+      "passed": true
+    },
+    {
+      "name": "Wrong C10B.comparison",
+      "passed": true
+    },
+    {
+      "name": "Wrong C10B.size",
+      "passed": true
+    },
+    {
+      "name": "Wrong C10B.available",
+      "passed": true
+    },
+    {
+      "name": "Wrong C10B.actual",
+      "passed": true
+    },
+    {
+      "name": "Wrong C10B.conclusion",
+      "passed": true
+    },
+    {
+      "name": "Correct C11A",
+      "passed": true
+    },
+    {
+      "name": "Wrong C11A.otherDirection",
+      "passed": true
+    },
+    {
+      "name": "Correct C11B",
+      "passed": true
+    },
+    {
+      "name": "Wrong C11B.otherDirection",
+      "passed": true
+    },
+    {
+      "name": "Correct C11match",
+      "passed": true
+    },
+    {
+      "name": "Wrong C11match.dna",
+      "passed": true
+    },
+    {
+      "name": "Wrong C11match.cell",
+      "passed": true
+    },
+    {
+      "name": "Wrong C11match.earth",
+      "passed": true
+    },
+    {
+      "name": "Wrong C11match.moon",
+      "passed": true
+    },
+    {
+      "name": "Wrong C11match.distance",
+      "passed": true
+    },
+    {
+      "name": "Wrong C11match.sun",
+      "passed": true
+    },
+    {
+      "name": "Wrong C11match.orbit",
+      "passed": true
+    },
+    {
+      "name": "Wrong C11match.light",
+      "passed": true
+    },
+    {
+      "name": "Wrong C11match.image",
+      "passed": true
+    },
+    {
+      "name": "Correct C121",
+      "passed": true
+    },
+    {
+      "name": "Wrong C121.mode",
+      "passed": true
+    },
+    {
+      "name": "Wrong C121.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C121.n",
+      "passed": true
+    },
+    {
+      "name": "Wrong C121.decimal",
+      "passed": true
+    },
+    {
+      "name": "Wrong C121.direction",
+      "passed": true
+    },
+    {
+      "name": "Wrong C121.scale",
+      "passed": true
+    },
+    {
+      "name": "Correct C122",
+      "passed": true
+    },
+    {
+      "name": "Wrong C122.mode",
+      "passed": true
+    },
+    {
+      "name": "Wrong C122.a",
+      "passed": true
+    },
+    {
+      "name": "Wrong C122.n",
+      "passed": true
+    },
+    {
+      "name": "Wrong C122.decimal",
+      "passed": true
+    },
+    {
+      "name": "Wrong C122.direction",
+      "passed": true
+    },
+    {
+      "name": "Wrong C122.scale",
+      "passed": true
+    },
+    {
+      "name": "Parse 2e-4",
+      "passed": true
+    },
+    {
+      "name": "Parse 8e-6",
+      "passed": true
+    },
+    {
+      "name": "Parse 1/640000000",
+      "passed": true
+    },
+    {
+      "name": "Parse 1,280,000",
+      "passed": true
+    },
+    {
+      "name": "Parse 3.15 × 10^-5",
+      "passed": true
+    },
+    {
+      "name": "Parse −2",
+      "passed": true
+    },
+    {
+      "name": "Reject 1,28",
+      "passed": true
+    },
+    {
+      "name": "Reject 2e25",
+      "passed": true
+    },
+    {
+      "name": "Reject 2e-25",
+      "passed": true
+    },
+    {
+      "name": "Reject NaN",
+      "passed": true
+    },
+    {
+      "name": "Reject Infinity",
+      "passed": true
+    },
+    {
+      "name": "Reject 1/0",
+      "passed": true
+    },
+    {
+      "name": "Reject 1+2",
+      "passed": true
+    },
+    {
+      "name": "Reject <script>",
+      "passed": true
+    },
+    {
+      "name": "Reject ",
+      "passed": true
+    },
+    {
+      "name": "Reject 3e1.5",
+      "passed": true
+    },
+    {
+      "name": "Tiny zero",
+      "passed": true
+    },
+    {
+      "name": "Normalization",
+      "passed": true
+    },
+    {
+      "name": "12-digit coefficient boundary",
+      "passed": true
+    },
+    {
+      "name": "13 digits reject",
+      "passed": true
+    },
+    {
+      "name": "Zero canonical",
+      "passed": true
+    },
+    {
+      "name": "Optional exponent C05a",
+      "passed": true
+    },
+    {
+      "name": "Alternative common exponent",
+      "passed": true
+    },
+    {
+      "name": "Equivalent ratio",
+      "passed": true
+    },
+    {
+      "name": "Wrong ratio direction",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Acell-1false",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Acell-1true",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Acell1false",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Acell1true",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bearth-1false",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bearth-1true",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bearth1false",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bearth1true",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bmoon-1false",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bmoon-1true",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bmoon1false",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bmoon1true",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bcenters-1false",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bcenters-1true",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bcenters1false",
+      "passed": true
+    },
+    {
+      "name": "Tolerance Bcenters1true",
+      "passed": true
+    },
+    {
+      "name": "Measurement unit equivalence",
+      "passed": true
+    },
+    {
+      "name": "Wrong unit changes quantity",
+      "passed": true
+    },
+    {
+      "name": "Single upstream invalidation",
+      "passed": true
+    },
+    {
+      "name": "Plan change stales downstream only",
+      "passed": true
+    },
+    {
+      "name": "Rebuild inspection stale",
+      "passed": true
+    },
+    {
+      "name": "Track choice retains evidence",
+      "passed": true
+    },
+    {
+      "name": "Pending review",
+      "passed": true
+    },
+    {
+      "name": "Missing labels repair",
+      "passed": true
+    },
+    {
+      "name": "Reviewed repair",
+      "passed": true
+    },
+    {
+      "name": "Bypass provisional",
+      "passed": true
+    },
+    {
+      "name": "First attempt persists",
+      "passed": true
+    },
+    {
+      "name": "Paper review pending then accepted",
+      "passed": true
+    },
+    {
+      "name": "Independent paper review survives track switch",
+      "passed": true
+    },
+    {
+      "name": "Peer cannot certify interpretation",
+      "passed": true
+    },
+    {
+      "name": "Roundtrip",
+      "passed": true
+    },
+    {
+      "name": "Bundle roundtrip",
+      "passed": true
+    },
+    {
+      "name": "Duplicate keeps original",
+      "passed": true
+    },
+    {
+      "name": "Import rejects wrong project",
+      "passed": true
+    },
+    {
+      "name": "Import rejects future schema",
+      "passed": true
+    },
+    {
+      "name": "Import rejects unknown content",
+      "passed": true
+    },
+    {
+      "name": "Import rejects field injection",
+      "passed": true
+    },
+    {
+      "name": "Import rejects oversize",
+      "passed": true
+    },
+    {
+      "name": "Import rejects fake bypass",
+      "passed": true
+    },
+    {
+      "name": "Import rejects bad reviewer",
+      "passed": true
+    },
+    {
+      "name": "Import rejects bad revision",
+      "passed": true
+    },
+    {
+      "name": "Forged checked flag recomputed",
+      "passed": true
+    },
+    {
+      "name": "Namespaced storage and deletion",
+      "passed": true
+    },
+    {
+      "name": "Atomic index failure rollback",
+      "passed": true
+    },
+    {
+      "name": "Denied storage",
+      "passed": true
+    },
+    {
+      "name": "Newer-tab conflict",
+      "passed": true
+    },
+    {
+      "name": "Partial deletion failure truthful",
+      "passed": true
+    },
+    {
+      "name": "Diagnostics pure",
+      "passed": true
+    }
+  ]
+}

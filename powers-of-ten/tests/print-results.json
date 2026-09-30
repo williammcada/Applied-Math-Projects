@@ -1,0 +1,262 @@
+{
+  "scope": "Digital PDF page counts and vector line geometry; not physical printer calibration",
+  "pdfs": [
+    {
+      "file": "A-build-A4.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "A-build-Letter.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "A-placard-A4.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "A-placard-Letter.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "A-reference-A4.pdf",
+      "pages": 3,
+      "expectedPages": 3,
+      "passed": true
+    },
+    {
+      "file": "A-reference-Letter.pdf",
+      "pages": 3,
+      "expectedPages": 3,
+      "passed": true
+    },
+    {
+      "file": "A-report-A4.pdf",
+      "pages": 4,
+      "expectedPages": 4,
+      "passed": true
+    },
+    {
+      "file": "A-report-Letter.pdf",
+      "pages": 4,
+      "expectedPages": 4,
+      "passed": true
+    },
+    {
+      "file": "A-templates-A4.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "A-templates-Letter.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "A-transfers-A4.pdf",
+      "pages": 2,
+      "expectedPages": 2,
+      "passed": true
+    },
+    {
+      "file": "A-transfers-Letter.pdf",
+      "pages": 2,
+      "expectedPages": 2,
+      "passed": true
+    },
+    {
+      "file": "A-visitor-A4.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "A-visitor-Letter.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "B-build-A4.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "B-build-Letter.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "B-placard-A4.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "B-placard-Letter.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "B-reference-A4.pdf",
+      "pages": 3,
+      "expectedPages": 3,
+      "passed": true
+    },
+    {
+      "file": "B-reference-Letter.pdf",
+      "pages": 3,
+      "expectedPages": 3,
+      "passed": true
+    },
+    {
+      "file": "B-report-A4.pdf",
+      "pages": 4,
+      "expectedPages": 4,
+      "passed": true
+    },
+    {
+      "file": "B-report-Letter.pdf",
+      "pages": 4,
+      "expectedPages": 4,
+      "passed": true
+    },
+    {
+      "file": "B-templates-A4.pdf",
+      "pages": 4,
+      "expectedPages": 4,
+      "passed": true
+    },
+    {
+      "file": "B-templates-Letter.pdf",
+      "pages": 4,
+      "expectedPages": 4,
+      "passed": true
+    },
+    {
+      "file": "B-transfers-A4.pdf",
+      "pages": 2,
+      "expectedPages": 2,
+      "passed": true
+    },
+    {
+      "file": "B-transfers-Letter.pdf",
+      "pages": 2,
+      "expectedPages": 2,
+      "passed": true
+    },
+    {
+      "file": "B-visitor-A4.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    },
+    {
+      "file": "B-visitor-Letter.pdf",
+      "pages": 1,
+      "expectedPages": 1,
+      "passed": true
+    }
+  ],
+  "geometry": [
+    {
+      "file": "B-templates-A4.pdf",
+      "page": 2,
+      "targetMm": 50,
+      "observedMm": 49.988336,
+      "passed": true
+    },
+    {
+      "file": "B-templates-A4.pdf",
+      "page": 2,
+      "targetMm": 200,
+      "observedMm": 199.985906,
+      "passed": true
+    },
+    {
+      "file": "B-templates-A4.pdf",
+      "page": 3,
+      "targetMm": 50,
+      "observedMm": 49.988336,
+      "passed": true
+    },
+    {
+      "file": "B-templates-A4.pdf",
+      "page": 3,
+      "targetMm": 200,
+      "observedMm": 199.985906,
+      "passed": true
+    },
+    {
+      "file": "B-templates-A4.pdf",
+      "page": 4,
+      "targetMm": 50,
+      "observedMm": 49.988336,
+      "passed": true
+    },
+    {
+      "file": "B-templates-A4.pdf",
+      "page": 4,
+      "targetMm": 200,
+      "observedMm": 199.985906,
+      "passed": true
+    },
+    {
+      "file": "B-templates-Letter.pdf",
+      "page": 2,
+      "targetMm": 50,
+      "observedMm": 49.988336,
+      "passed": true
+    },
+    {
+      "file": "B-templates-Letter.pdf",
+      "page": 2,
+      "targetMm": 200,
+      "observedMm": 199.985906,
+      "passed": true
+    },
+    {
+      "file": "B-templates-Letter.pdf",
+      "page": 3,
+      "targetMm": 50,
+      "observedMm": 49.988336,
+      "passed": true
+    },
+    {
+      "file": "B-templates-Letter.pdf",
+      "page": 3,
+      "targetMm": 200,
+      "observedMm": 199.985906,
+      "passed": true
+    },
+    {
+      "file": "B-templates-Letter.pdf",
+      "page": 4,
+      "targetMm": 50,
+      "observedMm": 49.988336,
+      "passed": true
+    },
+    {
+      "file": "B-templates-Letter.pdf",
+      "page": 4,
+      "targetMm": 200,
+      "observedMm": 199.985906,
+      "passed": true
+    }
+  ],
+  "longReportPages": 5,
+  "longContinuationHeader": true,
+  "visualReview": "Rendered title, operations, plan, featured, report pages 1\u20134, long continuation, cell guide, distance strip and reference inspected; no clipping observed."
+}

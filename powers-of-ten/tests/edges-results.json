@@ -1,0 +1,35 @@
+{
+  "scope": "Targeted UI storage denial, recovery, injection, long print, keyboard and tab-conflict checks",
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Storage denial displayed without blank screen",
+      "passed": true
+    },
+    {
+      "name": "Unsaved work preserved on New session",
+      "passed": true
+    },
+    {
+      "name": "Denied storage still exports",
+      "passed": true
+    },
+    {
+      "name": "Imported HTML string is inert",
+      "passed": true
+    },
+    {
+      "name": "Maximum text prints with continuation labels",
+      "passed": true
+    },
+    {
+      "name": "Keyboard minus button",
+      "passed": true
+    },
+    {
+      "name": "Newer browser tab conflict preserves inputs",
+      "passed": true
+    }
+  ]
+}

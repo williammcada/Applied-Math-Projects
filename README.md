@@ -20,6 +20,12 @@ The repository is the canonical home for the current source, permanent project b
 
 [Open the application](https://williammcada.github.io/Applied-Math-Projects/food-truck-business-launch/) · [Standalone HTML](food-truck-business-launch/FoodTruck_v0.1.0.html) · [Getting started](food-truck-business-launch/README.md) · [QA report](food-truck-business-launch/docs/QA-REPORT-v0.1.0.md)
 
+## Powers of Ten
+
+[Open the application](https://williammcada.github.io/Applied-Math-Projects/powers-of-ten/) · [Standalone HTML](powers-of-ten/PowersOfTen_v0.1.0.html) · [Teacher guide](powers-of-ten/docs/TEACHER-GUIDE.md) · [QA report](powers-of-ten/docs/QA-REPORT-v0.1.0.md) · [Deployment record](powers-of-ten/docs/DEPLOYMENT-v0.1.0.md)
+
+Powers of Ten v0.1.0 is implemented from its [approved specification](docs/change-specs/POWERS-OF-TEN-v0.1.0.md). Automated verification is complete; physical classroom acceptance remains pending.
+
 ## Documentation
 
 - [Food Truck v0.1.0 approved implementation specification](docs/change-specs/FOOD-TRUCK-v0.1.0.md).

@@ -1,0 +1,399 @@
+{
+  "environment": "Chromium headless /workspace/scratch/41b89d0f5492/browser-runtime/chromium; emulated viewports; synthetic fixtures",
+  "passed": 98,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Title and no overflow",
+      "passed": true
+    },
+    {
+      "name": "Blank commission blocks",
+      "passed": true
+    },
+    {
+      "name": "Incorrect tiny answer rejected without clearing sibling",
+      "passed": true
+    },
+    {
+      "name": "Keyboard help opens and Escape closes",
+      "passed": true
+    },
+    {
+      "name": "UI C01a",
+      "passed": true
+    },
+    {
+      "name": "UI C01b",
+      "passed": true
+    },
+    {
+      "name": "UI C01c",
+      "passed": true
+    },
+    {
+      "name": "UI C01d",
+      "passed": true
+    },
+    {
+      "name": "UI C02",
+      "passed": true
+    },
+    {
+      "name": "UI C03a",
+      "passed": true
+    },
+    {
+      "name": "UI C03b",
+      "passed": true
+    },
+    {
+      "name": "Calculator",
+      "passed": true
+    },
+    {
+      "name": "UI C04a",
+      "passed": true
+    },
+    {
+      "name": "UI C04b",
+      "passed": true
+    },
+    {
+      "name": "UI C05a",
+      "passed": true
+    },
+    {
+      "name": "UI C05b",
+      "passed": true
+    },
+    {
+      "name": "UI C06a",
+      "passed": true
+    },
+    {
+      "name": "UI C06b",
+      "passed": true
+    },
+    {
+      "name": "UI C07a",
+      "passed": true
+    },
+    {
+      "name": "UI C07b",
+      "passed": true
+    },
+    {
+      "name": "Choose B and check exact plan",
+      "passed": true
+    },
+    {
+      "name": "Physical build confirmation required",
+      "passed": true
+    },
+    {
+      "name": "Physical mismatch retains valid reporting",
+      "passed": true
+    },
+    {
+      "name": "UI C10B",
+      "passed": true
+    },
+    {
+      "name": "UI C11match",
+      "passed": true
+    },
+    {
+      "name": "UI C11B",
+      "passed": true
+    },
+    {
+      "name": "Independent learner 1",
+      "passed": true
+    },
+    {
+      "name": "Independent learner 2",
+      "passed": true
+    },
+    {
+      "name": "Pending physical/interpretation outcome",
+      "passed": true
+    },
+    {
+      "name": "Record inspection",
+      "passed": true
+    },
+    {
+      "name": "Record interpretation",
+      "passed": true
+    },
+    {
+      "name": "Featured B end to end",
+      "passed": true
+    },
+    {
+      "name": "Actual progress download",
+      "passed": true
+    },
+    {
+      "name": "Reload and Resume",
+      "passed": true
+    },
+    {
+      "name": "Actual import as new copy",
+      "passed": true
+    },
+    {
+      "name": "Deletion Cancel retains records",
+      "passed": true
+    },
+    {
+      "name": "Individual deletion scope and reload",
+      "passed": true
+    },
+    {
+      "name": "Clear all and fresh creation",
+      "passed": true
+    },
+    {
+      "name": "Malformed actual import leaves work",
+      "passed": true
+    },
+    {
+      "name": "A fixture rendering and outcome",
+      "passed": true
+    },
+    {
+      "name": "Layout 768x1024 stage 1",
+      "passed": true
+    },
+    {
+      "name": "Layout 768x1024 stage 2",
+      "passed": true
+    },
+    {
+      "name": "Layout 768x1024 stage 3",
+      "passed": true
+    },
+    {
+      "name": "Layout 768x1024 stage 4",
+      "passed": true
+    },
+    {
+      "name": "Layout 768x1024 stage 5",
+      "passed": true
+    },
+    {
+      "name": "Layout 768x1024 stage 6",
+      "passed": true
+    },
+    {
+      "name": "Layout 768x1024 stage 7",
+      "passed": true
+    },
+    {
+      "name": "Layout 768x1024 stage 8",
+      "passed": true
+    },
+    {
+      "name": "Layout 1024x768 stage 1",
+      "passed": true
+    },
+    {
+      "name": "Layout 1024x768 stage 2",
+      "passed": true
+    },
+    {
+      "name": "Layout 1024x768 stage 3",
+      "passed": true
+    },
+    {
+      "name": "Layout 1024x768 stage 4",
+      "passed": true
+    },
+    {
+      "name": "Layout 1024x768 stage 5",
+      "passed": true
+    },
+    {
+      "name": "Layout 1024x768 stage 6",
+      "passed": true
+    },
+    {
+      "name": "Layout 1024x768 stage 7",
+      "passed": true
+    },
+    {
+      "name": "Layout 1024x768 stage 8",
+      "passed": true
+    },
+    {
+      "name": "Layout 390x844 stage 1",
+      "passed": true
+    },
+    {
+      "name": "Layout 390x844 stage 2",
+      "passed": true
+    },
+    {
+      "name": "Layout 390x844 stage 3",
+      "passed": true
+    },
+    {
+      "name": "Layout 390x844 stage 4",
+      "passed": true
+    },
+    {
+      "name": "Layout 390x844 stage 5",
+      "passed": true
+    },
+    {
+      "name": "Layout 390x844 stage 6",
+      "passed": true
+    },
+    {
+      "name": "Layout 390x844 stage 7",
+      "passed": true
+    },
+    {
+      "name": "Layout 390x844 stage 8",
+      "passed": true
+    },
+    {
+      "name": "Text zoom 200%",
+      "passed": true
+    },
+    {
+      "name": "Print A report A4",
+      "passed": true
+    },
+    {
+      "name": "Print A report Letter",
+      "passed": true
+    },
+    {
+      "name": "Print A build A4",
+      "passed": true
+    },
+    {
+      "name": "Print A build Letter",
+      "passed": true
+    },
+    {
+      "name": "Print A templates A4",
+      "passed": true
+    },
+    {
+      "name": "Print A templates Letter",
+      "passed": true
+    },
+    {
+      "name": "Print A placard A4",
+      "passed": true
+    },
+    {
+      "name": "Print A placard Letter",
+      "passed": true
+    },
+    {
+      "name": "Print A visitor A4",
+      "passed": true
+    },
+    {
+      "name": "Print A visitor Letter",
+      "passed": true
+    },
+    {
+      "name": "Print A transfers A4",
+      "passed": true
+    },
+    {
+      "name": "Print A transfers Letter",
+      "passed": true
+    },
+    {
+      "name": "Print A reference A4",
+      "passed": true
+    },
+    {
+      "name": "Print A reference Letter",
+      "passed": true
+    },
+    {
+      "name": "Print B report A4",
+      "passed": true
+    },
+    {
+      "name": "Print B report Letter",
+      "passed": true
+    },
+    {
+      "name": "Print B build A4",
+      "passed": true
+    },
+    {
+      "name": "Print B build Letter",
+      "passed": true
+    },
+    {
+      "name": "Print B templates A4",
+      "passed": true
+    },
+    {
+      "name": "Print B templates Letter",
+      "passed": true
+    },
+    {
+      "name": "Print B placard A4",
+      "passed": true
+    },
+    {
+      "name": "Print B placard Letter",
+      "passed": true
+    },
+    {
+      "name": "Print B visitor A4",
+      "passed": true
+    },
+    {
+      "name": "Print B visitor Letter",
+      "passed": true
+    },
+    {
+      "name": "Print B transfers A4",
+      "passed": true
+    },
+    {
+      "name": "Print B transfers Letter",
+      "passed": true
+    },
+    {
+      "name": "Print B reference A4",
+      "passed": true
+    },
+    {
+      "name": "Print B reference Letter",
+      "passed": true
+    },
+    {
+      "name": "Print button invokes selected output",
+      "passed": true
+    },
+    {
+      "name": "Help controls all active groups",
+      "passed": true
+    },
+    {
+      "name": "Standalone file no runtime requests",
+      "passed": true
+    },
+    {
+      "name": "No runtime errors",
+      "passed": true
+    },
+    {
+      "name": "No external runtime requests",
+      "passed": true
+    }
+  ]
+}
