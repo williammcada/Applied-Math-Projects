@@ -1,0 +1,8 @@
+{
+  "suite": "Road Trip edge browser risks",
+  "checks": 16,
+  "passed": 16,
+  "failed": 0,
+  "touchEmulated": true,
+  "physicalDeviceTested": false
+}

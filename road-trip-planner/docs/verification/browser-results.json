@@ -1,0 +1,10 @@
+{
+  "suite": "Road Trip browser journey",
+  "browser": "Chromium",
+  "offline": true,
+  "checks": 55,
+  "passed": 55,
+  "failed": 0,
+  "pageErrors": [],
+  "externalRequests": 0
+}
