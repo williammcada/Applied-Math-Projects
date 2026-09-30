@@ -4,3 +4,6 @@
 @media(max-width:500px){.fields{grid-template-columns:1fr}.placement{grid-template-columns:repeat(2,1fr)}.facility-grid{grid-template-columns:repeat(2,1fr)}.intro-card{grid-template-columns:1fr}.intro-card svg{width:100px}.inspector-result{display:block}.dimensions-banner{gap:18px}.dialog-backdrop{padding:10px}.paper{min-width:0;padding:15px}.stage-footer{flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @page{margin:10mm}@media print{body{background:white}#app,#modal-root,#file-import{display:none!important}#print-root{display:block}.paper{width:185mm;max-width:none;min-height:0;margin:0;padding:5mm 6mm;break-after:page;box-shadow:none}.paper:last-child{break-after:auto}.paper h2,.paper h3{break-after:avoid}tr,svg,.calibration{break-inside:avoid}.paper .scale-map{width:170mm!important;height:120mm!important;max-width:none!important}.paper footer{font-size:9px}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+.paper .park-map:not(.scale-map){height:80mm;max-height:80mm}
+@media print{html,body{background:white!important}}
