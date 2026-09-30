@@ -1,7 +1,7 @@
 # Food Truck / Business Launch v0.1.0 implementation specification
 
-**Specification revision:** Draft 1, 30 September 2026  
-**Status:** Prepared for owner review; not approved for implementation by this document. No Food Truck application has been built or deployed.  
+**Specification revision:** Approved revision 1, 30 September 2026  
+**Status:** Approved by William McAda on 30 September 2026 with “Proceed to build.” FT-I01–FT-I06 are approved. See [approval record](../decisions/FOOD-TRUCK-v0.1.0-APPROVAL.md). Implementation is now authorized; no application verification is inferred from specification approval.  
 **Owner:** William McAda · **Credit:** A WILLIAM MCADA PRODUCT  
 **Student-facing title:** Food Truck · **Subtitle:** Street Food Startup  
 **Repository:** `williammcada/Applied-Math-Projects`  
@@ -36,7 +36,7 @@ Core contains one menu item, three illustrated cuisine identities, three prices,
 | FT-I05 | Teacher mode has solutions, review, diagnostics and logged bypass, but no editable fixed fee, prices, demand, recipe or service-rate settings. | Keeps the three-lesson scope bounded. Zero stock/nonpositive contribution are evaluator boundary fixtures, not selectable core plans. |
 | FT-I06 | One saved session is the complete work group, including both plans, histories, reviews and reports. | U-09 requires session deletion and clear-all, not an invented school-year manager. |
 
-These are proposed implementation details within the dossier scope, pending review with this specification. There is no proposed change to the mathematical objectives or ending predicates.
+These implementation details were approved with revision 1. There is no proposed change to the mathematical objectives or ending predicates.
 
 ## 3. Fixed data and exact mathematics
 
@@ -310,7 +310,7 @@ This covers dossier QA-01–20 plus project/U-09/deployment specifics. QA-05 sci
 
 ## 12. Build and release sequence
 
-1. Review this specification and FT-I01–I06; record owner approval and the approved source commit. This preparation task stops at a reviewable packet.
+1. Specification and FT-I01–I06 approved on 30 September 2026. Preserve this approved source baseline and its approval record before implementation.
 2. Implement pure Food Truck evaluators and meaningful tests, then complete all screens, fixed content/help, state, reports and embedded art. Copy helpers as appropriate; no cross-project runtime.
 3. Commit the complete implementation candidate before extended verification. Preserve its exact identity.
 4. Verify the real workflows in FT-Q01–20. Fix defects, checkpoint changed bytes and rerun affected evidence. Never transfer old pass claims to changed artifacts.
