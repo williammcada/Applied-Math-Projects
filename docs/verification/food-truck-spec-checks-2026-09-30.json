@@ -1,0 +1,3970 @@
+{
+  "scope": "Specification reference mathematics only; no Food Truck runtime exists",
+  "checks": [
+    {
+      "id": "recipe.base.grain",
+      "passed": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "id": "recipe.base.vegetables",
+      "passed": true,
+      "actual": "18",
+      "expected": "18"
+    },
+    {
+      "id": "recipe.base.protein",
+      "passed": true,
+      "actual": "40",
+      "expected": "40"
+    },
+    {
+      "id": "recipe.base.sauce",
+      "passed": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "id": "recipe.base.packaging",
+      "passed": true,
+      "actual": "12",
+      "expected": "12"
+    },
+    {
+      "id": "recipe.batch",
+      "passed": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "id": "recipe.unit",
+      "passed": true,
+      "actual": "9/2",
+      "expected": "9/2"
+    },
+    {
+      "id": "service.capacity",
+      "passed": true,
+      "actual": "96",
+      "expected": "96"
+    },
+    {
+      "id": "recipe.60.factor",
+      "passed": true,
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "id": "recipe.60.quantity.grain",
+      "passed": true,
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "id": "recipe.60.cost.grain",
+      "passed": true,
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "id": "recipe.60.quantity.vegetables",
+      "passed": true,
+      "actual": "9",
+      "expected": "9"
+    },
+    {
+      "id": "recipe.60.cost.vegetables",
+      "passed": true,
+      "actual": "54",
+      "expected": "54"
+    },
+    {
+      "id": "recipe.60.quantity.protein",
+      "passed": true,
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "id": "recipe.60.cost.protein",
+      "passed": true,
+      "actual": "120",
+      "expected": "120"
+    },
+    {
+      "id": "recipe.60.quantity.sauce",
+      "passed": true,
+      "actual": "3/2",
+      "expected": "3/2"
+    },
+    {
+      "id": "recipe.60.cost.sauce",
+      "passed": true,
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "id": "recipe.60.quantity.packaging",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "recipe.60.cost.packaging",
+      "passed": true,
+      "actual": "36",
+      "expected": "36"
+    },
+    {
+      "id": "recipe.60.total",
+      "passed": true,
+      "actual": "270",
+      "expected": "270"
+    },
+    {
+      "id": "recipe.60.unitInvariant",
+      "passed": true,
+      "actual": "9/2",
+      "expected": "9/2"
+    },
+    {
+      "id": "recipe.80.factor",
+      "passed": true,
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "id": "recipe.80.quantity.grain",
+      "passed": true,
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "id": "recipe.80.cost.grain",
+      "passed": true,
+      "actual": "40",
+      "expected": "40"
+    },
+    {
+      "id": "recipe.80.quantity.vegetables",
+      "passed": true,
+      "actual": "12",
+      "expected": "12"
+    },
+    {
+      "id": "recipe.80.cost.vegetables",
+      "passed": true,
+      "actual": "72",
+      "expected": "72"
+    },
+    {
+      "id": "recipe.80.quantity.protein",
+      "passed": true,
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "id": "recipe.80.cost.protein",
+      "passed": true,
+      "actual": "160",
+      "expected": "160"
+    },
+    {
+      "id": "recipe.80.quantity.sauce",
+      "passed": true,
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "id": "recipe.80.cost.sauce",
+      "passed": true,
+      "actual": "40",
+      "expected": "40"
+    },
+    {
+      "id": "recipe.80.quantity.packaging",
+      "passed": true,
+      "actual": "80",
+      "expected": "80"
+    },
+    {
+      "id": "recipe.80.cost.packaging",
+      "passed": true,
+      "actual": "48",
+      "expected": "48"
+    },
+    {
+      "id": "recipe.80.total",
+      "passed": true,
+      "actual": "360",
+      "expected": "360"
+    },
+    {
+      "id": "recipe.80.unitInvariant",
+      "passed": true,
+      "actual": "9/2",
+      "expected": "9/2"
+    },
+    {
+      "id": "recipe.100.factor",
+      "passed": true,
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "id": "recipe.100.quantity.grain",
+      "passed": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "id": "recipe.100.cost.grain",
+      "passed": true,
+      "actual": "50",
+      "expected": "50"
+    },
+    {
+      "id": "recipe.100.quantity.vegetables",
+      "passed": true,
+      "actual": "15",
+      "expected": "15"
+    },
+    {
+      "id": "recipe.100.cost.vegetables",
+      "passed": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "id": "recipe.100.quantity.protein",
+      "passed": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "id": "recipe.100.cost.protein",
+      "passed": true,
+      "actual": "200",
+      "expected": "200"
+    },
+    {
+      "id": "recipe.100.quantity.sauce",
+      "passed": true,
+      "actual": "5/2",
+      "expected": "5/2"
+    },
+    {
+      "id": "recipe.100.cost.sauce",
+      "passed": true,
+      "actual": "50",
+      "expected": "50"
+    },
+    {
+      "id": "recipe.100.quantity.packaging",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "recipe.100.cost.packaging",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "recipe.100.total",
+      "passed": true,
+      "actual": "450",
+      "expected": "450"
+    },
+    {
+      "id": "recipe.100.unitInvariant",
+      "passed": true,
+      "actual": "9/2",
+      "expected": "9/2"
+    },
+    {
+      "id": "recipe.120.factor",
+      "passed": true,
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "id": "recipe.120.quantity.grain",
+      "passed": true,
+      "actual": "12",
+      "expected": "12"
+    },
+    {
+      "id": "recipe.120.cost.grain",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "recipe.120.quantity.vegetables",
+      "passed": true,
+      "actual": "18",
+      "expected": "18"
+    },
+    {
+      "id": "recipe.120.cost.vegetables",
+      "passed": true,
+      "actual": "108",
+      "expected": "108"
+    },
+    {
+      "id": "recipe.120.quantity.protein",
+      "passed": true,
+      "actual": "12",
+      "expected": "12"
+    },
+    {
+      "id": "recipe.120.cost.protein",
+      "passed": true,
+      "actual": "240",
+      "expected": "240"
+    },
+    {
+      "id": "recipe.120.quantity.sauce",
+      "passed": true,
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "id": "recipe.120.cost.sauce",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "recipe.120.quantity.packaging",
+      "passed": true,
+      "actual": "120",
+      "expected": "120"
+    },
+    {
+      "id": "recipe.120.cost.packaging",
+      "passed": true,
+      "actual": "72",
+      "expected": "72"
+    },
+    {
+      "id": "recipe.120.total",
+      "passed": true,
+      "actual": "540",
+      "expected": "540"
+    },
+    {
+      "id": "recipe.120.unitInvariant",
+      "passed": true,
+      "actual": "9/2",
+      "expected": "9/2"
+    },
+    {
+      "id": "price.9.contribution",
+      "passed": true,
+      "actual": "9/2",
+      "expected": "9/2"
+    },
+    {
+      "id": "price.9.markup",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "price.9.crossing",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "price.9.crossingEquality",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "price.9.crossingRevenue",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "price.9.firstNonLoss",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "price.9.firstProfit",
+      "passed": true,
+      "actual": "101",
+      "expected": "101"
+    },
+    {
+      "id": "price.9.ceilRule",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "price.9.strictRule",
+      "passed": true,
+      "actual": "101",
+      "expected": "101"
+    },
+    {
+      "id": "price.9.profitBefore",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "price.9.profitAt",
+      "passed": true,
+      "actual": "9/2",
+      "expected": "9/2"
+    },
+    {
+      "id": "price.9.revenueTable",
+      "passed": true,
+      "actual": "[Fraction(0, 1), Fraction(540, 1), Fraction(900, 1)]",
+      "expected": "[Fraction(0, 1), Fraction(540, 1), Fraction(900, 1)]"
+    },
+    {
+      "id": "price.9.expenseTable",
+      "passed": true,
+      "actual": "[Fraction(450, 1), Fraction(720, 1), Fraction(900, 1)]",
+      "expected": "[Fraction(450, 1), Fraction(720, 1), Fraction(900, 1)]"
+    },
+    {
+      "id": "price.9.lossAt30",
+      "passed": true,
+      "actual": "-315",
+      "expected": "-315"
+    },
+    {
+      "id": "price.9.negativeProfitAtOrigin",
+      "passed": true,
+      "actual": "-450",
+      "expected": "-450"
+    },
+    {
+      "id": "price.9.directVsLinear.0",
+      "passed": true,
+      "actual": "-450",
+      "expected": "-450"
+    },
+    {
+      "id": "price.9.directVsLinear.1",
+      "passed": true,
+      "actual": "-891/2",
+      "expected": "-891/2"
+    },
+    {
+      "id": "price.9.directVsLinear.2",
+      "passed": true,
+      "actual": "-441",
+      "expected": "-441"
+    },
+    {
+      "id": "price.9.directVsLinear.3",
+      "passed": true,
+      "actual": "-873/2",
+      "expected": "-873/2"
+    },
+    {
+      "id": "price.9.directVsLinear.4",
+      "passed": true,
+      "actual": "-432",
+      "expected": "-432"
+    },
+    {
+      "id": "price.9.directVsLinear.5",
+      "passed": true,
+      "actual": "-855/2",
+      "expected": "-855/2"
+    },
+    {
+      "id": "price.9.directVsLinear.6",
+      "passed": true,
+      "actual": "-423",
+      "expected": "-423"
+    },
+    {
+      "id": "price.9.directVsLinear.7",
+      "passed": true,
+      "actual": "-837/2",
+      "expected": "-837/2"
+    },
+    {
+      "id": "price.9.directVsLinear.8",
+      "passed": true,
+      "actual": "-414",
+      "expected": "-414"
+    },
+    {
+      "id": "price.9.directVsLinear.9",
+      "passed": true,
+      "actual": "-819/2",
+      "expected": "-819/2"
+    },
+    {
+      "id": "price.9.directVsLinear.10",
+      "passed": true,
+      "actual": "-405",
+      "expected": "-405"
+    },
+    {
+      "id": "price.9.directVsLinear.11",
+      "passed": true,
+      "actual": "-801/2",
+      "expected": "-801/2"
+    },
+    {
+      "id": "price.9.directVsLinear.12",
+      "passed": true,
+      "actual": "-396",
+      "expected": "-396"
+    },
+    {
+      "id": "price.9.directVsLinear.13",
+      "passed": true,
+      "actual": "-783/2",
+      "expected": "-783/2"
+    },
+    {
+      "id": "price.9.directVsLinear.14",
+      "passed": true,
+      "actual": "-387",
+      "expected": "-387"
+    },
+    {
+      "id": "price.9.directVsLinear.15",
+      "passed": true,
+      "actual": "-765/2",
+      "expected": "-765/2"
+    },
+    {
+      "id": "price.9.directVsLinear.16",
+      "passed": true,
+      "actual": "-378",
+      "expected": "-378"
+    },
+    {
+      "id": "price.9.directVsLinear.17",
+      "passed": true,
+      "actual": "-747/2",
+      "expected": "-747/2"
+    },
+    {
+      "id": "price.9.directVsLinear.18",
+      "passed": true,
+      "actual": "-369",
+      "expected": "-369"
+    },
+    {
+      "id": "price.9.directVsLinear.19",
+      "passed": true,
+      "actual": "-729/2",
+      "expected": "-729/2"
+    },
+    {
+      "id": "price.9.directVsLinear.20",
+      "passed": true,
+      "actual": "-360",
+      "expected": "-360"
+    },
+    {
+      "id": "price.9.directVsLinear.21",
+      "passed": true,
+      "actual": "-711/2",
+      "expected": "-711/2"
+    },
+    {
+      "id": "price.9.directVsLinear.22",
+      "passed": true,
+      "actual": "-351",
+      "expected": "-351"
+    },
+    {
+      "id": "price.9.directVsLinear.23",
+      "passed": true,
+      "actual": "-693/2",
+      "expected": "-693/2"
+    },
+    {
+      "id": "price.9.directVsLinear.24",
+      "passed": true,
+      "actual": "-342",
+      "expected": "-342"
+    },
+    {
+      "id": "price.9.directVsLinear.25",
+      "passed": true,
+      "actual": "-675/2",
+      "expected": "-675/2"
+    },
+    {
+      "id": "price.9.directVsLinear.26",
+      "passed": true,
+      "actual": "-333",
+      "expected": "-333"
+    },
+    {
+      "id": "price.9.directVsLinear.27",
+      "passed": true,
+      "actual": "-657/2",
+      "expected": "-657/2"
+    },
+    {
+      "id": "price.9.directVsLinear.28",
+      "passed": true,
+      "actual": "-324",
+      "expected": "-324"
+    },
+    {
+      "id": "price.9.directVsLinear.29",
+      "passed": true,
+      "actual": "-639/2",
+      "expected": "-639/2"
+    },
+    {
+      "id": "price.9.directVsLinear.30",
+      "passed": true,
+      "actual": "-315",
+      "expected": "-315"
+    },
+    {
+      "id": "price.9.directVsLinear.31",
+      "passed": true,
+      "actual": "-621/2",
+      "expected": "-621/2"
+    },
+    {
+      "id": "price.9.directVsLinear.32",
+      "passed": true,
+      "actual": "-306",
+      "expected": "-306"
+    },
+    {
+      "id": "price.9.directVsLinear.33",
+      "passed": true,
+      "actual": "-603/2",
+      "expected": "-603/2"
+    },
+    {
+      "id": "price.9.directVsLinear.34",
+      "passed": true,
+      "actual": "-297",
+      "expected": "-297"
+    },
+    {
+      "id": "price.9.directVsLinear.35",
+      "passed": true,
+      "actual": "-585/2",
+      "expected": "-585/2"
+    },
+    {
+      "id": "price.9.directVsLinear.36",
+      "passed": true,
+      "actual": "-288",
+      "expected": "-288"
+    },
+    {
+      "id": "price.9.directVsLinear.37",
+      "passed": true,
+      "actual": "-567/2",
+      "expected": "-567/2"
+    },
+    {
+      "id": "price.9.directVsLinear.38",
+      "passed": true,
+      "actual": "-279",
+      "expected": "-279"
+    },
+    {
+      "id": "price.9.directVsLinear.39",
+      "passed": true,
+      "actual": "-549/2",
+      "expected": "-549/2"
+    },
+    {
+      "id": "price.9.directVsLinear.40",
+      "passed": true,
+      "actual": "-270",
+      "expected": "-270"
+    },
+    {
+      "id": "price.9.directVsLinear.41",
+      "passed": true,
+      "actual": "-531/2",
+      "expected": "-531/2"
+    },
+    {
+      "id": "price.9.directVsLinear.42",
+      "passed": true,
+      "actual": "-261",
+      "expected": "-261"
+    },
+    {
+      "id": "price.9.directVsLinear.43",
+      "passed": true,
+      "actual": "-513/2",
+      "expected": "-513/2"
+    },
+    {
+      "id": "price.9.directVsLinear.44",
+      "passed": true,
+      "actual": "-252",
+      "expected": "-252"
+    },
+    {
+      "id": "price.9.directVsLinear.45",
+      "passed": true,
+      "actual": "-495/2",
+      "expected": "-495/2"
+    },
+    {
+      "id": "price.9.directVsLinear.46",
+      "passed": true,
+      "actual": "-243",
+      "expected": "-243"
+    },
+    {
+      "id": "price.9.directVsLinear.47",
+      "passed": true,
+      "actual": "-477/2",
+      "expected": "-477/2"
+    },
+    {
+      "id": "price.9.directVsLinear.48",
+      "passed": true,
+      "actual": "-234",
+      "expected": "-234"
+    },
+    {
+      "id": "price.9.directVsLinear.49",
+      "passed": true,
+      "actual": "-459/2",
+      "expected": "-459/2"
+    },
+    {
+      "id": "price.9.directVsLinear.50",
+      "passed": true,
+      "actual": "-225",
+      "expected": "-225"
+    },
+    {
+      "id": "price.9.directVsLinear.51",
+      "passed": true,
+      "actual": "-441/2",
+      "expected": "-441/2"
+    },
+    {
+      "id": "price.9.directVsLinear.52",
+      "passed": true,
+      "actual": "-216",
+      "expected": "-216"
+    },
+    {
+      "id": "price.9.directVsLinear.53",
+      "passed": true,
+      "actual": "-423/2",
+      "expected": "-423/2"
+    },
+    {
+      "id": "price.9.directVsLinear.54",
+      "passed": true,
+      "actual": "-207",
+      "expected": "-207"
+    },
+    {
+      "id": "price.9.directVsLinear.55",
+      "passed": true,
+      "actual": "-405/2",
+      "expected": "-405/2"
+    },
+    {
+      "id": "price.9.directVsLinear.56",
+      "passed": true,
+      "actual": "-198",
+      "expected": "-198"
+    },
+    {
+      "id": "price.9.directVsLinear.57",
+      "passed": true,
+      "actual": "-387/2",
+      "expected": "-387/2"
+    },
+    {
+      "id": "price.9.directVsLinear.58",
+      "passed": true,
+      "actual": "-189",
+      "expected": "-189"
+    },
+    {
+      "id": "price.9.directVsLinear.59",
+      "passed": true,
+      "actual": "-369/2",
+      "expected": "-369/2"
+    },
+    {
+      "id": "price.9.directVsLinear.60",
+      "passed": true,
+      "actual": "-180",
+      "expected": "-180"
+    },
+    {
+      "id": "price.9.directVsLinear.61",
+      "passed": true,
+      "actual": "-351/2",
+      "expected": "-351/2"
+    },
+    {
+      "id": "price.9.directVsLinear.62",
+      "passed": true,
+      "actual": "-171",
+      "expected": "-171"
+    },
+    {
+      "id": "price.9.directVsLinear.63",
+      "passed": true,
+      "actual": "-333/2",
+      "expected": "-333/2"
+    },
+    {
+      "id": "price.9.directVsLinear.64",
+      "passed": true,
+      "actual": "-162",
+      "expected": "-162"
+    },
+    {
+      "id": "price.9.directVsLinear.65",
+      "passed": true,
+      "actual": "-315/2",
+      "expected": "-315/2"
+    },
+    {
+      "id": "price.9.directVsLinear.66",
+      "passed": true,
+      "actual": "-153",
+      "expected": "-153"
+    },
+    {
+      "id": "price.9.directVsLinear.67",
+      "passed": true,
+      "actual": "-297/2",
+      "expected": "-297/2"
+    },
+    {
+      "id": "price.9.directVsLinear.68",
+      "passed": true,
+      "actual": "-144",
+      "expected": "-144"
+    },
+    {
+      "id": "price.9.directVsLinear.69",
+      "passed": true,
+      "actual": "-279/2",
+      "expected": "-279/2"
+    },
+    {
+      "id": "price.9.directVsLinear.70",
+      "passed": true,
+      "actual": "-135",
+      "expected": "-135"
+    },
+    {
+      "id": "price.9.directVsLinear.71",
+      "passed": true,
+      "actual": "-261/2",
+      "expected": "-261/2"
+    },
+    {
+      "id": "price.9.directVsLinear.72",
+      "passed": true,
+      "actual": "-126",
+      "expected": "-126"
+    },
+    {
+      "id": "price.9.directVsLinear.73",
+      "passed": true,
+      "actual": "-243/2",
+      "expected": "-243/2"
+    },
+    {
+      "id": "price.9.directVsLinear.74",
+      "passed": true,
+      "actual": "-117",
+      "expected": "-117"
+    },
+    {
+      "id": "price.9.directVsLinear.75",
+      "passed": true,
+      "actual": "-225/2",
+      "expected": "-225/2"
+    },
+    {
+      "id": "price.9.directVsLinear.76",
+      "passed": true,
+      "actual": "-108",
+      "expected": "-108"
+    },
+    {
+      "id": "price.9.directVsLinear.77",
+      "passed": true,
+      "actual": "-207/2",
+      "expected": "-207/2"
+    },
+    {
+      "id": "price.9.directVsLinear.78",
+      "passed": true,
+      "actual": "-99",
+      "expected": "-99"
+    },
+    {
+      "id": "price.9.directVsLinear.79",
+      "passed": true,
+      "actual": "-189/2",
+      "expected": "-189/2"
+    },
+    {
+      "id": "price.9.directVsLinear.80",
+      "passed": true,
+      "actual": "-90",
+      "expected": "-90"
+    },
+    {
+      "id": "price.9.directVsLinear.81",
+      "passed": true,
+      "actual": "-171/2",
+      "expected": "-171/2"
+    },
+    {
+      "id": "price.9.directVsLinear.82",
+      "passed": true,
+      "actual": "-81",
+      "expected": "-81"
+    },
+    {
+      "id": "price.9.directVsLinear.83",
+      "passed": true,
+      "actual": "-153/2",
+      "expected": "-153/2"
+    },
+    {
+      "id": "price.9.directVsLinear.84",
+      "passed": true,
+      "actual": "-72",
+      "expected": "-72"
+    },
+    {
+      "id": "price.9.directVsLinear.85",
+      "passed": true,
+      "actual": "-135/2",
+      "expected": "-135/2"
+    },
+    {
+      "id": "price.9.directVsLinear.86",
+      "passed": true,
+      "actual": "-63",
+      "expected": "-63"
+    },
+    {
+      "id": "price.9.directVsLinear.87",
+      "passed": true,
+      "actual": "-117/2",
+      "expected": "-117/2"
+    },
+    {
+      "id": "price.9.directVsLinear.88",
+      "passed": true,
+      "actual": "-54",
+      "expected": "-54"
+    },
+    {
+      "id": "price.9.directVsLinear.89",
+      "passed": true,
+      "actual": "-99/2",
+      "expected": "-99/2"
+    },
+    {
+      "id": "price.9.directVsLinear.90",
+      "passed": true,
+      "actual": "-45",
+      "expected": "-45"
+    },
+    {
+      "id": "price.9.directVsLinear.91",
+      "passed": true,
+      "actual": "-81/2",
+      "expected": "-81/2"
+    },
+    {
+      "id": "price.9.directVsLinear.92",
+      "passed": true,
+      "actual": "-36",
+      "expected": "-36"
+    },
+    {
+      "id": "price.9.directVsLinear.93",
+      "passed": true,
+      "actual": "-63/2",
+      "expected": "-63/2"
+    },
+    {
+      "id": "price.9.directVsLinear.94",
+      "passed": true,
+      "actual": "-27",
+      "expected": "-27"
+    },
+    {
+      "id": "price.9.directVsLinear.95",
+      "passed": true,
+      "actual": "-45/2",
+      "expected": "-45/2"
+    },
+    {
+      "id": "price.9.directVsLinear.96",
+      "passed": true,
+      "actual": "-18",
+      "expected": "-18"
+    },
+    {
+      "id": "price.9.directVsLinear.97",
+      "passed": true,
+      "actual": "-27/2",
+      "expected": "-27/2"
+    },
+    {
+      "id": "price.9.directVsLinear.98",
+      "passed": true,
+      "actual": "-9",
+      "expected": "-9"
+    },
+    {
+      "id": "price.9.directVsLinear.99",
+      "passed": true,
+      "actual": "-9/2",
+      "expected": "-9/2"
+    },
+    {
+      "id": "price.9.directVsLinear.100",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "price.9.directVsLinear.101",
+      "passed": true,
+      "actual": "9/2",
+      "expected": "9/2"
+    },
+    {
+      "id": "price.9.directVsLinear.102",
+      "passed": true,
+      "actual": "9",
+      "expected": "9"
+    },
+    {
+      "id": "price.9.directVsLinear.103",
+      "passed": true,
+      "actual": "27/2",
+      "expected": "27/2"
+    },
+    {
+      "id": "price.9.directVsLinear.104",
+      "passed": true,
+      "actual": "18",
+      "expected": "18"
+    },
+    {
+      "id": "price.9.directVsLinear.105",
+      "passed": true,
+      "actual": "45/2",
+      "expected": "45/2"
+    },
+    {
+      "id": "price.9.directVsLinear.106",
+      "passed": true,
+      "actual": "27",
+      "expected": "27"
+    },
+    {
+      "id": "price.9.directVsLinear.107",
+      "passed": true,
+      "actual": "63/2",
+      "expected": "63/2"
+    },
+    {
+      "id": "price.9.directVsLinear.108",
+      "passed": true,
+      "actual": "36",
+      "expected": "36"
+    },
+    {
+      "id": "price.9.directVsLinear.109",
+      "passed": true,
+      "actual": "81/2",
+      "expected": "81/2"
+    },
+    {
+      "id": "price.9.directVsLinear.110",
+      "passed": true,
+      "actual": "45",
+      "expected": "45"
+    },
+    {
+      "id": "price.9.directVsLinear.111",
+      "passed": true,
+      "actual": "99/2",
+      "expected": "99/2"
+    },
+    {
+      "id": "price.9.directVsLinear.112",
+      "passed": true,
+      "actual": "54",
+      "expected": "54"
+    },
+    {
+      "id": "price.9.directVsLinear.113",
+      "passed": true,
+      "actual": "117/2",
+      "expected": "117/2"
+    },
+    {
+      "id": "price.9.directVsLinear.114",
+      "passed": true,
+      "actual": "63",
+      "expected": "63"
+    },
+    {
+      "id": "price.9.directVsLinear.115",
+      "passed": true,
+      "actual": "135/2",
+      "expected": "135/2"
+    },
+    {
+      "id": "price.9.directVsLinear.116",
+      "passed": true,
+      "actual": "72",
+      "expected": "72"
+    },
+    {
+      "id": "price.9.directVsLinear.117",
+      "passed": true,
+      "actual": "153/2",
+      "expected": "153/2"
+    },
+    {
+      "id": "price.9.directVsLinear.118",
+      "passed": true,
+      "actual": "81",
+      "expected": "81"
+    },
+    {
+      "id": "price.9.directVsLinear.119",
+      "passed": true,
+      "actual": "171/2",
+      "expected": "171/2"
+    },
+    {
+      "id": "price.9.directVsLinear.120",
+      "passed": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "id": "price.12.contribution",
+      "passed": true,
+      "actual": "15/2",
+      "expected": "15/2"
+    },
+    {
+      "id": "price.12.markup",
+      "passed": true,
+      "actual": "1667/10",
+      "expected": "1667/10"
+    },
+    {
+      "id": "price.12.crossing",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "price.12.crossingEquality",
+      "passed": true,
+      "actual": "720",
+      "expected": "720"
+    },
+    {
+      "id": "price.12.crossingRevenue",
+      "passed": true,
+      "actual": "720",
+      "expected": "720"
+    },
+    {
+      "id": "price.12.firstNonLoss",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "price.12.firstProfit",
+      "passed": true,
+      "actual": "61",
+      "expected": "61"
+    },
+    {
+      "id": "price.12.ceilRule",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "price.12.strictRule",
+      "passed": true,
+      "actual": "61",
+      "expected": "61"
+    },
+    {
+      "id": "price.12.profitBefore",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "price.12.profitAt",
+      "passed": true,
+      "actual": "15/2",
+      "expected": "15/2"
+    },
+    {
+      "id": "price.12.revenueTable",
+      "passed": true,
+      "actual": "[Fraction(0, 1), Fraction(720, 1), Fraction(1200, 1)]",
+      "expected": "[Fraction(0, 1), Fraction(720, 1), Fraction(1200, 1)]"
+    },
+    {
+      "id": "price.12.expenseTable",
+      "passed": true,
+      "actual": "[Fraction(450, 1), Fraction(720, 1), Fraction(900, 1)]",
+      "expected": "[Fraction(450, 1), Fraction(720, 1), Fraction(900, 1)]"
+    },
+    {
+      "id": "price.12.lossAt30",
+      "passed": true,
+      "actual": "-225",
+      "expected": "-225"
+    },
+    {
+      "id": "price.12.negativeProfitAtOrigin",
+      "passed": true,
+      "actual": "-450",
+      "expected": "-450"
+    },
+    {
+      "id": "price.12.directVsLinear.0",
+      "passed": true,
+      "actual": "-450",
+      "expected": "-450"
+    },
+    {
+      "id": "price.12.directVsLinear.1",
+      "passed": true,
+      "actual": "-885/2",
+      "expected": "-885/2"
+    },
+    {
+      "id": "price.12.directVsLinear.2",
+      "passed": true,
+      "actual": "-435",
+      "expected": "-435"
+    },
+    {
+      "id": "price.12.directVsLinear.3",
+      "passed": true,
+      "actual": "-855/2",
+      "expected": "-855/2"
+    },
+    {
+      "id": "price.12.directVsLinear.4",
+      "passed": true,
+      "actual": "-420",
+      "expected": "-420"
+    },
+    {
+      "id": "price.12.directVsLinear.5",
+      "passed": true,
+      "actual": "-825/2",
+      "expected": "-825/2"
+    },
+    {
+      "id": "price.12.directVsLinear.6",
+      "passed": true,
+      "actual": "-405",
+      "expected": "-405"
+    },
+    {
+      "id": "price.12.directVsLinear.7",
+      "passed": true,
+      "actual": "-795/2",
+      "expected": "-795/2"
+    },
+    {
+      "id": "price.12.directVsLinear.8",
+      "passed": true,
+      "actual": "-390",
+      "expected": "-390"
+    },
+    {
+      "id": "price.12.directVsLinear.9",
+      "passed": true,
+      "actual": "-765/2",
+      "expected": "-765/2"
+    },
+    {
+      "id": "price.12.directVsLinear.10",
+      "passed": true,
+      "actual": "-375",
+      "expected": "-375"
+    },
+    {
+      "id": "price.12.directVsLinear.11",
+      "passed": true,
+      "actual": "-735/2",
+      "expected": "-735/2"
+    },
+    {
+      "id": "price.12.directVsLinear.12",
+      "passed": true,
+      "actual": "-360",
+      "expected": "-360"
+    },
+    {
+      "id": "price.12.directVsLinear.13",
+      "passed": true,
+      "actual": "-705/2",
+      "expected": "-705/2"
+    },
+    {
+      "id": "price.12.directVsLinear.14",
+      "passed": true,
+      "actual": "-345",
+      "expected": "-345"
+    },
+    {
+      "id": "price.12.directVsLinear.15",
+      "passed": true,
+      "actual": "-675/2",
+      "expected": "-675/2"
+    },
+    {
+      "id": "price.12.directVsLinear.16",
+      "passed": true,
+      "actual": "-330",
+      "expected": "-330"
+    },
+    {
+      "id": "price.12.directVsLinear.17",
+      "passed": true,
+      "actual": "-645/2",
+      "expected": "-645/2"
+    },
+    {
+      "id": "price.12.directVsLinear.18",
+      "passed": true,
+      "actual": "-315",
+      "expected": "-315"
+    },
+    {
+      "id": "price.12.directVsLinear.19",
+      "passed": true,
+      "actual": "-615/2",
+      "expected": "-615/2"
+    },
+    {
+      "id": "price.12.directVsLinear.20",
+      "passed": true,
+      "actual": "-300",
+      "expected": "-300"
+    },
+    {
+      "id": "price.12.directVsLinear.21",
+      "passed": true,
+      "actual": "-585/2",
+      "expected": "-585/2"
+    },
+    {
+      "id": "price.12.directVsLinear.22",
+      "passed": true,
+      "actual": "-285",
+      "expected": "-285"
+    },
+    {
+      "id": "price.12.directVsLinear.23",
+      "passed": true,
+      "actual": "-555/2",
+      "expected": "-555/2"
+    },
+    {
+      "id": "price.12.directVsLinear.24",
+      "passed": true,
+      "actual": "-270",
+      "expected": "-270"
+    },
+    {
+      "id": "price.12.directVsLinear.25",
+      "passed": true,
+      "actual": "-525/2",
+      "expected": "-525/2"
+    },
+    {
+      "id": "price.12.directVsLinear.26",
+      "passed": true,
+      "actual": "-255",
+      "expected": "-255"
+    },
+    {
+      "id": "price.12.directVsLinear.27",
+      "passed": true,
+      "actual": "-495/2",
+      "expected": "-495/2"
+    },
+    {
+      "id": "price.12.directVsLinear.28",
+      "passed": true,
+      "actual": "-240",
+      "expected": "-240"
+    },
+    {
+      "id": "price.12.directVsLinear.29",
+      "passed": true,
+      "actual": "-465/2",
+      "expected": "-465/2"
+    },
+    {
+      "id": "price.12.directVsLinear.30",
+      "passed": true,
+      "actual": "-225",
+      "expected": "-225"
+    },
+    {
+      "id": "price.12.directVsLinear.31",
+      "passed": true,
+      "actual": "-435/2",
+      "expected": "-435/2"
+    },
+    {
+      "id": "price.12.directVsLinear.32",
+      "passed": true,
+      "actual": "-210",
+      "expected": "-210"
+    },
+    {
+      "id": "price.12.directVsLinear.33",
+      "passed": true,
+      "actual": "-405/2",
+      "expected": "-405/2"
+    },
+    {
+      "id": "price.12.directVsLinear.34",
+      "passed": true,
+      "actual": "-195",
+      "expected": "-195"
+    },
+    {
+      "id": "price.12.directVsLinear.35",
+      "passed": true,
+      "actual": "-375/2",
+      "expected": "-375/2"
+    },
+    {
+      "id": "price.12.directVsLinear.36",
+      "passed": true,
+      "actual": "-180",
+      "expected": "-180"
+    },
+    {
+      "id": "price.12.directVsLinear.37",
+      "passed": true,
+      "actual": "-345/2",
+      "expected": "-345/2"
+    },
+    {
+      "id": "price.12.directVsLinear.38",
+      "passed": true,
+      "actual": "-165",
+      "expected": "-165"
+    },
+    {
+      "id": "price.12.directVsLinear.39",
+      "passed": true,
+      "actual": "-315/2",
+      "expected": "-315/2"
+    },
+    {
+      "id": "price.12.directVsLinear.40",
+      "passed": true,
+      "actual": "-150",
+      "expected": "-150"
+    },
+    {
+      "id": "price.12.directVsLinear.41",
+      "passed": true,
+      "actual": "-285/2",
+      "expected": "-285/2"
+    },
+    {
+      "id": "price.12.directVsLinear.42",
+      "passed": true,
+      "actual": "-135",
+      "expected": "-135"
+    },
+    {
+      "id": "price.12.directVsLinear.43",
+      "passed": true,
+      "actual": "-255/2",
+      "expected": "-255/2"
+    },
+    {
+      "id": "price.12.directVsLinear.44",
+      "passed": true,
+      "actual": "-120",
+      "expected": "-120"
+    },
+    {
+      "id": "price.12.directVsLinear.45",
+      "passed": true,
+      "actual": "-225/2",
+      "expected": "-225/2"
+    },
+    {
+      "id": "price.12.directVsLinear.46",
+      "passed": true,
+      "actual": "-105",
+      "expected": "-105"
+    },
+    {
+      "id": "price.12.directVsLinear.47",
+      "passed": true,
+      "actual": "-195/2",
+      "expected": "-195/2"
+    },
+    {
+      "id": "price.12.directVsLinear.48",
+      "passed": true,
+      "actual": "-90",
+      "expected": "-90"
+    },
+    {
+      "id": "price.12.directVsLinear.49",
+      "passed": true,
+      "actual": "-165/2",
+      "expected": "-165/2"
+    },
+    {
+      "id": "price.12.directVsLinear.50",
+      "passed": true,
+      "actual": "-75",
+      "expected": "-75"
+    },
+    {
+      "id": "price.12.directVsLinear.51",
+      "passed": true,
+      "actual": "-135/2",
+      "expected": "-135/2"
+    },
+    {
+      "id": "price.12.directVsLinear.52",
+      "passed": true,
+      "actual": "-60",
+      "expected": "-60"
+    },
+    {
+      "id": "price.12.directVsLinear.53",
+      "passed": true,
+      "actual": "-105/2",
+      "expected": "-105/2"
+    },
+    {
+      "id": "price.12.directVsLinear.54",
+      "passed": true,
+      "actual": "-45",
+      "expected": "-45"
+    },
+    {
+      "id": "price.12.directVsLinear.55",
+      "passed": true,
+      "actual": "-75/2",
+      "expected": "-75/2"
+    },
+    {
+      "id": "price.12.directVsLinear.56",
+      "passed": true,
+      "actual": "-30",
+      "expected": "-30"
+    },
+    {
+      "id": "price.12.directVsLinear.57",
+      "passed": true,
+      "actual": "-45/2",
+      "expected": "-45/2"
+    },
+    {
+      "id": "price.12.directVsLinear.58",
+      "passed": true,
+      "actual": "-15",
+      "expected": "-15"
+    },
+    {
+      "id": "price.12.directVsLinear.59",
+      "passed": true,
+      "actual": "-15/2",
+      "expected": "-15/2"
+    },
+    {
+      "id": "price.12.directVsLinear.60",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "price.12.directVsLinear.61",
+      "passed": true,
+      "actual": "15/2",
+      "expected": "15/2"
+    },
+    {
+      "id": "price.12.directVsLinear.62",
+      "passed": true,
+      "actual": "15",
+      "expected": "15"
+    },
+    {
+      "id": "price.12.directVsLinear.63",
+      "passed": true,
+      "actual": "45/2",
+      "expected": "45/2"
+    },
+    {
+      "id": "price.12.directVsLinear.64",
+      "passed": true,
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "id": "price.12.directVsLinear.65",
+      "passed": true,
+      "actual": "75/2",
+      "expected": "75/2"
+    },
+    {
+      "id": "price.12.directVsLinear.66",
+      "passed": true,
+      "actual": "45",
+      "expected": "45"
+    },
+    {
+      "id": "price.12.directVsLinear.67",
+      "passed": true,
+      "actual": "105/2",
+      "expected": "105/2"
+    },
+    {
+      "id": "price.12.directVsLinear.68",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "price.12.directVsLinear.69",
+      "passed": true,
+      "actual": "135/2",
+      "expected": "135/2"
+    },
+    {
+      "id": "price.12.directVsLinear.70",
+      "passed": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "id": "price.12.directVsLinear.71",
+      "passed": true,
+      "actual": "165/2",
+      "expected": "165/2"
+    },
+    {
+      "id": "price.12.directVsLinear.72",
+      "passed": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "id": "price.12.directVsLinear.73",
+      "passed": true,
+      "actual": "195/2",
+      "expected": "195/2"
+    },
+    {
+      "id": "price.12.directVsLinear.74",
+      "passed": true,
+      "actual": "105",
+      "expected": "105"
+    },
+    {
+      "id": "price.12.directVsLinear.75",
+      "passed": true,
+      "actual": "225/2",
+      "expected": "225/2"
+    },
+    {
+      "id": "price.12.directVsLinear.76",
+      "passed": true,
+      "actual": "120",
+      "expected": "120"
+    },
+    {
+      "id": "price.12.directVsLinear.77",
+      "passed": true,
+      "actual": "255/2",
+      "expected": "255/2"
+    },
+    {
+      "id": "price.12.directVsLinear.78",
+      "passed": true,
+      "actual": "135",
+      "expected": "135"
+    },
+    {
+      "id": "price.12.directVsLinear.79",
+      "passed": true,
+      "actual": "285/2",
+      "expected": "285/2"
+    },
+    {
+      "id": "price.12.directVsLinear.80",
+      "passed": true,
+      "actual": "150",
+      "expected": "150"
+    },
+    {
+      "id": "price.12.directVsLinear.81",
+      "passed": true,
+      "actual": "315/2",
+      "expected": "315/2"
+    },
+    {
+      "id": "price.12.directVsLinear.82",
+      "passed": true,
+      "actual": "165",
+      "expected": "165"
+    },
+    {
+      "id": "price.12.directVsLinear.83",
+      "passed": true,
+      "actual": "345/2",
+      "expected": "345/2"
+    },
+    {
+      "id": "price.12.directVsLinear.84",
+      "passed": true,
+      "actual": "180",
+      "expected": "180"
+    },
+    {
+      "id": "price.12.directVsLinear.85",
+      "passed": true,
+      "actual": "375/2",
+      "expected": "375/2"
+    },
+    {
+      "id": "price.12.directVsLinear.86",
+      "passed": true,
+      "actual": "195",
+      "expected": "195"
+    },
+    {
+      "id": "price.12.directVsLinear.87",
+      "passed": true,
+      "actual": "405/2",
+      "expected": "405/2"
+    },
+    {
+      "id": "price.12.directVsLinear.88",
+      "passed": true,
+      "actual": "210",
+      "expected": "210"
+    },
+    {
+      "id": "price.12.directVsLinear.89",
+      "passed": true,
+      "actual": "435/2",
+      "expected": "435/2"
+    },
+    {
+      "id": "price.12.directVsLinear.90",
+      "passed": true,
+      "actual": "225",
+      "expected": "225"
+    },
+    {
+      "id": "price.12.directVsLinear.91",
+      "passed": true,
+      "actual": "465/2",
+      "expected": "465/2"
+    },
+    {
+      "id": "price.12.directVsLinear.92",
+      "passed": true,
+      "actual": "240",
+      "expected": "240"
+    },
+    {
+      "id": "price.12.directVsLinear.93",
+      "passed": true,
+      "actual": "495/2",
+      "expected": "495/2"
+    },
+    {
+      "id": "price.12.directVsLinear.94",
+      "passed": true,
+      "actual": "255",
+      "expected": "255"
+    },
+    {
+      "id": "price.12.directVsLinear.95",
+      "passed": true,
+      "actual": "525/2",
+      "expected": "525/2"
+    },
+    {
+      "id": "price.12.directVsLinear.96",
+      "passed": true,
+      "actual": "270",
+      "expected": "270"
+    },
+    {
+      "id": "price.12.directVsLinear.97",
+      "passed": true,
+      "actual": "555/2",
+      "expected": "555/2"
+    },
+    {
+      "id": "price.12.directVsLinear.98",
+      "passed": true,
+      "actual": "285",
+      "expected": "285"
+    },
+    {
+      "id": "price.12.directVsLinear.99",
+      "passed": true,
+      "actual": "585/2",
+      "expected": "585/2"
+    },
+    {
+      "id": "price.12.directVsLinear.100",
+      "passed": true,
+      "actual": "300",
+      "expected": "300"
+    },
+    {
+      "id": "price.12.directVsLinear.101",
+      "passed": true,
+      "actual": "615/2",
+      "expected": "615/2"
+    },
+    {
+      "id": "price.12.directVsLinear.102",
+      "passed": true,
+      "actual": "315",
+      "expected": "315"
+    },
+    {
+      "id": "price.12.directVsLinear.103",
+      "passed": true,
+      "actual": "645/2",
+      "expected": "645/2"
+    },
+    {
+      "id": "price.12.directVsLinear.104",
+      "passed": true,
+      "actual": "330",
+      "expected": "330"
+    },
+    {
+      "id": "price.12.directVsLinear.105",
+      "passed": true,
+      "actual": "675/2",
+      "expected": "675/2"
+    },
+    {
+      "id": "price.12.directVsLinear.106",
+      "passed": true,
+      "actual": "345",
+      "expected": "345"
+    },
+    {
+      "id": "price.12.directVsLinear.107",
+      "passed": true,
+      "actual": "705/2",
+      "expected": "705/2"
+    },
+    {
+      "id": "price.12.directVsLinear.108",
+      "passed": true,
+      "actual": "360",
+      "expected": "360"
+    },
+    {
+      "id": "price.12.directVsLinear.109",
+      "passed": true,
+      "actual": "735/2",
+      "expected": "735/2"
+    },
+    {
+      "id": "price.12.directVsLinear.110",
+      "passed": true,
+      "actual": "375",
+      "expected": "375"
+    },
+    {
+      "id": "price.12.directVsLinear.111",
+      "passed": true,
+      "actual": "765/2",
+      "expected": "765/2"
+    },
+    {
+      "id": "price.12.directVsLinear.112",
+      "passed": true,
+      "actual": "390",
+      "expected": "390"
+    },
+    {
+      "id": "price.12.directVsLinear.113",
+      "passed": true,
+      "actual": "795/2",
+      "expected": "795/2"
+    },
+    {
+      "id": "price.12.directVsLinear.114",
+      "passed": true,
+      "actual": "405",
+      "expected": "405"
+    },
+    {
+      "id": "price.12.directVsLinear.115",
+      "passed": true,
+      "actual": "825/2",
+      "expected": "825/2"
+    },
+    {
+      "id": "price.12.directVsLinear.116",
+      "passed": true,
+      "actual": "420",
+      "expected": "420"
+    },
+    {
+      "id": "price.12.directVsLinear.117",
+      "passed": true,
+      "actual": "855/2",
+      "expected": "855/2"
+    },
+    {
+      "id": "price.12.directVsLinear.118",
+      "passed": true,
+      "actual": "435",
+      "expected": "435"
+    },
+    {
+      "id": "price.12.directVsLinear.119",
+      "passed": true,
+      "actual": "885/2",
+      "expected": "885/2"
+    },
+    {
+      "id": "price.12.directVsLinear.120",
+      "passed": true,
+      "actual": "450",
+      "expected": "450"
+    },
+    {
+      "id": "price.15.contribution",
+      "passed": true,
+      "actual": "21/2",
+      "expected": "21/2"
+    },
+    {
+      "id": "price.15.markup",
+      "passed": true,
+      "actual": "2333/10",
+      "expected": "2333/10"
+    },
+    {
+      "id": "price.15.crossing",
+      "passed": true,
+      "actual": "300/7",
+      "expected": "300/7"
+    },
+    {
+      "id": "price.15.crossingEquality",
+      "passed": true,
+      "actual": "4500/7",
+      "expected": "4500/7"
+    },
+    {
+      "id": "price.15.crossingRevenue",
+      "passed": true,
+      "actual": "4500/7",
+      "expected": "4500/7"
+    },
+    {
+      "id": "price.15.firstNonLoss",
+      "passed": true,
+      "actual": "43",
+      "expected": "43"
+    },
+    {
+      "id": "price.15.firstProfit",
+      "passed": true,
+      "actual": "43",
+      "expected": "43"
+    },
+    {
+      "id": "price.15.ceilRule",
+      "passed": true,
+      "actual": "43",
+      "expected": "43"
+    },
+    {
+      "id": "price.15.strictRule",
+      "passed": true,
+      "actual": "43",
+      "expected": "43"
+    },
+    {
+      "id": "price.15.profitBefore",
+      "passed": true,
+      "actual": "-9",
+      "expected": "-9"
+    },
+    {
+      "id": "price.15.profitAt",
+      "passed": true,
+      "actual": "3/2",
+      "expected": "3/2"
+    },
+    {
+      "id": "price.15.revenueTable",
+      "passed": true,
+      "actual": "[Fraction(0, 1), Fraction(900, 1), Fraction(1500, 1)]",
+      "expected": "[Fraction(0, 1), Fraction(900, 1), Fraction(1500, 1)]"
+    },
+    {
+      "id": "price.15.expenseTable",
+      "passed": true,
+      "actual": "[Fraction(450, 1), Fraction(720, 1), Fraction(900, 1)]",
+      "expected": "[Fraction(450, 1), Fraction(720, 1), Fraction(900, 1)]"
+    },
+    {
+      "id": "price.15.lossAt30",
+      "passed": true,
+      "actual": "-135",
+      "expected": "-135"
+    },
+    {
+      "id": "price.15.negativeProfitAtOrigin",
+      "passed": true,
+      "actual": "-450",
+      "expected": "-450"
+    },
+    {
+      "id": "price.15.directVsLinear.0",
+      "passed": true,
+      "actual": "-450",
+      "expected": "-450"
+    },
+    {
+      "id": "price.15.directVsLinear.1",
+      "passed": true,
+      "actual": "-879/2",
+      "expected": "-879/2"
+    },
+    {
+      "id": "price.15.directVsLinear.2",
+      "passed": true,
+      "actual": "-429",
+      "expected": "-429"
+    },
+    {
+      "id": "price.15.directVsLinear.3",
+      "passed": true,
+      "actual": "-837/2",
+      "expected": "-837/2"
+    },
+    {
+      "id": "price.15.directVsLinear.4",
+      "passed": true,
+      "actual": "-408",
+      "expected": "-408"
+    },
+    {
+      "id": "price.15.directVsLinear.5",
+      "passed": true,
+      "actual": "-795/2",
+      "expected": "-795/2"
+    },
+    {
+      "id": "price.15.directVsLinear.6",
+      "passed": true,
+      "actual": "-387",
+      "expected": "-387"
+    },
+    {
+      "id": "price.15.directVsLinear.7",
+      "passed": true,
+      "actual": "-753/2",
+      "expected": "-753/2"
+    },
+    {
+      "id": "price.15.directVsLinear.8",
+      "passed": true,
+      "actual": "-366",
+      "expected": "-366"
+    },
+    {
+      "id": "price.15.directVsLinear.9",
+      "passed": true,
+      "actual": "-711/2",
+      "expected": "-711/2"
+    },
+    {
+      "id": "price.15.directVsLinear.10",
+      "passed": true,
+      "actual": "-345",
+      "expected": "-345"
+    },
+    {
+      "id": "price.15.directVsLinear.11",
+      "passed": true,
+      "actual": "-669/2",
+      "expected": "-669/2"
+    },
+    {
+      "id": "price.15.directVsLinear.12",
+      "passed": true,
+      "actual": "-324",
+      "expected": "-324"
+    },
+    {
+      "id": "price.15.directVsLinear.13",
+      "passed": true,
+      "actual": "-627/2",
+      "expected": "-627/2"
+    },
+    {
+      "id": "price.15.directVsLinear.14",
+      "passed": true,
+      "actual": "-303",
+      "expected": "-303"
+    },
+    {
+      "id": "price.15.directVsLinear.15",
+      "passed": true,
+      "actual": "-585/2",
+      "expected": "-585/2"
+    },
+    {
+      "id": "price.15.directVsLinear.16",
+      "passed": true,
+      "actual": "-282",
+      "expected": "-282"
+    },
+    {
+      "id": "price.15.directVsLinear.17",
+      "passed": true,
+      "actual": "-543/2",
+      "expected": "-543/2"
+    },
+    {
+      "id": "price.15.directVsLinear.18",
+      "passed": true,
+      "actual": "-261",
+      "expected": "-261"
+    },
+    {
+      "id": "price.15.directVsLinear.19",
+      "passed": true,
+      "actual": "-501/2",
+      "expected": "-501/2"
+    },
+    {
+      "id": "price.15.directVsLinear.20",
+      "passed": true,
+      "actual": "-240",
+      "expected": "-240"
+    },
+    {
+      "id": "price.15.directVsLinear.21",
+      "passed": true,
+      "actual": "-459/2",
+      "expected": "-459/2"
+    },
+    {
+      "id": "price.15.directVsLinear.22",
+      "passed": true,
+      "actual": "-219",
+      "expected": "-219"
+    },
+    {
+      "id": "price.15.directVsLinear.23",
+      "passed": true,
+      "actual": "-417/2",
+      "expected": "-417/2"
+    },
+    {
+      "id": "price.15.directVsLinear.24",
+      "passed": true,
+      "actual": "-198",
+      "expected": "-198"
+    },
+    {
+      "id": "price.15.directVsLinear.25",
+      "passed": true,
+      "actual": "-375/2",
+      "expected": "-375/2"
+    },
+    {
+      "id": "price.15.directVsLinear.26",
+      "passed": true,
+      "actual": "-177",
+      "expected": "-177"
+    },
+    {
+      "id": "price.15.directVsLinear.27",
+      "passed": true,
+      "actual": "-333/2",
+      "expected": "-333/2"
+    },
+    {
+      "id": "price.15.directVsLinear.28",
+      "passed": true,
+      "actual": "-156",
+      "expected": "-156"
+    },
+    {
+      "id": "price.15.directVsLinear.29",
+      "passed": true,
+      "actual": "-291/2",
+      "expected": "-291/2"
+    },
+    {
+      "id": "price.15.directVsLinear.30",
+      "passed": true,
+      "actual": "-135",
+      "expected": "-135"
+    },
+    {
+      "id": "price.15.directVsLinear.31",
+      "passed": true,
+      "actual": "-249/2",
+      "expected": "-249/2"
+    },
+    {
+      "id": "price.15.directVsLinear.32",
+      "passed": true,
+      "actual": "-114",
+      "expected": "-114"
+    },
+    {
+      "id": "price.15.directVsLinear.33",
+      "passed": true,
+      "actual": "-207/2",
+      "expected": "-207/2"
+    },
+    {
+      "id": "price.15.directVsLinear.34",
+      "passed": true,
+      "actual": "-93",
+      "expected": "-93"
+    },
+    {
+      "id": "price.15.directVsLinear.35",
+      "passed": true,
+      "actual": "-165/2",
+      "expected": "-165/2"
+    },
+    {
+      "id": "price.15.directVsLinear.36",
+      "passed": true,
+      "actual": "-72",
+      "expected": "-72"
+    },
+    {
+      "id": "price.15.directVsLinear.37",
+      "passed": true,
+      "actual": "-123/2",
+      "expected": "-123/2"
+    },
+    {
+      "id": "price.15.directVsLinear.38",
+      "passed": true,
+      "actual": "-51",
+      "expected": "-51"
+    },
+    {
+      "id": "price.15.directVsLinear.39",
+      "passed": true,
+      "actual": "-81/2",
+      "expected": "-81/2"
+    },
+    {
+      "id": "price.15.directVsLinear.40",
+      "passed": true,
+      "actual": "-30",
+      "expected": "-30"
+    },
+    {
+      "id": "price.15.directVsLinear.41",
+      "passed": true,
+      "actual": "-39/2",
+      "expected": "-39/2"
+    },
+    {
+      "id": "price.15.directVsLinear.42",
+      "passed": true,
+      "actual": "-9",
+      "expected": "-9"
+    },
+    {
+      "id": "price.15.directVsLinear.43",
+      "passed": true,
+      "actual": "3/2",
+      "expected": "3/2"
+    },
+    {
+      "id": "price.15.directVsLinear.44",
+      "passed": true,
+      "actual": "12",
+      "expected": "12"
+    },
+    {
+      "id": "price.15.directVsLinear.45",
+      "passed": true,
+      "actual": "45/2",
+      "expected": "45/2"
+    },
+    {
+      "id": "price.15.directVsLinear.46",
+      "passed": true,
+      "actual": "33",
+      "expected": "33"
+    },
+    {
+      "id": "price.15.directVsLinear.47",
+      "passed": true,
+      "actual": "87/2",
+      "expected": "87/2"
+    },
+    {
+      "id": "price.15.directVsLinear.48",
+      "passed": true,
+      "actual": "54",
+      "expected": "54"
+    },
+    {
+      "id": "price.15.directVsLinear.49",
+      "passed": true,
+      "actual": "129/2",
+      "expected": "129/2"
+    },
+    {
+      "id": "price.15.directVsLinear.50",
+      "passed": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "id": "price.15.directVsLinear.51",
+      "passed": true,
+      "actual": "171/2",
+      "expected": "171/2"
+    },
+    {
+      "id": "price.15.directVsLinear.52",
+      "passed": true,
+      "actual": "96",
+      "expected": "96"
+    },
+    {
+      "id": "price.15.directVsLinear.53",
+      "passed": true,
+      "actual": "213/2",
+      "expected": "213/2"
+    },
+    {
+      "id": "price.15.directVsLinear.54",
+      "passed": true,
+      "actual": "117",
+      "expected": "117"
+    },
+    {
+      "id": "price.15.directVsLinear.55",
+      "passed": true,
+      "actual": "255/2",
+      "expected": "255/2"
+    },
+    {
+      "id": "price.15.directVsLinear.56",
+      "passed": true,
+      "actual": "138",
+      "expected": "138"
+    },
+    {
+      "id": "price.15.directVsLinear.57",
+      "passed": true,
+      "actual": "297/2",
+      "expected": "297/2"
+    },
+    {
+      "id": "price.15.directVsLinear.58",
+      "passed": true,
+      "actual": "159",
+      "expected": "159"
+    },
+    {
+      "id": "price.15.directVsLinear.59",
+      "passed": true,
+      "actual": "339/2",
+      "expected": "339/2"
+    },
+    {
+      "id": "price.15.directVsLinear.60",
+      "passed": true,
+      "actual": "180",
+      "expected": "180"
+    },
+    {
+      "id": "price.15.directVsLinear.61",
+      "passed": true,
+      "actual": "381/2",
+      "expected": "381/2"
+    },
+    {
+      "id": "price.15.directVsLinear.62",
+      "passed": true,
+      "actual": "201",
+      "expected": "201"
+    },
+    {
+      "id": "price.15.directVsLinear.63",
+      "passed": true,
+      "actual": "423/2",
+      "expected": "423/2"
+    },
+    {
+      "id": "price.15.directVsLinear.64",
+      "passed": true,
+      "actual": "222",
+      "expected": "222"
+    },
+    {
+      "id": "price.15.directVsLinear.65",
+      "passed": true,
+      "actual": "465/2",
+      "expected": "465/2"
+    },
+    {
+      "id": "price.15.directVsLinear.66",
+      "passed": true,
+      "actual": "243",
+      "expected": "243"
+    },
+    {
+      "id": "price.15.directVsLinear.67",
+      "passed": true,
+      "actual": "507/2",
+      "expected": "507/2"
+    },
+    {
+      "id": "price.15.directVsLinear.68",
+      "passed": true,
+      "actual": "264",
+      "expected": "264"
+    },
+    {
+      "id": "price.15.directVsLinear.69",
+      "passed": true,
+      "actual": "549/2",
+      "expected": "549/2"
+    },
+    {
+      "id": "price.15.directVsLinear.70",
+      "passed": true,
+      "actual": "285",
+      "expected": "285"
+    },
+    {
+      "id": "price.15.directVsLinear.71",
+      "passed": true,
+      "actual": "591/2",
+      "expected": "591/2"
+    },
+    {
+      "id": "price.15.directVsLinear.72",
+      "passed": true,
+      "actual": "306",
+      "expected": "306"
+    },
+    {
+      "id": "price.15.directVsLinear.73",
+      "passed": true,
+      "actual": "633/2",
+      "expected": "633/2"
+    },
+    {
+      "id": "price.15.directVsLinear.74",
+      "passed": true,
+      "actual": "327",
+      "expected": "327"
+    },
+    {
+      "id": "price.15.directVsLinear.75",
+      "passed": true,
+      "actual": "675/2",
+      "expected": "675/2"
+    },
+    {
+      "id": "price.15.directVsLinear.76",
+      "passed": true,
+      "actual": "348",
+      "expected": "348"
+    },
+    {
+      "id": "price.15.directVsLinear.77",
+      "passed": true,
+      "actual": "717/2",
+      "expected": "717/2"
+    },
+    {
+      "id": "price.15.directVsLinear.78",
+      "passed": true,
+      "actual": "369",
+      "expected": "369"
+    },
+    {
+      "id": "price.15.directVsLinear.79",
+      "passed": true,
+      "actual": "759/2",
+      "expected": "759/2"
+    },
+    {
+      "id": "price.15.directVsLinear.80",
+      "passed": true,
+      "actual": "390",
+      "expected": "390"
+    },
+    {
+      "id": "price.15.directVsLinear.81",
+      "passed": true,
+      "actual": "801/2",
+      "expected": "801/2"
+    },
+    {
+      "id": "price.15.directVsLinear.82",
+      "passed": true,
+      "actual": "411",
+      "expected": "411"
+    },
+    {
+      "id": "price.15.directVsLinear.83",
+      "passed": true,
+      "actual": "843/2",
+      "expected": "843/2"
+    },
+    {
+      "id": "price.15.directVsLinear.84",
+      "passed": true,
+      "actual": "432",
+      "expected": "432"
+    },
+    {
+      "id": "price.15.directVsLinear.85",
+      "passed": true,
+      "actual": "885/2",
+      "expected": "885/2"
+    },
+    {
+      "id": "price.15.directVsLinear.86",
+      "passed": true,
+      "actual": "453",
+      "expected": "453"
+    },
+    {
+      "id": "price.15.directVsLinear.87",
+      "passed": true,
+      "actual": "927/2",
+      "expected": "927/2"
+    },
+    {
+      "id": "price.15.directVsLinear.88",
+      "passed": true,
+      "actual": "474",
+      "expected": "474"
+    },
+    {
+      "id": "price.15.directVsLinear.89",
+      "passed": true,
+      "actual": "969/2",
+      "expected": "969/2"
+    },
+    {
+      "id": "price.15.directVsLinear.90",
+      "passed": true,
+      "actual": "495",
+      "expected": "495"
+    },
+    {
+      "id": "price.15.directVsLinear.91",
+      "passed": true,
+      "actual": "1011/2",
+      "expected": "1011/2"
+    },
+    {
+      "id": "price.15.directVsLinear.92",
+      "passed": true,
+      "actual": "516",
+      "expected": "516"
+    },
+    {
+      "id": "price.15.directVsLinear.93",
+      "passed": true,
+      "actual": "1053/2",
+      "expected": "1053/2"
+    },
+    {
+      "id": "price.15.directVsLinear.94",
+      "passed": true,
+      "actual": "537",
+      "expected": "537"
+    },
+    {
+      "id": "price.15.directVsLinear.95",
+      "passed": true,
+      "actual": "1095/2",
+      "expected": "1095/2"
+    },
+    {
+      "id": "price.15.directVsLinear.96",
+      "passed": true,
+      "actual": "558",
+      "expected": "558"
+    },
+    {
+      "id": "price.15.directVsLinear.97",
+      "passed": true,
+      "actual": "1137/2",
+      "expected": "1137/2"
+    },
+    {
+      "id": "price.15.directVsLinear.98",
+      "passed": true,
+      "actual": "579",
+      "expected": "579"
+    },
+    {
+      "id": "price.15.directVsLinear.99",
+      "passed": true,
+      "actual": "1179/2",
+      "expected": "1179/2"
+    },
+    {
+      "id": "price.15.directVsLinear.100",
+      "passed": true,
+      "actual": "600",
+      "expected": "600"
+    },
+    {
+      "id": "price.15.directVsLinear.101",
+      "passed": true,
+      "actual": "1221/2",
+      "expected": "1221/2"
+    },
+    {
+      "id": "price.15.directVsLinear.102",
+      "passed": true,
+      "actual": "621",
+      "expected": "621"
+    },
+    {
+      "id": "price.15.directVsLinear.103",
+      "passed": true,
+      "actual": "1263/2",
+      "expected": "1263/2"
+    },
+    {
+      "id": "price.15.directVsLinear.104",
+      "passed": true,
+      "actual": "642",
+      "expected": "642"
+    },
+    {
+      "id": "price.15.directVsLinear.105",
+      "passed": true,
+      "actual": "1305/2",
+      "expected": "1305/2"
+    },
+    {
+      "id": "price.15.directVsLinear.106",
+      "passed": true,
+      "actual": "663",
+      "expected": "663"
+    },
+    {
+      "id": "price.15.directVsLinear.107",
+      "passed": true,
+      "actual": "1347/2",
+      "expected": "1347/2"
+    },
+    {
+      "id": "price.15.directVsLinear.108",
+      "passed": true,
+      "actual": "684",
+      "expected": "684"
+    },
+    {
+      "id": "price.15.directVsLinear.109",
+      "passed": true,
+      "actual": "1389/2",
+      "expected": "1389/2"
+    },
+    {
+      "id": "price.15.directVsLinear.110",
+      "passed": true,
+      "actual": "705",
+      "expected": "705"
+    },
+    {
+      "id": "price.15.directVsLinear.111",
+      "passed": true,
+      "actual": "1431/2",
+      "expected": "1431/2"
+    },
+    {
+      "id": "price.15.directVsLinear.112",
+      "passed": true,
+      "actual": "726",
+      "expected": "726"
+    },
+    {
+      "id": "price.15.directVsLinear.113",
+      "passed": true,
+      "actual": "1473/2",
+      "expected": "1473/2"
+    },
+    {
+      "id": "price.15.directVsLinear.114",
+      "passed": true,
+      "actual": "747",
+      "expected": "747"
+    },
+    {
+      "id": "price.15.directVsLinear.115",
+      "passed": true,
+      "actual": "1515/2",
+      "expected": "1515/2"
+    },
+    {
+      "id": "price.15.directVsLinear.116",
+      "passed": true,
+      "actual": "768",
+      "expected": "768"
+    },
+    {
+      "id": "price.15.directVsLinear.117",
+      "passed": true,
+      "actual": "1557/2",
+      "expected": "1557/2"
+    },
+    {
+      "id": "price.15.directVsLinear.118",
+      "passed": true,
+      "actual": "789",
+      "expected": "789"
+    },
+    {
+      "id": "price.15.directVsLinear.119",
+      "passed": true,
+      "actual": "1599/2",
+      "expected": "1599/2"
+    },
+    {
+      "id": "price.15.directVsLinear.120",
+      "passed": true,
+      "actual": "810",
+      "expected": "810"
+    },
+    {
+      "id": "lowPrice.thresholdExceedsCapacity",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "wrongModel.sameRoot",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "wrongModel.coefficientsDiffer",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "catalog.completeGrid",
+      "passed": true,
+      "actual": "{('9', 100), ('12', 60), ('9', 80), ('15', 80), ('15', 60), ('9', 60), ('12', 120), ('12', 100), ('9', 120), ('15', 120), ('15', 100), ('12', 80)}",
+      "expected": "{('9', 100), ('12', 60), ('9', 80), ('15', 80), ('15', 60), ('9', 60), ('12', 120), ('12', 100), ('9', 120), ('15', 120), ('15', 100), ('12', 80)}"
+    },
+    {
+      "id": "catalog.noDuplicateRows",
+      "passed": true,
+      "actual": "12",
+      "expected": "12"
+    },
+    {
+      "id": "FT-9-60.sales",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "FT-9-60.revenue",
+      "passed": true,
+      "actual": "540",
+      "expected": "540"
+    },
+    {
+      "id": "FT-9-60.expense",
+      "passed": true,
+      "actual": "720",
+      "expected": "720"
+    },
+    {
+      "id": "FT-9-60.profit",
+      "passed": true,
+      "actual": "-180",
+      "expected": "-180"
+    },
+    {
+      "id": "FT-9-60.waste",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-9-60.wastePercent",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-9-60.sellThrough",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-9-60.limits",
+      "passed": true,
+      "actual": "['stock']",
+      "expected": "['stock']"
+    },
+    {
+      "id": "FT-9-60.ending",
+      "passed": true,
+      "actual": "Business rethink",
+      "expected": "Business rethink"
+    },
+    {
+      "id": "FT-9-60.expenseForms",
+      "passed": true,
+      "actual": "720",
+      "expected": "720"
+    },
+    {
+      "id": "FT-9-60.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-9-60.overstatement",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-9-80.sales",
+      "passed": true,
+      "actual": "80",
+      "expected": "80"
+    },
+    {
+      "id": "FT-9-80.revenue",
+      "passed": true,
+      "actual": "720",
+      "expected": "720"
+    },
+    {
+      "id": "FT-9-80.expense",
+      "passed": true,
+      "actual": "810",
+      "expected": "810"
+    },
+    {
+      "id": "FT-9-80.profit",
+      "passed": true,
+      "actual": "-90",
+      "expected": "-90"
+    },
+    {
+      "id": "FT-9-80.waste",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-9-80.wastePercent",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-9-80.sellThrough",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-9-80.limits",
+      "passed": true,
+      "actual": "['stock']",
+      "expected": "['stock']"
+    },
+    {
+      "id": "FT-9-80.ending",
+      "passed": true,
+      "actual": "Business rethink",
+      "expected": "Business rethink"
+    },
+    {
+      "id": "FT-9-80.expenseForms",
+      "passed": true,
+      "actual": "810",
+      "expected": "810"
+    },
+    {
+      "id": "FT-9-80.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-9-80.overstatement",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-9-100.sales",
+      "passed": true,
+      "actual": "96",
+      "expected": "96"
+    },
+    {
+      "id": "FT-9-100.revenue",
+      "passed": true,
+      "actual": "864",
+      "expected": "864"
+    },
+    {
+      "id": "FT-9-100.expense",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "FT-9-100.profit",
+      "passed": true,
+      "actual": "-36",
+      "expected": "-36"
+    },
+    {
+      "id": "FT-9-100.waste",
+      "passed": true,
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "id": "FT-9-100.wastePercent",
+      "passed": true,
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "id": "FT-9-100.sellThrough",
+      "passed": true,
+      "actual": "96",
+      "expected": "96"
+    },
+    {
+      "id": "FT-9-100.limits",
+      "passed": true,
+      "actual": "['capacity']",
+      "expected": "['capacity']"
+    },
+    {
+      "id": "FT-9-100.ending",
+      "passed": true,
+      "actual": "Business rethink",
+      "expected": "Business rethink"
+    },
+    {
+      "id": "FT-9-100.expenseForms",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "FT-9-100.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-9-100.overstatement",
+      "passed": true,
+      "actual": "18",
+      "expected": "18"
+    },
+    {
+      "id": "FT-9-120.sales",
+      "passed": true,
+      "actual": "96",
+      "expected": "96"
+    },
+    {
+      "id": "FT-9-120.revenue",
+      "passed": true,
+      "actual": "864",
+      "expected": "864"
+    },
+    {
+      "id": "FT-9-120.expense",
+      "passed": true,
+      "actual": "990",
+      "expected": "990"
+    },
+    {
+      "id": "FT-9-120.profit",
+      "passed": true,
+      "actual": "-126",
+      "expected": "-126"
+    },
+    {
+      "id": "FT-9-120.waste",
+      "passed": true,
+      "actual": "24",
+      "expected": "24"
+    },
+    {
+      "id": "FT-9-120.wastePercent",
+      "passed": true,
+      "actual": "20",
+      "expected": "20"
+    },
+    {
+      "id": "FT-9-120.sellThrough",
+      "passed": true,
+      "actual": "80",
+      "expected": "80"
+    },
+    {
+      "id": "FT-9-120.limits",
+      "passed": true,
+      "actual": "['capacity']",
+      "expected": "['capacity']"
+    },
+    {
+      "id": "FT-9-120.ending",
+      "passed": true,
+      "actual": "Business rethink",
+      "expected": "Business rethink"
+    },
+    {
+      "id": "FT-9-120.expenseForms",
+      "passed": true,
+      "actual": "990",
+      "expected": "990"
+    },
+    {
+      "id": "FT-9-120.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-9-120.overstatement",
+      "passed": true,
+      "actual": "108",
+      "expected": "108"
+    },
+    {
+      "id": "FT-12-60.sales",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "FT-12-60.revenue",
+      "passed": true,
+      "actual": "720",
+      "expected": "720"
+    },
+    {
+      "id": "FT-12-60.expense",
+      "passed": true,
+      "actual": "720",
+      "expected": "720"
+    },
+    {
+      "id": "FT-12-60.profit",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-12-60.waste",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-12-60.wastePercent",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-12-60.sellThrough",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-12-60.limits",
+      "passed": true,
+      "actual": "['stock']",
+      "expected": "['stock']"
+    },
+    {
+      "id": "FT-12-60.ending",
+      "passed": true,
+      "actual": "Viable first launch",
+      "expected": "Viable first launch"
+    },
+    {
+      "id": "FT-12-60.expenseForms",
+      "passed": true,
+      "actual": "720",
+      "expected": "720"
+    },
+    {
+      "id": "FT-12-60.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-12-60.overstatement",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-LOW-WASTE.sales",
+      "passed": true,
+      "actual": "80",
+      "expected": "80"
+    },
+    {
+      "id": "FT-LOW-WASTE.revenue",
+      "passed": true,
+      "actual": "960",
+      "expected": "960"
+    },
+    {
+      "id": "FT-LOW-WASTE.expense",
+      "passed": true,
+      "actual": "810",
+      "expected": "810"
+    },
+    {
+      "id": "FT-LOW-WASTE.profit",
+      "passed": true,
+      "actual": "150",
+      "expected": "150"
+    },
+    {
+      "id": "FT-LOW-WASTE.waste",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-LOW-WASTE.wastePercent",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-LOW-WASTE.sellThrough",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-LOW-WASTE.limits",
+      "passed": true,
+      "actual": "['stock']",
+      "expected": "['stock']"
+    },
+    {
+      "id": "FT-LOW-WASTE.ending",
+      "passed": true,
+      "actual": "Festival success",
+      "expected": "Festival success"
+    },
+    {
+      "id": "FT-LOW-WASTE.expenseForms",
+      "passed": true,
+      "actual": "810",
+      "expected": "810"
+    },
+    {
+      "id": "FT-LOW-WASTE.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-LOW-WASTE.overstatement",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-BASE.sales",
+      "passed": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "id": "FT-BASE.revenue",
+      "passed": true,
+      "actual": "1080",
+      "expected": "1080"
+    },
+    {
+      "id": "FT-BASE.expense",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "FT-BASE.profit",
+      "passed": true,
+      "actual": "180",
+      "expected": "180"
+    },
+    {
+      "id": "FT-BASE.waste",
+      "passed": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "id": "FT-BASE.wastePercent",
+      "passed": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "id": "FT-BASE.sellThrough",
+      "passed": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "id": "FT-BASE.limits",
+      "passed": true,
+      "actual": "['demand']",
+      "expected": "['demand']"
+    },
+    {
+      "id": "FT-BASE.ending",
+      "passed": true,
+      "actual": "Festival success",
+      "expected": "Festival success"
+    },
+    {
+      "id": "FT-BASE.expenseForms",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "FT-BASE.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-BASE.overstatement",
+      "passed": true,
+      "actual": "45",
+      "expected": "45"
+    },
+    {
+      "id": "FT-12-120.sales",
+      "passed": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "id": "FT-12-120.revenue",
+      "passed": true,
+      "actual": "1080",
+      "expected": "1080"
+    },
+    {
+      "id": "FT-12-120.expense",
+      "passed": true,
+      "actual": "990",
+      "expected": "990"
+    },
+    {
+      "id": "FT-12-120.profit",
+      "passed": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "id": "FT-12-120.waste",
+      "passed": true,
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "id": "FT-12-120.wastePercent",
+      "passed": true,
+      "actual": "25",
+      "expected": "25"
+    },
+    {
+      "id": "FT-12-120.sellThrough",
+      "passed": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "id": "FT-12-120.limits",
+      "passed": true,
+      "actual": "['demand']",
+      "expected": "['demand']"
+    },
+    {
+      "id": "FT-12-120.ending",
+      "passed": true,
+      "actual": "Viable first launch",
+      "expected": "Viable first launch"
+    },
+    {
+      "id": "FT-12-120.expenseForms",
+      "passed": true,
+      "actual": "990",
+      "expected": "990"
+    },
+    {
+      "id": "FT-12-120.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-12-120.overstatement",
+      "passed": true,
+      "actual": "135",
+      "expected": "135"
+    },
+    {
+      "id": "FT-PREMIUM.sales",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "FT-PREMIUM.revenue",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "FT-PREMIUM.expense",
+      "passed": true,
+      "actual": "720",
+      "expected": "720"
+    },
+    {
+      "id": "FT-PREMIUM.profit",
+      "passed": true,
+      "actual": "180",
+      "expected": "180"
+    },
+    {
+      "id": "FT-PREMIUM.waste",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-PREMIUM.wastePercent",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-PREMIUM.sellThrough",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-PREMIUM.limits",
+      "passed": true,
+      "actual": "['stock', 'demand']",
+      "expected": "['stock', 'demand']"
+    },
+    {
+      "id": "FT-PREMIUM.ending",
+      "passed": true,
+      "actual": "Festival success",
+      "expected": "Festival success"
+    },
+    {
+      "id": "FT-PREMIUM.expenseForms",
+      "passed": true,
+      "actual": "720",
+      "expected": "720"
+    },
+    {
+      "id": "FT-PREMIUM.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-PREMIUM.overstatement",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-15-80.sales",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "FT-15-80.revenue",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "FT-15-80.expense",
+      "passed": true,
+      "actual": "810",
+      "expected": "810"
+    },
+    {
+      "id": "FT-15-80.profit",
+      "passed": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "id": "FT-15-80.waste",
+      "passed": true,
+      "actual": "20",
+      "expected": "20"
+    },
+    {
+      "id": "FT-15-80.wastePercent",
+      "passed": true,
+      "actual": "25",
+      "expected": "25"
+    },
+    {
+      "id": "FT-15-80.sellThrough",
+      "passed": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "id": "FT-15-80.limits",
+      "passed": true,
+      "actual": "['demand']",
+      "expected": "['demand']"
+    },
+    {
+      "id": "FT-15-80.ending",
+      "passed": true,
+      "actual": "Viable first launch",
+      "expected": "Viable first launch"
+    },
+    {
+      "id": "FT-15-80.expenseForms",
+      "passed": true,
+      "actual": "810",
+      "expected": "810"
+    },
+    {
+      "id": "FT-15-80.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-15-80.overstatement",
+      "passed": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "id": "FT-15-100.sales",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "FT-15-100.revenue",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "FT-15-100.expense",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "FT-15-100.profit",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-15-100.waste",
+      "passed": true,
+      "actual": "40",
+      "expected": "40"
+    },
+    {
+      "id": "FT-15-100.wastePercent",
+      "passed": true,
+      "actual": "40",
+      "expected": "40"
+    },
+    {
+      "id": "FT-15-100.sellThrough",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "FT-15-100.limits",
+      "passed": true,
+      "actual": "['demand']",
+      "expected": "['demand']"
+    },
+    {
+      "id": "FT-15-100.ending",
+      "passed": true,
+      "actual": "Viable first launch",
+      "expected": "Viable first launch"
+    },
+    {
+      "id": "FT-15-100.expenseForms",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "FT-15-100.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-15-100.overstatement",
+      "passed": true,
+      "actual": "180",
+      "expected": "180"
+    },
+    {
+      "id": "FT-15-120.sales",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "FT-15-120.revenue",
+      "passed": true,
+      "actual": "900",
+      "expected": "900"
+    },
+    {
+      "id": "FT-15-120.expense",
+      "passed": true,
+      "actual": "990",
+      "expected": "990"
+    },
+    {
+      "id": "FT-15-120.profit",
+      "passed": true,
+      "actual": "-90",
+      "expected": "-90"
+    },
+    {
+      "id": "FT-15-120.waste",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "FT-15-120.wastePercent",
+      "passed": true,
+      "actual": "50",
+      "expected": "50"
+    },
+    {
+      "id": "FT-15-120.sellThrough",
+      "passed": true,
+      "actual": "50",
+      "expected": "50"
+    },
+    {
+      "id": "FT-15-120.limits",
+      "passed": true,
+      "actual": "['demand']",
+      "expected": "['demand']"
+    },
+    {
+      "id": "FT-15-120.ending",
+      "passed": true,
+      "actual": "Business rethink",
+      "expected": "Business rethink"
+    },
+    {
+      "id": "FT-15-120.expenseForms",
+      "passed": true,
+      "actual": "990",
+      "expected": "990"
+    },
+    {
+      "id": "FT-15-120.percentComplement",
+      "passed": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "id": "FT-15-120.overstatement",
+      "passed": true,
+      "actual": "270",
+      "expected": "270"
+    },
+    {
+      "id": "endings.counts",
+      "passed": true,
+      "actual": "{'Business rethink': 5, 'Viable first launch': 4, 'Festival success': 3}",
+      "expected": "{'Festival success': 3, 'Viable first launch': 4, 'Business rethink': 5}"
+    },
+    {
+      "id": "FT-LOW-WASTE.deltaProfit",
+      "passed": true,
+      "actual": "-30",
+      "expected": "-30"
+    },
+    {
+      "id": "FT-LOW-WASTE.deltaWaste",
+      "passed": true,
+      "actual": "-10",
+      "expected": "-10"
+    },
+    {
+      "id": "FT-PREMIUM.deltaProfit",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "FT-PREMIUM.deltaWaste",
+      "passed": true,
+      "actual": "-10",
+      "expected": "-10"
+    },
+    {
+      "id": "baseline.naiveSoldAllProfit",
+      "passed": true,
+      "actual": "225",
+      "expected": "225"
+    },
+    {
+      "id": "baseline.overstatementLiteral",
+      "passed": true,
+      "actual": "45",
+      "expected": "45"
+    },
+    {
+      "id": "ZERO-CONTRIBUTION.crossing",
+      "passed": true,
+      "actual": "None",
+      "expected": "None"
+    },
+    {
+      "id": "ZERO-CONTRIBUTION.nonloss",
+      "passed": true,
+      "actual": "None",
+      "expected": "None"
+    },
+    {
+      "id": "ZERO-CONTRIBUTION.positive",
+      "passed": true,
+      "actual": "None",
+      "expected": "None"
+    },
+    {
+      "id": "NEGATIVE-CONTRIBUTION.crossing",
+      "passed": true,
+      "actual": "None",
+      "expected": "None"
+    },
+    {
+      "id": "NEGATIVE-CONTRIBUTION.nonloss",
+      "passed": true,
+      "actual": "None",
+      "expected": "None"
+    },
+    {
+      "id": "NEGATIVE-CONTRIBUTION.positive",
+      "passed": true,
+      "actual": "None",
+      "expected": "None"
+    },
+    {
+      "id": "ZERO-FIXED.crossing",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "ZERO-FIXED.nonloss",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "ZERO-FIXED.positive",
+      "passed": true,
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "id": "OUTSIDE-DOMAIN.crossing",
+      "passed": true,
+      "actual": "400/3",
+      "expected": "400/3"
+    },
+    {
+      "id": "OUTSIDE-DOMAIN.nonloss",
+      "passed": true,
+      "actual": "134",
+      "expected": "134"
+    },
+    {
+      "id": "OUTSIDE-DOMAIN.positive",
+      "passed": true,
+      "actual": "134",
+      "expected": "134"
+    },
+    {
+      "id": "ending.boundary.0",
+      "passed": true,
+      "actual": "Festival success",
+      "expected": "Festival success"
+    },
+    {
+      "id": "ending.boundary.1",
+      "passed": true,
+      "actual": "Viable first launch",
+      "expected": "Viable first launch"
+    },
+    {
+      "id": "ending.boundary.2",
+      "passed": true,
+      "actual": "Viable first launch",
+      "expected": "Viable first launch"
+    },
+    {
+      "id": "ending.boundary.3",
+      "passed": true,
+      "actual": "Viable first launch",
+      "expected": "Viable first launch"
+    },
+    {
+      "id": "ending.boundary.4",
+      "passed": true,
+      "actual": "Business rethink",
+      "expected": "Business rethink"
+    },
+    {
+      "id": "ending.boundary.5",
+      "passed": true,
+      "actual": "Viable first launch",
+      "expected": "Viable first launch"
+    },
+    {
+      "id": "rounding.halfUp",
+      "passed": true,
+      "actual": "1667/10",
+      "expected": "1667/10"
+    },
+    {
+      "id": "rounding.noThresholdFromDisplay",
+      "passed": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "id": "ending.draftBeforeBypass",
+      "passed": true,
+      "actual": "Draft",
+      "expected": "Draft"
+    },
+    {
+      "id": "ending.bypassBeforeSuccess",
+      "passed": true,
+      "actual": "Provisional",
+      "expected": "Provisional"
+    },
+    {
+      "id": "zeroStock.profit",
+      "passed": true,
+      "actual": "-450",
+      "expected": "-450"
+    },
+    {
+      "id": "zeroStock.wastePercent",
+      "passed": true,
+      "actual": "None",
+      "expected": "None"
+    },
+    {
+      "id": "zeroStock.sellThrough",
+      "passed": true,
+      "actual": "None",
+      "expected": "None"
+    },
+    {
+      "id": "ties.threeWay",
+      "passed": true,
+      "actual": "['stock', 'demand', 'capacity']",
+      "expected": "['stock', 'demand', 'capacity']"
+    },
+    {
+      "id": "transfer.A.slope",
+      "passed": true,
+      "actual": "9",
+      "expected": "9"
+    },
+    {
+      "id": "transfer.A.constant",
+      "passed": true,
+      "actual": "-360",
+      "expected": "-360"
+    },
+    {
+      "id": "transfer.A.crossing",
+      "passed": true,
+      "actual": "40",
+      "expected": "40"
+    },
+    {
+      "id": "transfer.A.firstProfit",
+      "passed": true,
+      "actual": "41",
+      "expected": "41"
+    },
+    {
+      "id": "transfer.B.revenue",
+      "passed": true,
+      "actual": "560",
+      "expected": "560"
+    },
+    {
+      "id": "transfer.B.expense",
+      "passed": true,
+      "actual": "480",
+      "expected": "480"
+    },
+    {
+      "id": "transfer.B.profit",
+      "passed": true,
+      "actual": "80",
+      "expected": "80"
+    },
+    {
+      "id": "transfer.B.waste",
+      "passed": true,
+      "actual": "14",
+      "expected": "14"
+    },
+    {
+      "id": "transfer.B.sellThrough",
+      "passed": true,
+      "actual": "80",
+      "expected": "80"
+    }
+  ],
+  "passed": 659,
+  "failed": 0,
+  "total": 659,
+  "endingCounts": {
+    "Business rethink": 5,
+    "Viable first launch": 4,
+    "Festival success": 3
+  },
+  "fixtureSha256": "0936626b74ff2f0a6a268306d5c704a278390d8a5929b6e7bdb198f32da0a30e",
+  "checkerSha256": "92bd04893e89e066463846c11e6ab6a8cc427738a04e430387016246f6d4079f",
+  "checkedAtUtc": "2026-09-30T05:18:19.671769+00:00"
+}

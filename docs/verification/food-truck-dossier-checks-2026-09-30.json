@@ -1,0 +1,469 @@
+{
+  "scope": "Reference mathematics and geometry only; no HTML application or physical device tested.",
+  "passed": true,
+  "count": 77,
+  "checks": [
+    {
+      "id": "RT.fuel_liters",
+      "passed": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "id": "RT.fuel_cost",
+      "passed": true,
+      "actual": "120.00",
+      "expected": "120"
+    },
+    {
+      "id": "RT.base_model",
+      "passed": true,
+      "actual": "(Decimal('220'), Decimal('230.00'), Decimal('1770.00'))",
+      "expected": "(Decimal('220'), Decimal('230'), Decimal('1770'))"
+    },
+    {
+      "id": "RT.hotel_event",
+      "passed": true,
+      "actual": "(Decimal('240'), Decimal('210.00'), Decimal('1890.00'))",
+      "expected": "(Decimal('240'), Decimal('210'), Decimal('1890'))"
+    },
+    {
+      "id": "RT.food_revision",
+      "passed": true,
+      "actual": "(Decimal('225'), Decimal('210.00'), Decimal('1785.00'))",
+      "expected": "(Decimal('225'), Decimal('210'), Decimal('1785'))"
+    },
+    {
+      "id": "RT.original_table",
+      "passed": true,
+      "actual": "[Decimal('450'), Decimal('890'), Decimal('1330'), Decimal('1770')]",
+      "expected": "[Decimal('450'), Decimal('890'), Decimal('1330'), Decimal('1770')]"
+    },
+    {
+      "id": "RT.max_whole_days",
+      "passed": true,
+      "actual": "7",
+      "expected": "7"
+    },
+    {
+      "id": "RT.next_day_over_budget",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "RT.hotel_event_counts_six_nights",
+      "passed": true,
+      "actual": "120.00",
+      "expected": "120"
+    },
+    {
+      "id": "RT.affordable_choice_count",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "FT.batch_cost",
+      "passed": true,
+      "actual": "90.00",
+      "expected": "90"
+    },
+    {
+      "id": "FT.portion_cost",
+      "passed": true,
+      "actual": "4.50",
+      "expected": "4.5"
+    },
+    {
+      "id": "FT.break_even",
+      "passed": true,
+      "actual": "6E+1",
+      "expected": "60"
+    },
+    {
+      "id": "FT.first_profitable",
+      "passed": true,
+      "actual": "7.5",
+      "expected": "7.5"
+    },
+    {
+      "id": "FT.service_capacity",
+      "passed": true,
+      "actual": "96",
+      "expected": "96"
+    },
+    {
+      "id": "FT.base_launch",
+      "passed": true,
+      "actual": "(90, Decimal('1080'), Decimal('900.00'), Decimal('180.00'), 10)",
+      "expected": "(90, Decimal('1080'), Decimal('900'), Decimal('180'), 10)"
+    },
+    {
+      "id": "FT.low_waste",
+      "passed": true,
+      "actual": "(80, Decimal('960'), Decimal('810.00'), Decimal('150.00'), 0)",
+      "expected": "(80, Decimal('960'), Decimal('810'), Decimal('150'), 0)"
+    },
+    {
+      "id": "FT.premium",
+      "passed": true,
+      "actual": "(60, Decimal('900'), Decimal('720.00'), Decimal('180.00'), 0)",
+      "expected": "(60, Decimal('900'), Decimal('720'), Decimal('180'), 0)"
+    },
+    {
+      "id": "FT.loss_fixture",
+      "passed": true,
+      "actual": "(96, Decimal('864'), Decimal('990.00'), Decimal('-126.00'), 24)",
+      "expected": "(96, Decimal('864'), Decimal('990'), Decimal('-126'), 24)"
+    },
+    {
+      "id": "FT.viable_not_distinction",
+      "passed": true,
+      "actual": "(90, Decimal('1080'), Decimal('990.00'), Decimal('90.00'), 30)",
+      "expected": "(90, Decimal('1080'), Decimal('990'), Decimal('90'), 30)"
+    },
+    {
+      "id": "FT.unsold_cost_error",
+      "passed": true,
+      "actual": "45.00",
+      "expected": "45"
+    },
+    {
+      "id": "TP.no_building_overlap",
+      "passed": true,
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "id": "TP.all_allocations_in_bounds",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "TP.no_building_path_overlap",
+      "passed": true,
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "id": "TP.no_green_overlap",
+      "passed": true,
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "id": "TP.facility_area",
+      "passed": true,
+      "actual": "704",
+      "expected": "704"
+    },
+    {
+      "id": "TP.path_area",
+      "passed": true,
+      "actual": "432",
+      "expected": "432"
+    },
+    {
+      "id": "TP.green_area",
+      "passed": true,
+      "actual": "480",
+      "expected": "480"
+    },
+    {
+      "id": "TP.undeveloped",
+      "passed": true,
+      "actual": "784",
+      "expected": "784"
+    },
+    {
+      "id": "TP.expansion_area",
+      "passed": true,
+      "actual": "140",
+      "expected": "140"
+    },
+    {
+      "id": "TP.expansion_is_unoccupied",
+      "passed": true,
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "id": "TP.paths_connected",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "TP.door.coaster",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "TP.door.carousel",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "TP.door.theater",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "TP.door.food",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "TP.door.services",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "TP.door.entrance",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "TP.carousel_area",
+      "passed": true,
+      "actual": "78.50",
+      "expected": "78.5"
+    },
+    {
+      "id": "TP.triangle_area",
+      "passed": true,
+      "actual": "24",
+      "expected": "24"
+    },
+    {
+      "id": "TP.cost",
+      "passed": true,
+      "actual": "79600",
+      "expected": "79600"
+    },
+    {
+      "id": "TP.budget_reserve",
+      "passed": true,
+      "actual": "10400",
+      "expected": "10400"
+    },
+    {
+      "id": "MC.daily_demands",
+      "passed": true,
+      "actual": "(Decimal('72'), Decimal('19.2'), Decimal('14.4'))",
+      "expected": "(Decimal('72'), Decimal('19.2'), Decimal('14.4'))"
+    },
+    {
+      "id": "MC.daily_load",
+      "passed": true,
+      "actual": "114",
+      "expected": "114"
+    },
+    {
+      "id": "MC.normal_solar",
+      "passed": true,
+      "actual": "144",
+      "expected": "144"
+    },
+    {
+      "id": "MC.storm_solar",
+      "passed": true,
+      "actual": "108.00",
+      "expected": "108"
+    },
+    {
+      "id": "MC.battery_after_storm",
+      "passed": true,
+      "actual": "18.00",
+      "expected": "18"
+    },
+    {
+      "id": "MC.battery_never_negative",
+      "passed": true,
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "id": "MC.battery_cap",
+      "passed": true,
+      "actual": "36",
+      "expected": "36"
+    },
+    {
+      "id": "MC.water_end",
+      "passed": true,
+      "actual": "324",
+      "expected": "324"
+    },
+    {
+      "id": "MC.oxygen_end",
+      "passed": true,
+      "actual": "86.4",
+      "expected": "86.4"
+    },
+    {
+      "id": "MC.food_end",
+      "passed": true,
+      "actual": "28.8",
+      "expected": "28.8"
+    },
+    {
+      "id": "MC.base_cost",
+      "passed": true,
+      "actual": "25300",
+      "expected": "25300"
+    },
+    {
+      "id": "MC.base_mass",
+      "passed": true,
+      "actual": "3185.2",
+      "expected": "3185.2"
+    },
+    {
+      "id": "MC.extra_solar_cost",
+      "passed": true,
+      "actual": "25500",
+      "expected": "25500"
+    },
+    {
+      "id": "MC.extra_solar_mass",
+      "passed": true,
+      "actual": "3205.2",
+      "expected": "3205.2"
+    },
+    {
+      "id": "MC.extra_solar_storm",
+      "passed": true,
+      "actual": "135.00",
+      "expected": "135"
+    },
+    {
+      "id": "MC.lean_cost",
+      "passed": true,
+      "actual": "25100",
+      "expected": "25100"
+    },
+    {
+      "id": "MC.lean_mass",
+      "passed": true,
+      "actual": "3170.8",
+      "expected": "3170.8"
+    },
+    {
+      "id": "MC.lean_food_end",
+      "passed": true,
+      "actual": "14.4",
+      "expected": "14.4"
+    },
+    {
+      "id": "SN.operation.1",
+      "passed": true,
+      "actual": "0.000200",
+      "expected": "0.0002"
+    },
+    {
+      "id": "SN.operation.2",
+      "passed": true,
+      "actual": "3.84E+8",
+      "expected": "3.84E+8"
+    },
+    {
+      "id": "SN.operation.3",
+      "passed": true,
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "id": "SN.operation.4",
+      "passed": true,
+      "actual": "5E+2",
+      "expected": "5E+2"
+    },
+    {
+      "id": "SN.operation.5",
+      "passed": true,
+      "actual": "0.0000315",
+      "expected": "0.0000315"
+    },
+    {
+      "id": "SN.operation.6",
+      "passed": true,
+      "actual": "4.44E+8",
+      "expected": "4.44E+8"
+    },
+    {
+      "id": "SN.operation.7",
+      "passed": true,
+      "actual": "0.000006",
+      "expected": "0.000006"
+    },
+    {
+      "id": "SN.operation.8",
+      "passed": true,
+      "actual": "1.3872E+9",
+      "expected": "1.3872E+9"
+    },
+    {
+      "id": "SN.micro_scale",
+      "passed": true,
+      "actual": "2E+4",
+      "expected": "20000"
+    },
+    {
+      "id": "SN.person_comparison_m",
+      "passed": true,
+      "actual": "3.4E+4",
+      "expected": "34000"
+    },
+    {
+      "id": "SN.dna_model_mm",
+      "passed": true,
+      "actual": "0.04000",
+      "expected": "0.04"
+    },
+    {
+      "id": "SN.cosmic_scale",
+      "passed": true,
+      "actual": "1/640000000",
+      "expected": "1/640000000"
+    },
+    {
+      "id": "SN.moon_model_mm",
+      "passed": true,
+      "actual": "175/32",
+      "expected": "175/32"
+    },
+    {
+      "id": "SN.moon_distance_mm",
+      "passed": true,
+      "actual": "600",
+      "expected": "600"
+    },
+    {
+      "id": "SN.sun_model_m",
+      "passed": true,
+      "actual": "35/16",
+      "expected": "35/16"
+    },
+    {
+      "id": "SN.sun_distance_m",
+      "passed": true,
+      "actual": "1875/8",
+      "expected": "1875/8"
+    },
+    {
+      "id": "SN.earth_to_cell_ratio",
+      "passed": true,
+      "actual": "1.6E+12",
+      "expected": "1.6E+12"
+    }
+  ]
+}
