@@ -6,7 +6,7 @@
 **Repository:** `williammcada/Applied-Math-Projects`, branch `main`.  
 **Current running version:** [Road Trip Planner 0.1.0](https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/), content/schema 1.0.0; hosted bytes match the verified self-contained candidate.  
 **Source/baseline:** This preparation began at `ec7753842c8321f5e2a9192529cb60da1e44d1b1`. The earlier `f10b953305edaa18113016f473fffdd155fb7c60` planning checkpoint remains historical. Sources now live in `docs/sources/dossier-v1.0.0/`; Road Trip now has a complete candidate at `road-trip-planner/`.  
-**Next work:** Food Truck is deployed with [verification evidence](../food-truck-business-launch/docs/DEPLOYMENT-v0.1.0.md). Theme Park v0.1.0 is implemented and locally verified; see its [project brief](../theme-park-designer/docs/PROJECT-BRIEF.md), [QA record](../theme-park-designer/docs/QA-REPORT-v0.1.0.md), and [deployment record](../theme-park-designer/docs/DEPLOYMENT-v0.1.0.md). Mars Colony is next when requested. Road Trip physical iPad/network/printer acceptance remains pending. Build each later application separately with its own specification and source checkpoint.  
+**Next work:** Food Truck is deployed with [verification evidence](../food-truck-business-launch/docs/DEPLOYMENT-v0.1.0.md). Theme Park v0.1.0 is implemented, locally verified and deployed; see its [project brief](../theme-park-designer/docs/PROJECT-BRIEF.md), [QA record](../theme-park-designer/docs/QA-REPORT-v0.1.0.md), and [deployment record](../theme-park-designer/docs/DEPLOYMENT-v0.1.0.md). Mars Colony is next when requested. Road Trip physical iPad/network/printer acceptance remains pending. Build each later application separately with its own specification and source checkpoint.  
 
 ## 1. Purpose, audience and detailed scope
 
@@ -39,7 +39,7 @@ The detailed scope above is the feature-preservation inventory. Preserve existin
 
 ## 5. Source, release and deployment discipline
 
-Road Trip has a complete implementation candidate, source checkpoint and application evidence in [its QA report](../road-trip-planner/docs/QA-REPORT-v0.1.0.md). Food Truck now has an [approved implementation specification](change-specs/FOOD-TRUCK-v0.1.0.md), [project brief](../food-truck-business-launch/docs/PROJECT-BRIEF.md), independent arithmetic fixtures and [preparation review](verification/FOOD-TRUCK-v0.1.0-SPEC-REVIEW.md). It is approved and implemented; application evidence is in its QA report. Theme Park, Mars Colony and Powers of Ten retain their dossier designs/planning READMEs.
+Road Trip has a complete implementation candidate, source checkpoint and application evidence in [its QA report](../road-trip-planner/docs/QA-REPORT-v0.1.0.md). Food Truck now has an [approved implementation specification](change-specs/FOOD-TRUCK-v0.1.0.md), [project brief](../food-truck-business-launch/docs/PROJECT-BRIEF.md), independent arithmetic fixtures and [preparation review](verification/FOOD-TRUCK-v0.1.0-SPEC-REVIEW.md). It is approved and implemented; application evidence is in its QA report. Theme Park now has its own implemented and verified candidate; see its project brief and QA report. For Mars Colony and Powers of Ten, consult their current project records.
 
 See [source provenance](sources/PROVENANCE.md) for the current source-preservation record and [MIGRATION-BASELINE.md](MIGRATION-BASELINE.md) for the historical September 18 planning baseline. See the [Road Trip specification](change-specs/ROAD-TRIP-PLANNER-v0.1.0.md) and [preparation review](verification/ROAD-TRIP-v0.1.0-SPEC-REVIEW.md) for this task's scope and evidence.
 
@@ -81,7 +81,7 @@ Current source identity is recorded in [source provenance](sources/PROVENANCE.md
 
 Preserved records: the full extracted William_McAda_Applied_Math_Projects_Handoff_v1.0.0 package, including Word/Markdown dossier, reference fixtures/checker, original reports and concept art. The ZIP identity and attached Word equality are recorded in provenance; the ZIP itself is not duplicated in the repository.
 
-Preparation directly read the dossier common/Road Trip/release material, original handoff instructions, fixture data/checker, project records and applicable handbook. Historical external references are preserved, not represented as newly verified. Road Trip, Food Truck and Theme Park now have application code and verification evidence. Mars Colony and Powers of Ten remain at the planning stage.
+Preparation directly read the dossier common/Road Trip/release material, original handoff instructions, fixture data/checker, project records and applicable handbook. Historical external references are preserved, not represented as newly verified. Road Trip, Food Truck and Theme Park now have application code and verification evidence. Powers of Ten has its own production update below; consult each project’s current records for status.
 
 Before substantive implementation retrieve these records, the current source, approved change spec and applicable handbook. If an indispensable spec is inaccessible, report the gap instead of filling it with invented details. Do not delete unique historical chats/assets until their contents are independently preserved.
 
@@ -96,6 +96,6 @@ The owner authorized production of the approved [Powers of Ten v0.1.0 specificat
 
 The [project brief](../powers-of-ten/docs/PROJECT-BRIEF.md), [QA report](../powers-of-ten/docs/QA-REPORT-v0.1.0.md) and [deployment record](../powers-of-ten/docs/DEPLOYMENT-v0.1.0.md) are the current Powers of Ten records. App 0.1.0, content/schema 1.0.0; automated checkpoint 5506401f906c11bfab6e750251c81893dec86d28 preserves 221 core, 98 browser and 7 recovery passes. Physical iPad, school-network, printer and classroom acceptance remain pending. No handbook rule or other project's application was changed.
 
-## 10. Theme Park Designer v0.1.0
+## 11. Theme Park Designer v0.1.0
 
-Production was authorized on 30 September 2026. The approved specification, project-specific brief and approval record govern its nine objectives, eight stages and exact baseline. The preserved corrected candidate is `e1c81fc17a5da727e7bf35feeb4b79770a03f394`; the verified checkpoint is `35ece958a2b309ff580758a26536c4cc40ce1247`. The final local run passed 189 assertions and A4/Letter print audits. Its [release record](../theme-park-designer/docs/DEPLOYMENT-v0.1.0.md) identifies the public deployment separately. Physical iPad/software keyboard, school-network and measured printer acceptance remain pending.
+Production was authorized on 30 September 2026. The approved specification, project-specific brief and approval record govern its nine objectives, eight stages and exact baseline. The preserved corrected candidate is `e1c81fc17a5da727e7bf35feeb4b79770a03f394`; the verified checkpoint is `35ece958a2b309ff580758a26536c4cc40ce1247`. The final local run passed 189 assertions and A4/Letter print audits. Its [release record](../theme-park-designer/docs/DEPLOYMENT-v0.1.0.md) records successful deployment, exact public byte identity and 12 hosted workflow assertions. Physical iPad/software keyboard, school-network and measured printer acceptance remain pending.

@@ -30,7 +30,7 @@ Powers of Ten v0.1.0 is implemented from its [approved specification](docs/chang
 
 [Open the application](https://williammcada.github.io/Applied-Math-Projects/theme-park-designer/) · [Standalone HTML](theme-park-designer/ThemeParkDesigner_v0.1.0.html) · [Getting started](theme-park-designer/README.md) · [Teacher guide](theme-park-designer/docs/TEACHER-GUIDE.md) · [QA report](theme-park-designer/docs/QA-REPORT-v0.1.0.md) · [Deployment record](theme-park-designer/docs/DEPLOYMENT-v0.1.0.md)
 
-Theme Park v0.1.0 is implemented and locally verified (189 passing assertions); hosted status is recorded in the deployment record. Physical classroom acceptance remains pending.
+Theme Park v0.1.0 is deployed and verified: 189 local assertions and 12 hosted assertions passed. Public HTML bytes match the preserved candidate. Physical classroom acceptance remains pending.
 
 ## Documentation
 

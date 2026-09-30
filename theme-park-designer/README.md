@@ -9,7 +9,7 @@ Design a 60 × 40 m theme park, justify the mathematics, compare two plans, and 
 ## Start a project
 
 1. Open the live application or download the HTML and open it in a desktop browser.
-2. Choose **New design**, enter aliases and a park name, and follow the eight stages.
+2. Choose **Start designing**, enter aliases and a park name, and follow the eight stages.
 3. Use the field Help buttons when needed. Corrections are unlimited; first attempts, current answers, and assistance remain separate.
 4. Place facilities by tap, drag, or coordinates. Paint land by cell or rectangle. Save inspected Plan A, revise, save Plan B, and explain a numerical tradeoff.
 5. Complete separate A/B transfer tasks. Export progress at lesson boundaries and print the final report or scale map.

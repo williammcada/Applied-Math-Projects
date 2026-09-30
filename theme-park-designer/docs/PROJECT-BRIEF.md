@@ -6,7 +6,7 @@
 **Source baseline:** d728dff8f8553f7db5cd26304d9bc403ad790ad9  
 **Handbook baseline:** 00cbde605ab08203b6b5fd2374d225155608fc29  
 **Target:** app 0.1.0; content/schema 1.0.0  
-**State:** v0.1.0 implemented and locally verified; exact candidate preserved. Deployment evidence is tracked separately. Physical classroom acceptance remains pending.
+**State:** v0.1.0 implemented, locally verified and deployed to GitHub Pages. The exact public bytes and hosted workflow are verified. Physical classroom acceptance remains pending.
 
 ## Scope and authority
 

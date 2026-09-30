@@ -1,0 +1,63 @@
+{
+  "observedAt": "2026-09-30T08:27:12.219Z",
+  "url": "https://williammcada.github.io/Applied-Math-Projects/theme-park-designer/",
+  "releaseCommit": "d7f5bba79c0dd104bf80d0ab78ee0a158a31bd02",
+  "htmlSha256": "c3e9dbe937919751c99925a82be16fe2d45c1797d40e4b13ea8e0e03ce4ed6d9",
+  "passed": 12,
+  "failed": 0,
+  "checks": [
+    {
+      "label": "public application HTTP 200",
+      "passed": true
+    },
+    {
+      "label": "hosted index exactly matches verified HTML",
+      "passed": true
+    },
+    {
+      "label": "versioned hosted download matches exact candidate",
+      "passed": true
+    },
+    {
+      "label": "visible version 0.1.0",
+      "passed": true
+    },
+    {
+      "label": "embedded title illustration renders",
+      "passed": true
+    },
+    {
+      "label": "hosted edits saved",
+      "passed": true
+    },
+    {
+      "label": "hosted export contains real entered response",
+      "passed": true
+    },
+    {
+      "label": "hosted reload and resume preserve entered response",
+      "passed": true
+    },
+    {
+      "label": "hosted import creates a separate saved copy",
+      "passed": true
+    },
+    {
+      "label": "hosted diagnostics pass",
+      "passed": true
+    },
+    {
+      "label": "zero hosted uncaught exceptions",
+      "passed": true
+    },
+    {
+      "label": "zero separate runtime asset requests",
+      "passed": true
+    }
+  ],
+  "exceptions": [],
+  "assets": [],
+  "browser": "153.0.8010.0",
+  "configuredProxy": true,
+  "proxyCertificateException": true
+}

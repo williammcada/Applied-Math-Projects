@@ -17,6 +17,8 @@
 
 The final full run occurred after the corrected candidate was committed. Release documentation and evidence do not alter these application bytes. Recover this candidate if packaging or deployment fails.
 
+Post-deployment: 12 additional hosted assertions passed on the same HTML bytes, including public index/download hashes and an actual save/reload/export/import workflow. See [hosted-results.json](verification/hosted-results.json) and the [deployment record](DEPLOYMENT-v0.1.0.md). The 189 local assertions and 12 hosted assertions are reported separately.
+
 ## Automated evidence
 
 | Suite | Passed | Evidence |
