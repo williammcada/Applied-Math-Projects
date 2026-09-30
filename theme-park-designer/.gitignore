@@ -1,0 +1,6 @@
+# Reproducible browser verification output; assertion/audit JSON is retained.
+docs/verification/*.pdf
+docs/verification/*.png
+docs/verification/backup.json
+docs/verification/completed-session.json
+docs/verification/failure.txt

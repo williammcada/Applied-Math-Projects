@@ -1,0 +1,122 @@
+{
+  "passed": 29,
+  "failed": 0,
+  "checks": [
+    {
+      "label": "path maximum inclusive",
+      "passed": true
+    },
+    {
+      "label": "600 m² paths feasible",
+      "passed": true
+    },
+    {
+      "label": "604 m² paths fails",
+      "passed": true
+    },
+    {
+      "label": "one green cell below floor",
+      "passed": true
+    },
+    {
+      "label": "476 green fails",
+      "passed": true
+    },
+    {
+      "label": "100 expansion inclusive",
+      "passed": true
+    },
+    {
+      "label": "96 expansion ordinary approval",
+      "passed": true
+    },
+    {
+      "label": "5 percent reserve exact boundary",
+      "passed": true
+    },
+    {
+      "label": "below 5 percent ordinary approval",
+      "passed": true
+    },
+    {
+      "label": "budget exact boundary",
+      "passed": true
+    },
+    {
+      "label": "equal budget no overrun",
+      "passed": true
+    },
+    {
+      "label": "budget just over",
+      "passed": true
+    },
+    {
+      "label": "overrun correctly flagged",
+      "passed": true
+    },
+    {
+      "label": "complete low-green revision ending",
+      "passed": true
+    },
+    {
+      "label": "portable distinction fixture",
+      "passed": true
+    },
+    {
+      "label": "portable stage identity distinction",
+      "passed": true
+    },
+    {
+      "label": "portable attempts distinction",
+      "passed": true
+    },
+    {
+      "label": "portable approved fixture",
+      "passed": true
+    },
+    {
+      "label": "portable stage identity approved",
+      "passed": true
+    },
+    {
+      "label": "portable attempts approved",
+      "passed": true
+    },
+    {
+      "label": "portable revision fixture",
+      "passed": true
+    },
+    {
+      "label": "portable stage identity revision",
+      "passed": true
+    },
+    {
+      "label": "portable attempts revision",
+      "passed": true
+    },
+    {
+      "label": "portable draft fixture",
+      "passed": true
+    },
+    {
+      "label": "portable stage identity draft",
+      "passed": true
+    },
+    {
+      "label": "portable attempts draft",
+      "passed": true
+    },
+    {
+      "label": "portable provisional fixture",
+      "passed": true
+    },
+    {
+      "label": "portable stage identity provisional",
+      "passed": true
+    },
+    {
+      "label": "portable attempts provisional",
+      "passed": true
+    }
+  ]
+}

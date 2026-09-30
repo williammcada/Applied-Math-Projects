@@ -1,0 +1,210 @@
+{
+  "passed": 50,
+  "failed": 0,
+  "checks": [
+    {
+      "label": "stage 2 ",
+      "passed": true
+    },
+    {
+      "label": "stage 3 Lesson checkpoint. Swap Planner and Checker, then export a backup.",
+      "passed": true
+    },
+    {
+      "label": "radius confusion diagnosed",
+      "passed": true
+    },
+    {
+      "label": "correct sibling retained",
+      "passed": true
+    },
+    {
+      "label": "help different example",
+      "passed": true
+    },
+    {
+      "label": "help focus restored",
+      "passed": true
+    },
+    {
+      "label": "stage 4 ",
+      "passed": true
+    },
+    {
+      "label": "out of bounds diagnosed",
+      "passed": true
+    },
+    {
+      "label": "invalid move preserves empty layout",
+      "passed": true
+    },
+    {
+      "label": "stage 5 Lesson checkpoint. Swap Planner and Checker, then export a backup.",
+      "passed": true
+    },
+    {
+      "label": "double-counted crossroads rejected",
+      "passed": true
+    },
+    {
+      "label": "stage 6 ",
+      "passed": true
+    },
+    {
+      "label": "stage 7 Lesson checkpoint. Swap Planner and Checker, then export a backup.",
+      "passed": true
+    },
+    {
+      "label": "Plan A saved",
+      "passed": true
+    },
+    {
+      "label": "stage 4 Revise the working design, recheck affected fields, then save it as Plan B.",
+      "passed": true
+    },
+    {
+      "label": "stage 6 ",
+      "passed": true
+    },
+    {
+      "label": "stage 7 ",
+      "passed": true
+    },
+    {
+      "label": "Plan B snapshot",
+      "passed": true
+    },
+    {
+      "label": "stage 8 ",
+      "passed": true
+    },
+    {
+      "label": "first partner responses hidden",
+      "passed": true
+    },
+    {
+      "label": "complete correct ending",
+      "passed": true
+    },
+    {
+      "label": "first error retained",
+      "passed": true
+    },
+    {
+      "label": "actual export validates independently",
+      "passed": true
+    },
+    {
+      "label": "stage 8 Saved design resumed.",
+      "passed": true
+    },
+    {
+      "label": "resume preserves completed outcome",
+      "passed": true
+    },
+    {
+      "label": "print pages student",
+      "passed": true
+    },
+    {
+      "label": "print pages map",
+      "passed": true
+    },
+    {
+      "label": "map width 170 mm includes coordinate margins",
+      "passed": true
+    },
+    {
+      "label": "print pages brochure",
+      "passed": true
+    },
+    {
+      "label": "print pages transfer",
+      "passed": true
+    },
+    {
+      "label": "no page overflow 768",
+      "passed": true
+    },
+    {
+      "label": "no page overflow 1024",
+      "passed": true
+    },
+    {
+      "label": "copy import preserves original",
+      "passed": true
+    },
+    {
+      "label": "deletion Cancel preserves both",
+      "passed": true
+    },
+    {
+      "label": "clear all empties Theme Park",
+      "passed": true
+    },
+    {
+      "label": "other project survives clear all",
+      "passed": true
+    },
+    {
+      "label": "backup recovery",
+      "passed": true
+    },
+    {
+      "label": "help panels C01",
+      "passed": true
+    },
+    {
+      "label": "help panels C02",
+      "passed": true
+    },
+    {
+      "label": "help panels C03",
+      "passed": true
+    },
+    {
+      "label": "help panels C04",
+      "passed": true
+    },
+    {
+      "label": "help panels C05",
+      "passed": true
+    },
+    {
+      "label": "help panels C06",
+      "passed": true
+    },
+    {
+      "label": "help panels C07",
+      "passed": true
+    },
+    {
+      "label": "help panels C08",
+      "passed": true
+    },
+    {
+      "label": "help panels C09A",
+      "passed": true
+    },
+    {
+      "label": "help panels C09B",
+      "passed": true
+    },
+    {
+      "label": "diagnostics pass",
+      "passed": true
+    },
+    {
+      "label": "zero uncaught exceptions: ",
+      "passed": true
+    },
+    {
+      "label": "zero runtime network requests",
+      "passed": true
+    }
+  ],
+  "exceptions": [],
+  "network": [],
+  "browser": "153.0.8010.0",
+  "environment": "Linux Chromium, local file, offline, desktop and tablet viewport emulation"
+}
