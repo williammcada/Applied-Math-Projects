@@ -1,11 +1,15 @@
-# Mars Colony
+# Mars Colony · Red Horizon
 
-**A WILLIAM MCADA PRODUCT**
+**A WILLIAM MCADA PRODUCT** · app 0.1.0 · content/schema 1.0.0
 
-Interactive applied-math project using a Mars-colony context. Migrate the approved objective set and representations before implementation rather than inventing a new curriculum from this placeholder.
+An applied-mathematics mission for 24 settlers over ten Earth days. Plan resources, housing, cargo and cost; model a stock; compare batteries and extra solar during a disclosed three-day disruption.
 
-This subproject belongs to the **Applied Mathematics Project Series** repository.
+**Status:** Implementation candidate; verification and deployment pending. The complete approved scope is in [the specification](../docs/change-specs/MARS-COLONY-v0.1.0.md), with [approval](../docs/decisions/MARS-COLONY-v0.1.0-APPROVAL.md) and [project brief](docs/PROJECT-BRIEF.md).
 
-Before implementation, add the approved project-specific dossier/objectives and record the exact source/target version. The family-level rules in `../docs/PROJECT-BRIEF.md` apply, but each subproject must preserve its own mathematical identity.
+Open `MarsColony_v0.1.0.html` in a desktop browser. `index.html` contains identical bytes for GitHub Pages. No installation, account, CDN or network service is required for core work. iPad delivery uses the hosted page; physical-device and school-network checks must be recorded separately.
 
-Do not assume another subproject's duration, scoring, narrative, or representations apply here.
+Use aliases. Save locally and Export progress before changing devices or clearing browser data. JSON import creates a new copy; current answers are revalidated. Saved work supports session deletion and clear-all for Mars only. Export a backup before deletion; downloaded files and other apps are preserved.
+
+Build from readable source with `python3 build.py`. Arithmetic and browser verification live in `tests/`. Do not rebuild an already verified candidate merely to recover from packaging or upload failure.
+
+All equipment values and rates are invented classroom data. One day is 24 Earth hours. The model does not establish real life-support or continuous electrical operation. Correct mathematics can produce a weak design; the app accepts that analysis and names the failed criteria.
