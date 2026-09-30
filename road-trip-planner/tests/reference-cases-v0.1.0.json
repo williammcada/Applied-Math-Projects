@@ -1,0 +1,103 @@
+{
+  "specRevision": "0.1.0-approved.1",
+  "scope": "Specification mathematics and ending feasibility; not application tests or real student saves",
+  "eventPolicy": "Approved P-01 selected-hotel uplift, 30 September 2026",
+  "base": {
+    "party": 3,
+    "desiredDays": 7,
+    "durationDomain": [1, 14],
+    "distanceKm": "900",
+    "kmPerLiter": "12",
+    "fuelPrice": "1.60",
+    "oneOff": "200",
+    "budget": "1800",
+    "tableDays": [1, 3, 5, 7],
+    "hotelEventDelta": "20"
+  },
+  "choices": {
+    "vehicle": [
+      {"id": "basic", "price": "30", "fit": 15},
+      {"id": "standard", "price": "40", "fit": 15},
+      {"id": "touring", "price": "60", "fit": 15}
+    ],
+    "hotel": [
+      {"id": "basic", "price": "60", "fit": 15},
+      {"id": "standard", "price": "90", "fit": 30},
+      {"id": "premium", "price": "130", "fit": 30}
+    ],
+    "food": [
+      {"id": "simple", "price": "10", "fit": 10},
+      {"id": "balanced", "price": "15", "fit": 20},
+      {"id": "full", "price": "20", "fit": 25}
+    ],
+    "activities": [
+      {"id": "light", "price": "10", "fit": 10},
+      {"id": "varied", "price": "20", "fit": 20},
+      {"id": "full", "price": "30", "fit": 30}
+    ]
+  },
+  "cases": [
+    {
+      "id": "RT-BASE", "event": false,
+      "selection": ["standard", "standard", "full", "full"],
+      "expected": {"liters": "75", "fuelCost": "120", "m": "220", "b": "230", "table": ["450", "890", "1330", "1770"], "total": "1770", "reserve": "30", "percentSpent": "98.33", "continuousBound": "157/22", "maxDays": 7, "fit": 100, "outcome": "delighted", "reserveStatementRequired": false}
+    },
+    {
+      "id": "RT-HOTEL", "event": true,
+      "selection": ["standard", "standard", "full", "full"],
+      "expected": {"liters": "75", "fuelCost": "120", "m": "240", "b": "210", "table": ["450", "930", "1410", "1890"], "total": "1890", "reserve": "-90", "percentSpent": "105.00", "continuousBound": "53/8", "maxDays": 6, "fit": 100, "outcome": "revision", "reserveStatementRequired": true}
+    },
+    {
+      "id": "RT-REVISION", "event": true,
+      "selection": ["standard", "standard", "balanced", "full"],
+      "expected": {"liters": "75", "fuelCost": "120", "m": "225", "b": "210", "table": ["435", "885", "1335", "1785"], "total": "1785", "reserve": "15", "percentSpent": "99.17", "continuousBound": "106/15", "maxDays": 7, "fit": 95, "outcome": "delighted", "reserveStatementRequired": false}
+    },
+    {
+      "id": "RT-APPROVED", "event": true,
+      "selection": ["basic", "standard", "balanced", "light"],
+      "expected": {"m": "195", "b": "210", "total": "1575", "reserve": "225", "fit": 75, "outcome": "approved", "reserveStatementRequired": true}
+    },
+    {
+      "id": "RT-HIGH-RESERVE", "event": true,
+      "selection": ["basic", "standard", "balanced", "varied"],
+      "expected": {"m": "205", "b": "210", "total": "1645", "reserve": "155", "fit": 85, "outcome": "delighted", "reserveStatementRequired": true}
+    },
+    {
+      "id": "RT-LOW-FIT", "event": true,
+      "selection": ["basic", "basic", "simple", "light"],
+      "expected": {"m": "150", "b": "240", "total": "1290", "reserve": "510", "fit": 50, "outcome": "revision", "reserveStatementRequired": true}
+    },
+    {
+      "id": "RT-FIT-65", "event": true,
+      "selection": ["basic", "standard", "simple", "light"],
+      "expected": {"m": "180", "b": "210", "total": "1470", "reserve": "330", "fit": 65, "outcome": "approved", "reserveStatementRequired": true}
+    }
+  ],
+  "affordabilityBoundaries": [
+    {"id": "exact", "m": "220", "b": "230", "budget": "1770", "expected": 7},
+    {"id": "below_exact", "m": "220", "b": "230", "budget": "1769.99", "expected": 6},
+    {"id": "none", "m": "220", "b": "230", "budget": "449.99", "expected": null},
+    {"id": "one", "m": "220", "b": "230", "budget": "450", "expected": 1},
+    {"id": "domain_cap", "m": "220", "b": "230", "budget": "10000", "expected": 14},
+    {"id": "negative_constant", "m": "400", "b": "-80", "budget": "1800", "expected": 4}
+  ],
+  "reserveBoundaries": [
+    {"reserve": "0", "budget": "1800", "required": false},
+    {"reserve": "90", "budget": "1800", "required": false},
+    {"reserve": "90.01", "budget": "1800", "required": true},
+    {"reserve": "-0.01", "budget": "1800", "required": true}
+  ],
+  "transfer": [
+    {"id": "RT-T01", "learner": "A", "m": "160", "b": "240", "days": 4, "total": "880"},
+    {"id": "RT-T02", "learner": "B", "m": "145", "b": "310", "days": 6, "total": "1180"}
+  ],
+  "parserCasesForFutureApp": {
+    "equivalentBaseExpressions": ["220d+230", "200+120+40d+90(d-1)+3*20d+30d", "230+110d+110d", "(440d+460)/2"],
+    "wrongLinearModels": ["220d+200", "200d+370"],
+    "wrongModelThatMatchesSevenDays": "200d+370",
+    "rejectExpressions": ["d*d", "d^2", "220x+230", "220d+1/0", "alert(1)", "Infinity", "<img src=x onerror=alert(1)>"],
+    "equivalentBaseInequalities": ["220d+230<=1800", "1800>=220d+230", "440d+460<=3600", "-220d>=-1570"],
+    "rejectAsBaseInequality": ["220d+230=1800", "220d+230>=1800"],
+    "note": "These are test inputs only; this Python checker does not implement or certify the future JavaScript parser."
+  }
+}

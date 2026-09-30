@@ -1,0 +1,114 @@
+{
+  "scope": "Preserved original source bytes only",
+  "archive_sha256": "f890e8b05ad197bcd4d94f9824d52c12dbc09a4117122da0d569f89829787506",
+  "archive_bytes": 1027433,
+  "file_count_checked": 21,
+  "passed": true,
+  "checks": [
+    {
+      "path": "ASTRA_BUILD_PROMPT.txt",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "START_HERE.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "William_McAda_Applied_Math_Projects_Dossier_v1.0.0.docx",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "William_McAda_Applied_Math_Projects_Dossier_v1.0.0.md",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "dossier_validation_report.json",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/cover_band.png",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/cover_band.svg",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/food.png",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/food.svg",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/mars.png",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/mars.svg",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/park.png",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/park.svg",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/road.png",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/road.svg",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/scale.png",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "figures/scale.svg",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reference_check_report.json",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reference_fixtures.json",
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "verify_reference_fixtures.py",
+      "size_matches": true,
+      "sha256_matches": true
+    }
+  ]
+}

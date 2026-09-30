@@ -1,0 +1,13 @@
+Build ROAD TRIP PLANNER v0.1.0 as a complete, bespoke, self-contained HTML application using William McAda's Applied Mathematics Project Series Dossier v1.0.0.
+
+Read sections 01–12, the entire Road Trip chapter (13–17), and sections 39–42 before implementing. Use the included reference_fixtures.json and verify_reference_fixtures.py as independent numerical references. Do not assume the reference checks test an application: create tests against the HTML you build.
+
+Do not build a generator, shared cartridge engine, cloud backend, live multiplayer service, or authoring interface. The project needs its own flow, prompts, narrative, artwork, mathematical representations, and performance-based ending.
+
+Preserve the exact objectives, checkpoint identities, units, baseline data, scenario dependencies, and ending rules. Keep the fixed-route fuel cost out of the daily coefficient. Count d days as d−1 hotel nights. Preserve the meaning of the algebraic intercept and the whole-day affordability decision. Do not reveal computed answers before the student is asked to calculate them.
+
+Include a visible “A WILLIAM MCADA PRODUCT” identity, William McAda credit, app/content version numbers, embedded pictures, touch/keyboard-accessible question-mark help boxes, field-specific validation and error prompts, safe save/resume/export/import, printable student and teacher reports, and the complete client-ending/revision journey. No music. A correct calculation describing an over-budget plan is not an arithmetic error; it must lead to the appropriate revision analysis.
+
+Deliver RoadTripPlanner_v0.1.0.html and a byte-identical index.html ready for GitHub Pages, plus a brief teacher reference, README, CHANGELOG, and QA report. Keep the complete playable application in the single HTML file with embedded runtime assets. Do not return a skeleton, merely print code in chat, or defer every picture until a later version.
+
+Before delivery, run the full student journey, an incorrect-answer recovery path, a weak-plan/revision path, all ending conditions, an upstream-change recheck, save/export/import, and print checks. Report exactly which desktop/mobile/browser checks were performed and which physical-iPad or school-network checks remain untested. Preserve the stated scope rather than changing the mathematics just to make a demo pass.

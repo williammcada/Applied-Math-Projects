@@ -1,12 +1,12 @@
 # Project Brief — Applied Mathematics Project Series
 
-**Brief version:** 0.3 — source-baseline normalization  
+**Brief version:** 0.5 — Road Trip specification approval, 30 September 2026  
 **Owner:** William McAda · **Credit:** A WILLIAM MCADA PRODUCT  
-**Status:** Canonical source identity reconciled; release, functional and deployment verification remain separately stated.  
+**Status:** Original dossier/handoff preserved; Road Trip v0.1.0 specification revision 1 approved. Application implementation, functional verification and deployment remain pending.  
 **Repository:** `williammcada/Applied-Math-Projects`, branch `main`.  
 **Current running version:** Not applicable — no executable application has yet been committed for this project family.  
-**Source/baseline:** Canonical repository state: planning-only family record at checkpoint `f10b953305edaa18113016f473fffdd155fb7c60`. The five project subdirectories contain planning README records; no executable HTML application is established.  
-**Next work:** Preserve the dossier/handoff records and build each of the five applications separately only when requested; each future app must establish its own source baseline.  
+**Source/baseline:** This preparation began at `ec7753842c8321f5e2a9192529cb60da1e44d1b1`. The earlier `f10b953305edaa18113016f473fffdd155fb7c60` planning checkpoint remains historical. Sources now live in `docs/sources/dossier-v1.0.0/`; no executable HTML application is established.  
+**Next work:** Implement Road Trip v0.1.0 against approved specification revision 1, including P-01. Build each later application separately with its own specification and source checkpoint.  
 
 ## 1. Purpose, audience and detailed scope
 
@@ -23,14 +23,15 @@
 
 ## 2. This task and boundaries
 
-This normalization establishes the exact repository source path, Git object identity and source-preservation checkpoint; creates the linked migration baseline; and retires stale pre-upload source-status wording. It does not change application behavior, approve new features, rerun product tests or convert source preservation into a release claim.
+This task preserves the original dossier/handoff, specifies Road Trip v0.1.0, adds its local project brief and mathematical fixtures, and records preparation checks. The owner authorized this preparation after review of the next-step plan. William McAda explicitly approved the selected-hotel event adjustment P-01 and merging the specification into main on 30 September 2026; see the [approval record](decisions/ROAD-TRIP-v0.1.0-APPROVAL.md). No application, website, or handbook rule is changed by this preparation.
 
 ## 3. Standards and adoption
 
-[Canonical handbook](https://github.com/williammcada/mcada-project-handbook). File blob revisions consulted: AI-START-HERE.md 6557a45aaa6d29d7d1abde808e6d0ac248b08820; UNIVERSAL-RULES.md aed6fe311aa2e88983f862a30a2d8f05d2ffc04d; CONDITIONAL-STANDARDS.md dad2d3a05ca0f18260196ea51ac6351bffffdc1c; PROJECT-TEMPLATE.md 574f4c6fcf19ecc2f9e27582fd856fb08123e8da. These are file blobs, not repository commit SHAs.
+[Canonical handbook](https://github.com/williammcada/mcada-project-handbook), v0.1.1 at commit `00cbde605ab08203b6b5fd2374d225155608fc29`. Consulted AI-START-HERE.md, UNIVERSAL-RULES.md, CONDITIONAL-STANDARDS.md, and RELEASE-CHECKLIST.md; exact file blob IDs are recorded in [source provenance](sources/PROVENANCE.md). The historical v0.3 brief's older handbook/file identities remain available in Git history.
 
-Relevant rules: U-01 identity, U-02 help, U-03 input validation, U-04 unambiguous math/text where applicable, U-05 reader/device, U-06 preservation, U-07 verification, U-08 local scope. Conditional selection: S-02, S-04, S-05.
-Baseline adoption: selected for this documentation task within existing user instructions. Handbook still labels shared scope/modules seeded/draft; no new global rule ratification is inferred. Project-specific approved decisions control their own scope.
+Relevant rules: U-01 identity, U-02 help, U-03 input validation, U-04 unambiguous math/text, U-05 reader/device, U-06 preservation, U-07 verification, U-08 local scope, and approved U-09 saved-work deletion. Conditional selection remains S-02, S-04, S-05. U-01–U-08 and the modules retain their seeded/draft handbook status; no new global ratification is inferred. Project-specific approved decisions control their own scope.
+
+U-09 applies to every future app with saved state: individual/group deletion and clear-all within that app's scope, with explicit confirmation, Cancel, recovery guidance and verification. Road Trip uses sessions as complete groups and does not add school-year/class administration.
 
 ## 4. Must-retain behavior
 
@@ -38,9 +39,9 @@ The detailed scope above is the feature-preservation inventory. Preserve existin
 
 ## 5. Source, release and deployment discipline
 
-Canonical repository state: planning-only family record at checkpoint `f10b953305edaa18113016f473fffdd155fb7c60`. The five project subdirectories contain planning README records; no executable HTML application is established.
+The repository remains planning-only. Road Trip now has an approved revision 1 implementation contract and reference-check support. The other four applications retain their dossier designs and planning READMEs; they have not been implemented.
 
-See [`MIGRATION-BASELINE.md`](MIGRATION-BASELINE.md) for the authoritative source manifest and the checks actually performed.
+See [source provenance](sources/PROVENANCE.md) for the current source-preservation record and [MIGRATION-BASELINE.md](MIGRATION-BASELINE.md) for the historical September 18 planning baseline. See the [Road Trip specification](change-specs/ROAD-TRIP-PLANNER-v0.1.0.md) and [preparation review](verification/ROAD-TRIP-v0.1.0-SPEC-REVIEW.md) for this task's scope and evidence.
 
 DESIGN → CHANGE SPEC → IMPLEMENT → CHECKPOINT → VERIFY → VERIFIED CHECKPOINT → RELEASE → DEPLOY.
 
@@ -48,7 +49,7 @@ Use “implementation checkpoint” or “release candidate” before verificati
 
 ## 6. Known issues, conflicts and open evidence
 
-No working apps are established by dossier. Full dossier and fixtures are still required for implementation; summary cannot replace 52 pages of exact field/asset contracts. Source 'slide overlap' artifact not verified.
+No working apps are established by the dossier. The complete dossier and fixtures have now been preserved in the repository; use those exact field/asset contracts rather than this brief's summary. The original 'slide overlap' artifact remains unverified. Approved Road Trip P-01 resolves the price-event gap by applying the increase to every selectable hotel category.
 
 | Conflict or risk | Required handling |
 | --- | --- |
@@ -56,6 +57,7 @@ No working apps are established by dossier. Full dossier and fixtures are still 
 | Proposed next scope versus working baseline | Use the approved version-specific specification; do not silently promote proposals. |
 | Other project rules | Do not import AAC quotas, other-game retry counts, or a shared backend without explicit scope. |
 | Handbook proposals | No additional exception or proposal is adopted by this brief. |
+| Standard-only hotel event versus required revision for every pair | Apply approved P-01: +$20/night to the selected hotel; revised quotes also apply when switching categories. |
 
 ## 7. Verification contract
 
@@ -63,7 +65,9 @@ Use dossier QA-01–20: core objective coverage, numeric/geometry fixtures, vali
 
 | Evidence required | Result in this task |
 | --- | --- |
-| Exact source candidate/commit identified and preserved | Passed — canonical path and source checkpoint recorded in `docs/MIGRATION-BASELINE.md`; no functional verification inferred |
+| Exact planning/source baseline identified and preserved | Passed — original handoff hashes verified; source provenance records baseline ec77538 |
+| Original dossier reference mathematics | Passed — 77/77 reference checks rerun; no application verification inferred |
+| Road Trip specification mathematics | Passed — 259/259, including 81 choices before/after approved P-01; no application verification inferred |
 | Project-specific checks above, with inputs and expected/actual results | Not run |
 | Save/import/export and malformed-input regression | Not run |
 | Intended devices and real deployment path, where applicable | Not run |
@@ -73,15 +77,14 @@ The next build report must name the candidate, environment and test results; his
 
 ## 8. Handoff and provenance
 
-Current source identity is recorded in [`MIGRATION-BASELINE.md`](MIGRATION-BASELINE.md). That manifest supersedes earlier unknown-source or pre-upload statements while preserving the original migration note as history.
+Current source identity is recorded in [source provenance](sources/PROVENANCE.md). [MIGRATION-BASELINE.md](MIGRATION-BASELINE.md) and the migration note remain historical records of the pre-implementation planning state.
 
-Required project records: William_McAda_Applied_Math_Projects_Dossier_v1.0.0.docx (read for this revision); William_McAda_Applied_Math_Projects_Handoff_v1.0.0.zip; project chapter and reference fixtures.
+Preserved records: the full extracted William_McAda_Applied_Math_Projects_Handoff_v1.0.0 package, including Word/Markdown dossier, reference fixtures/checker, original reports and concept art. The ZIP identity and attached Word equality are recorded in provenance; the ZIP itself is not duplicated in the repository.
 
-Provenance: previous migration brief and project-history audit in this conversation; directly read dossier/proposal where explicitly stated above. Records not explicitly marked read here are retrieval targets, not claims of fresh inspection. No current app code was tested for this brief.
+This task directly read the dossier common/Road Trip/release material, original handoff instructions, fixture data/checker, current project records and applicable handbook. Historical external references are preserved, not represented as newly verified. No current app code exists to test.
 
 Before substantive implementation retrieve these records, the current source, approved change spec and applicable handbook. If an indispensable spec is inaccessible, report the gap instead of filling it with invented details. Do not delete unique historical chats/assets until their contents are independently preserved.
 
 ## 9. Ecosystem boundary
 
 Shared principles do not establish shared code, accounts or interfaces. MathQuest is engagement, TestForge assessment design, GradePal learner-level evidence, and DataDiver institutional analytics. Integration remains separately specified unless confirmed in source. Other projects remain independent unless their brief explicitly says otherwise.
-
