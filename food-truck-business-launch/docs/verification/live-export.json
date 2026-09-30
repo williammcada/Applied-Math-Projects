@@ -1,0 +1,189 @@
+{
+  "schema": "mcada-project-progress",
+  "schemaVersion": "1.0.0",
+  "projectId": "food-truck",
+  "appVersion": "0.1.0",
+  "contentVersion": "1.0.0",
+  "sessionId": "2e2d0a50-d0d5-4ecf-9008-c66ad943ffb6",
+  "scenarioId": "FT-BASE",
+  "teamAlias": "Deployment QA",
+  "truckName": "Festival Launch",
+  "cuisineId": "bowl",
+  "planner": "A",
+  "brief": true,
+  "lessonSwaps": [],
+  "currentStage": "FT-S02",
+  "maxStage": 2,
+  "activePlan": "A",
+  "plans": {
+    "A": {
+      "id": "A",
+      "p": 12,
+      "q": 100,
+      "revision": 0,
+      "frozen": false,
+      "raw": {
+        "xStep": "20",
+        "yStep": "200",
+        "factor": "5",
+        "qty_grain": "10",
+        "qty_vegetables": "15",
+        "qty_protein": "10",
+        "qty_sauce": "2.5",
+        "qty_packaging": "100"
+      },
+      "evidence": {
+        "factor": {
+          "status": "verified",
+          "response": "5",
+          "fingerprint": "[\"1.0.0\",\"factor\",\"numeric\",\"5\",null]",
+          "firstAttemptId": "4d64290b-81fa-42a4-9c40-382d367aee0a",
+          "lastAttemptId": "4d64290b-81fa-42a4-9c40-382d367aee0a"
+        },
+        "qty_grain": {
+          "status": "verified",
+          "response": "10",
+          "fingerprint": "[\"1.0.0\",\"qty_grain\",\"numeric\",\"10\",null]",
+          "firstAttemptId": "fb755d57-4294-4126-98dd-a0dc6e954011",
+          "lastAttemptId": "fb755d57-4294-4126-98dd-a0dc6e954011"
+        },
+        "qty_vegetables": {
+          "status": "verified",
+          "response": "15",
+          "fingerprint": "[\"1.0.0\",\"qty_vegetables\",\"numeric\",\"15\",null]",
+          "firstAttemptId": "ff01501b-6eb3-42c7-9353-4886eb0b79d9",
+          "lastAttemptId": "ff01501b-6eb3-42c7-9353-4886eb0b79d9"
+        },
+        "qty_protein": {
+          "status": "verified",
+          "response": "10",
+          "fingerprint": "[\"1.0.0\",\"qty_protein\",\"numeric\",\"10\",null]",
+          "firstAttemptId": "01bb19c9-8328-4123-a236-fd379405f2aa",
+          "lastAttemptId": "01bb19c9-8328-4123-a236-fd379405f2aa"
+        },
+        "qty_sauce": {
+          "status": "verified",
+          "response": "2.5",
+          "fingerprint": "[\"1.0.0\",\"qty_sauce\",\"numeric\",\"5/2\",null]",
+          "firstAttemptId": "43e941a2-1cc8-4130-a0dc-4f77ba30e397",
+          "lastAttemptId": "43e941a2-1cc8-4130-a0dc-4f77ba30e397"
+        },
+        "qty_packaging": {
+          "status": "verified",
+          "response": "100",
+          "fingerprint": "[\"1.0.0\",\"qty_packaging\",\"numeric\",\"100\",null]",
+          "firstAttemptId": "6125b67a-d661-48c1-bbd2-0e4af836be7c",
+          "lastAttemptId": "6125b67a-d661-48c1-bbd2-0e4af836be7c"
+        }
+      },
+      "history": []
+    },
+    "B": null
+  },
+  "raw": {
+    "chosenPlan": "B",
+    "transferModeA": "digital",
+    "transferModeB": "digital"
+  },
+  "evidence": {},
+  "attempts": [
+    {
+      "id": "4d64290b-81fa-42a4-9c40-382d367aee0a",
+      "key": "factor",
+      "checkpoint": "C01",
+      "plan": "A",
+      "revision": 0,
+      "response": "5",
+      "passed": true,
+      "timestamp": "2026-09-30T07:30:03.665Z",
+      "fingerprint": "[\"1.0.0\",\"factor\",\"numeric\",\"5\",null]",
+      "context": {
+        "p": 12,
+        "q": 100
+      }
+    },
+    {
+      "id": "fb755d57-4294-4126-98dd-a0dc6e954011",
+      "key": "qty_grain",
+      "checkpoint": "C01",
+      "plan": "A",
+      "revision": 0,
+      "response": "10",
+      "passed": true,
+      "timestamp": "2026-09-30T07:30:03.665Z",
+      "fingerprint": "[\"1.0.0\",\"qty_grain\",\"numeric\",\"10\",null]",
+      "context": {
+        "p": 12,
+        "q": 100
+      }
+    },
+    {
+      "id": "ff01501b-6eb3-42c7-9353-4886eb0b79d9",
+      "key": "qty_vegetables",
+      "checkpoint": "C01",
+      "plan": "A",
+      "revision": 0,
+      "response": "15",
+      "passed": true,
+      "timestamp": "2026-09-30T07:30:03.665Z",
+      "fingerprint": "[\"1.0.0\",\"qty_vegetables\",\"numeric\",\"15\",null]",
+      "context": {
+        "p": 12,
+        "q": 100
+      }
+    },
+    {
+      "id": "01bb19c9-8328-4123-a236-fd379405f2aa",
+      "key": "qty_protein",
+      "checkpoint": "C01",
+      "plan": "A",
+      "revision": 0,
+      "response": "10",
+      "passed": true,
+      "timestamp": "2026-09-30T07:30:03.665Z",
+      "fingerprint": "[\"1.0.0\",\"qty_protein\",\"numeric\",\"10\",null]",
+      "context": {
+        "p": 12,
+        "q": 100
+      }
+    },
+    {
+      "id": "43e941a2-1cc8-4130-a0dc-4f77ba30e397",
+      "key": "qty_sauce",
+      "checkpoint": "C01",
+      "plan": "A",
+      "revision": 0,
+      "response": "2.5",
+      "passed": true,
+      "timestamp": "2026-09-30T07:30:03.666Z",
+      "fingerprint": "[\"1.0.0\",\"qty_sauce\",\"numeric\",\"5/2\",null]",
+      "context": {
+        "p": 12,
+        "q": 100
+      }
+    },
+    {
+      "id": "6125b67a-d661-48c1-bbd2-0e4af836be7c",
+      "key": "qty_packaging",
+      "checkpoint": "C01",
+      "plan": "A",
+      "revision": 0,
+      "response": "100",
+      "passed": true,
+      "timestamp": "2026-09-30T07:30:03.666Z",
+      "fingerprint": "[\"1.0.0\",\"qty_packaging\",\"numeric\",\"100\",null]",
+      "context": {
+        "p": 12,
+        "q": 100
+      }
+    }
+  ],
+  "reviews": [],
+  "support": [],
+  "teacherOverrides": [],
+  "completedAt": null,
+  "localRevision": 7,
+  "updatedAt": "2026-09-30T07:30:08.694Z",
+  "imported": false,
+  "duplicateOf": null
+}
