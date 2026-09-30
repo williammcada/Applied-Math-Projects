@@ -16,9 +16,13 @@ The repository is the canonical home for the current source, permanent project b
 
 [Open the live application](https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/) · [Download the self-contained application](road-trip-planner/RoadTripPlanner_v0.1.0.html) · [Getting started](road-trip-planner/README.md) · [Teacher guide](road-trip-planner/docs/TEACHER-GUIDE.md) · [QA report](road-trip-planner/docs/QA-REPORT-v0.1.0.md) · [Deployment record](road-trip-planner/docs/DEPLOYMENT-v0.1.0.md)
 
+## Food Truck / Business Launch
+
+[Open the application](https://williammcada.github.io/Applied-Math-Projects/food-truck-business-launch/) · [Standalone HTML](food-truck-business-launch/FoodTruck_v0.1.0.html) · [Getting started](food-truck-business-launch/README.md) · [QA report](food-truck-business-launch/docs/QA-REPORT-v0.1.0.md)
+
 ## Documentation
 
-- [Food Truck v0.1.0 implementation specification — Draft 1](docs/change-specs/FOOD-TRUCK-v0.1.0.md): next project, prepared for review; no Food Truck application exists yet.
+- [Food Truck v0.1.0 approved implementation specification](docs/change-specs/FOOD-TRUCK-v0.1.0.md).
 - [`docs/PROJECT-BRIEF.md`](docs/PROJECT-BRIEF.md)
 - [`docs/change-specs/`](docs/change-specs/)
 - [Road Trip Planner v0.1.0 specification](docs/change-specs/ROAD-TRIP-PLANNER-v0.1.0.md)

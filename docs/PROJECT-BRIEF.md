@@ -1,12 +1,12 @@
 # Project Brief — Applied Mathematics Project Series
 
-**Brief version:** 0.8 — Food Truck specification preparation, 30 September 2026  
+**Brief version:** 0.9 — Food Truck implementation, 30 September 2026  
 **Owner:** William McAda · **Credit:** A WILLIAM MCADA PRODUCT  
 **Status:** Original dossier/handoff preserved; Road Trip v0.1.0 implemented from approved revision 1, locally verified and deployed to GitHub Pages. Physical iPad/network/printer acceptance remains pending.  
 **Repository:** `williammcada/Applied-Math-Projects`, branch `main`.  
 **Current running version:** [Road Trip Planner 0.1.0](https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/), content/schema 1.0.0; hosted bytes match the verified self-contained candidate.  
 **Source/baseline:** This preparation began at `ec7753842c8321f5e2a9192529cb60da1e44d1b1`. The earlier `f10b953305edaa18113016f473fffdd155fb7c60` planning checkpoint remains historical. Sources now live in `docs/sources/dossier-v1.0.0/`; Road Trip now has a complete candidate at `road-trip-planner/`.  
-**Next work:** Review [Food Truck v0.1.0 Draft 1](change-specs/FOOD-TRUCK-v0.1.0.md), then build it after approval. Road Trip physical iPad/network/printer acceptance remains pending. Build each later application separately with its own specification and source checkpoint.  
+**Next work:** Complete Food Truck release verification under the [approved specification](change-specs/FOOD-TRUCK-v0.1.0.md). Road Trip physical iPad/network/printer acceptance remains pending. Build each later application separately with its own specification and source checkpoint.  
 
 ## 1. Purpose, audience and detailed scope
 
@@ -39,7 +39,7 @@ The detailed scope above is the feature-preservation inventory. Preserve existin
 
 ## 5. Source, release and deployment discipline
 
-Road Trip has a complete implementation candidate, source checkpoint and application evidence in [its QA report](../road-trip-planner/docs/QA-REPORT-v0.1.0.md). Food Truck now has a [Draft 1 implementation specification](change-specs/FOOD-TRUCK-v0.1.0.md), [project brief](../food-truck-business-launch/docs/PROJECT-BRIEF.md), independent arithmetic fixtures and [preparation review](verification/FOOD-TRUCK-v0.1.0-SPEC-REVIEW.md). It has not been approved or implemented. Theme Park, Mars Colony and Powers of Ten retain their dossier designs/planning READMEs.
+Road Trip has a complete implementation candidate, source checkpoint and application evidence in [its QA report](../road-trip-planner/docs/QA-REPORT-v0.1.0.md). Food Truck now has an [approved implementation specification](change-specs/FOOD-TRUCK-v0.1.0.md), [project brief](../food-truck-business-launch/docs/PROJECT-BRIEF.md), independent arithmetic fixtures and [preparation review](verification/FOOD-TRUCK-v0.1.0-SPEC-REVIEW.md). It is approved and implemented; application evidence is in its QA report. Theme Park, Mars Colony and Powers of Ten retain their dossier designs/planning READMEs.
 
 See [source provenance](sources/PROVENANCE.md) for the current source-preservation record and [MIGRATION-BASELINE.md](MIGRATION-BASELINE.md) for the historical September 18 planning baseline. See the [Road Trip specification](change-specs/ROAD-TRIP-PLANNER-v0.1.0.md) and [preparation review](verification/ROAD-TRIP-v0.1.0-SPEC-REVIEW.md) for this task's scope and evidence.
 

@@ -1,0 +1,97 @@
+[
+  {
+    "file": "artifact.json",
+    "bytes": 223,
+    "sha256": "7b4f8bc8ea6971a152f1c9e3d16c814be7c8d86adea53ea9eb392494f3af2d4d"
+  },
+  {
+    "file": "backup.json",
+    "bytes": 275550,
+    "sha256": "e851d4af4b6b2018ca3f475b69ac98728b1f2063d139d32aae17da2c910859cd"
+  },
+  {
+    "file": "browser-results.json",
+    "bytes": 4211,
+    "sha256": "500f780fcc01be554a5fe11b26960d8ef21e166889ce7e9960df5999143ed024"
+  },
+  {
+    "file": "completed-session.json",
+    "bytes": 122789,
+    "sha256": "be388e5d1f1bd503ecdb115fe514d62286bc3b7b56f027208a95a579d371174b"
+  },
+  {
+    "file": "core-results.json",
+    "bytes": 16385,
+    "sha256": "45908c386c6e89323104a51248963d23ddfbe8988840f39fa45316e17974b1f1"
+  },
+  {
+    "file": "edge-results.json",
+    "bytes": 2232,
+    "sha256": "2b646db91bf44f7af92b315300921e975a17ebda888b605c30dcc36ceafc8194"
+  },
+  {
+    "file": "home.png",
+    "bytes": 145817,
+    "sha256": "b06d3e72ef9ee9b5839a7b66b10a14db4bb065dbf27c0c6c51caee2f6cb53790"
+  },
+  {
+    "file": "layout-1024.png",
+    "bytes": 390626,
+    "sha256": "bb160577d01ee0d161d82a6a848a9620b3203c3f0d43bad573fcb3d94db082e3"
+  },
+  {
+    "file": "layout-390.png",
+    "bytes": 362108,
+    "sha256": "49b7faf1af9cfab29141d5dff935b7c3dee7055d7348639945775a225598c52d"
+  },
+  {
+    "file": "layout-768.png",
+    "bytes": 348926,
+    "sha256": "35ca6d89b87015b8c735a102a4dac882d3fc9c30f431465ed7030ef5b8f9c626"
+  },
+  {
+    "file": "long-reason-Letter.pdf",
+    "bytes": 52950,
+    "sha256": "afb3930ae16cb8cb47028e9cf9d023a70929a63e6361aaf55fa513ee5a4c16d8"
+  },
+  {
+    "file": "menu-A4.pdf",
+    "bytes": 35084,
+    "sha256": "42cf396dff5f209787ef447402e5ecf548f0ba1d74fffd2ad76a40be3f9c1c0f"
+  },
+  {
+    "file": "replacement-fixture.json",
+    "bytes": 88860,
+    "sha256": "3eb6b257f8d4a02fc9262201c396f798402b22c2246eecd9b99542f9f2388485"
+  },
+  {
+    "file": "student-A4.pdf",
+    "bytes": 53375,
+    "sha256": "cc99c1492c1c34b8fc7a4d345e08440de0c64cf3802db09c18db20695c0452b3"
+  },
+  {
+    "file": "student-Letter.pdf",
+    "bytes": 53335,
+    "sha256": "9e4acc858c1fff300b5dd85b2cc6e69f11a57a723457a480317b9c687bfa99d2"
+  },
+  {
+    "file": "tablet-text-200.png",
+    "bytes": 477158,
+    "sha256": "32db7a82c8ffa03b5c7ae1684963630827e99c100d0043a8def8ea70517dd0a3"
+  },
+  {
+    "file": "teacher-A4.pdf",
+    "bytes": 38663,
+    "sha256": "438b59b3b6a96798b359f7ee038636b123683a45135c05fb1c42b7aa1baad3b8"
+  },
+  {
+    "file": "teacher-Letter.pdf",
+    "bytes": 38642,
+    "sha256": "6f83e2b4704474e09fa6feb44e58cbd7b66d24f3d3aa18fca667cc0ceab28e16"
+  },
+  {
+    "file": "transfer-slips.pdf",
+    "bytes": 25855,
+    "sha256": "3999ad68639e4cb545808d702b08f4007bef778411aec881d98e4ae6617784a5"
+  }
+]
