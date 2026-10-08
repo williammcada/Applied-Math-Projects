@@ -1,5 +1,5 @@
 'use strict';
-const projects={road:['Road Trip Planner','road-trip-planner/'],food:['Food Truck / Business Launch','food-truck-business-launch/'],park:['Theme Park Designer','theme-park-designer/'],scale:['Powers of Ten','powers-of-ten/']};
+const projects={mars:['Mars Colony','mars-colony/'],road:['Road Trip Planner','road-trip-planner/'],food:['Food Truck / Business Launch','food-truck-business-launch/'],park:['Theme Park Designer','theme-park-designer/'],scale:['Powers of Ten','powers-of-ten/']};
 const dialog=document.querySelector('#share'),qr=document.querySelector('#qr'),status=document.querySelector('#status');
 let opener=null;
 function projectURL(path){const base=location.protocol==='file:'?'https://mcada-applied-math.netlify.app/':new URL('./',location.href);return new URL(path,base).href;}
