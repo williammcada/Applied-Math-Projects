@@ -32,3 +32,5 @@ Run: `node mars-colony/tests/core.test.cjs`; `CHROMIUM_PATH=/path/to/chromium no
 Limitations: all model quantities are invented; daily energy accounting does not prove continuous operation. Prose and independent participation are teacher reviewed. Device-local saves have no cloud sync or protected teacher authentication. Hosted offline reopening after closing a tab is not promised. Exact installed-device acceptance remains pending.
 
 GitHub persistence: CLI push lacked credentials, so connected GitHub Git Data API saved the identical trees. Canonical implementation checkpoint `39bba7c978c9e855221686ae508e17e399233662`; canonical verified checkpoint `9e7c69be705043ea3c41a78d178be41214dbcc94`. These preserve the tested source/artifacts from local checkpoints 1fca9b3/0a0c918; application hashes did not change.
+
+Hosted follow-up: 12 live checks passed on release 8b4f3b9. See the deployment record for raw versus platform-injected response details, actual live interactions and remaining physical-device checks. Total automated assertions: 127 (115 local + 12 hosted).

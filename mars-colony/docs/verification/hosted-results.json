@@ -1,0 +1,22 @@
+{
+  "passed": 12,
+  "checks": [
+    "HTTP 200 mars-colony/",
+    "hosted app bytes match after removing Netlify platform comment/HUD mars-colony/",
+    "HTTP 200 mars-colony/MarsColony_v0.1.0.html",
+    "hosted app bytes match after removing Netlify platform comment/HUD mars-colony/MarsColony_v0.1.0.html",
+    "launcher live version",
+    "hosted Mars QR",
+    "hosted QR destination",
+    "live app identity",
+    "hosted briefing to demand",
+    "hosted save reload resume",
+    "hosted contextual help",
+    "no hosted exceptions"
+  ],
+  "browser": "153.0.8010.0",
+  "origin": "https://mcada-applied-math.netlify.app/",
+  "hash": "68a5c22ed59e007edfa3380162300c198c714d2261e2e412e0a080280e1d1854",
+  "release": "8b4f3b9b008813cc295cef2fc4bcf3fcaf93b8fb",
+  "at": "2026-10-08T23:37:55.986Z"
+}

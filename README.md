@@ -9,7 +9,7 @@ A family of five interactive applied-mathematics projects: Road Trip Planner, Fo
 ## Canonical project record
 
 **Repository:** `williammcada/Applied-Math-Projects`  
-**Current state:** All five projects have runnable implementations. Mars Colony v0.1.0 is locally verified (115 checks); consult its deployment record for hosted verification. Netlify is the primary classroom host. Original dossier/handoff v1.0.0 and project-specific release histories are preserved. Physical iPad/school-network/printer acceptance remains pending.  
+**Current state:** All five projects have runnable implementations. Mars Colony v0.1.0 is deployed to Netlify and verified (115 local + 12 hosted checks); see its deployment record. Netlify is the primary classroom host. Original dossier/handoff v1.0.0 and project-specific release histories are preserved. Physical iPad/school-network/printer acceptance remains pending.  
 **Handbook:** `williammcada/mcada-project-handbook`
 
 The repository is the canonical home for the current source, permanent project brief, and approved version-specific change specifications. Chat history is working context rather than the permanent project record.
