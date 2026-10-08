@@ -4,31 +4,33 @@
 
 A family of five interactive applied-mathematics projects: Road Trip Planner, Food Truck / Business Launch, Theme Park Designer, Mars Colony, and Powers of Ten / Scale of Reality.
 
+[Open the project homepage](https://mcada-applied-math.netlify.app/) — choose a project, then **Share with students** to display its QR code.
+
 ## Canonical project record
 
 **Repository:** `williammcada/Applied-Math-Projects`  
-**Current state:** Road Trip Planner and Food Truck / Business Launch v0.1.0 development candidates implemented, locally verified and deployed to GitHub Pages; original dossier/handoff v1.0.0 preserved. Physical iPad/school-network/printer acceptance remains pending.  
+**Current state:** Road Trip Planner and Food Truck / Business Launch v0.1.0 development candidates implemented, locally verified and deployed; Netlify is the primary classroom host; original dossier/handoff v1.0.0 preserved. Physical iPad/school-network/printer acceptance remains pending.  
 **Handbook:** `williammcada/mcada-project-handbook`
 
 The repository is the canonical home for the current source, permanent project brief, and approved version-specific change specifications. Chat history is working context rather than the permanent project record.
 
 ## Road Trip Planner
 
-[Open the live application](https://williammcada.github.io/Applied-Math-Projects/road-trip-planner/) · [Download the self-contained application](road-trip-planner/RoadTripPlanner_v0.1.0.html) · [Getting started](road-trip-planner/README.md) · [Teacher guide](road-trip-planner/docs/TEACHER-GUIDE.md) · [QA report](road-trip-planner/docs/QA-REPORT-v0.1.0.md) · [Deployment record](road-trip-planner/docs/DEPLOYMENT-v0.1.0.md)
+[Open the live application](https://mcada-applied-math.netlify.app/road-trip-planner/) · [Download the self-contained application](road-trip-planner/RoadTripPlanner_v0.1.0.html) · [Getting started](road-trip-planner/README.md) · [Teacher guide](road-trip-planner/docs/TEACHER-GUIDE.md) · [QA report](road-trip-planner/docs/QA-REPORT-v0.1.0.md) · [Deployment record](road-trip-planner/docs/DEPLOYMENT-v0.1.0.md)
 
 ## Food Truck / Business Launch
 
-[Open the application](https://williammcada.github.io/Applied-Math-Projects/food-truck-business-launch/) · [Standalone HTML](food-truck-business-launch/FoodTruck_v0.1.0.html) · [Getting started](food-truck-business-launch/README.md) · [QA report](food-truck-business-launch/docs/QA-REPORT-v0.1.0.md)
+[Open the application](https://mcada-applied-math.netlify.app/food-truck-business-launch/) · [Standalone HTML](food-truck-business-launch/FoodTruck_v0.1.0.html) · [Getting started](food-truck-business-launch/README.md) · [QA report](food-truck-business-launch/docs/QA-REPORT-v0.1.0.md)
 
 ## Powers of Ten
 
-[Open the application](https://williammcada.github.io/Applied-Math-Projects/powers-of-ten/) · [Standalone HTML](powers-of-ten/PowersOfTen_v0.1.0.html) · [Teacher guide](powers-of-ten/docs/TEACHER-GUIDE.md) · [QA report](powers-of-ten/docs/QA-REPORT-v0.1.0.md) · [Deployment record](powers-of-ten/docs/DEPLOYMENT-v0.1.0.md)
+[Open the application](https://mcada-applied-math.netlify.app/powers-of-ten/) · [Standalone HTML](powers-of-ten/PowersOfTen_v0.1.0.html) · [Teacher guide](powers-of-ten/docs/TEACHER-GUIDE.md) · [QA report](powers-of-ten/docs/QA-REPORT-v0.1.0.md) · [Deployment record](powers-of-ten/docs/DEPLOYMENT-v0.1.0.md)
 
 Powers of Ten v0.1.0 is implemented from its [approved specification](docs/change-specs/POWERS-OF-TEN-v0.1.0.md). Automated verification is complete; physical classroom acceptance remains pending.
 
 ## Theme Park Designer
 
-[Open the application](https://williammcada.github.io/Applied-Math-Projects/theme-park-designer/) · [Standalone HTML](theme-park-designer/ThemeParkDesigner_v0.1.0.html) · [Getting started](theme-park-designer/README.md) · [Teacher guide](theme-park-designer/docs/TEACHER-GUIDE.md) · [QA report](theme-park-designer/docs/QA-REPORT-v0.1.0.md) · [Deployment record](theme-park-designer/docs/DEPLOYMENT-v0.1.0.md)
+[Open the application](https://mcada-applied-math.netlify.app/theme-park-designer/) · [Standalone HTML](theme-park-designer/ThemeParkDesigner_v0.1.0.html) · [Getting started](theme-park-designer/README.md) · [Teacher guide](theme-park-designer/docs/TEACHER-GUIDE.md) · [QA report](theme-park-designer/docs/QA-REPORT-v0.1.0.md) · [Deployment record](theme-park-designer/docs/DEPLOYMENT-v0.1.0.md)
 
 Theme Park v0.1.0 is deployed and verified: 189 local assertions and 12 hosted assertions passed. Public HTML bytes match the preserved candidate. Physical classroom acceptance remains pending.
 

@@ -99,3 +99,9 @@ The [project brief](../powers-of-ten/docs/PROJECT-BRIEF.md), [QA report](../powe
 ## 11. Theme Park Designer v0.1.0
 
 Production was authorized on 30 September 2026. The approved specification, project-specific brief and approval record govern its nine objectives, eight stages and exact baseline. The preserved corrected candidate is `e1c81fc17a5da727e7bf35feeb4b79770a03f394`; the verified checkpoint is `35ece958a2b309ff580758a26536c4cc40ce1247`. The final local run passed 189 assertions and A4/Letter print audits. Its [release record](../theme-park-designer/docs/DEPLOYMENT-v0.1.0.md) records successful deployment, exact public byte identity and 12 hosted workflow assertions. Physical iPad/software keyboard, school-network and measured printer acceptance remain pending.
+
+## 12. Classroom launcher and Netlify hosting — 9 October 2026
+
+The owner requires Netlify for student access. Primary host: https://mcada-applied-math.netlify.app/ . This supersedes historical GitHub Pages classroom-host choices above. GitHub main remains canonical and is connected to Netlify; publish repository root, no build command. Root launcher v0.1.0 adds illustrated selection, project links, local QR generation, copy link and projection mode. See [change specification](change-specs/PROJECT-LAUNCHER-v0.1.0.md). Four runnable projects are included; Mars Colony remains coming soon because this baseline only has a README. Existing application HTML and progress formats are unchanged.
+
+Handbook consulted: fd4330863f4cc0812180fbf1de122970a42c7885 (AI-START-HERE, UNIVERSAL-RULES, CONDITIONAL-STANDARDS, RELEASE-CHECKLIST). Applicable hosting checks are S-04/U-07; new homepage identity follows U-01. Launcher stores no records, so U-09 is not applicable to it. Physical camera and school-network verification remain pending.

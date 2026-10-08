@@ -1,0 +1,26 @@
+{
+  "candidate": "d7f2575 (local); tested application file hashes below",
+  "checks": [
+    "road QR decoded, entry point 200, Escape and focus return",
+    "food QR decoded, entry point 200, Escape and focus return",
+    "park QR decoded, entry point 200, Escape and focus return",
+    "scale QR decoded, entry point 200, Escape and focus return",
+    "Clipboard denial fallback; projection; close",
+    "390px no horizontal overflow; sharing usable",
+    "768px no horizontal overflow; sharing usable",
+    "1024px no horizontal overflow; sharing usable",
+    "All four preview images decoded successfully; visual inspection of homepage and QR projection"
+  ],
+  "physicalIPadCamera": "Not run",
+  "schoolNetwork": "Not run",
+  "hashes": {
+    "index.html": "2973edcac3a9aa76f4973194b7c1152339829cc4afc5cfa50010bbd940e28dc2",
+    "launcher/app.js": "1d3bd957f6217134a2ff1d8743ffb92ef12167893385bcf90114908f9b4dbd5c",
+    "launcher/vendor/qrcode.js": "79ec86f82856005b1c887905cfccfcfbec3821ca61c7fd5a952faa5f778f791c",
+    "launcher/style.css": "c0f64a384e025ad69ad1b1482c29d8f6b87013d49eb81eb9dbe5b3d99059ff7d",
+    "launcher/art/scale.svg": "1ae7d8ffed9c1784caf5326464e402046809b2ae50191d5f03872ff3a8374d9e",
+    "launcher/art/park.svg": "a1ce4c28cf3910be4e5c89c266dc94c5843fc9db0999c44e959834844219aff1",
+    "launcher/art/road.svg": "6fd25db47c9072e1f811de4bd5a1b45d8f8d72d3283c53e312a514c66f1651bc",
+    "launcher/art/food.svg": "56c407bd39159a5ba189a99e2bf530a7db90384615522eacbfd29a07fd6c06b5"
+  }
+}
