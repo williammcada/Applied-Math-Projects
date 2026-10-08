@@ -1,6 +1,6 @@
 # Powers of Ten v0.2.0 — Science-to-Mathematics handoff
 
-**Status: implementation authorized; v0.2.0 candidate under verification.**
+**Status: implementation authorized; v0.2.0 implemented and automated verification complete; classroom checks open.**
 **Owner:** William McAda. **Credit:** A WILLIAM MCADA PRODUCT.
 **Date:** 9 October 2026 (Asia/Shanghai).
 
@@ -135,6 +135,8 @@ Produce separate Science and Mathematics guides, each with purpose, preparation,
 Student outputs: Science Passport, physical model label, final exhibit placard, full report and independent exit slips. Preserve existing build templates and downloadable standalone HTML; update visible/title/download version consistently. Update the launcher summary to explicitly say “Science + Math · 2 lessons”; because launcher HTML changes, increment its own version separately. Other project applications are outside this revision.
 
 ## 8. Verification and release gates
+
+The table below records the planning baseline. Current results are in `powers-of-ten/docs/QA-REPORT-v0.2.0.md`; physical classroom/device checks remain open.
 
 | Check | Acceptance | Current result |
 |---|---|---|

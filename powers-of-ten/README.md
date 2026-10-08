@@ -2,7 +2,7 @@
 
 **A WILLIAM MCADA PRODUCT** · Content and save schema 1.0.0
 
-[Open the application](https://mcada-applied-math.netlify.app/powers-of-ten/) · [Standalone HTML](PowersOfTen_v0.2.0.html) · [Teacher guide and answers](docs/TEACHER-GUIDE.md) · [QA evidence](docs/QA-REPORT-v0.1.0.md) · [Deployment record](docs/DEPLOYMENT-v0.1.0.md)
+[Open the application](https://mcada-applied-math.netlify.app/powers-of-ten/) · [Standalone HTML](PowersOfTen_v0.2.0.html) · [Mathematics guide and answers](docs/MATHEMATICS-GUIDE-v0.2.0.md) · [QA evidence](docs/QA-REPORT-v0.2.0.md) · [Release notes](docs/RELEASE-v0.2.0.md)
 
 One 40-minute Science lesson builds a model and produces a saved Science Evidence Passport. A second Mathematics lesson reuses those observations for notation, all four operations, intended and observed scale, deviations, limitations and individual exits. Classroom timing and physical iPad checks remain unverified.
 
@@ -41,3 +41,5 @@ Source authority: [approved specification](../docs/change-specs/POWERS-OF-TEN-v0
 
 
 Current checks: `node tests/v2-core.test.cjs` and `node tests/v2-browser.test.cjs` (from powers-of-ten). Older v0.1 tests/results and standalone HTML remain historical evidence. See [schema](docs/SCHEMA-v2.md) for migration and handoff contracts.
+
+Current authority: [v0.2 specification](../docs/change-specs/POWERS-OF-TEN-v0.2.0.md) and [implementation authorization](../docs/decisions/POWERS-OF-TEN-v0.2.0-APPROVAL.md). Older release documents describe their historical versions.

@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "file": "coordination.pdf",
+      "pages": 1,
+      "sha256": "e65c02bd76e743628b3b754eea551e93d21eba15d7158631d2e1e1951ccf82b0"
+    },
+    {
+      "file": "passport-A-A4.pdf",
+      "pages": 1,
+      "sha256": "8d195c8f2fca70017b7fad2919c4ac8e99dd779122455a219872cdc0fabce9d3"
+    },
+    {
+      "file": "passport-A-Letter.pdf",
+      "pages": 1,
+      "sha256": "4b4377fe3c25827a95e3f6fc58b8853542655be5553a1715fa80cbdefd0a8a0f"
+    },
+    {
+      "file": "passport-B-A4.pdf",
+      "pages": 1,
+      "sha256": "48f7227b5b7ff05e6cc6162fdf9845b812e0117042388757823814dc002507ea"
+    },
+    {
+      "file": "passport-B-Letter.pdf",
+      "pages": 1,
+      "sha256": "8ff644d3ac4052c217f7ac0b259fe9e045921fd9a2c6a82cbf0426261f5fc5b3"
+    },
+    {
+      "file": "science-guide.pdf",
+      "pages": 1,
+      "sha256": "ec8eb54c277aac93f5444903075f7110fec7529a609a5e67ef0c13def5cf4223"
+    }
+  ],
+  "visualReview": "B Letter passport visually inspected; legible grayscale layout, no clipping. Physical calibration untested."
+}

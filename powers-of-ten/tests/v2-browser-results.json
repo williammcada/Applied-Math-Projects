@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-08T23:56:28.993Z",
+  "at": "2026-10-08T23:57:53.070Z",
   "results": [
     {
       "name": "dashboard renders and keyboard Science entry",
@@ -63,6 +63,14 @@
     },
     {
       "name": "blank optional method UI does not gate final",
+      "passed": true
+    },
+    {
+      "name": "blocked storage import continues in memory",
+      "passed": true
+    },
+    {
+      "name": "legacy long text has labeled continuation",
       "passed": true
     },
     {

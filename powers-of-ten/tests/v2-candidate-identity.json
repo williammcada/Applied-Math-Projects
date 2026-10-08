@@ -1,0 +1,9 @@
+{
+  "app": "0.2.0",
+  "content": "2.0.0",
+  "schema": "2.0.0",
+  "sha256": "e26ba34d38febb95fb1af7c811675b0a7bddeb7d0d56bcb652106f6b7c34c7e0",
+  "bytes": 164000,
+  "implementationCheckpoint": "a5a4233c26851e8d9b91f4d1df31c4aff74295ea",
+  "refinedCheckpoint": "184fca58ebfce27e736e5391a85a44253567e52a"
+}
