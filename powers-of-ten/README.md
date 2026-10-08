@@ -1,12 +1,14 @@
-# Powers of Ten v0.1.0
+# Powers of Ten v0.2.0
 
 **A WILLIAM MCADA PRODUCT** · Content and save schema 1.0.0
 
-[Open the application](https://williammcada.github.io/Applied-Math-Projects/powers-of-ten/) · [Standalone HTML](PowersOfTen_v0.1.0.html) · [Teacher guide and answers](docs/TEACHER-GUIDE.md) · [QA evidence](docs/QA-REPORT-v0.1.0.md) · [Deployment record](docs/DEPLOYMENT-v0.1.0.md)
+[Open the application](https://mcada-applied-math.netlify.app/powers-of-ten/) · [Standalone HTML](PowersOfTen_v0.2.0.html) · [Teacher guide and answers](docs/TEACHER-GUIDE.md) · [QA evidence](docs/QA-REPORT-v0.1.0.md) · [Deployment record](docs/DEPLOYMENT-v0.1.0.md)
 
-An eight-stage museum investigation for pairs: scientific notation, all four operations, units, two physical scale models, measurements, scientific interpretation, and separate learner exit responses. Designed for advanced Grade 5/pre-algebra after prerequisite instruction, over approximately two 45-minute lessons. Classroom timing is a target, not an observed result.
+One 40-minute Science lesson builds a model and produces a saved Science Evidence Passport. A second Mathematics lesson reuses those observations for notation, all four operations, intended and observed scale, deviations, limitations and individual exits. Classroom timing and physical iPad checks remain unverified.
 
-Use the hosted link on an iPad. On a desktop, download and open `PowersOfTen_v0.1.0.html` in a current browser. The HTML includes every script, style and illustration; no installation or runtime network is required. Optional science-reference links open external sources.
+[Science guide](docs/SCIENCE-GUIDE-v0.2.0.md) · [Mathematics guide](docs/MATHEMATICS-GUIDE-v0.2.0.md) · [Coordination sheet](docs/COORDINATION-v0.2.0.md) · [v0.2 QA](docs/QA-REPORT-v0.2.0.md)
+
+Use the hosted link on an iPad. On a desktop, download and open `PowersOfTen_v0.2.0.html` in a current browser. The HTML includes every script, style and illustration; no installation or runtime network is required. Optional science-reference links open external sources.
 
 Enter a team alias and two different learner aliases, then follow the stages. Choose the 160 mm cell enlargement or the 600 mm Earth–Moon desktop model. Both tracks require the same eight scientific calculations. Measure a real model: the application never fills in an invented measurement. A teacher or peer inspects the model; a teacher reviews the interpretation. Software checks arithmetic and recorded evidence, not whether a physical measurement is truthful.
 
@@ -36,3 +38,6 @@ node powers-of-ten/tests/export-fixtures.cjs
 Synthetic fixtures are explicitly labeled and are not physical observations or learner records. Test answer literals are independent of the application's expected-answer table. Build dependencies are never required by a learner's HTML.
 
 Source authority: [approved specification](../docs/change-specs/POWERS-OF-TEN-v0.1.0.md), [approval](../docs/decisions/POWERS-OF-TEN-v0.1.0-APPROVAL.md), and [project brief](docs/PROJECT-BRIEF.md). Preserve the original dossier and other subprojects when updating this app.
+
+
+Current checks: `node tests/v2-core.test.cjs` and `node tests/v2-browser.test.cjs` (from powers-of-ten). Older v0.1 tests/results and standalone HTML remain historical evidence. See [schema](docs/SCHEMA-v2.md) for migration and handoff contracts.
