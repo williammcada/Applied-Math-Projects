@@ -1,0 +1,82 @@
+{
+  "at": "2026-10-08T23:57:53.070Z",
+  "results": [
+    {
+      "name": "dashboard renders and keyboard Science entry",
+      "passed": true
+    },
+    {
+      "name": "A Science completed through UI without math",
+      "passed": true
+    },
+    {
+      "name": "A actual export and test saved copy",
+      "passed": true
+    },
+    {
+      "name": "A fresh browser context imports matching handoff",
+      "passed": true
+    },
+    {
+      "name": "A all math screens and full outcome",
+      "passed": true
+    },
+    {
+      "name": "A bounded passport A4 and Letter",
+      "passed": true
+    },
+    {
+      "name": "B Science completed through UI without math",
+      "passed": true
+    },
+    {
+      "name": "B actual export and test saved copy",
+      "passed": true
+    },
+    {
+      "name": "B fresh browser context imports matching handoff",
+      "passed": true
+    },
+    {
+      "name": "B all math screens and full outcome",
+      "passed": true
+    },
+    {
+      "name": "B bounded passport A4 and Letter",
+      "passed": true
+    },
+    {
+      "name": "paper recovery has provenance, no invented approvals",
+      "passed": true
+    },
+    {
+      "name": "iPad-sized layout without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "phone layout",
+      "passed": true
+    },
+    {
+      "name": "teacher guides printable",
+      "passed": true
+    },
+    {
+      "name": "blank optional method UI does not gate final",
+      "passed": true
+    },
+    {
+      "name": "blocked storage import continues in memory",
+      "passed": true
+    },
+    {
+      "name": "legacy long text has labeled continuation",
+      "passed": true
+    },
+    {
+      "name": "no JavaScript page errors",
+      "passed": true
+    }
+  ],
+  "limitations": "Chromium desktop/viewport emulation only; no physical iPad or classroom timing."
+}

@@ -1,0 +1,89 @@
+{
+  "at": "2026-10-08T23:56:52.591Z",
+  "results": [
+    {
+      "name": "A science independent of math",
+      "passed": true
+    },
+    {
+      "name": "A all retained math + observed scale",
+      "passed": true
+    },
+    {
+      "name": "A export verification and edit invalidation",
+      "passed": true
+    },
+    {
+      "name": "A stale dependency and fixed arithmetic retained",
+      "passed": true
+    },
+    {
+      "name": "A rebuilt model requires confirmation",
+      "passed": true
+    },
+    {
+      "name": "B science independent of math",
+      "passed": true
+    },
+    {
+      "name": "B all retained math + observed scale",
+      "passed": true
+    },
+    {
+      "name": "B export verification and edit invalidation",
+      "passed": true
+    },
+    {
+      "name": "B stale dependency and fixed arithmetic retained",
+      "passed": true
+    },
+    {
+      "name": "B rebuilt model requires confirmation",
+      "passed": true
+    },
+    {
+      "name": "cell 159 exact observed scale and deviation",
+      "passed": true
+    },
+    {
+      "name": "cosmic center 598 mm and rounding",
+      "passed": true
+    },
+    {
+      "name": "fit boundaries and poor model honest science",
+      "passed": true
+    },
+    {
+      "name": "all 8 final-only operations pass; methods separately checked",
+      "passed": true
+    },
+    {
+      "name": "exact final arithmetic still rejects tiny zero",
+      "passed": true
+    },
+    {
+      "name": "valid full optional methods pass",
+      "passed": true
+    },
+    {
+      "name": "legacy copied with full original and historical reviews",
+      "passed": true
+    },
+    {
+      "name": "bundles, malformed and unsupported records",
+      "passed": true
+    },
+    {
+      "name": "migration never overwrites original storage",
+      "passed": true
+    },
+    {
+      "name": "storage conflict, scoped deletion and corrupted storage",
+      "passed": true
+    },
+    {
+      "name": "blocked storage retains exportable state",
+      "passed": true
+    }
+  ]
+}

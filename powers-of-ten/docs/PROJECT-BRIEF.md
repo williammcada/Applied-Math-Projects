@@ -19,3 +19,7 @@ Workflow: DESIGN → CHANGE SPEC → IMPLEMENT → CHECKPOINT → VERIFY → VER
 The owner requested one explicit Science lesson and one Mathematics lesson, with Day 1 completed within 40 minutes and a tangible saved output reused in the other class. The accepted planning direction is Science first, then Mathematics. See [v0.2.0 implementation specification, Draft 1](../../docs/change-specs/POWERS-OF-TEN-v0.2.0.md) for the Science Evidence Passport, separate lesson plans, file/paper handoff, proposed optional method scaffolding, exact observed-scale calculations, migration and acceptance gates. Detailed implementation choices remain proposed; no 0.2.0 application is implemented by this documentation update. The running application remains 0.1.0.
 
 Current primary classroom host is https://mcada-applied-math.netlify.app/powers-of-ten/ , superseding the historical GitHub Pages delivery note above. Canonical repository baseline inspected for this plan: 811dfc383c70861dcc6ccdcfa80df8a7b3f56e9d. Handbook files consulted at fd4330863f4cc0812180fbf1de122970a42c7885: AI-START-HERE, UNIVERSAL-RULES, CONDITIONAL-STANDARDS and RELEASE-CHECKLIST. Classroom timing and physical-device handoff remain unverified.
+
+## v0.2.0 implemented revision
+
+Science-first / Mathematics-second flow now implemented. See [release](RELEASE-v0.2.0.md), [QA](QA-REPORT-v0.2.0.md), and the two subject guides. 40-minute Science completion with representative students remains a classroom verification gate, not an automated test result.
