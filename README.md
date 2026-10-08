@@ -9,7 +9,7 @@ A family of five interactive applied-mathematics projects: Road Trip Planner, Fo
 ## Canonical project record
 
 **Repository:** `williammcada/Applied-Math-Projects`  
-**Current state:** Road Trip Planner and Food Truck / Business Launch v0.1.0 development candidates implemented, locally verified and deployed; Netlify is the primary classroom host; original dossier/handoff v1.0.0 preserved. Physical iPad/school-network/printer acceptance remains pending.  
+**Current state:** All five projects have runnable implementations. Mars Colony v0.1.0 is locally verified (115 checks); consult its deployment record for hosted verification. Netlify is the primary classroom host. Original dossier/handoff v1.0.0 and project-specific release histories are preserved. Physical iPad/school-network/printer acceptance remains pending.  
 **Handbook:** `williammcada/mcada-project-handbook`
 
 The repository is the canonical home for the current source, permanent project brief, and approved version-specific change specifications. Chat history is working context rather than the permanent project record.
@@ -33,6 +33,12 @@ Powers of Ten v0.1.0 is implemented from its [approved specification](docs/chang
 [Open the application](https://mcada-applied-math.netlify.app/theme-park-designer/) · [Standalone HTML](theme-park-designer/ThemeParkDesigner_v0.1.0.html) · [Getting started](theme-park-designer/README.md) · [Teacher guide](theme-park-designer/docs/TEACHER-GUIDE.md) · [QA report](theme-park-designer/docs/QA-REPORT-v0.1.0.md) · [Deployment record](theme-park-designer/docs/DEPLOYMENT-v0.1.0.md)
 
 Theme Park v0.1.0 is deployed and verified: 189 local assertions and 12 hosted assertions passed. Public HTML bytes match the preserved candidate. Physical classroom acceptance remains pending.
+
+## Mars Colony
+
+[Open Mars Colony](https://mcada-applied-math.netlify.app/mars-colony/) · [Standalone HTML](mars-colony/MarsColony_v0.1.0.html) · [Teacher guide](mars-colony/docs/TEACHER-GUIDE.md) · [Finalized specification](docs/change-specs/MARS-COLONY-v0.1.0.md) · [QA record](mars-colony/docs/QA-REPORT-v0.1.0.md) · [Deployment record](mars-colony/docs/DEPLOYMENT-v0.1.0.md)
+
+Mars Colony v0.1.0 implements the dossier's ten learning objectives across three estimated lessons. Students calculate demand, module capacity, resource models, cargo/budget, storm energy and battery reserves; compare designs; complete individual transfer; and print a mission report. Verified checkpoint `9e7c69b`: 115 automated checks passed. Physical iPad, school-network and printer acceptance remains pending. Launcher v0.1.1 includes all five projects and Mars QR sharing.
 
 ## Documentation
 
