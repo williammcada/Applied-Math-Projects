@@ -1,0 +1,2647 @@
+{
+  "schema": "mcada-project-progress",
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "projectId": "mars-colony",
+  "appVersion": "0.1.0",
+  "sessionId": "mc-fixture-lean",
+  "teamAlias": "Pair-07",
+  "currentStage": 8,
+  "unlocked": 8,
+  "plan": {
+    "water": 3,
+    "oxygen": 3,
+    "habitat": 3,
+    "solar": 4,
+    "battery": 1,
+    "crate": "lean"
+  },
+  "resource": "water",
+  "inputs": {
+    "waterDaily": "72",
+    "oxygenDaily": "19.2",
+    "foodDaily": "14.4",
+    "waterTotal": "720",
+    "oxygenTotal": "192",
+    "foodTotal": "144",
+    "liters": "stock",
+    "waterRate": "rate",
+    "kilograms": "stock",
+    "massRate": "rate",
+    "energy": "stock",
+    "energyRate": "rate",
+    "grams": "800",
+    "milliliters": "3000",
+    "minWater": "3",
+    "minOxygen": "3",
+    "minHabitat": "3",
+    "waterCapacity": "90",
+    "oxygenCapacity": "24",
+    "housingCapacity": "24",
+    "area": "72",
+    "occupancy": "24",
+    "perPerson": "3",
+    "mass": "3170.8",
+    "cost": "25100",
+    "cargo": "229.2",
+    "budget": "900",
+    "initial": "144",
+    "net": "18",
+    "xAxis": "Earth days",
+    "yAxis": "L",
+    "table0": "144",
+    "point0": "144",
+    "table5": "234",
+    "point5": "234",
+    "table10": "324",
+    "point10": "324",
+    "percent": "75",
+    "perArray": "27",
+    "load": "114",
+    "normal": "144",
+    "storm": "108",
+    "balance": "-6",
+    "battery3": "36",
+    "battery4": "30",
+    "battery5": "24",
+    "battery6": "18",
+    "battery7": "36",
+    "unserved": "0",
+    "compareCost": "200",
+    "compareMass": "20",
+    "compareBattery": "18",
+    "compareSurplus": "21",
+    "transferAWater": "90",
+    "transferAModules": "3",
+    "transferBWater": "84",
+    "transferBModules": "3"
+  },
+  "checkpoints": {
+    "waterDaily": {
+      "ok": true,
+      "response": "72",
+      "fp": "[]",
+      "first": "71"
+    },
+    "oxygenDaily": {
+      "ok": true,
+      "response": "19.2",
+      "fp": "[]",
+      "first": "19.2"
+    },
+    "foodDaily": {
+      "ok": true,
+      "response": "14.4",
+      "fp": "[]",
+      "first": "14.4"
+    },
+    "waterTotal": {
+      "ok": true,
+      "response": "720",
+      "fp": "[]",
+      "first": "720"
+    },
+    "oxygenTotal": {
+      "ok": true,
+      "response": "192",
+      "fp": "[]",
+      "first": "192"
+    },
+    "foodTotal": {
+      "ok": true,
+      "response": "144",
+      "fp": "[]",
+      "first": "144"
+    },
+    "liters": {
+      "ok": true,
+      "response": "stock",
+      "fp": "[]",
+      "first": "stock"
+    },
+    "waterRate": {
+      "ok": true,
+      "response": "rate",
+      "fp": "[]",
+      "first": "rate"
+    },
+    "kilograms": {
+      "ok": true,
+      "response": "stock",
+      "fp": "[]",
+      "first": "stock"
+    },
+    "massRate": {
+      "ok": true,
+      "response": "rate",
+      "fp": "[]",
+      "first": "rate"
+    },
+    "energy": {
+      "ok": true,
+      "response": "stock",
+      "fp": "[]",
+      "first": "stock"
+    },
+    "energyRate": {
+      "ok": true,
+      "response": "rate",
+      "fp": "[]",
+      "first": "rate"
+    },
+    "grams": {
+      "ok": true,
+      "response": "800",
+      "fp": "[]",
+      "first": "800"
+    },
+    "milliliters": {
+      "ok": true,
+      "response": "3000",
+      "fp": "[]",
+      "first": "3000"
+    },
+    "minWater": {
+      "ok": true,
+      "response": "3",
+      "fp": "[]",
+      "first": "3"
+    },
+    "minOxygen": {
+      "ok": true,
+      "response": "3",
+      "fp": "[]",
+      "first": "3"
+    },
+    "minHabitat": {
+      "ok": true,
+      "response": "3",
+      "fp": "[]",
+      "first": "3"
+    },
+    "waterCapacity": {
+      "ok": true,
+      "response": "90",
+      "fp": "[]",
+      "first": "90"
+    },
+    "oxygenCapacity": {
+      "ok": true,
+      "response": "24",
+      "fp": "[]",
+      "first": "24"
+    },
+    "housingCapacity": {
+      "ok": true,
+      "response": "24",
+      "fp": "[]",
+      "first": "24"
+    },
+    "area": {
+      "ok": true,
+      "response": "72",
+      "fp": "[3]",
+      "first": "72"
+    },
+    "occupancy": {
+      "ok": true,
+      "response": "24",
+      "fp": "[3]",
+      "first": "24"
+    },
+    "perPerson": {
+      "ok": true,
+      "response": "3",
+      "fp": "[3]",
+      "first": "3"
+    },
+    "mass": {
+      "ok": true,
+      "response": "3170.8",
+      "fp": "[3,3,3,4,1,\"lean\"]",
+      "first": "3185.2"
+    },
+    "cost": {
+      "ok": true,
+      "response": "25100",
+      "fp": "[3,3,3,4,1,\"lean\"]",
+      "first": "25300"
+    },
+    "cargo": {
+      "ok": true,
+      "response": "229.2",
+      "fp": "[3,3,3,4,1,\"lean\"]",
+      "first": "214.8"
+    },
+    "budget": {
+      "ok": true,
+      "response": "900",
+      "fp": "[3,3,3,4,1,\"lean\"]",
+      "first": "700"
+    },
+    "initial": {
+      "ok": true,
+      "response": "144",
+      "fp": "[\"water\",3]",
+      "first": "144"
+    },
+    "net": {
+      "ok": true,
+      "response": "18",
+      "fp": "[\"water\",3]",
+      "first": "18"
+    },
+    "xAxis": {
+      "ok": true,
+      "response": "Earth days",
+      "fp": "[]",
+      "first": "Earth days"
+    },
+    "yAxis": {
+      "ok": true,
+      "response": "L",
+      "fp": "[\"water\",3]",
+      "first": "L"
+    },
+    "table0": {
+      "ok": true,
+      "response": "144",
+      "fp": "[\"water\",3]",
+      "first": "144"
+    },
+    "point0": {
+      "ok": true,
+      "response": "144",
+      "fp": "[\"water\",3]",
+      "first": "144"
+    },
+    "table5": {
+      "ok": true,
+      "response": "234",
+      "fp": "[\"water\",3]",
+      "first": "234"
+    },
+    "point5": {
+      "ok": true,
+      "response": "234",
+      "fp": "[\"water\",3]",
+      "first": "234"
+    },
+    "table10": {
+      "ok": true,
+      "response": "324",
+      "fp": "[\"water\",3]",
+      "first": "324"
+    },
+    "point10": {
+      "ok": true,
+      "response": "324",
+      "fp": "[\"water\",3]",
+      "first": "324"
+    },
+    "percent": {
+      "ok": true,
+      "response": "75",
+      "fp": "[]",
+      "first": "75"
+    },
+    "perArray": {
+      "ok": true,
+      "response": "27",
+      "fp": "[]",
+      "first": "27"
+    },
+    "load": {
+      "ok": true,
+      "response": "114",
+      "fp": "[3,3,3,4]",
+      "first": "114"
+    },
+    "normal": {
+      "ok": true,
+      "response": "144",
+      "fp": "[3,3,3,4]",
+      "first": "144"
+    },
+    "storm": {
+      "ok": true,
+      "response": "108",
+      "fp": "[3,3,3,4]",
+      "first": "108"
+    },
+    "balance": {
+      "ok": true,
+      "response": "-6",
+      "fp": "[3,3,3,4]",
+      "first": "-6"
+    },
+    "battery3": {
+      "ok": true,
+      "response": "36",
+      "fp": "[3,3,3,4,1]",
+      "first": "36"
+    },
+    "battery4": {
+      "ok": true,
+      "response": "30",
+      "fp": "[3,3,3,4,1]",
+      "first": "30"
+    },
+    "battery5": {
+      "ok": true,
+      "response": "24",
+      "fp": "[3,3,3,4,1]",
+      "first": "24"
+    },
+    "battery6": {
+      "ok": true,
+      "response": "18",
+      "fp": "[3,3,3,4,1]",
+      "first": "18"
+    },
+    "battery7": {
+      "ok": true,
+      "response": "36",
+      "fp": "[3,3,3,4,1]",
+      "first": "36"
+    },
+    "unserved": {
+      "ok": true,
+      "response": "0",
+      "fp": "[3,3,3,4,1]",
+      "first": "0"
+    },
+    "compareCost": {
+      "ok": true,
+      "response": "200",
+      "fp": "[]",
+      "first": "200"
+    },
+    "compareMass": {
+      "ok": true,
+      "response": "20",
+      "fp": "[]",
+      "first": "20"
+    },
+    "compareBattery": {
+      "ok": true,
+      "response": "18",
+      "fp": "[]",
+      "first": "18"
+    },
+    "compareSurplus": {
+      "ok": true,
+      "response": "21",
+      "fp": "[]",
+      "first": "21"
+    },
+    "transferAWater": {
+      "ok": true,
+      "response": "90",
+      "fp": "[]",
+      "first": "90"
+    },
+    "transferAModules": {
+      "ok": true,
+      "response": "3",
+      "fp": "[]",
+      "first": "3"
+    },
+    "transferBWater": {
+      "ok": true,
+      "response": "84",
+      "fp": "[]",
+      "first": "84"
+    },
+    "transferBModules": {
+      "ok": true,
+      "response": "3",
+      "fp": "[]",
+      "first": "3"
+    }
+  },
+  "attempts": [
+    {
+      "field": "waterDaily",
+      "response": "71",
+      "ok": false,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "oxygenDaily",
+      "response": "19.2",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "foodDaily",
+      "response": "14.4",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "waterTotal",
+      "response": "720",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "oxygenTotal",
+      "response": "192",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "foodTotal",
+      "response": "144",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "liters",
+      "response": "stock",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "waterRate",
+      "response": "rate",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "kilograms",
+      "response": "stock",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "massRate",
+      "response": "rate",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "energy",
+      "response": "stock",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "energyRate",
+      "response": "rate",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "grams",
+      "response": "800",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "milliliters",
+      "response": "3000",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.635Z"
+    },
+    {
+      "field": "waterDaily",
+      "response": "144/2",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "oxygenDaily",
+      "response": "19.2",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "foodDaily",
+      "response": "14.4",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "waterTotal",
+      "response": "720",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "oxygenTotal",
+      "response": "192",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "foodTotal",
+      "response": "144",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "liters",
+      "response": "stock",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "waterRate",
+      "response": "rate",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "kilograms",
+      "response": "stock",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "massRate",
+      "response": "rate",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "energy",
+      "response": "stock",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "energyRate",
+      "response": "rate",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "grams",
+      "response": "800",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "milliliters",
+      "response": "3000",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.718Z"
+    },
+    {
+      "field": "minWater",
+      "response": "3",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.866Z"
+    },
+    {
+      "field": "minOxygen",
+      "response": "3",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.866Z"
+    },
+    {
+      "field": "minHabitat",
+      "response": "3",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.866Z"
+    },
+    {
+      "field": "waterCapacity",
+      "response": "90",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.866Z"
+    },
+    {
+      "field": "oxygenCapacity",
+      "response": "24",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.866Z"
+    },
+    {
+      "field": "housingCapacity",
+      "response": "24",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.866Z"
+    },
+    {
+      "field": "area",
+      "response": "72",
+      "ok": true,
+      "fp": "[3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.866Z"
+    },
+    {
+      "field": "occupancy",
+      "response": "24",
+      "ok": true,
+      "fp": "[3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.866Z"
+    },
+    {
+      "field": "perPerson",
+      "response": "3",
+      "ok": true,
+      "fp": "[3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.866Z"
+    },
+    {
+      "field": "mass",
+      "response": "3185.2",
+      "ok": true,
+      "fp": "[3,3,3,4,1,\"standard\"]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.970Z"
+    },
+    {
+      "field": "cost",
+      "response": "25300",
+      "ok": true,
+      "fp": "[3,3,3,4,1,\"standard\"]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.970Z"
+    },
+    {
+      "field": "cargo",
+      "response": "214.8",
+      "ok": true,
+      "fp": "[3,3,3,4,1,\"standard\"]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.970Z"
+    },
+    {
+      "field": "budget",
+      "response": "700",
+      "ok": true,
+      "fp": "[3,3,3,4,1,\"standard\"]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:01.970Z"
+    },
+    {
+      "field": "initial",
+      "response": "144",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.150Z"
+    },
+    {
+      "field": "net",
+      "response": "18",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.150Z"
+    },
+    {
+      "field": "xAxis",
+      "response": "Earth days",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.150Z"
+    },
+    {
+      "field": "yAxis",
+      "response": "L",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.150Z"
+    },
+    {
+      "field": "table0",
+      "response": "144",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.150Z"
+    },
+    {
+      "field": "point0",
+      "response": "144",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.151Z"
+    },
+    {
+      "field": "table5",
+      "response": "234",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.151Z"
+    },
+    {
+      "field": "point5",
+      "response": "234",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.151Z"
+    },
+    {
+      "field": "table10",
+      "response": "324",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.151Z"
+    },
+    {
+      "field": "point10",
+      "response": "324",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.151Z"
+    },
+    {
+      "field": "initial",
+      "response": "144",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.317Z"
+    },
+    {
+      "field": "net",
+      "response": "18",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.317Z"
+    },
+    {
+      "field": "xAxis",
+      "response": "Earth days",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.317Z"
+    },
+    {
+      "field": "yAxis",
+      "response": "L",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.317Z"
+    },
+    {
+      "field": "table0",
+      "response": "144",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.317Z"
+    },
+    {
+      "field": "point0",
+      "response": "144",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.317Z"
+    },
+    {
+      "field": "table5",
+      "response": "234",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.317Z"
+    },
+    {
+      "field": "point5",
+      "response": "234",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.317Z"
+    },
+    {
+      "field": "table10",
+      "response": "324",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.317Z"
+    },
+    {
+      "field": "point10",
+      "response": "324",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.317Z"
+    },
+    {
+      "field": "percent",
+      "response": "75",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.433Z"
+    },
+    {
+      "field": "perArray",
+      "response": "27",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.433Z"
+    },
+    {
+      "field": "load",
+      "response": "114",
+      "ok": true,
+      "fp": "[3,3,3,4]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.434Z"
+    },
+    {
+      "field": "normal",
+      "response": "144",
+      "ok": true,
+      "fp": "[3,3,3,4]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.434Z"
+    },
+    {
+      "field": "storm",
+      "response": "108",
+      "ok": true,
+      "fp": "[3,3,3,4]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.434Z"
+    },
+    {
+      "field": "balance",
+      "response": "-6",
+      "ok": true,
+      "fp": "[3,3,3,4]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.434Z"
+    },
+    {
+      "field": "battery3",
+      "response": "36",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.600Z"
+    },
+    {
+      "field": "battery4",
+      "response": "30",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.600Z"
+    },
+    {
+      "field": "battery5",
+      "response": "24",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.600Z"
+    },
+    {
+      "field": "battery6",
+      "response": "18",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.600Z"
+    },
+    {
+      "field": "battery7",
+      "response": "36",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.600Z"
+    },
+    {
+      "field": "unserved",
+      "response": "0",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.600Z"
+    },
+    {
+      "field": "compareCost",
+      "response": "200",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.600Z"
+    },
+    {
+      "field": "compareMass",
+      "response": "20",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.600Z"
+    },
+    {
+      "field": "compareBattery",
+      "response": "18",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.600Z"
+    },
+    {
+      "field": "compareSurplus",
+      "response": "21",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.600Z"
+    },
+    {
+      "field": "transferAWater",
+      "response": "90",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.718Z"
+    },
+    {
+      "field": "transferAModules",
+      "response": "3",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.718Z"
+    },
+    {
+      "field": "transferBWater",
+      "response": "84",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.767Z"
+    },
+    {
+      "field": "transferBModules",
+      "response": "3",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "standard"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:29:02.767Z"
+    },
+    {
+      "field": "waterDaily",
+      "response": "72",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "oxygenDaily",
+      "response": "19.2",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "foodDaily",
+      "response": "14.4",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "waterTotal",
+      "response": "720",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "oxygenTotal",
+      "response": "192",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "foodTotal",
+      "response": "144",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "liters",
+      "response": "stock",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "waterRate",
+      "response": "rate",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "kilograms",
+      "response": "stock",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "massRate",
+      "response": "rate",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "energy",
+      "response": "stock",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "energyRate",
+      "response": "rate",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "grams",
+      "response": "800",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "milliliters",
+      "response": "3000",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "minWater",
+      "response": "3",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "minOxygen",
+      "response": "3",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "minHabitat",
+      "response": "3",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "waterCapacity",
+      "response": "90",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "oxygenCapacity",
+      "response": "24",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "housingCapacity",
+      "response": "24",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "area",
+      "response": "72",
+      "ok": true,
+      "fp": "[3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "occupancy",
+      "response": "24",
+      "ok": true,
+      "fp": "[3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "perPerson",
+      "response": "3",
+      "ok": true,
+      "fp": "[3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "mass",
+      "response": "3170.8",
+      "ok": true,
+      "fp": "[3,3,3,4,1,\"lean\"]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "cost",
+      "response": "25100",
+      "ok": true,
+      "fp": "[3,3,3,4,1,\"lean\"]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "cargo",
+      "response": "229.2",
+      "ok": true,
+      "fp": "[3,3,3,4,1,\"lean\"]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "budget",
+      "response": "900",
+      "ok": true,
+      "fp": "[3,3,3,4,1,\"lean\"]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "initial",
+      "response": "144",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "net",
+      "response": "18",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "xAxis",
+      "response": "Earth days",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "yAxis",
+      "response": "L",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "table0",
+      "response": "144",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "point0",
+      "response": "144",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "table5",
+      "response": "234",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "point5",
+      "response": "234",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "table10",
+      "response": "324",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "point10",
+      "response": "324",
+      "ok": true,
+      "fp": "[\"water\",3]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "percent",
+      "response": "75",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "perArray",
+      "response": "27",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "load",
+      "response": "114",
+      "ok": true,
+      "fp": "[3,3,3,4]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "normal",
+      "response": "144",
+      "ok": true,
+      "fp": "[3,3,3,4]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "storm",
+      "response": "108",
+      "ok": true,
+      "fp": "[3,3,3,4]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.851Z"
+    },
+    {
+      "field": "balance",
+      "response": "-6",
+      "ok": true,
+      "fp": "[3,3,3,4]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "battery3",
+      "response": "36",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "battery4",
+      "response": "30",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "battery5",
+      "response": "24",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "battery6",
+      "response": "18",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "battery7",
+      "response": "36",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "unserved",
+      "response": "0",
+      "ok": true,
+      "fp": "[3,3,3,4,1]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "compareCost",
+      "response": "200",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "compareMass",
+      "response": "20",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "compareBattery",
+      "response": "18",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "compareSurplus",
+      "response": "21",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "transferAWater",
+      "response": "90",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "transferAModules",
+      "response": "3",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "transferBWater",
+      "response": "84",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    },
+    {
+      "field": "transferBModules",
+      "response": "3",
+      "ok": true,
+      "fp": "[]",
+      "plan": {
+        "water": 3,
+        "oxygen": 3,
+        "habitat": 3,
+        "solar": 4,
+        "battery": 1,
+        "crate": "lean"
+      },
+      "resource": "water",
+      "at": "2026-10-08T23:30:40.852Z"
+    }
+  ],
+  "help": [
+    {
+      "field": "waterDaily",
+      "at": "2026-10-08T23:29:01.667Z"
+    }
+  ],
+  "notes": {
+    "choice": "A",
+    "reason": "A costs 200 cr less; its battery has 18 kWh after day 6. B avoids the modeled deficit.",
+    "limitation": "The daily model ignores night-time generation and battery losses."
+  },
+  "revision": 138,
+  "brief": true,
+  "completedAt": "2026-10-08T23:29:02.805Z"
+}

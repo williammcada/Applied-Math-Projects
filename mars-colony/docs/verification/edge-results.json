@@ -1,0 +1,23 @@
+{
+  "passed": 17,
+  "checks": [
+    "render ending lean",
+    "render ending extra-solar",
+    "render ending delayed",
+    "graph water",
+    "exact water stock model",
+    "graph oxygen",
+    "exact oxygen stock model",
+    "graph food",
+    "exact food stock model",
+    "concurrent write detected",
+    "conflict can save copy",
+    "concurrent version preserved",
+    "alias HTML inert",
+    "imported script text inert",
+    "launcher Mars QR generated offline",
+    "QR destination Mars Netlify",
+    "launcher version"
+  ],
+  "browser": "153.0.8010.0"
+}
