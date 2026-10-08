@@ -1,0 +1,56 @@
+{
+  "releaseCommit": "ebe2f2461d419a7178951e3b6e7b0d94a6d27f94",
+  "url": "https://mcada-applied-math.netlify.app/",
+  "checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matchesSource": true,
+      "sha256": "2973edcac3a9aa76f4973194b7c1152339829cc4afc5cfa50010bbd940e28dc2"
+    },
+    {
+      "path": "launcher/app.js",
+      "status": 200,
+      "matchesSource": true,
+      "sha256": "1d3bd957f6217134a2ff1d8743ffb92ef12167893385bcf90114908f9b4dbd5c"
+    },
+    {
+      "path": "launcher/style.css",
+      "status": 200,
+      "matchesSource": true,
+      "sha256": "c0f64a384e025ad69ad1b1482c29d8f6b87013d49eb81eb9dbe5b3d99059ff7d"
+    },
+    {
+      "path": "launcher/vendor/qrcode.js",
+      "status": 200,
+      "matchesSource": true,
+      "sha256": "79ec86f82856005b1c887905cfccfcfbec3821ca61c7fd5a952faa5f778f791c"
+    },
+    {
+      "path": "road-trip-planner/index.html",
+      "status": 200,
+      "matchesSource": true,
+      "sha256": "19afbe79565f1bda8739b0c2d5856005e6138832f39871213eda09b2de893dc8"
+    },
+    {
+      "path": "food-truck-business-launch/index.html",
+      "status": 200,
+      "matchesSource": true,
+      "sha256": "93d0fde0e125fb68b96eeef14816ac51d2bc0ce2b03670bc005c767dbd26aae0"
+    },
+    {
+      "path": "theme-park-designer/index.html",
+      "status": 200,
+      "matchesSource": true,
+      "sha256": "c3e9dbe937919751c99925a82be16fe2d45c1797d40e4b13ea8e0e03ce4ed6d9"
+    },
+    {
+      "path": "powers-of-ten/index.html",
+      "status": 200,
+      "matchesSource": true,
+      "sha256": "d9a042236b8968cc172f17fb64cfeb564967b77434259a06192ffbbf4de0a7ac"
+    }
+  ],
+  "physicalIPadCamera": "Not run",
+  "schoolNetwork": "Not run"
+}
