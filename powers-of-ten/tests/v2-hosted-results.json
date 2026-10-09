@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-09T00:05:45.050Z",
+  "mergeCommit": "5fd279adbc4d0876ea72dab11c0cc226f0b92ebd",
+  "results": [
+    {
+      "url": "https://mcada-applied-math.netlify.app/",
+      "status": 200,
+      "bytes": 6230,
+      "sha256": "e4619123f95cb2c14a7bdeadb83ce0a877a84bbd8723c9693845d0b76f3a71ac",
+      "applicationSourceSha256": "03150e508372ba6666c583196c24cc6d42f9cfb4e62063f224336fa9bb3cdb8f",
+      "netlifyMarkupAdded": true
+    },
+    {
+      "url": "https://mcada-applied-math.netlify.app/powers-of-ten/",
+      "status": 200,
+      "bytes": 164510,
+      "sha256": "137194b18784c52f6987af7b01646ffe2f4fd24f3a80df96fa6ad1f418fdda9f",
+      "applicationSourceSha256": "e26ba34d38febb95fb1af7c811675b0a7bddeb7d0d56bcb652106f6b7c34c7e0",
+      "netlifyMarkupAdded": true
+    },
+    {
+      "url": "https://mcada-applied-math.netlify.app/powers-of-ten/PowersOfTen_v0.2.0.html",
+      "status": 200,
+      "bytes": 164510,
+      "sha256": "137194b18784c52f6987af7b01646ffe2f4fd24f3a80df96fa6ad1f418fdda9f",
+      "applicationSourceSha256": "e26ba34d38febb95fb1af7c811675b0a7bddeb7d0d56bcb652106f6b7c34c7e0",
+      "netlifyMarkupAdded": true
+    },
+    {
+      "url": "https://mcada-applied-math.netlify.app/mars-colony/",
+      "status": 200,
+      "bytes": 48667,
+      "sha256": "2a4be42ee0a1d4b3ee0576fc7b54a850a5a42253606a78e20741172dc2411ac5",
+      "applicationSourceSha256": "68a5c22ed59e007edfa3380162300c198c714d2261e2e412e0a080280e1d1854",
+      "netlifyMarkupAdded": true
+    }
+  ],
+  "liveBrowserVerification": "Cloud Chrome: public v0.2.0 dashboard, Science Brief, track switching, Mathematics Quantities and cosmic Scale audit opened successfully. Local Chromium network navigation returned ERR_EMPTY_RESPONSE; UI verification used the cloud browser."
+}
